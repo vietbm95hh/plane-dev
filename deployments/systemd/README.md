@@ -103,7 +103,7 @@ Kết quả: `apps/web/build/client`, `apps/admin/build/client`, `apps/space/bui
 ### 4. Cấu hình
 
 ```bash
-sudo ./deployments/systemd/install.sh
+sudo bash ./deployments/systemd/install.sh
 ```
 
 Script tạo user `plane`, copy unit vào `/etc/systemd/system/`, Caddyfile vào `/etc/plane/caddy/`,

@@ -38,11 +38,79 @@ Getting started with Plane is simple. Choose the setup that works best for you:
 - **Self-host Plane**
   Prefer full control over your data and infrastructure? Install and run Plane on your own servers. Follow our detailed [deployment guides](https://developers.plane.so/self-hosting/overview) to get started.
 
+- **Self-host without Docker**
+  Run Plane as native `systemd` services on bare metal or a VM — see [deployments/systemd](./deployments/systemd/README.md).
+
 | Installation methods | Docs link                                                                                                                                                                               |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Docker               | [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://developers.plane.so/self-hosting/methods/docker-compose)         |
 | Kubernetes           | [![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)](https://developers.plane.so/self-hosting/methods/kubernetes) |
 | All-in-one Docker    | [deployments/aio/community](./deployments/aio/community/README.md) · [docs](https://developers.plane.so/self-hosting/methods/docker-aio)                                                |
+| systemd (no Docker)  | [deployments/systemd](./deployments/systemd/README.md)                                                                                                                                  |
+
+### Self-hosting with systemd
+
+`deployments/systemd/` contains everything needed to run Plane as native systemd units, with no
+container runtime. The Docker files in this repo are left untouched, so both methods can coexist.
+
+| Unit                     | Component                        | Local port |
+| ------------------------ | -------------------------------- | ---------- |
+| `plane-migrate.service`  | Django migrations (oneshot)      | –          |
+| `plane-api.service`      | Django API (gunicorn + uvicorn)  | `8000`     |
+| `plane-worker.service`   | Celery worker                    | –          |
+| `plane-beat.service`     | Celery beat                      | –          |
+| `plane-live.service`     | Realtime server (Hocuspocus)     | `3100`     |
+| `plane-space.service`    | Space (public pages, SSR)        | `3202`     |
+| `plane-web.service`      | Web frontend (static, Caddy)     | `3200`     |
+| `plane-admin.service`    | God mode admin (static, Caddy)   | `3201`     |
+| `plane-proxy.service`    | Reverse proxy + TLS (Caddy)      | `80/443`   |
+
+Quick start on the target host (Ubuntu 22.04/24.04 or Debian 12):
+
+```bash
+# 1. Put the code in place and create the service user
+sudo mkdir -p /opt/plane
+sudo rsync -a --exclude node_modules --exclude .git ./ /opt/plane/
+sudo useradd --system --home-dir /opt/plane --shell /usr/sbin/nologin plane
+sudo chown -R plane:plane /opt/plane
+
+# 2. Python deps (uv) and frontend build (Node >= 22.22 + pnpm)
+#    VITE_* values are baked into the bundles at build time; empty *_BASE_URL keeps
+#    the frontends same-origin behind the proxy.
+sudo -u plane bash -lc 'cd /opt/plane/apps/api && uv sync --locked --no-default-groups --group production'
+sudo -u plane bash -lc 'cd /opt/plane && pnpm install --frozen-lockfile \
+  && VITE_ADMIN_BASE_PATH=/god-mode VITE_SPACE_BASE_PATH=/spaces VITE_LIVE_BASE_PATH=/live \
+     pnpm turbo run build --filter=web --filter=admin --filter=space --filter=live'
+
+# 3. Install units, Caddy configs and env templates
+sudo bash /opt/plane/deployments/systemd/install.sh
+
+# 4. Fill in secrets and URLs
+sudoedit /etc/plane/api.env /etc/plane/live.env /etc/plane/proxy.env
+
+# 5. Start everything
+sudo systemctl daemon-reload
+sudo systemctl enable --now plane-migrate plane-api plane-worker plane-beat \
+  plane-live plane-space plane-web plane-admin plane-proxy
+```
+
+Each component reuses the existing entrypoints in `apps/api/bin/`, so production behaviour
+matches the Docker images. Ports differ from the Docker setup because all services share the
+host network namespace.
+
+Operate it like any other unit:
+
+```bash
+systemctl status plane-api plane-worker plane-beat plane-live plane-space plane-web plane-admin plane-proxy
+journalctl -u plane-api -f
+journalctl -u plane-worker -f
+journalctl -u plane-proxy -n 200
+systemctl restart plane-api plane-worker plane-beat
+```
+
+See [deployments/systemd/README.md](./deployments/systemd/README.md) for prerequisites
+(PostgreSQL, Redis/Valkey, RabbitMQ, object storage), configuration details, upgrades, and
+troubleshooting.
 
 `Instance admins` can configure instance settings with [God mode](https://developers.plane.so/self-hosting/govern/instance-admin).
 
