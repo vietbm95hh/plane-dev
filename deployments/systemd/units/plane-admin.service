@@ -1,0 +1,29 @@
+[Unit]
+Description=Plane - Admin (god-mode) static frontend
+Documentation=file:///opt/plane/deployments/systemd/README.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=plane
+Group=plane
+Environment=XDG_CONFIG_HOME=/var/lib/plane/caddy
+ExecStart=/usr/bin/caddy run --config /etc/plane/caddy/admin.Caddyfile --adapter caddyfile
+Restart=always
+RestartSec=5
+KillSignal=SIGTERM
+TimeoutStopSec=15
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=plane-admin
+
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=/var/lib/plane/caddy
+AmbientCapabilities=CAP_NET_BIND_SERVICE
+
+[Install]
+WantedBy=multi-user.target

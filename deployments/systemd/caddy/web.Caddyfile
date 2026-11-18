@@ -1,0 +1,26 @@
+# Plane web (static SPA) - served by a dedicated Caddy instance on localhost.
+# Mirrors apps/web/caddy/Caddyfile, minus the rate_limit plugin so stock Caddy works.
+{
+	servers {
+		trusted_proxies static private_ranges
+	}
+}
+
+:3200 {
+	root * /opt/plane/apps/web/build/client
+
+	header {
+		X-Frame-Options "DENY"
+		X-Content-Type-Options "nosniff"
+		X-XSS-Protection "1; mode=block"
+	}
+
+	# SPA fallback
+	try_files {path} /index.html
+	file_server
+
+	log {
+		output stdout
+		format console
+	}
+}

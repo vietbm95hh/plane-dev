@@ -1,0 +1,32 @@
+[Unit]
+Description=Plane - Reverse proxy (Caddy, TLS termination)
+Documentation=file:///opt/plane/deployments/systemd/README.md
+After=network-online.target plane-api.service plane-web.service plane-admin.service plane-space.service plane-live.service
+Wants=network-online.target
+Requires=plane-api.service
+
+[Service]
+Type=simple
+User=plane
+Group=plane
+Environment=XDG_CONFIG_HOME=/var/lib/plane/caddy
+EnvironmentFile=/etc/plane/proxy.env
+ExecStart=/usr/bin/caddy run --config /etc/plane/caddy/proxy.Caddyfile --adapter caddyfile
+ExecReload=/usr/bin/caddy reload --config /etc/plane/caddy/proxy.Caddyfile --adapter caddyfile
+Restart=always
+RestartSec=5
+KillSignal=SIGTERM
+TimeoutStopSec=30
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=plane-proxy
+
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=/var/lib/plane/caddy
+AmbientCapabilities=CAP_NET_BIND_SERVICE
+
+[Install]
+WantedBy=multi-user.target

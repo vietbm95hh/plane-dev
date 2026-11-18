@@ -1,0 +1,36 @@
+# Plane reverse proxy - host (systemd) variant of apps/proxy/Caddyfile.ce
+# Upstreams point at 127.0.0.1:<host port> instead of Docker container names.
+{
+	servers {
+		max_header_size 25MB
+		client_ip_headers X-Forwarded-For X-Real-IP
+		trusted_proxies static 127.0.0.1/32
+	}
+	# Uncomment if you use Caddy's DNS challenge (needs a caddy build with the DNS plugin)
+	# acme_ca {$CERT_ACME_CA:https://acme-v02.api.letsencrypt.org/directory}
+}
+
+{$SITE_ADDRESS:http://localhost} {
+	request_body {
+		max_size {$FILE_SIZE_LIMIT:5242880}
+	}
+
+	redir /spaces /spaces/ permanent
+	reverse_proxy /spaces/* 127.0.0.1:3202
+
+	redir /god-mode /god-mode/ permanent
+	reverse_proxy /god-mode/* 127.0.0.1:3201
+
+	reverse_proxy /live/* 127.0.0.1:3100
+
+	reverse_proxy /api/* 127.0.0.1:8000
+	reverse_proxy /auth/* 127.0.0.1:8000
+	reverse_proxy /static/* 127.0.0.1:8000
+
+	# Self-hosted object storage (MinIO/Silo) on the same host.
+	# Enable only when USE_MINIO=1 in /etc/plane/api.env.
+	# reverse_proxy /{$BUCKET_NAME:uploads}/* 127.0.0.1:9000
+	# reverse_proxy /{$BUCKET_NAME:uploads}   127.0.0.1:9000
+
+	reverse_proxy /* 127.0.0.1:3200
+}
