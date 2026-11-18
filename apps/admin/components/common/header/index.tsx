@@ -14,7 +14,7 @@ import { MenuOutline, SettingsOutline } from "@makeplane/propel/icons";
 // plane internal packages
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
-import { Breadcrumbs } from "@plane/blocks/breadcrumb";
+import { Breadcrumbs } from "@gtinx-plane/blocks/breadcrumb";
 // hooks
 import { useTheme } from "@/hooks/store";
 // local imports

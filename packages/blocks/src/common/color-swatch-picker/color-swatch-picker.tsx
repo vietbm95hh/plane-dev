@@ -7,8 +7,8 @@
 import { useEffect, useId, useRef, useState } from "react";
 import type { ChangeEvent, FocusEvent } from "react";
 import { Input, InputGroup } from "@makeplane/propel/components/input";
-import { useTranslation } from "@plane/i18n";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { cn } from "@gtinx-plane/utils";
 
 import { DEFAULT_SWATCH_COLORS } from "./default-swatches";
 import { normalizeHex, parseHexColor } from "./hex";

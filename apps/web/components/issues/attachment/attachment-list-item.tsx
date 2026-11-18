@@ -6,16 +6,16 @@
 
 import { observer } from "mobx-react";
 
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { DeleteOutline, MoreHorizontalOutline } from "@makeplane/propel/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { TIssueServiceType } from "@plane/types";
-import { EIssueServiceType } from "@plane/types";
+import type { TIssueServiceType } from "@gtinx-plane/types";
+import { EIssueServiceType } from "@gtinx-plane/types";
 // ui
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
-import { convertBytesToSize, getFileExtension, getFileName, getFileURL, renderFormattedDate } from "@plane/utils";
+import { convertBytesToSize, getFileExtension, getFileName, getFileURL, renderFormattedDate } from "@gtinx-plane/utils";
 // components
 //
 import { ButtonAvatars } from "@/components/dropdowns/member/avatar";

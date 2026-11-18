@@ -129,7 +129,7 @@ const toActionSlots = (
 
       if (__DEV__ && left.length > MAX_LEFT_ACTIONS) {
         console.warn(
-          `[@plane/blocks/toast] Toast passed ${actionItems.length} action items but Propel renders ` +
+          `[@gtinx-plane/blocks/toast] Toast passed ${actionItems.length} action items but Propel renders ` +
             `at most ${MAX_LEFT_ACTIONS} in the left cluster plus one \`primary\` item. ` +
             `Dropping: ${left
               .slice(MAX_LEFT_ACTIONS)
@@ -146,7 +146,7 @@ const toActionSlots = (
   }
   if (__DEV__) {
     console.warn(
-      `[@plane/blocks/toast] Dropped \`actionItems\`: got ${describeActionItems(actionItems)}. ` +
+      `[@gtinx-plane/blocks/toast] Dropped \`actionItems\`: got ${describeActionItems(actionItems)}. ` +
         "Propel's toast renders actions as data, not markup, so JSX action items cannot be shown. " +
         'Pass `ToastActionItem[]` instead, e.g. [{ label: "View cycle", href: "/…" }] or ' +
         '[{ label: "View cycle", onClick }].'

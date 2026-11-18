@@ -16,10 +16,10 @@ import {
   SidePeekOutline,
 } from "@makeplane/propel/icons";
 // plane imports
-import { Select } from "@plane/blocks/select";
-import { setToast } from "@plane/blocks/toast";
-import { useTranslation } from "@plane/i18n";
-import { cn } from "@plane/utils";
+import { Select } from "@gtinx-plane/blocks/select";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { cn } from "@gtinx-plane/utils";
 // helpers
 import { copyTextToClipboard } from "@/helpers/string.helper";
 // hooks

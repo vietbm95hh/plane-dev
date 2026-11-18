@@ -7,9 +7,9 @@
 import { useState } from "react";
 import { observer } from "mobx-react";
 // ui
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
-import { ConfirmDialog } from "@plane/blocks/dialog";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { ConfirmDialog } from "@gtinx-plane/blocks/dialog";
 
 interface IStickyDelete {
   isOpen: boolean;

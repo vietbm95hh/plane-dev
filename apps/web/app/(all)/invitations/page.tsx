@@ -11,18 +11,18 @@ import Link from "next/link";
 import useSWR, { mutate } from "swr";
 import { TickCircleOutline } from "@makeplane/propel/icons";
 // plane imports
-import { ROLE } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { ROLE } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 // types
 import { Button } from "@makeplane/propel/components/button";
 import { WorkspaceAvatar } from "@makeplane/propel/components/workspace-avatar";
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
-import { PlaneLogo } from "@plane/blocks/icons";
-import { setToast } from "@plane/blocks/toast";
-import type { IWorkspaceMemberInvitation } from "@plane/types";
-import { getFileURL, truncateText } from "@plane/utils";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
+import { PlaneLogo } from "@gtinx-plane/blocks/icons";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IWorkspaceMemberInvitation } from "@gtinx-plane/types";
+import { getFileURL, truncateText } from "@gtinx-plane/utils";
 // components
-import { USER_WORKSPACES_LIST } from "@plane/constants";
+import { USER_WORKSPACES_LIST } from "@gtinx-plane/constants";
 // hooks
 import { useWorkspace } from "@/hooks/store/use-workspace";
 import { useUser, useUserProfile } from "@/hooks/store/user";

@@ -7,8 +7,8 @@
 import { observer } from "mobx-react";
 import { ChatOutline } from "@makeplane/propel/icons";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
 // store
 import type { INotification } from "@/store/notifications/notification";
 // local imports

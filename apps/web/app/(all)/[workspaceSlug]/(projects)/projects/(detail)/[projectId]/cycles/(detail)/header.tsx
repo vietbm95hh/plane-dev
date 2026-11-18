@@ -16,18 +16,18 @@ import {
   EUserPermissions,
   EUserPermissionsLevel,
   ISSUE_DISPLAY_FILTERS_BY_PAGE,
-} from "@plane/constants";
-import { usePlatformOS } from "@plane/hooks";
-import { useTranslation } from "@plane/i18n";
+} from "@gtinx-plane/constants";
+import { usePlatformOS } from "@gtinx-plane/hooks";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Badge } from "@makeplane/propel/components/badge";
 import { Button } from "@makeplane/propel/components/button";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { IIssueDisplayFilterOptions, IIssueDisplayProperties, TCycleGroups } from "@plane/types";
-import { EIssuesStoreType, EIssueLayoutTypes } from "@plane/types";
-import { Breadcrumbs } from "@plane/blocks/breadcrumb";
-import { Header } from "@plane/blocks/layout";
+import type { IIssueDisplayFilterOptions, IIssueDisplayProperties, TCycleGroups } from "@gtinx-plane/types";
+import { EIssuesStoreType, EIssueLayoutTypes } from "@gtinx-plane/types";
+import { Breadcrumbs } from "@gtinx-plane/blocks/breadcrumb";
+import { Header } from "@gtinx-plane/blocks/layout";
 // components
 import { WorkItemsModal } from "@/components/analytics/work-items/modal";
 import { BreadcrumbLink } from "@/components/common/breadcrumb-link";

@@ -9,9 +9,9 @@ import type React from "react";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { AttachOutline, TopArrowOutline } from "@makeplane/propel/icons";
-import type { ToolbarMenuItem } from "@plane/editor";
-import { IMAGE_ITEM } from "@plane/editor";
-import { useTranslation } from "@plane/i18n";
+import type { ToolbarMenuItem } from "@gtinx-plane/editor";
+import { IMAGE_ITEM } from "@gtinx-plane/editor";
+import { useTranslation } from "@gtinx-plane/i18n";
 
 type LiteToolbarProps = {
   onSubmit: (e: React.KeyboardEvent<HTMLDivElement> | React.MouseEvent<HTMLButtonElement>) => void;

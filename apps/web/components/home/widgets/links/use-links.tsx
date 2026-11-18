@@ -5,9 +5,9 @@
  */
 
 import { useMemo } from "react";
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
-import type { TProjectLink } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { TProjectLink } from "@gtinx-plane/types";
 import { useHome } from "@/hooks/store/use-home";
 
 export type TLinkOperations = {

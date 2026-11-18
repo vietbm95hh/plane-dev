@@ -8,14 +8,14 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // icons
 // plane imports
-import { EUserPermissions, EUserPermissionsLevel, SPACE_BASE_PATH, SPACE_BASE_URL } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { EUserPermissions, EUserPermissionsLevel, SPACE_BASE_PATH, SPACE_BASE_URL } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/elements/button";
 import { NewTabOutline, WorkItemsOutline } from "@makeplane/propel/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { EIssuesStoreType } from "@plane/types";
-import { Breadcrumbs } from "@plane/blocks/breadcrumb";
-import { Header } from "@plane/blocks/layout";
+import { EIssuesStoreType } from "@gtinx-plane/types";
+import { Breadcrumbs } from "@gtinx-plane/blocks/breadcrumb";
+import { Header } from "@gtinx-plane/blocks/layout";
 // components
 import { BreadcrumbLink } from "@/components/common/breadcrumb-link";
 import { CountChip } from "@/components/common/count-chip";

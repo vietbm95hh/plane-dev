@@ -6,7 +6,7 @@
 
 import type { ReactNode } from "react";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 /** Collapsed column widths: the flat board strip, and the swimlane header/band/footer cells. */
 export const KANBAN_COLLAPSED_COLUMN_WIDTH = "w-11";

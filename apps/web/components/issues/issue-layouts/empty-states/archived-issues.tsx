@@ -7,10 +7,10 @@
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane imports
-import { EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
-import { EIssuesStoreType, EUserProjectRoles } from "@plane/types";
+import { EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
+import { EIssuesStoreType, EUserProjectRoles } from "@gtinx-plane/types";
 // hooks
 import { useUserPermissions } from "@/hooks/store/user";
 import { useWorkItemFilterInstance } from "@/hooks/store/work-item-filters/use-work-item-filter-instance";

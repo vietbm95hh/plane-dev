@@ -6,7 +6,7 @@
 
 import { useContext } from "react";
 // plane imports
-import type { IWorkItemFilterStore } from "@plane/shared-state";
+import type { IWorkItemFilterStore } from "@gtinx-plane/shared-state";
 // context
 import { StoreContext } from "@/lib/store-context";
 

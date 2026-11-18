@@ -8,14 +8,14 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 import { observer } from "mobx-react";
 import { CloseCircleOutline, HideOutline, ShowOutline } from "@makeplane/propel/icons";
 // plane imports
-import { API_BASE_URL, E_PASSWORD_STRENGTH } from "@plane/constants";
+import { API_BASE_URL, E_PASSWORD_STRENGTH } from "@gtinx-plane/constants";
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Input } from "@makeplane/propel/components/input";
-import { AuthService } from "@plane/services";
-import { PasswordStrengthIndicator } from "@plane/blocks/auth";
-import { getPasswordStrength } from "@plane/utils";
+import { AuthService } from "@gtinx-plane/services";
+import { PasswordStrengthIndicator } from "@gtinx-plane/blocks/auth";
+import { getPasswordStrength } from "@gtinx-plane/utils";
 // types
 import { EAuthModes, EAuthSteps } from "@/types/auth";
 

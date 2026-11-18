@@ -9,12 +9,12 @@ import { Controller, useForm } from "react-hook-form";
 // plane imports
 import { InputField } from "@makeplane/propel/components/input-field";
 import { TextAreaField } from "@makeplane/propel/components/text-area-field";
-import { ISSUE_DISPLAY_FILTERS_BY_PAGE } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { ISSUE_DISPLAY_FILTERS_BY_PAGE } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
-import type { IIssueDisplayFilterOptions, IIssueDisplayProperties, IWorkspaceView, IIssueFilters } from "@plane/types";
-import { EViewAccess, EIssueLayoutTypes, EIssuesStoreType } from "@plane/types";
-import { getComputedDisplayFilters, getComputedDisplayProperties } from "@plane/utils";
+import type { IIssueDisplayFilterOptions, IIssueDisplayProperties, IWorkspaceView, IIssueFilters } from "@gtinx-plane/types";
+import { EViewAccess, EIssueLayoutTypes, EIssuesStoreType } from "@gtinx-plane/types";
+import { getComputedDisplayFilters, getComputedDisplayProperties } from "@gtinx-plane/utils";
 // components
 import { DisplayFiltersSelection, FiltersDropdown } from "@/components/issues/issue-layouts/filters";
 import { WorkspaceLevelWorkItemFiltersHOC } from "@/components/work-item-filters/filters-hoc/workspace-level";

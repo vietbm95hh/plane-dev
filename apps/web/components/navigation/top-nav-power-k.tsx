@@ -12,8 +12,8 @@ import { useParams } from "next/navigation";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { CloseOutline, SearchOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { cn } from "@gtinx-plane/utils";
 // power-k
 import type { TPowerKCommandConfig, TPowerKContext } from "@/components/power-k/core/types";
 import { ProjectsAppPowerKCommandsList } from "@/components/power-k/ui/modal/commands-list";

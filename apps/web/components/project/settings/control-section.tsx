@@ -8,7 +8,7 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "react-router";
 // plane imports
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 // components
 import { SettingsBoxedControlItem } from "@/components/settings/boxed-control-item";

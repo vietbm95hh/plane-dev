@@ -7,10 +7,10 @@
 import { useCallback, useMemo } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { ProjectsOutline } from "@makeplane/propel/icons";
-import type { TLogoProps } from "@plane/types";
-import { Select } from "@plane/blocks/select";
+import type { TLogoProps } from "@gtinx-plane/types";
+import { Select } from "@gtinx-plane/blocks/select";
 // hooks
 import { useProject } from "@/hooks/store/use-project";
 import { useUserPermissions } from "@/hooks/store/user";

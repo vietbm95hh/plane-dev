@@ -168,7 +168,7 @@ describe("dropped action items", () => {
 
     expect(warn).toHaveBeenCalledTimes(1);
     const message = warn.mock.calls[0][0];
-    expect(message).toContain("@plane/blocks/toast");
+    expect(message).toContain("@gtinx-plane/blocks/toast");
     expect(message).toContain("actionItems");
     expect(message).toContain("array of 1 non-action value(s)");
     expect(add.mock.calls[0][0].data?.actions).toBeUndefined();
@@ -193,7 +193,7 @@ describe("dropped action items", () => {
 
     expect(warn).toHaveBeenCalledTimes(1);
     const message = warn.mock.calls[0][0];
-    expect(message).toContain("@plane/blocks/toast");
+    expect(message).toContain("@gtinx-plane/blocks/toast");
     expect(message).toContain("3 action items");
     expect(message).toContain('"PROJ-1"');
     expect(add.mock.calls[0][0].data?.actions?.map((a) => a.label)).toEqual(["View", "Copy link"]);

@@ -11,13 +11,13 @@ import { Controller, useForm } from "react-hook-form";
 // icons
 import { TickCircleOutline } from "@makeplane/propel/icons";
 // plane imports
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { AnchorButton } from "@makeplane/propel/components/anchor-button";
 import { InputField } from "@makeplane/propel/components/input-field";
-import { setToast } from "@plane/blocks/toast";
+import { setToast } from "@gtinx-plane/blocks/toast";
 
-import { checkEmailValidity } from "@plane/utils";
+import { checkEmailValidity } from "@gtinx-plane/utils";
 // hooks
 import useTimer from "@/hooks/use-timer";
 // services

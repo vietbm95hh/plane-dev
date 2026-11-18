@@ -12,15 +12,15 @@ import { LoadingOutline as LoaderIcon } from "@makeplane/propel/icons";
 // types
 import { Button } from "@makeplane/propel/components/button";
 import { Switch } from "@makeplane/propel/components/switch";
-import { EmptyStateCompact } from "@plane/blocks/empty-state";
-import { useTranslation } from "@plane/i18n";
-import type { TInstanceConfigurationKeys } from "@plane/types";
-import { cn } from "@plane/utils";
+import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TInstanceConfigurationKeys } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { PageWrapper } from "@/components/common/page-wrapper";
-import { Skeleton } from "@plane/blocks/skeleton";
+import { Skeleton } from "@gtinx-plane/blocks/skeleton";
 import { WorkspaceListItem } from "@/components/workspace/list-item";
-import { setPromiseToast } from "@plane/blocks/toast";
+import { setPromiseToast } from "@gtinx-plane/blocks/toast";
 // hooks
 import { useInstance, useWorkspace } from "@/hooks/store";
 // types

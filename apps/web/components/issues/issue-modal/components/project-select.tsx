@@ -9,10 +9,10 @@ import { observer } from "mobx-react";
 import type { Control } from "react-hook-form";
 import { Controller } from "react-hook-form";
 // plane imports
-import { ETabIndices } from "@plane/constants";
+import { ETabIndices } from "@gtinx-plane/constants";
 // types
-import type { TIssue } from "@plane/types";
-import { getTabIndex } from "@plane/utils";
+import type { TIssue } from "@gtinx-plane/types";
+import { getTabIndex } from "@gtinx-plane/utils";
 // components
 import { ProjectSelect } from "@/components/dropdowns/project/project-select";
 // hooks

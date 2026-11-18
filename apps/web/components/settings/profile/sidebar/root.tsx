@@ -6,8 +6,8 @@
 
 // plane imports
 import { ScrollArea } from "@makeplane/propel/components/scroll-area";
-import type { TProfileSettingsTabs } from "@plane/types";
-import { cn } from "@plane/utils";
+import type { TProfileSettingsTabs } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
 // local imports
 import { ProfileSettingsSidebarHeader } from "./header";
 import { ProfileSettingsSidebarItemCategories } from "./item-categories";

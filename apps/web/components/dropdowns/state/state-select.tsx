@@ -9,11 +9,11 @@ import { useCallback, useMemo } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane imports
-import { StateSelect as StateSelectBlock } from "@plane/blocks/property-select";
-import type { StateOption } from "@plane/blocks/property-select";
-import type { SelectPaginationParams, SelectTooltip, SelectTooltipOverride, SelectVariant } from "@plane/blocks/select";
-import { useTranslation } from "@plane/i18n";
-import type { IState, TPaginatedResponse } from "@plane/types";
+import { StateSelect as StateSelectBlock } from "@gtinx-plane/blocks/property-select";
+import type { StateOption } from "@gtinx-plane/blocks/property-select";
+import type { SelectPaginationParams, SelectTooltip, SelectTooltipOverride, SelectVariant } from "@gtinx-plane/blocks/select";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IState, TPaginatedResponse } from "@gtinx-plane/types";
 // hooks
 import { useProjectState } from "@/hooks/store/use-project-state";
 

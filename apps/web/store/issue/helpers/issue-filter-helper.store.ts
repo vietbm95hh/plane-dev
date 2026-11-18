@@ -6,12 +6,12 @@
 
 import { isEmpty } from "lodash-es";
 // plane constants
-import type { EIssueFilterType } from "@plane/constants";
+import type { EIssueFilterType } from "@gtinx-plane/constants";
 import {
   EIssueGroupByToServerOptions,
   EServerGroupByToFilterOptions,
   ENABLE_ISSUE_DEPENDENCIES,
-} from "@plane/constants";
+} from "@gtinx-plane/constants";
 import type {
   EIssuesStoreType,
   IIssueDisplayFilterOptions,
@@ -24,10 +24,10 @@ import type {
   TIssueParams,
   TStaticViewTypes,
   TWorkItemFilterExpression,
-} from "@plane/types";
-import { EIssueLayoutTypes } from "@plane/types";
+} from "@gtinx-plane/types";
+import { EIssueLayoutTypes } from "@gtinx-plane/types";
 // helpers
-import { getComputedDisplayFilters, getComputedDisplayProperties } from "@plane/utils";
+import { getComputedDisplayFilters, getComputedDisplayProperties } from "@gtinx-plane/utils";
 // lib
 import { storage } from "@/lib/local-storage";
 

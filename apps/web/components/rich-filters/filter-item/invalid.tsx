@@ -8,8 +8,8 @@ import React from "react";
 import { observer } from "mobx-react";
 import { WarningCircleOutline } from "@makeplane/propel/icons";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import type { TExternalFilter, TFilterProperty } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TExternalFilter, TFilterProperty } from "@gtinx-plane/types";
 // local imports
 import { FilterItemCloseButton } from "./close-button";
 import { FilterItemContainer } from "./container";

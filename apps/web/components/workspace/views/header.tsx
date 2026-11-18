@@ -9,10 +9,10 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 
 // plane imports
-import { DEFAULT_GLOBAL_VIEWS_LIST, EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
+import { DEFAULT_GLOBAL_VIEWS_LIST, EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
 import { AddOutline } from "@makeplane/propel/icons";
-import type { TStaticViewTypes } from "@plane/types";
-import { Header, EHeaderVariant } from "@plane/blocks/layout";
+import type { TStaticViewTypes } from "@gtinx-plane/types";
+import { Header, EHeaderVariant } from "@gtinx-plane/blocks/layout";
 // hooks
 import { useGlobalView } from "@/hooks/store/use-global-view";
 import { useUserPermissions } from "@/hooks/store/user";

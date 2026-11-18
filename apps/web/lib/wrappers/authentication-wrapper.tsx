@@ -11,7 +11,7 @@ import useSWR from "swr";
 // components
 import { LogoSpinner } from "@/components/common/logo-spinner";
 // helpers
-import { isValidNextPath } from "@plane/utils";
+import { isValidNextPath } from "@gtinx-plane/utils";
 import { EPageTypes } from "@/helpers/authentication.helper";
 // hooks
 import { useWorkspace } from "@/hooks/store/use-workspace";
@@ -25,7 +25,7 @@ type TAuthenticationWrapper = {
   pageType?: TPageType;
 };
 
-// Delegates to the shared isValidNextPath (@plane/utils) instead of a local
+// Delegates to the shared isValidNextPath (@gtinx-plane/utils) instead of a local
 // reimplementation. A from-scratch version here previously resolved the
 // value against location.origin and required the result to stay
 // same-origin — which has its own gap: a next_path like "http:evil.com"

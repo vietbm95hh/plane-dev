@@ -14,20 +14,20 @@ import {
   ISSUE_DISPLAY_FILTERS_BY_PAGE,
   EUserPermissions,
   EUserPermissionsLevel,
-} from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+} from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Badge } from "@makeplane/propel/components/badge";
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton as IconButtonElement } from "@makeplane/propel/elements/icon-button";
 import { LockOutline, PreferencesOutline, ViewsOutline } from "@makeplane/propel/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { IIssueDisplayFilterOptions, IIssueDisplayProperties } from "@plane/types";
-import { EIssuesStoreType, EViewAccess, EIssueLayoutTypes } from "@plane/types";
-import type { BreadcrumbNavigationItem } from "@plane/blocks/breadcrumb";
-import { Breadcrumbs, BreadcrumbNavigationSelect } from "@plane/blocks/breadcrumb";
-import { Header } from "@plane/blocks/layout";
-import { getPublishViewLink } from "@plane/utils";
+import type { IIssueDisplayFilterOptions, IIssueDisplayProperties } from "@gtinx-plane/types";
+import { EIssuesStoreType, EViewAccess, EIssueLayoutTypes } from "@gtinx-plane/types";
+import type { BreadcrumbNavigationItem } from "@gtinx-plane/blocks/breadcrumb";
+import { Breadcrumbs, BreadcrumbNavigationSelect } from "@gtinx-plane/blocks/breadcrumb";
+import { Header } from "@gtinx-plane/blocks/layout";
+import { getPublishViewLink } from "@gtinx-plane/utils";
 // components
 import { BreadcrumbLink } from "@/components/common/breadcrumb-link";
 import { SwitcherIcon, SwitcherLabel } from "@/components/common/switcher-label";

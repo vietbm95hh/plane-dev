@@ -6,9 +6,9 @@
 
 import Link from "next/link";
 import { Tab, Tabs, TabsList } from "@makeplane/propel/components/tabs";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // types
-import type { TPageNavigationTabs } from "@plane/types";
+import type { TPageNavigationTabs } from "@gtinx-plane/types";
 
 type TPageTabNavigation = {
   workspaceSlug: string;

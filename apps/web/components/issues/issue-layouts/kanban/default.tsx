@@ -17,10 +17,10 @@ import type {
   TIssueKanbanFilters,
   TIssueGroupByOptions,
   TIssueOrderByOptions,
-} from "@plane/types";
+} from "@gtinx-plane/types";
 // constants
-import { ContentWrapper } from "@plane/blocks/layout";
-import { cn } from "@plane/utils";
+import { ContentWrapper } from "@gtinx-plane/blocks/layout";
+import { cn } from "@gtinx-plane/utils";
 // components
 import RenderIfVisible from "@/components/core/render-if-visible-HOC";
 import { KanbanColumnLoader } from "@/components/ui/loader/layouts/kanban-layout-loader";

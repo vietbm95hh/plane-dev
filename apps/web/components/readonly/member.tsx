@@ -7,8 +7,8 @@
 import { observer } from "mobx-react";
 import type { IconGlyph } from "@makeplane/propel/components/icon";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { ButtonAvatars } from "@/components/dropdowns/member/avatar";
 // hooks

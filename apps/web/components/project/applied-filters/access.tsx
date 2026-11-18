@@ -6,8 +6,8 @@
 
 import { observer } from "mobx-react";
 // constants
-import { NETWORK_CHOICES } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { NETWORK_CHOICES } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { RemovableChip } from "@/components/common/removable-chip";
 
 type Props = {

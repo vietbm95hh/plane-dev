@@ -8,7 +8,7 @@ import { useMemo, useState } from "react";
 import { observer } from "mobx-react";
 import { ClipboardOutline, ExportOutline, HistoryOutline } from "@makeplane/propel/icons";
 // plane imports
-import { setToast } from "@plane/blocks/toast";
+import { setToast } from "@gtinx-plane/blocks/toast";
 import { Switch } from "@makeplane/propel/components/switch";
 // hooks
 import { useAppRouter } from "@/hooks/use-app-router";

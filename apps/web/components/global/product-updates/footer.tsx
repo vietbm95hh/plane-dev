@@ -4,11 +4,11 @@
  * See the LICENSE file for details.
  */
 
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // ui
 import { Button } from "@makeplane/propel/components/button";
 import { DialogActions, DialogInfo } from "@makeplane/propel/components/dialog";
-import { PlaneLogo } from "@plane/blocks/icons";
+import { PlaneLogo } from "@gtinx-plane/blocks/icons";
 
 export function ProductUpdatesFooter() {
   const { t } = useTranslation();

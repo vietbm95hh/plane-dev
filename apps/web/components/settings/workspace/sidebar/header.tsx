@@ -7,12 +7,12 @@
 import { ArrowNarrowLeftOutline } from "@makeplane/propel/icons";
 import { observer } from "mobx-react";
 // plane imports
-import { ROLE_DETAILS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { ROLE_DETAILS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { WorkspaceAvatar } from "@makeplane/propel/components/workspace-avatar";
-import { getFileURL } from "@plane/utils";
+import { getFileURL } from "@gtinx-plane/utils";
 // hooks
 import { useUserPermissions } from "@/hooks/store/user";
 import { useAppRouter } from "@/hooks/use-app-router";

@@ -8,9 +8,9 @@ import React from "react";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import type { IconButtonSize, IconButtonVariant } from "@makeplane/propel/components/icon-button";
 import { StarFilled, StarOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type Props = {
   /** Accessible name for the icon-only toggle; defaults to the translated "Add to favorites". */

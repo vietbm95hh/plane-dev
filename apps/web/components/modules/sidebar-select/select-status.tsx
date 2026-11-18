@@ -9,12 +9,12 @@ import React from "react";
 // react-hook-form
 import type { Control, UseFormWatch } from "react-hook-form";
 import { Controller } from "react-hook-form";
-import { MODULE_STATUS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { MODULE_STATUS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { StateOutline } from "@makeplane/propel/icons";
-import type { IModule } from "@plane/types";
+import type { IModule } from "@gtinx-plane/types";
 // ui
-import { Select } from "@plane/blocks/select";
+import { Select } from "@gtinx-plane/blocks/select";
 // types
 // common
 // constants

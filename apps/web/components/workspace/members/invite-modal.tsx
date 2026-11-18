@@ -9,8 +9,8 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane imports
 import { Dialog, DialogContent } from "@makeplane/propel/components/dialog";
-import { useTranslation } from "@plane/i18n";
-import type { IWorkspaceBulkInviteFormData } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IWorkspaceBulkInviteFormData } from "@gtinx-plane/types";
 // components
 import { InvitationModalActions } from "@/components/workspace/invite-modal/actions";
 import { InvitationFields } from "@/components/workspace/invite-modal/fields";

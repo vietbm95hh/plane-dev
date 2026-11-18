@@ -6,14 +6,14 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import { observer } from "mobx-react";
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateCompact } from "@plane/blocks/empty-state";
-import type { TInboxIssueCurrentTab } from "@plane/types";
-import { EInboxIssueCurrentTab } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
+import type { TInboxIssueCurrentTab } from "@gtinx-plane/types";
+import { EInboxIssueCurrentTab } from "@gtinx-plane/types";
 // plane imports
 import { Tab, Tabs, TabsList } from "@makeplane/propel/components/tabs";
-import { Header, EHeaderVariant } from "@plane/blocks/layout";
-import { Loader } from "@plane/blocks/skeleton";
+import { Header, EHeaderVariant } from "@gtinx-plane/blocks/layout";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
 // components
 import { InboxSidebarLoader } from "@/components/ui/loader/layouts/project-inbox/inbox-sidebar-loader";
 // hooks

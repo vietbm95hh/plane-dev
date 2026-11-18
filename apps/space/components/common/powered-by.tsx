@@ -4,9 +4,9 @@
  * See the LICENSE file for details.
  */
 
-import { WEBSITE_URL } from "@plane/constants";
+import { WEBSITE_URL } from "@gtinx-plane/constants";
 // assets
-import { PlaneLogo } from "@plane/blocks/icons";
+import { PlaneLogo } from "@gtinx-plane/blocks/icons";
 
 type TPoweredBy = {
   disabled?: boolean;

@@ -6,7 +6,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { observer } from "mobx-react";
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 /**
  * Where the element is in its enter/leave cycle. `entering` wears the "from" end of the animated

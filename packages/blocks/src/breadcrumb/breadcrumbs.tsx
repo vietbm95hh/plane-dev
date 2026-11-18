@@ -19,8 +19,8 @@ import {
 } from "@makeplane/propel/elements/breadcrumb";
 import { Menu, MenuContent, MenuItem, MenuLinkItem } from "@makeplane/propel/components/menu";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { useTranslation } from "@plane/i18n";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { cn } from "@gtinx-plane/utils";
 // local imports
 import { BreadcrumbItemContext, useBreadcrumbCurrent } from "./breadcrumb-context";
 import { getCollapsedCrumb, readCrumbLabel } from "./helpers";

@@ -6,7 +6,7 @@
 
 import type { KeyboardEvent, ReactNode } from "react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Combobox as BaseCombobox } from "@base-ui/react/combobox";
 import { Button } from "@makeplane/propel/components/button";
 import {
@@ -17,7 +17,7 @@ import {
   ComboboxStatus,
   useFilter,
 } from "@makeplane/propel/components/combobox";
-import type { TPaginatedResponse } from "@plane/types";
+import type { TPaginatedResponse } from "@gtinx-plane/types";
 import { SelectContext } from "./context";
 import { useSelectDropdownPlacement } from "./dropdown-placement";
 import { SelectEngineContext } from "./engine-context";

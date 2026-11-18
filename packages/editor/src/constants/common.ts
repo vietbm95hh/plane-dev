@@ -28,7 +28,7 @@ import {
   ToDoOutline,
   UnderlineOutline,
 } from "@makeplane/propel/icons";
-import { MonospaceIcon, SansSerifIcon, SerifIcon } from "@plane/blocks/icons";
+import { MonospaceIcon, SansSerifIcon, SerifIcon } from "@gtinx-plane/blocks/icons";
 import type { TCommandExtraProps, TEditorCommands, TEditorFontStyle } from "@/types";
 
 export type TEditorTypes = "lite" | "document" | "sticky";

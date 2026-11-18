@@ -10,7 +10,7 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane imports
 import { ExpandableSearch } from "@makeplane/propel/components/expandable-search";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // hooks
 import { useSticky } from "@/hooks/use-stickies";
 

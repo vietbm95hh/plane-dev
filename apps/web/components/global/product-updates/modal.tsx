@@ -7,7 +7,7 @@
 import { observer } from "mobx-react";
 // ui
 import { Dialog, DialogBody, DialogContent, DialogMain } from "@makeplane/propel/components/dialog";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // components
 import { ProductUpdatesFooter } from "@/components/global";
 // plane web components

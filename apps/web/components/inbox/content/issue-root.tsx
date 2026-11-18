@@ -8,10 +8,10 @@ import type { Dispatch, SetStateAction } from "react";
 import { useEffect, useMemo, useRef } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import type { EditorRefApi } from "@plane/editor";
-import { setToast } from "@plane/blocks/toast";
-import type { TIssue, TNameDescriptionLoader } from "@plane/types";
-import { EFileAssetType, EInboxIssueSource, EInboxIssueStatus } from "@plane/types";
+import type { EditorRefApi } from "@gtinx-plane/editor";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { TIssue, TNameDescriptionLoader } from "@gtinx-plane/types";
+import { EFileAssetType, EInboxIssueSource, EInboxIssueStatus } from "@gtinx-plane/types";
 // components
 import { DescriptionVersionsRoot } from "@/components/core/description-versions";
 import { DescriptionInput } from "@/components/editor/rich-text/description-input";

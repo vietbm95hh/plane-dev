@@ -1,11 +1,11 @@
 # jscodeshift Instructions
 
-This package (`@plane/codemods`) holds the repo's [jscodeshift](https://github.com/facebook/jscodeshift) codemods:
+This package (`@gtinx-plane/codemods`) holds the repo's [jscodeshift](https://github.com/facebook/jscodeshift) codemods:
 
-- `function-declaration.ts` - run with `pnpm --filter=@plane/codemods function-declaration`
-- `remove-directives.ts` - run with `pnpm --filter=@plane/codemods remove-directives`
+- `function-declaration.ts` - run with `pnpm --filter=@gtinx-plane/codemods function-declaration`
+- `remove-directives.ts` - run with `pnpm --filter=@gtinx-plane/codemods remove-directives`
 
-Both scripts run over `apps/*` and `packages/*/src` (see `package.json`). Tests live in `tests/` and run with `pnpm --filter=@plane/codemods test` (vitest).
+Both scripts run over `apps/*` and `packages/*/src` (see `package.json`). Tests live in `tests/` and run with `pnpm --filter=@gtinx-plane/codemods test` (vitest).
 
 The rest of this file is a jscodeshift API cheat sheet. In the examples, `j` is the jscodeshift API (`api.jscodeshift` inside a transform) and `root` is the collection returned by `j(source)`.
 

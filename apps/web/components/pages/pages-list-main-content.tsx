@@ -8,12 +8,12 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 // plane imports
 import { useParams, useRouter } from "next/navigation";
-import { EUserPermissionsLevel, EPageAccess } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
-import { setToast } from "@plane/blocks/toast";
-import type { TPage, TPageNavigationTabs } from "@plane/types";
-import { EUserProjectRoles } from "@plane/types";
+import { EUserPermissionsLevel, EPageAccess } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { TPage, TPageNavigationTabs } from "@gtinx-plane/types";
+import { EUserProjectRoles } from "@gtinx-plane/types";
 // components
 import { PageLoader } from "@/components/pages/loaders/page-loader";
 import { useProject } from "@/hooks/store/use-project";

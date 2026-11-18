@@ -8,10 +8,10 @@ import { useCallback } from "react";
 import { useParams } from "next/navigation";
 import { LinkOutline, StarOffOutline, StarOutline } from "@makeplane/propel/icons";
 // plane imports
-import { EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
-import { copyTextToClipboard } from "@plane/utils";
+import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { copyTextToClipboard } from "@gtinx-plane/utils";
 // components
 import type { TPowerKCommandConfig } from "@/components/power-k/core/types";
 // hooks

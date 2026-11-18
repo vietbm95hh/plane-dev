@@ -7,9 +7,9 @@
 import { useState } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
-import type { IWorkspace } from "@plane/types";
+import type { IWorkspace } from "@gtinx-plane/types";
 // components
 import { SettingsBoxedControlItem } from "@/components/settings/boxed-control-item";
 // local imports

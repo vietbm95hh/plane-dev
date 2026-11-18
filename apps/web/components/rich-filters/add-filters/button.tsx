@@ -11,11 +11,11 @@ import { FilterOutline } from "@makeplane/propel/icons";
 import type { ButtonSize, ButtonVariant } from "@makeplane/propel/components/button";
 import { Button as ButtonElement } from "@makeplane/propel/elements/button";
 import { IconButton as IconButtonElement } from "@makeplane/propel/elements/icon-button";
-import { useTranslation } from "@plane/i18n";
-import type { IFilterInstance } from "@plane/shared-state";
-import type { TExternalFilter, TFilterProperty, TSupportedOperators } from "@plane/types";
-import { LOGICAL_OPERATOR } from "@plane/types";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IFilterInstance } from "@gtinx-plane/shared-state";
+import type { TExternalFilter, TFilterProperty, TSupportedOperators } from "@gtinx-plane/types";
+import { LOGICAL_OPERATOR } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
 // local imports
 import { AddFilterDropdown } from "./dropdown";
 

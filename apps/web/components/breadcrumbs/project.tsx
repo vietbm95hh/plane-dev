@@ -7,10 +7,10 @@
 import { observer } from "mobx-react";
 import { ProjectsOutline } from "@makeplane/propel/icons";
 // plane imports
-import type { BreadcrumbNavigationItem, TCrumbLabelProps } from "@plane/blocks/breadcrumb";
-import { Breadcrumbs, BreadcrumbNavigationSelect } from "@plane/blocks/breadcrumb";
-import { Logo } from "@plane/blocks/emoji-icon-picker";
-import { useTranslation } from "@plane/i18n";
+import type { BreadcrumbNavigationItem, TCrumbLabelProps } from "@gtinx-plane/blocks/breadcrumb";
+import { Breadcrumbs, BreadcrumbNavigationSelect } from "@gtinx-plane/blocks/breadcrumb";
+import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { SwitcherLabel } from "@/components/common/switcher-label";
 // hooks
 import { useProject } from "@/hooks/store/use-project";

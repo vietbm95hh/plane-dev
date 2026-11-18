@@ -7,8 +7,8 @@
 import { useState, useEffect, useRef } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { Loader } from "@plane/blocks/skeleton";
-import { useTranslation } from "@plane/i18n";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
+import { useTranslation } from "@gtinx-plane/i18n";
 // hooks
 import { ProductUpdatesFallback } from "@/components/global/product-updates/fallback";
 import { useInstance } from "@/hooks/store/use-instance";

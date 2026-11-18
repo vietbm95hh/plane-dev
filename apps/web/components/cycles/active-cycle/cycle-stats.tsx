@@ -11,16 +11,16 @@ import { useTheme } from "next-themes";
 import { CompletedAtOutline } from "@makeplane/propel/icons";
 // plane imports
 import { Avatar } from "@makeplane/propel/components/avatar";
-import { useTranslation } from "@plane/i18n";
-import { PriorityIcon } from "@plane/blocks/icons";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { PriorityIcon } from "@gtinx-plane/blocks/icons";
 import { Tabs, TabsList, Tab, TabsPanel } from "@makeplane/propel/components/tabs";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { TWorkItemFilterCondition } from "@plane/shared-state";
-import type { ICycle } from "@plane/types";
-import { EIssuesStoreType } from "@plane/types";
+import type { TWorkItemFilterCondition } from "@gtinx-plane/shared-state";
+import type { ICycle } from "@gtinx-plane/types";
+import { EIssuesStoreType } from "@gtinx-plane/types";
 // ui
-import { Loader } from "@plane/blocks/skeleton";
-import { renderFormattedDate, renderFormattedDateWithoutYear, getFileURL } from "@plane/utils";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
+import { renderFormattedDate, renderFormattedDateWithoutYear, getFileURL } from "@gtinx-plane/utils";
 // assets
 import darkAssigneeAsset from "@/app/assets/empty-state/active-cycle/assignee-dark.webp?url";
 import lightAssigneeAsset from "@/app/assets/empty-state/active-cycle/assignee-light.webp?url";

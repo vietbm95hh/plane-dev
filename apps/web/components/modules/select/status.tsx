@@ -10,13 +10,13 @@ import React from "react";
 import type { FieldError, Control } from "react-hook-form";
 import { Controller } from "react-hook-form";
 import { StateOutline } from "@makeplane/propel/icons";
-import { ModuleStatusIcon } from "@plane/blocks/icons";
-import type { TModuleStatus } from "@plane/blocks/icons";
-import { Select } from "@plane/blocks/select";
-import { MODULE_STATUS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { IModule } from "@plane/types";
-import { cn } from "@plane/utils";
+import { ModuleStatusIcon } from "@gtinx-plane/blocks/icons";
+import type { TModuleStatus } from "@gtinx-plane/blocks/icons";
+import { Select } from "@gtinx-plane/blocks/select";
+import { MODULE_STATUS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IModule } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
 
 type ModuleStatusOption = (typeof MODULE_STATUS)[number];
 

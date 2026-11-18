@@ -12,16 +12,16 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane helpers
 import { MoreHorizontalOutline } from "@makeplane/propel/icons";
-import { useOutsideClickDetector } from "@plane/hooks";
+import { useOutsideClickDetector } from "@gtinx-plane/hooks";
 // types
-import { setToast } from "@plane/blocks/toast";
+import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { TIssue, IIssueDisplayProperties, IIssueMap } from "@plane/types";
-import { EIssueServiceType } from "@plane/types";
+import type { TIssue, IIssueDisplayProperties, IIssueMap } from "@gtinx-plane/types";
+import { EIssueServiceType } from "@gtinx-plane/types";
 // ui
-import { ControlLink } from "@plane/blocks/layout";
-import { DropIndicator } from "@plane/blocks/common";
-import { cn, generateWorkItemLink } from "@plane/utils";
+import { ControlLink } from "@gtinx-plane/blocks/layout";
+import { DropIndicator } from "@gtinx-plane/blocks/common";
+import { cn, generateWorkItemLink } from "@gtinx-plane/utils";
 // components
 import RenderIfVisible from "@/components/core/render-if-visible-HOC";
 import { HIGHLIGHT_CLASS, getIssueBlockId } from "@/components/issues/issue-layouts/utils";

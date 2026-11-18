@@ -5,7 +5,7 @@
  */
 
 import * as React from "react";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 
 interface ColorPickerProps {
   value: string;

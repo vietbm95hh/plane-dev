@@ -17,14 +17,14 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { Collapsible } from "@makeplane/propel/components/collapsible";
 import { CreateFolderOutline } from "@makeplane/propel/icons";
-import { IS_FAVORITE_MENU_OPEN } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { IS_FAVORITE_MENU_OPEN } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 // ui
-import { setToast } from "@plane/blocks/toast";
+import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { IFavorite } from "@plane/types";
+import type { IFavorite } from "@gtinx-plane/types";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useFavorite } from "@/hooks/store/use-favorite";
 import useLocalStorage from "@/hooks/use-local-storage";

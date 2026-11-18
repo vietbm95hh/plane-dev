@@ -5,7 +5,7 @@
  */
 
 // plane imports
-import { API_BASE_URL } from "@plane/constants";
+import { API_BASE_URL } from "@gtinx-plane/constants";
 import type {
   IFormattedInstanceConfiguration,
   IInstance,
@@ -13,7 +13,7 @@ import type {
   IInstanceConfiguration,
   IInstanceInfo,
   TPage,
-} from "@plane/types";
+} from "@gtinx-plane/types";
 // api service
 import { APIService } from "../api.service";
 

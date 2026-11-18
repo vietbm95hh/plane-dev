@@ -9,10 +9,10 @@ import { observer } from "mobx-react";
 import { Badge } from "@makeplane/propel/components/badge";
 import { DragDropOutline } from "@makeplane/propel/icons";
 // plane imports
-import { StateGroupIcon } from "@plane/blocks/icons";
-import { useTranslation } from "@plane/i18n";
-import type { IState, TStateOperationsCallbacks } from "@plane/types";
-import { cn } from "@plane/utils";
+import { StateGroupIcon } from "@gtinx-plane/blocks/icons";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IState, TStateOperationsCallbacks } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
 // local imports
 import { useProjectState } from "@/hooks/store/use-project-state";
 import { StateQuickActions } from "./options";

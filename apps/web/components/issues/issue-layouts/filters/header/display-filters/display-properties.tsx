@@ -9,11 +9,11 @@ import { Menu as BaseMenu } from "@base-ui/react/menu";
 import { MenuGroup, MenuLabel } from "@makeplane/propel/components/menu";
 import { Toggle, ToggleLabel } from "@makeplane/propel/elements/toggle";
 // plane constants
-import { ISSUE_DISPLAY_PROPERTIES } from "@plane/constants";
+import { ISSUE_DISPLAY_PROPERTIES } from "@gtinx-plane/constants";
 // plane i18n
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // types
-import type { IIssueDisplayProperties } from "@plane/types";
+import type { IIssueDisplayProperties } from "@gtinx-plane/types";
 
 type Props = {
   displayProperties: IIssueDisplayProperties;

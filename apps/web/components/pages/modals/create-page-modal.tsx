@@ -6,8 +6,8 @@
 
 import { useEffect, useState } from "react";
 // constants
-import type { EPageAccess } from "@plane/constants";
-import type { TPage } from "@plane/types";
+import type { EPageAccess } from "@gtinx-plane/constants";
+import type { TPage } from "@gtinx-plane/types";
 // ui
 import { Dialog, DialogContent } from "@makeplane/propel/components/dialog";
 // hooks

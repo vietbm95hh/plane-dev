@@ -10,13 +10,13 @@ import { getSchema } from "@tiptap/core";
 import { prosemirrorJSONToYDoc, yXmlFragmentToProseMirrorRootNode } from "@tiptap/y-tiptap";
 import * as Y from "yjs";
 // extensions
-import type { TDocumentPayload } from "@plane/types";
+import type { TDocumentPayload } from "@gtinx-plane/types";
 import {
   CoreEditorExtensionsWithoutProps,
   DocumentEditorExtensionsWithoutProps,
 } from "@/extensions/core-without-props";
 import { TitleExtensions } from "@/extensions/title-extension";
-import { sanitizeHTML } from "@plane/utils";
+import { sanitizeHTML } from "@gtinx-plane/utils";
 
 export type HTMLCodec = {
   generateHTML: (doc: JSONContent, extensions: Extensions) => string;

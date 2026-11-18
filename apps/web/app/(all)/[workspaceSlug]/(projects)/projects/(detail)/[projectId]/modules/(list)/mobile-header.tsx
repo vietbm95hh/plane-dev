@@ -5,8 +5,8 @@
  */
 
 import { observer } from "mobx-react";
-import { MODULE_VIEW_LAYOUTS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { MODULE_VIEW_LAYOUTS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { ChevronDownOutline } from "@makeplane/propel/icons";
 import { Icon } from "@makeplane/propel/components/icon";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";

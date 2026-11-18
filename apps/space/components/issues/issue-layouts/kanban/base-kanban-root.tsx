@@ -8,8 +8,8 @@ import { useCallback, useMemo, useRef } from "react";
 import { debounce } from "lodash-es";
 import { observer } from "mobx-react";
 // types
-import type { IIssueDisplayProperties } from "@plane/types";
-import { getComputedDisplayProperties } from "@plane/utils";
+import type { IIssueDisplayProperties } from "@gtinx-plane/types";
+import { getComputedDisplayProperties } from "@gtinx-plane/utils";
 // components
 import { IssueLayoutHOC } from "@/components/issues/issue-layouts/issue-layout-HOC";
 // hooks

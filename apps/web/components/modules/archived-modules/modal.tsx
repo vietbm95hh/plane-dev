@@ -6,8 +6,8 @@
 
 import { useState } from "react";
 // ui
-import { ConfirmDialog } from "@plane/blocks/dialog";
-import { setToast } from "@plane/blocks/toast";
+import { ConfirmDialog } from "@gtinx-plane/blocks/dialog";
+import { setToast } from "@gtinx-plane/blocks/toast";
 // hooks
 import { useModule } from "@/hooks/store/use-module";
 import { useAppRouter } from "@/hooks/use-app-router";

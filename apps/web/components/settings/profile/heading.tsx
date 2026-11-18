@@ -5,7 +5,7 @@
  */
 
 // plane imports
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type Props = {
   className?: string;

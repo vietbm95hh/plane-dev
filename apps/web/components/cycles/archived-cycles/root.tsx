@@ -9,10 +9,10 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import useSWR from "swr";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
-import type { TCycleFilters } from "@plane/types";
-import { calculateTotalFilters } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
+import type { TCycleFilters } from "@gtinx-plane/types";
+import { calculateTotalFilters } from "@gtinx-plane/utils";
 // components
 import { CycleModuleListLayoutLoader } from "@/components/ui/loader/cycle-module-list-loader";
 // hooks

@@ -7,8 +7,8 @@
 import { useEffect, useState } from "react";
 import { CloseCircleOutline, TickCircleOutline } from "@makeplane/propel/icons";
 import { InputField } from "@makeplane/propel/components/input-field";
-import { API_BASE_URL } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { API_BASE_URL } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 // constants
 // helpers

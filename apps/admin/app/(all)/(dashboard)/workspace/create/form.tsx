@@ -9,16 +9,16 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Controller, useForm } from "react-hook-form";
 // plane imports
-import { WEB_BASE_URL, ORGANIZATION_SIZE, RESTRICTED_URLS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { WEB_BASE_URL, ORGANIZATION_SIZE, RESTRICTED_URLS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { InputField } from "@makeplane/propel/components/input-field";
 import { Select, SelectContent, SelectItem, SelectList, SelectTrigger } from "@makeplane/propel/components/select";
-import { InstanceWorkspaceService } from "@plane/services";
-import type { IWorkspace } from "@plane/types";
-import { validateSlug, validateWorkspaceName } from "@plane/utils";
+import { InstanceWorkspaceService } from "@gtinx-plane/services";
+import type { IWorkspace } from "@gtinx-plane/types";
+import { validateSlug, validateWorkspaceName } from "@gtinx-plane/utils";
 // components
-import { setToast } from "@plane/blocks/toast";
+import { setToast } from "@gtinx-plane/blocks/toast";
 // hooks
 import { useWorkspace } from "@/hooks/store";
 

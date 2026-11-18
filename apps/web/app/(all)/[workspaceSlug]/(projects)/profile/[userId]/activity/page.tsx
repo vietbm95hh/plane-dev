@@ -7,8 +7,8 @@
 import { useState } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { ScrollArea } from "@makeplane/propel/components/scroll-area";
 // components

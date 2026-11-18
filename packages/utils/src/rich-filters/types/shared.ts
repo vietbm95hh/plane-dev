@@ -5,7 +5,7 @@
  */
 
 // plane imports
-import type { TFilterAndGroupNode, TFilterExpression, TFilterGroupNode, TFilterProperty } from "@plane/types";
+import type { TFilterAndGroupNode, TFilterExpression, TFilterGroupNode, TFilterProperty } from "@gtinx-plane/types";
 // local imports
 import { getAndGroupChildren, isAndGroupNode } from "./core";
 

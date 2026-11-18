@@ -7,11 +7,11 @@
 import { useMemo } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
-import { EEstimateSystem } from "@plane/constants";
+import { EEstimateSystem } from "@gtinx-plane/constants";
 import { ProjectsOutline } from "@makeplane/propel/icons";
-import type { ChartYAxisMetric } from "@plane/types";
+import type { ChartYAxisMetric } from "@gtinx-plane/types";
 // plane package imports
-import { Select } from "@plane/blocks/select";
+import { Select } from "@gtinx-plane/blocks/select";
 // hooks
 import { useProjectEstimates } from "@/hooks/store/estimates";
 // plane web constants

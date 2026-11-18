@@ -19,9 +19,9 @@ import { observer } from "mobx-react";
 import { createRoot } from "react-dom/client";
 import { flushSync } from "react-dom";
 // plane imports
-import { useOutsideClickDetector } from "@plane/hooks";
-import type { IFavorite, InstructionType } from "@plane/types";
-import { DropIndicator } from "@plane/blocks/common";
+import { useOutsideClickDetector } from "@gtinx-plane/hooks";
+import type { IFavorite, InstructionType } from "@gtinx-plane/types";
+import { DropIndicator } from "@gtinx-plane/blocks/common";
 // hooks
 import { useFavoriteItemDetails } from "@/hooks/use-favorite-item-details";
 // local imports

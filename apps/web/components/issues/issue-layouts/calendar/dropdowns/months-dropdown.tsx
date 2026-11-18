@@ -7,14 +7,14 @@
 import { observer } from "mobx-react";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Toggle } from "@makeplane/propel/components/toggle";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Popover, PopoverContent, PopoverTrigger } from "@makeplane/propel/components/popover";
 import { ChevronLeftOutline, ChevronRightOutline } from "@makeplane/propel/icons";
 //hooks
 // icons
 // constants
-import { getDate } from "@plane/utils";
-import { MONTHS_LIST } from "@plane/constants";
+import { getDate } from "@gtinx-plane/utils";
+import { MONTHS_LIST } from "@gtinx-plane/constants";
 import { useCalendarView } from "@/hooks/store/use-calendar-view";
 import type { ICycleIssuesFilter } from "@/store/issue/cycle";
 import type { IModuleIssuesFilter } from "@/store/issue/module";

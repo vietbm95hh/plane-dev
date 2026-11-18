@@ -8,19 +8,19 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane imports
-import { ROLE, EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { ROLE, EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { ChevronDownOutline, DeleteOutline, LinkOutline, MoreHorizontalOutline } from "@makeplane/propel/icons";
 import { Avatar } from "@makeplane/propel/components/avatar";
 import { Badge } from "@makeplane/propel/components/badge";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
-import type { TContextMenuItem } from "@plane/blocks/context-menu";
-import { getRenderableItems, resolveItemVariant } from "@plane/blocks/context-menu";
-import { Select, SelectDropdownPlacementContext } from "@plane/blocks/select";
-import { setToast } from "@plane/blocks/toast";
-import { copyTextToClipboard } from "@plane/utils";
+import type { TContextMenuItem } from "@gtinx-plane/blocks/context-menu";
+import { getRenderableItems, resolveItemVariant } from "@gtinx-plane/blocks/context-menu";
+import { Select, SelectDropdownPlacementContext } from "@gtinx-plane/blocks/select";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { copyTextToClipboard } from "@gtinx-plane/utils";
 // components
 import { ConfirmWorkspaceMemberRemove } from "@/components/workspace/confirm-workspace-member-remove";
 // hooks

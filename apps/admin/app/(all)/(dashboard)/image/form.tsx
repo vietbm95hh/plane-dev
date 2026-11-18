@@ -6,10 +6,10 @@
 
 import { useForm } from "react-hook-form";
 import { Button } from "@makeplane/propel/components/button";
-import type { IFormattedInstanceConfiguration, TInstanceImageConfigurationKeys } from "@plane/types";
+import type { IFormattedInstanceConfiguration, TInstanceImageConfigurationKeys } from "@gtinx-plane/types";
 // components
 import { ControllerInput } from "@/components/common/controller-input";
-import { setToast } from "@plane/blocks/toast";
+import { setToast } from "@gtinx-plane/blocks/toast";
 // hooks
 import { useInstance } from "@/hooks/store";
 

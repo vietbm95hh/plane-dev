@@ -10,7 +10,7 @@ import { forwardRef, useCallback, useEffect, useImperativeHandle, useLayoutEffec
 // propel imports
 import { SuggestionMenu, SuggestionMenuGroup, SuggestionMenuLabel } from "@makeplane/propel/elements/suggestion-menu";
 // plane imports
-import { useOutsideClickDetector } from "@plane/hooks";
+import { useOutsideClickDetector } from "@gtinx-plane/hooks";
 // helpers
 import { DROPDOWN_NAVIGATION_KEYS, getNextValidIndex } from "@/helpers/tippy";
 // types

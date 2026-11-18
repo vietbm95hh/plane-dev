@@ -14,9 +14,9 @@ import {
   GROUPED_WORKSPACE_SETTINGS,
   WORKSPACE_SETTINGS_CATEGORIES,
   WORKSPACE_SETTINGS_CATEGORY_LABELS,
-} from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { joinUrlPath } from "@plane/utils";
+} from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { joinUrlPath } from "@gtinx-plane/utils";
 // components
 import { SettingsSidebarItem } from "@/components/settings/sidebar/item";
 import { SettingsSidebarSectionHeading } from "@/components/settings/sidebar/section-heading";

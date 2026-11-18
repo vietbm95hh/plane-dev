@@ -5,11 +5,11 @@
  */
 
 import type { IconGlyph } from "@makeplane/propel/components/icon";
-import { VIEW_ACCESS_SPECIFIERS as VIEW_ACCESS_SPECIFIERS_CONSTANTS } from "@plane/constants";
+import { VIEW_ACCESS_SPECIFIERS as VIEW_ACCESS_SPECIFIERS_CONSTANTS } from "@gtinx-plane/constants";
 import { GlobeOutline, LockOutline } from "@makeplane/propel/icons";
 
-import type { ISvgIcons } from "@plane/blocks/icons";
-import { EViewAccess } from "@plane/types";
+import type { ISvgIcons } from "@gtinx-plane/blocks/icons";
+import { EViewAccess } from "@gtinx-plane/types";
 
 const VIEW_ACCESS_ICONS = {
   [EViewAccess.PUBLIC]: GlobeOutline,

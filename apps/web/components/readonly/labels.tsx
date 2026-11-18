@@ -8,7 +8,7 @@ import { useEffect } from "react";
 import { observer } from "mobx-react";
 // plane imports
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useLabel } from "@/hooks/store/use-label";
 import { usePlatformOS } from "@/hooks/use-platform-os";

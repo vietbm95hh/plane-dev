@@ -10,10 +10,10 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // Plane imports
 import { Dialog, DialogContent } from "@makeplane/propel/components/dialog";
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
-import type { TBaseIssue, TIssue } from "@plane/types";
-import { EIssuesStoreType } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { TBaseIssue, TIssue } from "@gtinx-plane/types";
+import { EIssuesStoreType } from "@gtinx-plane/types";
 // hooks
 import { useIssueModal } from "@/hooks/context/use-issue-modal";
 import { useCycle } from "@/hooks/store/use-cycle";

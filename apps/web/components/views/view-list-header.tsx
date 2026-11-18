@@ -8,7 +8,7 @@ import { observer } from "mobx-react";
 import { ExpandableSearch } from "@makeplane/propel/components/expandable-search";
 // icons
 import { FilterOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // hooks
 import { useMember } from "@/hooks/store/use-member";
 import { useProjectView } from "@/hooks/store/use-project-view";

@@ -10,8 +10,8 @@ import { observer } from "mobx-react";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { WorkspaceAvatar } from "@makeplane/propel/components/workspace-avatar";
 import { NewTabOutline } from "@makeplane/propel/icons";
-import { WEB_BASE_URL } from "@plane/constants";
-import { getFileURL } from "@plane/utils";
+import { WEB_BASE_URL } from "@gtinx-plane/constants";
+import { getFileURL } from "@gtinx-plane/utils";
 // hooks
 import { useWorkspace } from "@/hooks/store";
 

@@ -6,9 +6,9 @@
 
 import { observer } from "mobx-react";
 // types
-import { setToast } from "@plane/blocks/toast";
-import type { IProjectView } from "@plane/types";
-import { EIssuesStoreType } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IProjectView } from "@gtinx-plane/types";
+import { EIssuesStoreType } from "@gtinx-plane/types";
 // ui
 import { Dialog, DialogContent } from "@makeplane/propel/components/dialog";
 // hooks

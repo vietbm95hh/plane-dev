@@ -4,7 +4,7 @@
  * See the LICENSE file for details.
  */
 
-import { Loader } from "@plane/blocks/skeleton";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
 
 export function EstimateLoaderScreen() {
   return (

@@ -5,8 +5,8 @@
  */
 
 import { observer } from "mobx-react";
-import { EUserPermissions, EUserPermissionsLevel, SETTINGS_DOCS_URLS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { EUserPermissions, EUserPermissionsLevel, SETTINGS_DOCS_URLS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 // components
 import { NotAuthorizedView } from "@/components/auth-screens/not-authorized-view";
 import { PageHead } from "@/components/core/page-title";

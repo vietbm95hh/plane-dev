@@ -7,10 +7,10 @@
 import React from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { DateRangeSelect } from "@plane/blocks/property-select";
-import type { DateRangeValue } from "@plane/blocks/property-select";
-import type { TDateRangeFilterFieldConfig, TFilterConditionNodeForDisplay, TFilterProperty } from "@plane/types";
-import { cn, isValidDate, renderFormattedPayloadDate, toFilterArray } from "@plane/utils";
+import { DateRangeSelect } from "@gtinx-plane/blocks/property-select";
+import type { DateRangeValue } from "@gtinx-plane/blocks/property-select";
+import type { TDateRangeFilterFieldConfig, TFilterConditionNodeForDisplay, TFilterProperty } from "@gtinx-plane/types";
+import { cn, isValidDate, renderFormattedPayloadDate, toFilterArray } from "@gtinx-plane/utils";
 // hooks
 import { useUserProfile } from "@/hooks/store/user";
 // local imports

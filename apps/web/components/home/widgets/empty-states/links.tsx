@@ -4,8 +4,8 @@
  * See the LICENSE file for details.
  */
 
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateCompact } from "@plane/blocks/empty-state";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
 
 export function LinksEmptyState() {
   const { t } = useTranslation();

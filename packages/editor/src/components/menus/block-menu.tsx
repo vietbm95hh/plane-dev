@@ -19,8 +19,8 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { CopyOutline, DeleteOutline } from "@makeplane/propel/icons";
 import { Icon } from "@makeplane/propel/components/icon";
 import { MenuItemContent, MenuItemTitle, MenuPopup } from "@makeplane/propel/elements/menu";
-import type { ISvgIcons } from "@plane/blocks/icons";
-import { cn } from "@plane/utils";
+import type { ISvgIcons } from "@gtinx-plane/blocks/icons";
+import { cn } from "@gtinx-plane/utils";
 // constants
 import { CORE_EXTENSIONS } from "@/constants/extension";
 // types

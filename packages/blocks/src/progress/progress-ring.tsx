@@ -5,7 +5,7 @@
  */
 
 import type { ReactNode } from "react";
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 export type ProgressRingProps = {
   /** Completion from 0 to 100; out-of-range values are clamped. */

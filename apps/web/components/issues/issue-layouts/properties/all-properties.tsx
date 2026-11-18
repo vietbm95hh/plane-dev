@@ -22,20 +22,20 @@ import {
   SubWorkItemsOutline,
 } from "@makeplane/propel/icons";
 // i18n
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Icon } from "@makeplane/propel/components/icon";
-import { LabelPropertyIcon, PriorityIcon, StateGroupIcon } from "@plane/blocks/icons";
-import type { DateRangeValue } from "@plane/blocks/property-select";
-import { DateRangeSelect, DateSelect } from "@plane/blocks/property-select";
-import type { WorkItemPropertyEntry } from "@plane/blocks/work-item-properties";
+import { LabelPropertyIcon, PriorityIcon, StateGroupIcon } from "@gtinx-plane/blocks/icons";
+import type { DateRangeValue } from "@gtinx-plane/blocks/property-select";
+import { DateRangeSelect, DateSelect } from "@gtinx-plane/blocks/property-select";
+import type { WorkItemPropertyEntry } from "@gtinx-plane/blocks/work-item-properties";
 import {
   getWorkItemPropertyHidePriority,
   PropertiesOverflowRow,
   WorkItemPropertiesList,
   WorkItemPropertyCountChip,
-} from "@plane/blocks/work-item-properties";
-import { ISSUE_PRIORITIES } from "@plane/constants";
-import type { TIssue, IIssueDisplayProperties, TIssuePriorities } from "@plane/types";
+} from "@gtinx-plane/blocks/work-item-properties";
+import { ISSUE_PRIORITIES } from "@gtinx-plane/constants";
+import type { TIssue, IIssueDisplayProperties, TIssuePriorities } from "@gtinx-plane/types";
 // ui
 import {
   getDate,
@@ -43,7 +43,7 @@ import {
   renderFormattedPayloadDate,
   generateWorkItemLink,
   getIssueDueDateClassName,
-} from "@plane/utils";
+} from "@gtinx-plane/utils";
 // components
 import { CycleSelect } from "@/components/dropdowns/cycle/cycle-select";
 import { EstimateSelect, getEstimatePointDisplayValue } from "@/components/dropdowns/estimate/estimate-select";

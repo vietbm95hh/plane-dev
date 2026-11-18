@@ -13,14 +13,14 @@ import {
   WarningTriangleOutline,
 } from "@makeplane/propel/icons";
 // plane editor
-import type { EditorRefApi } from "@plane/editor";
+import type { EditorRefApi } from "@gtinx-plane/editor";
 // plane ui
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 // components
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { RichTextEditor } from "@/components/editor/rich-text";
 // plane web constants
-import { AI_EDITOR_TASKS, LOADING_TEXTS } from "@plane/constants";
+import { AI_EDITOR_TASKS, LOADING_TEXTS } from "@gtinx-plane/constants";
 // plane web services
 import type { TTaskPayload } from "@/services/ai.service";
 import { AIService } from "@/services/ai.service";

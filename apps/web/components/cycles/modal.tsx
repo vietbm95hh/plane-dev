@@ -7,12 +7,12 @@
 import { useEffect, useState } from "react";
 import { mutate } from "swr";
 // types
-import { setToast } from "@plane/blocks/toast";
-import type { CycleDateCheckData, ICycle, TCycleTabOptions } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { CycleDateCheckData, ICycle, TCycleTabOptions } from "@gtinx-plane/types";
 // ui
 import { Dialog, DialogContent } from "@makeplane/propel/components/dialog";
 // hooks
-import { renderFormattedPayloadDate } from "@plane/utils";
+import { renderFormattedPayloadDate } from "@gtinx-plane/utils";
 import { useCycle } from "@/hooks/store/use-cycle";
 import { useProject } from "@/hooks/store/use-project";
 import useLocalStorage from "@/hooks/use-local-storage";

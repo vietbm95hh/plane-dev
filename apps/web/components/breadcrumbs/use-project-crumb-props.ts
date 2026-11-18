@@ -5,7 +5,7 @@
  */
 
 // plane imports
-import type { TCrumbLabelProps } from "@plane/blocks/breadcrumb";
+import type { TCrumbLabelProps } from "@gtinx-plane/blocks/breadcrumb";
 // hooks
 import { useProject } from "@/hooks/store/use-project";
 

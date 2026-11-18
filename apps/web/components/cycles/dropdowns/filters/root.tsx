@@ -6,7 +6,7 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import type { TCycleFilters, TCycleGroups } from "@plane/types";
+import type { TCycleFilters, TCycleGroups } from "@gtinx-plane/types";
 // local imports
 import { FilterEndDate } from "./end-date";
 import { FilterStartDate } from "./start-date";

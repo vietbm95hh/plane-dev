@@ -8,12 +8,12 @@
 import type { SyntheticEvent } from "react";
 import { useMemo } from "react";
 import { observer } from "mobx-react";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { DueDateOutline, StartDateOutline } from "@makeplane/propel/icons";
-import type { DateRangeValue } from "@plane/blocks/property-select";
-import { DateRangeSelect, DateSelect } from "@plane/blocks/property-select";
-import type { IIssueDisplayProperties, TIssue } from "@plane/types";
-import { getDate, getIssueDueDateClassName, renderFormattedPayloadDate } from "@plane/utils";
+import type { DateRangeValue } from "@gtinx-plane/blocks/property-select";
+import { DateRangeSelect, DateSelect } from "@gtinx-plane/blocks/property-select";
+import type { IIssueDisplayProperties, TIssue } from "@gtinx-plane/types";
+import { getDate, getIssueDueDateClassName, renderFormattedPayloadDate } from "@gtinx-plane/utils";
 // components
 import { EstimateSelect } from "@/components/dropdowns/estimate/estimate-select";
 import { MemberSelect } from "@/components/dropdowns/member/member-select";

@@ -6,12 +6,12 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { EUserPermissionsLevel, EUserPermissions } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
-import { ContentWrapper } from "@plane/blocks/layout";
+import { EUserPermissionsLevel, EUserPermissions } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
+import { ContentWrapper } from "@gtinx-plane/blocks/layout";
 // components
-import { calculateTotalFilters } from "@plane/utils";
+import { calculateTotalFilters } from "@gtinx-plane/utils";
 import { ProjectsLoader } from "@/components/ui/loader/projects-loader";
 // hooks
 import { useCommandPalette } from "@/hooks/store/use-command-palette";

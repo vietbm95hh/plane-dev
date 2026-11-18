@@ -7,12 +7,12 @@
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // ui
-import { EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { CyclesOutline } from "@makeplane/propel/icons";
-import { Breadcrumbs } from "@plane/blocks/breadcrumb";
-import { Header } from "@plane/blocks/layout";
+import { Breadcrumbs } from "@gtinx-plane/blocks/breadcrumb";
+import { Header } from "@gtinx-plane/blocks/layout";
 // components
 import { BreadcrumbLink } from "@/components/common/breadcrumb-link";
 import { CyclesViewHeader } from "@/components/cycles/cycles-view-header";

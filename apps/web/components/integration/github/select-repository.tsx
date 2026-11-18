@@ -8,10 +8,10 @@ import React from "react";
 import { useParams } from "next/navigation";
 import useSWRInfinite from "swr/infinite";
 import { Button } from "@makeplane/propel/components/button";
-import { Select } from "@plane/blocks/select";
-import type { IGithubRepository, IWorkspaceIntegration } from "@plane/types";
+import { Select } from "@gtinx-plane/blocks/select";
+import type { IGithubRepository, IWorkspaceIntegration } from "@gtinx-plane/types";
 // helpers
-import { truncateText } from "@plane/utils";
+import { truncateText } from "@gtinx-plane/utils";
 import { ProjectService } from "@/services/project";
 // types
 

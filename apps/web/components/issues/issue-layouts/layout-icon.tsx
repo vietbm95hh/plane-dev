@@ -5,8 +5,8 @@
  */
 
 import { BoardOutline, CalendarOutline, ListOutline, TableOutline, TimelineOutline } from "@makeplane/propel/icons";
-import type { ISvgIcons } from "@plane/blocks/icons";
-import { EIssueLayoutTypes } from "@plane/types";
+import type { ISvgIcons } from "@gtinx-plane/blocks/icons";
+import { EIssueLayoutTypes } from "@gtinx-plane/types";
 
 export function IssueLayoutIcon({
   layout,

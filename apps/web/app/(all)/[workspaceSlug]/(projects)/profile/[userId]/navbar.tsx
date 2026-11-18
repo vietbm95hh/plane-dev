@@ -7,9 +7,9 @@
 import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
 // plane imports
-import { PROFILE_VIEWER_TAB, PROFILE_ADMINS_TAB } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { Header, EHeaderVariant } from "@plane/blocks/layout";
+import { PROFILE_VIEWER_TAB, PROFILE_ADMINS_TAB } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { Header, EHeaderVariant } from "@gtinx-plane/blocks/layout";
 import { Tabs, TabsList, Tab } from "@makeplane/propel/components/tabs";
 
 type Props = {

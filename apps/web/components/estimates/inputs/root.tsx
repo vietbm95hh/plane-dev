@@ -5,8 +5,8 @@
  */
 
 // plane imports
-import type { TEstimateSystemKeys } from "@plane/types";
-import { EEstimateSystem } from "@plane/types";
+import type { TEstimateSystemKeys } from "@gtinx-plane/types";
+import { EEstimateSystem } from "@gtinx-plane/types";
 // local imports
 import { EstimateNumberInput } from "./number-input";
 import { EstimateTextInput } from "./text-input";

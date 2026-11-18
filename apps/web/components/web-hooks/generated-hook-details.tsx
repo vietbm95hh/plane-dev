@@ -15,8 +15,8 @@ import {
   DialogMain,
   DialogTitle,
 } from "@makeplane/propel/components/dialog";
-import { useTranslation } from "@plane/i18n";
-import type { IWebhook } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IWebhook } from "@gtinx-plane/types";
 // local imports
 import { WebhookSecretKey } from "./form";
 

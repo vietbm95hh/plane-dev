@@ -7,8 +7,8 @@
 import React from "react";
 import { Command } from "cmdk";
 // plane imports
-import { START_OF_THE_WEEK_OPTIONS } from "@plane/constants";
-import type { EStartOfTheWeek } from "@plane/types";
+import { START_OF_THE_WEEK_OPTIONS } from "@gtinx-plane/constants";
+import type { EStartOfTheWeek } from "@gtinx-plane/types";
 // local imports
 import { PowerKModalCommandItem } from "../../modal/command-item";
 

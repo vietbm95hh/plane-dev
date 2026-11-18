@@ -6,8 +6,8 @@
 
 import { isEmpty } from "lodash-es";
 // plane internal packages
-import { API_BASE_URL } from "@plane/constants";
-import type { IFormattedInstanceConfiguration, TInstanceGoogleAuthenticationConfigurationKeys } from "@plane/types";
+import { API_BASE_URL } from "@gtinx-plane/constants";
+import type { IFormattedInstanceConfiguration, TInstanceGoogleAuthenticationConfigurationKeys } from "@gtinx-plane/types";
 // components
 import { CodeBlock } from "@/components/common/code-block";
 import type { TControllerInputFormField } from "@/components/common/controller-input";

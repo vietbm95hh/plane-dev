@@ -7,9 +7,9 @@
 import React, { useEffect, useState } from "react";
 import { CloseCircleOutline, TickCircleOutline } from "@makeplane/propel/icons";
 // plane imports
-import { API_BASE_URL } from "@plane/constants";
+import { API_BASE_URL } from "@gtinx-plane/constants";
 import { Button } from "@makeplane/propel/components/button";
-import { AuthService } from "@plane/services";
+import { AuthService } from "@gtinx-plane/services";
 import { Input } from "@makeplane/propel/components/input";
 // hooks
 import useTimer from "@/hooks/use-timer";

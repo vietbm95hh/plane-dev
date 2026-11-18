@@ -6,12 +6,12 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { PlaneLockup } from "@plane/blocks/icons";
+import { PlaneLockup } from "@gtinx-plane/blocks/icons";
 import { ChevronLeftOutline } from "@makeplane/propel/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { TOnboardingStep } from "@plane/types";
-import { EOnboardingSteps } from "@plane/types";
-import { cn } from "@plane/utils";
+import type { TOnboardingStep } from "@gtinx-plane/types";
+import { EOnboardingSteps } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useInstance } from "@/hooks/store/use-instance";
 import { useUser } from "@/hooks/store/user";

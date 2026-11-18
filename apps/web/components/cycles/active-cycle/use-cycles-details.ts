@@ -8,10 +8,10 @@ import { useCallback } from "react";
 import { useRouter } from "next/navigation";
 import useSWR from "swr";
 // plane imports
-import type { TWorkItemFilterCondition } from "@plane/shared-state";
-import { EIssuesStoreType } from "@plane/types";
+import type { TWorkItemFilterCondition } from "@gtinx-plane/shared-state";
+import { EIssuesStoreType } from "@gtinx-plane/types";
 // constants
-import { CYCLE_ISSUES_WITH_PARAMS } from "@plane/constants";
+import { CYCLE_ISSUES_WITH_PARAMS } from "@gtinx-plane/constants";
 // hooks
 import { useCycle } from "@/hooks/store/use-cycle";
 import { useIssues } from "@/hooks/store/use-issues";

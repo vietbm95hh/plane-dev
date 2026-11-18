@@ -12,10 +12,10 @@ import type {
   TFilterProperty,
   TSingleSelectFilterFieldConfig,
   TFilterConditionNodeForDisplay,
-} from "@plane/types";
-import { useTranslation } from "@plane/i18n";
-import { Select } from "@plane/blocks/select";
-import { cn, toFilterArray } from "@plane/utils";
+} from "@gtinx-plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { Select } from "@gtinx-plane/blocks/select";
+import { cn, toFilterArray } from "@gtinx-plane/utils";
 // local imports
 import { SelectedOptionsDisplay } from "./selected-options-display";
 import { loadOptions } from "./shared";

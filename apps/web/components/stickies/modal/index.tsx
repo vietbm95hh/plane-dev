@@ -4,7 +4,7 @@
  * See the LICENSE file for details.
  */
 import { Dialog, DialogContent } from "@makeplane/propel/components/dialog";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Stickies } from "./stickies";
 
 type TProps = {

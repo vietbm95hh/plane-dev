@@ -8,8 +8,8 @@ import React, { useCallback, useMemo } from "react";
 import { observer } from "mobx-react";
 import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
-import { EUserPermissionsLevel, EUserPermissions } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { EUserPermissionsLevel, EUserPermissions } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import {
   CyclesOutline,
   IntakeOutline,
@@ -18,7 +18,7 @@ import {
   ViewsOutline,
   WorkItemsOutline,
 } from "@makeplane/propel/icons";
-import type { EUserProjectRoles } from "@plane/types";
+import type { EUserProjectRoles } from "@gtinx-plane/types";
 // plane ui
 // components
 import { ListItem, ListItemLabel } from "@makeplane/propel/components/list";

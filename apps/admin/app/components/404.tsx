@@ -7,7 +7,7 @@
 import { Link } from "react-router";
 // plane imports
 import { Button } from "@makeplane/propel/components/button";
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
 
 function PageNotFound() {
   return (

@@ -7,9 +7,9 @@
 import { observer } from "mobx-react";
 import useSWR from "swr";
 import { WorkspaceAvatar } from "@makeplane/propel/components/workspace-avatar";
-import { useTranslation } from "@plane/i18n";
-import type { IWorkspaceMemberInvitation } from "@plane/types";
-import { getFileURL } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IWorkspaceMemberInvitation } from "@gtinx-plane/types";
+import { getFileURL } from "@gtinx-plane/utils";
 // components
 import { LogoSpinner } from "@/components/common/logo-spinner";
 // helpers

@@ -5,7 +5,7 @@
  */
 
 // components
-import { Loader } from "@plane/blocks/skeleton";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
 
 export function ProjectDetailsFormLoader() {
   return (

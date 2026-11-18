@@ -4,7 +4,7 @@
  * See the LICENSE file for details.
  */
 
-import { Loader } from "@plane/blocks/skeleton";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
 
 const LOADER_GROUP_KEYS = ["group-1", "group-2", "group-3"];
 const LOADER_STATE_KEYS = ["state-1", "state-2"];

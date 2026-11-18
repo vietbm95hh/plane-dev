@@ -4,16 +4,16 @@
  * See the LICENSE file for details.
  */
 
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { CloseOutline } from "@makeplane/propel/icons";
 // plane imports
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { TProjectAppliedDisplayFilterKeys, TProjectFilters } from "@plane/types";
-import { EHeaderVariant, Header } from "@plane/blocks/layout";
-import { replaceUnderscoreIfSnakeCase } from "@plane/utils";
+import type { TProjectAppliedDisplayFilterKeys, TProjectFilters } from "@gtinx-plane/types";
+import { EHeaderVariant, Header } from "@gtinx-plane/blocks/layout";
+import { replaceUnderscoreIfSnakeCase } from "@gtinx-plane/utils";
 // local imports
 import { AppliedAccessFilters } from "./access";
 import { AppliedDateFilters } from "./date";

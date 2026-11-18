@@ -10,8 +10,8 @@ import { Controller, useForm } from "react-hook-form";
 // plane imports
 import { InputField } from "@makeplane/propel/components/input-field";
 import { TextAreaField } from "@makeplane/propel/components/text-area-field";
-import { ETabIndices, ISSUE_DISPLAY_FILTERS_BY_PAGE } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { ETabIndices, ISSUE_DISPLAY_FILTERS_BY_PAGE } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import {
   DialogActions,
@@ -21,7 +21,7 @@ import {
   DialogMain,
   DialogTitle,
 } from "@makeplane/propel/components/dialog";
-import { EmojiPicker, Logo } from "@plane/blocks/emoji-icon-picker";
+import { EmojiPicker, Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 import { ViewsOutline } from "@makeplane/propel/icons";
 import type {
   IIssueDisplayFilterOptions,
@@ -29,9 +29,9 @@ import type {
   IProjectView,
   EIssueLayoutTypes,
   IIssueFilters,
-} from "@plane/types";
-import { EViewAccess, EIssuesStoreType } from "@plane/types";
-import { getComputedDisplayFilters, getComputedDisplayProperties, getTabIndex } from "@plane/utils";
+} from "@gtinx-plane/types";
+import { EViewAccess, EIssuesStoreType } from "@gtinx-plane/types";
+import { getComputedDisplayFilters, getComputedDisplayProperties, getTabIndex } from "@gtinx-plane/utils";
 // components
 import { DisplayFiltersSelection, FiltersDropdown } from "@/components/issues/issue-layouts/filters";
 import { WorkItemFiltersRow } from "@/components/work-item-filters/filters-row";

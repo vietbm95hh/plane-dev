@@ -7,7 +7,7 @@
 import { observer } from "mobx-react";
 import { CircularProgress } from "@makeplane/propel/components/circular-progress";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { getFileExtension } from "@plane/utils";
+import { getFileExtension } from "@gtinx-plane/utils";
 // ui
 // icons
 import { getFileIcon } from "@/components/icons";

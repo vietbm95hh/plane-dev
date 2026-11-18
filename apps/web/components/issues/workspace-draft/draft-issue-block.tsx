@@ -10,11 +10,11 @@ import { observer } from "mobx-react";
 import { CopyOutline, DeleteOutline, EditOutline, SquareStackOutline } from "@makeplane/propel/icons";
 // plane utils
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { TWorkspaceDraftIssue } from "@plane/types";
-import { EIssuesStoreType } from "@plane/types";
-import type { TContextMenuItem } from "@plane/blocks/context-menu";
-import { Row } from "@plane/blocks/layout";
-import { cn } from "@plane/utils";
+import type { TWorkspaceDraftIssue } from "@gtinx-plane/types";
+import { EIssuesStoreType } from "@gtinx-plane/types";
+import type { TContextMenuItem } from "@gtinx-plane/blocks/context-menu";
+import { Row } from "@gtinx-plane/blocks/layout";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useAppTheme } from "@/hooks/store/use-app-theme";
 import { useProject } from "@/hooks/store/use-project";

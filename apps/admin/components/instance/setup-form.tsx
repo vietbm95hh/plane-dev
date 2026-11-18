@@ -9,15 +9,15 @@ import { useSearchParams } from "next/navigation";
 // icons
 import { HideOutline, ShowOutline } from "@makeplane/propel/icons";
 // plane internal packages
-import { API_BASE_URL, E_PASSWORD_STRENGTH } from "@plane/constants";
+import { API_BASE_URL, E_PASSWORD_STRENGTH } from "@gtinx-plane/constants";
 import { Button } from "@makeplane/propel/components/button";
 import { Checkbox } from "@makeplane/propel/components/checkbox";
 import { InputField } from "@makeplane/propel/components/input-field";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
-import { PasswordStrengthIndicator } from "@plane/blocks/auth";
+import { PasswordStrengthIndicator } from "@gtinx-plane/blocks/auth";
 import { Banner } from "@makeplane/propel/components/banner";
-import { getPasswordStrength, validatePersonName, validateCompanyName } from "@plane/utils";
+import { getPasswordStrength, validatePersonName, validateCompanyName } from "@gtinx-plane/utils";
 // components
 import { AuthHeader } from "@/app/(all)/(home)/auth-header";
 import { FormHeader } from "./form-header";

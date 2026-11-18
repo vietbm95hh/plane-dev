@@ -5,8 +5,8 @@
  */
 
 import { observer } from "mobx-react";
-import { STATE_GROUPS } from "@plane/constants";
-import { StateGroupIcon } from "@plane/blocks/icons";
+import { STATE_GROUPS } from "@gtinx-plane/constants";
+import { StateGroupIcon } from "@gtinx-plane/blocks/icons";
 // components
 import { FilterSubmenu } from "@/components/common/filters/filter-submenu";
 

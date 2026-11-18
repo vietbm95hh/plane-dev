@@ -11,10 +11,10 @@ import { useSearchParams } from "next/navigation";
 // plane imports
 import { Collapsible } from "@base-ui/react/collapsible";
 import { ChevronDownOutline, ChevronUpOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
-import type { ICycle, TCyclePlotType, TProgressSnapshot } from "@plane/types";
-import { EIssuesStoreType } from "@plane/types";
-import { getDate } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { ICycle, TCyclePlotType, TProgressSnapshot } from "@gtinx-plane/types";
+import { EIssuesStoreType } from "@gtinx-plane/types";
+import { getDate } from "@gtinx-plane/utils";
 // hooks
 import { useCycle } from "@/hooks/store/use-cycle";
 // plane web components

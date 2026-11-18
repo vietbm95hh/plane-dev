@@ -5,7 +5,7 @@
  */
 
 import { range } from "lodash-es";
-import { Row } from "@plane/blocks/layout";
+import { Row } from "@gtinx-plane/blocks/layout";
 import { getRandomLength } from "../utils";
 
 export function SpreadsheetIssueRowLoader(props: { columnCount: number; withConfigColumn?: boolean }) {

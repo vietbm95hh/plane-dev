@@ -6,8 +6,8 @@
 
 import { useCallback } from "react";
 // plane imports
-import type { TFileHandler } from "@plane/editor";
-import { getEditorAssetDownloadSrc, getEditorAssetSrc, isValidAssetId } from "@plane/utils";
+import type { TFileHandler } from "@gtinx-plane/editor";
+import { getEditorAssetDownloadSrc, getEditorAssetSrc, isValidAssetId } from "@gtinx-plane/utils";
 // hooks
 import { useEditorAsset } from "@/hooks/store/use-editor-asset";
 // plane web hooks

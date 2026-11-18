@@ -8,12 +8,12 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import { useParams, useSearchParams } from "next/navigation";
 // types
-import { PROJECT_ERROR_MESSAGES } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
-import type { ICycle } from "@plane/types";
+import { PROJECT_ERROR_MESSAGES } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { ICycle } from "@gtinx-plane/types";
 // ui
-import { ConfirmDialog } from "@plane/blocks/dialog";
+import { ConfirmDialog } from "@gtinx-plane/blocks/dialog";
 // hooks
 import { useCycle } from "@/hooks/store/use-cycle";
 import { useAppRouter } from "@/hooks/use-app-router";

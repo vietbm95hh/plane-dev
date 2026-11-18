@@ -13,13 +13,13 @@ import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/comp
 import { Pill } from "@makeplane/propel/components/pill";
 import { Pill as PillChrome } from "@makeplane/propel/elements/pill";
 import { CalendarOutline, ParentOutline } from "@makeplane/propel/icons";
-import { ETabIndices } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { ETabIndices } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 // types
-import type { ISearchIssueResponse, TIssue } from "@plane/types";
+import type { ISearchIssueResponse, TIssue } from "@gtinx-plane/types";
 // ui
-import { DateSelect } from "@plane/blocks/property-select";
-import { getDate, renderFormattedPayloadDate, getTabIndex } from "@plane/utils";
+import { DateSelect } from "@gtinx-plane/blocks/property-select";
+import { getDate, renderFormattedPayloadDate, getTabIndex } from "@gtinx-plane/utils";
 // components
 import { CycleSelect } from "@/components/dropdowns/cycle/cycle-select";
 import { EstimateSelect } from "@/components/dropdowns/estimate/estimate-select";

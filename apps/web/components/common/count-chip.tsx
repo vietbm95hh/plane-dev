@@ -6,7 +6,7 @@
 
 // plane imports
 import { Badge } from "@makeplane/propel/components/badge";
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type TCountChip = {
   count: string | number;

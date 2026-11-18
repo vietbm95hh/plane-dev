@@ -6,8 +6,8 @@
 
 import { useEffect, useId, useRef, useState } from "react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { cn } from "@gtinx-plane/utils";
 
 type Props = {
   description: string;

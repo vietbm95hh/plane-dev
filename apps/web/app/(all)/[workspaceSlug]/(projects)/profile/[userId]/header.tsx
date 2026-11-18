@@ -8,15 +8,15 @@
 import { observer } from "mobx-react";
 import { useParams, useRouter } from "next/navigation";
 import { ChevronDownOutline, RightSidePaneOutline, YourWorkOutline } from "@makeplane/propel/icons";
-import { PROFILE_VIEWER_TAB, PROFILE_ADMINS_TAB, EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { IUserProfileProjectSegregation } from "@plane/types";
-import { Breadcrumbs } from "@plane/blocks/breadcrumb";
-import { Header } from "@plane/blocks/layout";
+import { PROFILE_VIEWER_TAB, PROFILE_ADMINS_TAB, EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IUserProfileProjectSegregation } from "@gtinx-plane/types";
+import { Breadcrumbs } from "@gtinx-plane/blocks/breadcrumb";
+import { Header } from "@gtinx-plane/blocks/layout";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { BreadcrumbLink } from "@/components/common/breadcrumb-link";
 import { ProfileIssuesFilter } from "@/components/profile/profile-issues-filter";

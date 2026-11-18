@@ -9,7 +9,7 @@ import { isRouteErrorResponse } from "react-router";
 import { Banner } from "@makeplane/propel/components/banner";
 import { InfoFilled } from "@makeplane/propel/icons";
 import { Button } from "@makeplane/propel/components/button";
-import { Card } from "@plane/blocks/card";
+import { Card } from "@gtinx-plane/blocks/card";
 
 interface ErrorActionsProps {
   onGoHome: () => void;

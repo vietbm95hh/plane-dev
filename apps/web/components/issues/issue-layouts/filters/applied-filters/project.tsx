@@ -5,7 +5,7 @@
  */
 
 import { observer } from "mobx-react";
-import { Logo } from "@plane/blocks/emoji-icon-picker";
+import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 // hooks
 import { useProject } from "@/hooks/store/use-project";
 import { RemovableChip } from "@/components/common/removable-chip";

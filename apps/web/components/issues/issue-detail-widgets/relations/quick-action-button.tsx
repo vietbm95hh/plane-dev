@@ -7,18 +7,18 @@
 import React from "react";
 import { observer } from "mobx-react";
 
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { AddOutline } from "@makeplane/propel/icons";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
 // plane imports
-import type { TIssueServiceType } from "@plane/types";
+import type { TIssueServiceType } from "@gtinx-plane/types";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 // components
 import { handleTriggerClick, handleTriggerKeyDown } from "@/components/common/trigger-guard";
 import { useTimeLineRelationOptions } from "@/components/relations";
 // types
-import type { TIssueRelationTypes } from "@plane/types";
+import type { TIssueRelationTypes } from "@gtinx-plane/types";
 
 type Props = {
   issueId: string;

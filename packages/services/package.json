@@ -1,5 +1,5 @@
 {
-  "name": "@plane/services",
+  "name": "@gtinx-plane/services",
   "version": "1.5.0",
   "private": true,
   "license": "AGPL-3.0",
@@ -23,13 +23,13 @@
     "clean": "rm -rf .turbo && rm -rf .next && rm -rf node_modules && rm -rf dist"
   },
   "dependencies": {
-    "@plane/constants": "workspace:*",
-    "@plane/types": "workspace:*",
+    "@gtinx-plane/constants": "workspace:*",
+    "@gtinx-plane/types": "workspace:*",
     "axios": "catalog:",
     "file-type": "catalog:"
   },
   "devDependencies": {
-    "@plane/typescript-config": "workspace:*",
+    "@gtinx-plane/typescript-config": "workspace:*",
     "tsdown": "catalog:",
     "typescript": "catalog:",
     "vitest": "catalog:"

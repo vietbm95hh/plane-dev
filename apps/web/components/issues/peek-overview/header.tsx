@@ -17,13 +17,13 @@ import {
   SidePeekOutline,
 } from "@makeplane/propel/icons";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { TNameDescriptionLoader } from "@plane/types";
-import { EIssuesStoreType } from "@plane/types";
-import { Select } from "@plane/blocks/select";
-import { copyUrlToClipboard, generateWorkItemLink } from "@plane/utils";
+import type { TNameDescriptionLoader } from "@gtinx-plane/types";
+import { EIssuesStoreType } from "@gtinx-plane/types";
+import { Select } from "@gtinx-plane/blocks/select";
+import { copyUrlToClipboard, generateWorkItemLink } from "@gtinx-plane/utils";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import { useIssues } from "@/hooks/store/use-issues";

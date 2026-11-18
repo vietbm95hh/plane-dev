@@ -5,7 +5,7 @@
  */
 
 // plane imports
-import type { TCrumbLabelProps } from "@plane/blocks/breadcrumb";
+import type { TCrumbLabelProps } from "@gtinx-plane/blocks/breadcrumb";
 // local components
 import { useProjectNavigationPreferences } from "@/hooks/use-navigation-preferences";
 import { ProjectBreadcrumb } from "./project";

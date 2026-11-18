@@ -11,9 +11,9 @@ import useSWR from "swr";
 import { Banner } from "@makeplane/propel/components/banner";
 import { Icon } from "@makeplane/propel/components/icon";
 import { ArchiveOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
-import { Loader } from "@plane/blocks/skeleton";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
 // components
 import { PageHead } from "@/components/core/page-title";
 import { IssueDetailRoot } from "@/components/issues/issue-detail";

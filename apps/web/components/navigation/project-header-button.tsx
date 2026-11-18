@@ -4,9 +4,9 @@
  * See the LICENSE file for details.
  */
 
-import type { TPartialProject } from "@plane/types";
+import type { TPartialProject } from "@gtinx-plane/types";
 // plane propel imports
-import { Logo } from "@plane/blocks/emoji-icon-picker";
+import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 
 type TProjectHeaderButtonProps = {

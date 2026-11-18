@@ -8,8 +8,8 @@ import type * as React from "react";
 // plane imports
 import { Field } from "@makeplane/propel/components/field";
 import { Input, InputGroup } from "@makeplane/propel/components/input";
-import { ColorPicker, parseHexColor } from "@plane/blocks/common";
-import { cn } from "@plane/utils";
+import { ColorPicker, parseHexColor } from "@gtinx-plane/blocks/common";
+import { cn } from "@gtinx-plane/utils";
 
 export interface InputColorPickerProps {
   hasError: boolean;

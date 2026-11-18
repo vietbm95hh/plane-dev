@@ -7,8 +7,8 @@
 import { useEffect, useState } from "react";
 import { observer } from "mobx-react";
 // plane package imports
-import type { ICycle, IModule, IProject } from "@plane/types";
-import { Spinner } from "@plane/blocks/spinner";
+import type { ICycle, IModule, IProject } from "@gtinx-plane/types";
+import { Spinner } from "@gtinx-plane/blocks/spinner";
 // hooks
 import { useAnalytics } from "@/hooks/store/use-analytics";
 // plane web components

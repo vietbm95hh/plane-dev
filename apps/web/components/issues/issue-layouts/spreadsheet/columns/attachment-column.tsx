@@ -7,8 +7,8 @@
 import React from "react";
 import { observer } from "mobx-react";
 // types
-import type { TIssue } from "@plane/types";
-import { Row } from "@plane/blocks/layout";
+import type { TIssue } from "@gtinx-plane/types";
+import { Row } from "@gtinx-plane/blocks/layout";
 
 type Props = {
   issue: TIssue;

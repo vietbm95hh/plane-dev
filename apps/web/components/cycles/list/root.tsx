@@ -8,8 +8,8 @@ import React, { useState } from "react";
 import { Collapsible } from "@base-ui/react/collapsible";
 import { observer } from "mobx-react";
 // components
-import { useTranslation } from "@plane/i18n";
-import { ContentWrapper, ERowVariant } from "@plane/blocks/layout";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { ContentWrapper, ERowVariant } from "@gtinx-plane/blocks/layout";
 import { ListLayout } from "@/components/core/list";
 // local imports
 import { CyclePeekOverview } from "../cycle-peek-overview";

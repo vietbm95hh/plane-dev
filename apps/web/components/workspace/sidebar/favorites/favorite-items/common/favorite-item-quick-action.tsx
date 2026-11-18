@@ -11,10 +11,10 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
 import { MoreHorizontalOutline, StarFilled } from "@makeplane/propel/icons";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import type { IFavorite } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IFavorite } from "@gtinx-plane/types";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type Props = {
   ref: React.MutableRefObject<HTMLDivElement | null>;

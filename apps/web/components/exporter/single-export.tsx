@@ -7,9 +7,9 @@
 import { useState } from "react";
 // ui
 import { Button } from "@makeplane/propel/components/button";
-import type { IExportData } from "@plane/types";
+import type { IExportData } from "@gtinx-plane/types";
 // helpers
-import { getDate, renderFormattedDate } from "@plane/utils";
+import { getDate, renderFormattedDate } from "@gtinx-plane/utils";
 // types
 
 type Props = {

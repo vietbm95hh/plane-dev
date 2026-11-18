@@ -12,7 +12,7 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { ScrollArea } from "@makeplane/propel/components/scroll-area";
 import { AddOutline, CloseOutline, MultipleStickyOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // hooks
 import { useSticky } from "@/hooks/use-stickies";
 // components

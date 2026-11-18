@@ -9,8 +9,8 @@ import { useState } from "react";
 import { useParams } from "next/navigation";
 import { CloseOutline, EditOutline } from "@makeplane/propel/icons";
 // types
-import type { IIssueLabel } from "@plane/types";
-import { cn } from "@plane/utils";
+import type { IIssueLabel } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useLabel } from "@/hooks/store/use-label";
 // components

@@ -9,7 +9,7 @@ import { FieldDescription } from "@makeplane/propel/components/field";
 import { FieldLabel } from "@makeplane/propel/elements/field";
 
 // plane imports
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // local imports
 import { SettingsDocsLink } from "./docs-link";
 

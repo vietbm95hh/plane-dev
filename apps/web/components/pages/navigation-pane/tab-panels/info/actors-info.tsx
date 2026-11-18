@@ -9,8 +9,8 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 // plane imports
 import { Avatar } from "@makeplane/propel/components/avatar";
-import { useTranslation } from "@plane/i18n";
-import { calculateTimeAgoShort, getFileURL, renderFormattedDate } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { calculateTimeAgoShort, getFileURL, renderFormattedDate } from "@gtinx-plane/utils";
 // hooks
 import { useMember } from "@/hooks/store/use-member";
 // store

@@ -1,17 +1,17 @@
-# @plane/editor
+# @gtinx-plane/editor
 
 ## Description
 
-The `@plane/editor` package is Plane's rich text editor, built on [Tiptap](https://tiptap.dev/). It ships ready-to-use React editors that the apps import directly (for example `apps/web` and `apps/space`), plus helpers, constants and types for building on top of them.
+The `@gtinx-plane/editor` package is Plane's rich text editor, built on [Tiptap](https://tiptap.dev/). It ships ready-to-use React editors that the apps import directly (for example `apps/web` and `apps/space`), plus helpers, constants and types for building on top of them.
 
 ## Entry points
 
 | Import                 | What it contains                                                                                     |
 | ---------------------- | ---------------------------------------------------------------------------------------------------- |
-| `@plane/editor`        | React editors, helpers, constants, extension lists and types                                         |
-| `@plane/editor/lib`    | Framework-free pieces: core extensions without props, document collaboration events, Yjs utilities   |
-| `@plane/editor/server` | Node entry (used by `apps/live`): everything in `lib` plus HTML/JSON/Yjs document conversion helpers |
-| `@plane/editor/styles` | Editor CSS (also available as `@plane/editor/styles.css`)                                            |
+| `@gtinx-plane/editor`        | React editors, helpers, constants, extension lists and types                                         |
+| `@gtinx-plane/editor/lib`    | Framework-free pieces: core extensions without props, document collaboration events, Yjs utilities   |
+| `@gtinx-plane/editor/server` | Node entry (used by `apps/live`): everything in `lib` plus HTML/JSON/Yjs document conversion helpers |
+| `@gtinx-plane/editor/styles` | Editor CSS (also available as `@gtinx-plane/editor/styles.css`)                                            |
 
 ### Here's a detailed overview of what's exported
 

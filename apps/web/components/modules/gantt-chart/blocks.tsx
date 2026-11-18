@@ -8,8 +8,8 @@ import { observer } from "mobx-react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 // ui
-import { MODULE_STATUS } from "@plane/constants";
-import { ModuleStatusIcon } from "@plane/blocks/icons";
+import { MODULE_STATUS } from "@gtinx-plane/constants";
+import { ModuleStatusIcon } from "@gtinx-plane/blocks/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 // components
 import { SIDEBAR_WIDTH } from "@/components/gantt-chart/constants";

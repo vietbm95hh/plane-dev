@@ -9,9 +9,9 @@ import { observer } from "mobx-react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import type { ICycle, TCycleEstimateType } from "@plane/types";
-import { Loader } from "@plane/blocks/skeleton";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { ICycle, TCycleEstimateType } from "@gtinx-plane/types";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
 // assets
 import darkChartAsset from "@/app/assets/empty-state/active-cycle/chart-dark.webp?url";
 import lightChartAsset from "@/app/assets/empty-state/active-cycle/chart-light.webp?url";

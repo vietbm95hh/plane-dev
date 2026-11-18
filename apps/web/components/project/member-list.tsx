@@ -7,9 +7,9 @@
 import { useState } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateCompact } from "@plane/blocks/empty-state";
+import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
 import { Button } from "@makeplane/propel/components/button";
 import { ExpandableSearch } from "@makeplane/propel/components/expandable-search";
 // components

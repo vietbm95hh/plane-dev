@@ -9,12 +9,12 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import { InfoOutline } from "@makeplane/propel/icons";
 import { Button } from "@makeplane/propel/components/button";
-import { EEstimateSystem, MAX_ESTIMATE_POINT_INPUT_LENGTH } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
+import { EEstimateSystem, MAX_ESTIMATE_POINT_INPUT_LENGTH } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { TEstimatePointsObject, TEstimateSystemKeys, TEstimateTypeErrorObject } from "@plane/types";
-import { cn, isEstimatePointValuesRepeated } from "@plane/utils";
+import type { TEstimatePointsObject, TEstimateSystemKeys, TEstimateTypeErrorObject } from "@gtinx-plane/types";
+import { cn, isEstimatePointValuesRepeated } from "@gtinx-plane/utils";
 import { EstimateInputRoot } from "@/components/estimates/inputs/root";
 // helpers
 // hooks

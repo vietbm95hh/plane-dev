@@ -8,7 +8,7 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import { useDropzone } from "react-dropzone";
 // plane imports
-import { ACCEPTED_AVATAR_IMAGE_MIME_TYPES_FOR_REACT_DROPZONE, MAX_FILE_SIZE } from "@plane/constants";
+import { ACCEPTED_AVATAR_IMAGE_MIME_TYPES_FOR_REACT_DROPZONE, MAX_FILE_SIZE } from "@gtinx-plane/constants";
 import { Button } from "@makeplane/propel/components/button";
 import {
   Dialog,
@@ -22,9 +22,9 @@ import {
   DialogTitle,
 } from "@makeplane/propel/components/dialog";
 import { UserOutline } from "@makeplane/propel/icons";
-import { setToast } from "@plane/blocks/toast";
-import { EFileAssetType } from "@plane/types";
-import { getAssetIdFromUrl, getFileURL, checkURLValidity } from "@plane/utils";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { EFileAssetType } from "@gtinx-plane/types";
+import { getAssetIdFromUrl, getFileURL, checkURLValidity } from "@gtinx-plane/utils";
 // services
 import { FileService } from "@/services/file.service";
 const fileService = new FileService();

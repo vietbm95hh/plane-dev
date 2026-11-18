@@ -8,20 +8,20 @@ import { useMemo, useState } from "react";
 import { observer } from "mobx-react";
 import useSWR from "swr";
 // plane imports
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { InputField } from "@makeplane/propel/components/input-field";
 import { SearchOutline } from "@makeplane/propel/icons";
-import { EmptyStateCompact } from "@plane/blocks/empty-state";
-import { APITokenService } from "@plane/services";
+import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
+import { APITokenService } from "@gtinx-plane/services";
 // components
 import { CreateApiTokenModal } from "@/components/api-token/modal/create-token-modal";
 import { ApiTokensTable } from "@/components/api-token/tokens-table";
 import { ProfileSettingsHeading } from "@/components/settings/profile/heading";
 import { APITokenSettingsLoader } from "@/components/ui/loader/settings/api-token";
 // constants
-import { API_TOKENS_LIST } from "@plane/constants";
+import { API_TOKENS_LIST } from "@gtinx-plane/constants";
 
 const apiTokenService = new APITokenService();
 

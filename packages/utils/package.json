@@ -1,5 +1,5 @@
 {
-  "name": "@plane/utils",
+  "name": "@gtinx-plane/utils",
   "version": "1.5.0",
   "private": true,
   "description": "Helper functions shared across multiple apps internally",
@@ -24,8 +24,8 @@
   },
   "dependencies": {
     "@makeplane/propel": "catalog:",
-    "@plane/constants": "workspace:*",
-    "@plane/types": "workspace:*",
+    "@gtinx-plane/constants": "workspace:*",
+    "@gtinx-plane/types": "workspace:*",
     "chroma-js": "catalog:",
     "clsx": "catalog:",
     "date-fns": "catalog:",
@@ -44,7 +44,7 @@
     "uuid": "catalog:"
   },
   "devDependencies": {
-    "@plane/typescript-config": "workspace:*",
+    "@gtinx-plane/typescript-config": "workspace:*",
     "@types/chroma-js": "catalog:",
     "@types/hast": "catalog:",
     "@types/lodash-es": "catalog:",

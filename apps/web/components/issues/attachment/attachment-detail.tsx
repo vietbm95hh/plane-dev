@@ -7,13 +7,13 @@
 import { useState } from "react";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { observer } from "mobx-react";
 import Link from "next/link";
 import { CloseOutline, WarningCircleOutline } from "@makeplane/propel/icons";
 // ui
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { convertBytesToSize, getFileExtension, getFileName, getFileURL, renderFormattedDate } from "@plane/utils";
+import { convertBytesToSize, getFileExtension, getFileName, getFileURL, renderFormattedDate } from "@gtinx-plane/utils";
 // icons
 //
 import { getFileIcon } from "@/components/icons";

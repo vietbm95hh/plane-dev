@@ -9,15 +9,15 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // icons
 import { CopyOutline, HideOutline, RefreshOutline, ShowOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
-import { setToast } from "@plane/blocks/toast";
+import { setToast } from "@gtinx-plane/blocks/toast";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Input, InputGroup } from "@makeplane/propel/components/input";
-import type { IWebhook } from "@plane/types";
+import type { IWebhook } from "@gtinx-plane/types";
 // ui
-import { csvDownload, copyTextToClipboard } from "@plane/utils";
+import { csvDownload, copyTextToClipboard } from "@gtinx-plane/utils";
 // hooks
 import { useWebhook } from "@/hooks/store/use-webhook";
 import { useWorkspace } from "@/hooks/store/use-workspace";

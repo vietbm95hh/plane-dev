@@ -7,10 +7,10 @@
 import type { Request, Response } from "express";
 import { z } from "zod";
 // helpers
-import { Controller, Post } from "@plane/decorators";
-import { convertHTMLDocumentToAllFormats } from "@plane/editor/server";
+import { Controller, Post } from "@gtinx-plane/decorators";
+import { convertHTMLDocumentToAllFormats } from "@gtinx-plane/editor/server";
 // logger
-import { logger } from "@plane/logger";
+import { logger } from "@gtinx-plane/logger";
 import type { TConvertDocumentRequestBody } from "@/types";
 
 // Define the schema with more robust validation

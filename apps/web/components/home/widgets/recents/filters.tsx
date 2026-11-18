@@ -8,9 +8,9 @@ import { observer } from "mobx-react";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
 import { Pill } from "@makeplane/propel/components/pill";
 import { ChevronDownOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
-import type { TRecentActivityFilterKeys } from "@plane/types";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TRecentActivityFilterKeys } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
 
 export type TFiltersDropdown = {
   className?: string;

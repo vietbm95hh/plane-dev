@@ -10,7 +10,7 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { InputGroup } from "@makeplane/propel/components/input";
 import { Input } from "@makeplane/propel/elements/input";
 import { SearchOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 
 /** Emoji cells per row; rows are a fixed grid of 32px cells so every column fits the picker. */
 const EMOJI_COLUMNS = 9;

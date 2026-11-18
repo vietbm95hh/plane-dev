@@ -6,10 +6,10 @@
 
 import { useMemo } from "react";
 // plane imports
-import { PrioritySelect as PrioritySelectBlock } from "@plane/blocks/property-select";
-import type { SelectTooltip, SelectTooltipOverride, SelectVariant } from "@plane/blocks/select";
-import { useTranslation } from "@plane/i18n";
-import type { TIssuePriorities } from "@plane/types";
+import { PrioritySelect as PrioritySelectBlock } from "@gtinx-plane/blocks/property-select";
+import type { SelectTooltip, SelectTooltipOverride, SelectVariant } from "@gtinx-plane/blocks/select";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TIssuePriorities } from "@gtinx-plane/types";
 
 type PrioritySelectWebProps = {
   /** value-agnostic e2e selector — forwarded to the block's trigger as data-testid */

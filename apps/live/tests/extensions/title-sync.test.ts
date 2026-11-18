@@ -14,7 +14,7 @@ const updatePageProperties = vi.fn().mockResolvedValue({});
 const getPageService = vi.hoisted(() => vi.fn());
 vi.mock("@/services/page/handler", () => ({ getPageService }));
 // the built editor package is not needed to exercise title routing
-vi.mock("@plane/editor/server", () => ({
+vi.mock("@gtinx-plane/editor/server", () => ({
   TITLE_EDITOR_EXTENSIONS: [],
   createRealtimeEvent: vi.fn(),
   extractTextFromHTML: (html: string) => html,

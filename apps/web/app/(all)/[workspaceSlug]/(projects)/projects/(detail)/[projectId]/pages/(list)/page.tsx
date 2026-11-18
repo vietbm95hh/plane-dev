@@ -8,10 +8,10 @@ import { observer } from "mobx-react";
 import { useSearchParams } from "next/navigation";
 import { useTheme } from "next-themes";
 // plane imports
-import { EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { TPageNavigationTabs } from "@plane/types";
-import { EUserProjectRoles } from "@plane/types";
+import { EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TPageNavigationTabs } from "@gtinx-plane/types";
+import { EUserProjectRoles } from "@gtinx-plane/types";
 // assets
 import darkPagesAsset from "@/app/assets/empty-state/disabled-feature/pages-dark.webp?url";
 import lightPagesAsset from "@/app/assets/empty-state/disabled-feature/pages-light.webp?url";

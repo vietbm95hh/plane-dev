@@ -5,13 +5,13 @@
  */
 
 // plane imports
-import { STATE_GROUPS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { PieChart } from "@plane/blocks/charts/pie-chart";
-import { EmptyStateCompact } from "@plane/blocks/empty-state";
-import type { IUserProfileData, IUserStateDistribution } from "@plane/types";
-import { Card } from "@plane/blocks/card";
-import { capitalizeFirstLetter } from "@plane/utils";
+import { STATE_GROUPS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { PieChart } from "@gtinx-plane/blocks/charts/pie-chart";
+import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
+import type { IUserProfileData, IUserStateDistribution } from "@gtinx-plane/types";
+import { Card } from "@gtinx-plane/blocks/card";
+import { capitalizeFirstLetter } from "@gtinx-plane/utils";
 
 type Props = {
   stateDistribution: IUserStateDistribution[];

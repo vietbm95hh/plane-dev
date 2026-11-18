@@ -6,14 +6,14 @@
 
 import type { ReactNode } from "react";
 // plane imports
-import type { TNotification } from "@plane/types";
+import type { TNotification } from "@gtinx-plane/types";
 import {
   cn,
   convertMinutesToHoursMinutesString,
   renderFormattedDate,
   sanitizeCommentForNotification,
   stripAndTruncateHTML,
-} from "@plane/utils";
+} from "@gtinx-plane/utils";
 // components
 import { LiteTextEditor } from "@/components/editor/lite-text";
 import {

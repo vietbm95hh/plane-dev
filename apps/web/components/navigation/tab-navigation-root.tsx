@@ -7,10 +7,10 @@
 import React, { useEffect } from "react";
 import { observer } from "mobx-react";
 import { useParams, useLocation, useNavigate } from "react-router";
-import { EUserPermissionsLevel, EUserPermissions } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { EUserPermissionsLevel, EUserPermissions } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Tabs, TabsList } from "@makeplane/propel/components/tabs";
-import type { EUserProjectRoles } from "@plane/types";
+import type { EUserProjectRoles } from "@gtinx-plane/types";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import { useProject } from "@/hooks/store/use-project";

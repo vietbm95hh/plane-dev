@@ -9,8 +9,8 @@ import { observer } from "mobx-react";
 import { useSearchParams } from "next/navigation";
 // plane imports
 import { Banner } from "@makeplane/propel/components/banner";
-import { OAuthOptions } from "@plane/blocks/auth";
-import { useTranslation } from "@plane/i18n";
+import { OAuthOptions } from "@gtinx-plane/blocks/auth";
+import { useTranslation } from "@gtinx-plane/i18n";
 // helpers
 import type { TAuthErrorInfo } from "@/helpers/authentication.helper";
 import {

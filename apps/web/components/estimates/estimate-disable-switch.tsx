@@ -5,8 +5,8 @@
  */
 
 import { observer } from "mobx-react";
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
 import { Switch } from "@makeplane/propel/components/switch";
 // hooks
 import { useProjectEstimates } from "@/hooks/store/estimates";

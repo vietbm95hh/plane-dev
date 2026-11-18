@@ -6,13 +6,13 @@
 
 import { InfoOutline } from "@makeplane/propel/icons";
 // plane imports
-import { EEstimateSystem, ESTIMATE_SYSTEMS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { EEstimateSystem, ESTIMATE_SYSTEMS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { TEstimateSystemKeys } from "@plane/types";
+import type { TEstimateSystemKeys } from "@gtinx-plane/types";
 // helpers
 import { isEstimateSystemEnabled } from "./helper";
-import { convertMinutesToHoursMinutesString } from "@plane/utils";
+import { convertMinutesToHoursMinutesString } from "@gtinx-plane/utils";
 // components
 import { UpgradeBadge } from "@/components/workspace/upgrade-badge";
 import { RadioInput } from "../radio-select";

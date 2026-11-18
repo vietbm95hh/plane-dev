@@ -13,8 +13,8 @@ import { Dialog, DialogClose, DialogCloseGroup, DialogContent, DialogTitle } fro
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { SelectField } from "@makeplane/propel/components/select-field";
-import { GROUPED_PROFILE_SETTINGS, PROFILE_SETTINGS_CATEGORIES } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { GROUPED_PROFILE_SETTINGS, PROFILE_SETTINGS_CATEGORIES } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 // hooks
 import { useCommandPalette } from "@/hooks/store/use-command-palette";
 // local imports

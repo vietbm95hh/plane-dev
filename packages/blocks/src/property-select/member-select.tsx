@@ -10,11 +10,11 @@ import { AvatarGroup } from "@makeplane/propel/components/avatar-group";
 import type { AvatarGroupSize } from "@makeplane/propel/components/avatar-group";
 import { Badge } from "@makeplane/propel/components/badge";
 import { AssigneeOutline, DeactivatedUserOutline, UserAltOutline } from "@makeplane/propel/icons";
-import type { TPaginatedResponse } from "@plane/types";
+import type { TPaginatedResponse } from "@gtinx-plane/types";
 import { Select } from "../select/select";
 import type { SelectPaginationParams, SelectTooltip, SelectTriggerSize, SelectVariant } from "../select/types";
 import { splitSelectVariant } from "../select/utils";
-import { cn, getAvatarName } from "@plane/utils";
+import { cn, getAvatarName } from "@gtinx-plane/utils";
 
 /** Minimal member shape the dropdown needs — the client maps its richer record down to this. */
 export type MemberOption = {

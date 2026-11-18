@@ -8,10 +8,10 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane imports
 import { Dialog, DialogContent } from "@makeplane/propel/components/dialog";
-import { setToast } from "@plane/blocks/toast";
-import { useTranslation } from "@plane/i18n";
-import type { IWorkspaceView } from "@plane/types";
-import { EIssuesStoreType } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IWorkspaceView } from "@gtinx-plane/types";
+import { EIssuesStoreType } from "@gtinx-plane/types";
 // hooks
 import { useGlobalView } from "@/hooks/store/use-global-view";
 import { useWorkItemFilters } from "@/hooks/store/work-item-filters/use-work-item-filters";

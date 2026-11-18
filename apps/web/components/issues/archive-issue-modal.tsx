@@ -6,11 +6,11 @@
 
 import { useState } from "react";
 // i18n
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // types
-import { ConfirmDialog } from "@plane/blocks/dialog";
-import { setToast } from "@plane/blocks/toast";
-import type { TDeDupeIssue, TIssue } from "@plane/types";
+import { ConfirmDialog } from "@gtinx-plane/blocks/dialog";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { TDeDupeIssue, TIssue } from "@gtinx-plane/types";
 // hooks
 import { useIssues } from "@/hooks/store/use-issues";
 import { useProject } from "@/hooks/store/use-project";

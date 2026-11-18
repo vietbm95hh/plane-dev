@@ -5,7 +5,7 @@
  */
 
 // plane package imports
-import { Logo } from "@plane/blocks/emoji-icon-picker";
+import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 import { ProjectsOutline } from "@makeplane/propel/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { Badge } from "@makeplane/propel/components/badge";

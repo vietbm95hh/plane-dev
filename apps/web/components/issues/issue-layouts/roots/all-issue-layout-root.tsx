@@ -9,10 +9,10 @@ import { observer } from "mobx-react";
 import { useParams, useSearchParams } from "next/navigation";
 import useSWR from "swr";
 // plane imports
-import { ISSUE_DISPLAY_FILTERS_BY_PAGE } from "@plane/constants";
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
-import type { EIssueLayoutTypes } from "@plane/types";
-import { EIssuesStoreType, STATIC_VIEW_TYPES } from "@plane/types";
+import { ISSUE_DISPLAY_FILTERS_BY_PAGE } from "@gtinx-plane/constants";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
+import type { EIssueLayoutTypes } from "@gtinx-plane/types";
+import { EIssuesStoreType, STATIC_VIEW_TYPES } from "@gtinx-plane/types";
 // assets
 // components
 import { IssuePeekOverview } from "@/components/issues/peek-overview";

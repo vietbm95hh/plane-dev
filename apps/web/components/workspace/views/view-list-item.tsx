@@ -13,8 +13,8 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
 import { DeleteOutline, EditOutline, MoreHorizontalOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
-import { truncateText } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { truncateText } from "@gtinx-plane/utils";
 // hooks
 import { useGlobalView } from "@/hooks/store/use-global-view";
 // local imports

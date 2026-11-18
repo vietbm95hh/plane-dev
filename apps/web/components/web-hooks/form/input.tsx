@@ -5,7 +5,7 @@
  */
 
 import { InputField } from "@makeplane/propel/components/input-field";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 
 type Props = {
   value: string;

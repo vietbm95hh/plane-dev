@@ -5,13 +5,13 @@
  */
 
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { BarChart } from "@plane/blocks/charts/bar-chart";
-import { EmptyStateCompact } from "@plane/blocks/empty-state";
-import type { IUserProfileData } from "@plane/types";
-import { Card } from "@plane/blocks/card";
-import { Loader } from "@plane/blocks/skeleton";
-import { capitalizeFirstLetter } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { BarChart } from "@gtinx-plane/blocks/charts/bar-chart";
+import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
+import type { IUserProfileData } from "@gtinx-plane/types";
+import { Card } from "@gtinx-plane/blocks/card";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
+import { capitalizeFirstLetter } from "@gtinx-plane/utils";
 
 type Props = {
   userProfile: IUserProfileData | undefined;

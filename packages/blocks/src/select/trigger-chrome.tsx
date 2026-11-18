@@ -15,7 +15,7 @@ import { BreadcrumbIcon, BreadcrumbLabel } from "../breadcrumb/breadcrumbs";
 import { ChevronDownOutline } from "@makeplane/propel/icons";
 import { PROPEL_PILL_SIZE } from "../pill-button/helper";
 import type { IconElement } from "../types/icon";
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { SelectContent } from "./select-content";
 import type { SelectTriggerSize, SelectVariant } from "./types";
 import { getTriggerChromeClassName, splitSelectVariant } from "./utils";

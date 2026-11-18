@@ -5,7 +5,7 @@
  */
 
 // plane imports
-import type { TSupportedFilterFieldConfigs, IFilterOption, TFilterValue } from "@plane/types";
+import type { TSupportedFilterFieldConfigs, IFilterOption, TFilterValue } from "@gtinx-plane/types";
 
 type TLoadOptionsProps<V extends TFilterValue> = {
   config: TSupportedFilterFieldConfigs<V>;

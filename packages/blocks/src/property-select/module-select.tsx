@@ -6,7 +6,7 @@
 
 import { Badge, BadgeLabel } from "@makeplane/propel/elements/badge";
 import { ModuleOutline } from "@makeplane/propel/icons";
-import type { TPaginatedResponse } from "@plane/types";
+import type { TPaginatedResponse } from "@gtinx-plane/types";
 import { Select } from "../select/select";
 import type { SelectPaginationParams, SelectTooltip, SelectVariant } from "../select/types";
 import { ProjectIdentifierElement } from "./shared/project-identifier-element";

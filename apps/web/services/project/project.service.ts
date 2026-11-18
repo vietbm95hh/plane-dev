@@ -4,7 +4,7 @@
  * See the LICENSE file for details.
  */
 
-import { API_BASE_URL } from "@plane/constants";
+import { API_BASE_URL } from "@gtinx-plane/constants";
 import type {
   GithubRepositoriesResponse,
   IProjectUserPropertiesResponse,
@@ -12,10 +12,10 @@ import type {
   TProjectAnalyticsCount,
   TProjectAnalyticsCountParams,
   TProjectIssuesSearchParams,
-} from "@plane/types";
+} from "@gtinx-plane/types";
 // helpers
 // plane web types
-import type { TProject, TPartialProject } from "@plane/types";
+import type { TProject, TPartialProject } from "@gtinx-plane/types";
 // services
 import { APIService } from "@/services/api.service";
 

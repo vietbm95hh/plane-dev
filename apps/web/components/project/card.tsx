@@ -20,9 +20,9 @@ import {
   UserPlusOutline,
 } from "@makeplane/propel/icons";
 // plane imports
-import { EUserPermissions, EUserPermissionsLevel, IS_FAVORITE_MENU_OPEN } from "@plane/constants";
-import { useLocalStorage } from "@plane/hooks";
-import { useTranslation } from "@plane/i18n";
+import { EUserPermissions, EUserPermissionsLevel, IS_FAVORITE_MENU_OPEN } from "@gtinx-plane/constants";
+import { useLocalStorage } from "@gtinx-plane/hooks";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Avatar } from "@makeplane/propel/components/avatar";
 import { AvatarGroup } from "@makeplane/propel/components/avatar-group";
 import { Badge } from "@makeplane/propel/components/badge";
@@ -30,14 +30,14 @@ import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
-import { Logo } from "@plane/blocks/emoji-icon-picker";
-import { setPromiseToast, setToast } from "@plane/blocks/toast";
+import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
+import { setPromiseToast, setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { IProject, IUserLite } from "@plane/types";
-import type { TContextMenuItem } from "@plane/blocks/context-menu";
-import { ContextMenu, getRenderableItems, resolveItemVariant } from "@plane/blocks/context-menu";
-import { FavoriteStar } from "@plane/blocks/common";
-import { copyUrlToClipboard, cn, getFileURL } from "@plane/utils";
+import type { IProject, IUserLite } from "@gtinx-plane/types";
+import type { TContextMenuItem } from "@gtinx-plane/blocks/context-menu";
+import { ContextMenu, getRenderableItems, resolveItemVariant } from "@gtinx-plane/blocks/context-menu";
+import { FavoriteStar } from "@gtinx-plane/blocks/common";
+import { copyUrlToClipboard, cn, getFileURL } from "@gtinx-plane/utils";
 // components
 // hooks
 import { useMember } from "@/hooks/store/use-member";

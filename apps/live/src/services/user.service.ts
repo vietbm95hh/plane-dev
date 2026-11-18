@@ -5,8 +5,8 @@
  */
 
 // types
-import { logger } from "@plane/logger";
-import type { IUser } from "@plane/types";
+import { logger } from "@gtinx-plane/logger";
+import type { IUser } from "@gtinx-plane/types";
 // services
 import { AppError } from "@/lib/errors";
 import { APIService } from "@/services/api.service";

@@ -6,8 +6,8 @@
 
 import { useRef } from "react";
 import { observer } from "mobx-react";
-import { useOutsideClickDetector } from "@plane/hooks";
-import { useTranslation } from "@plane/i18n";
+import { useOutsideClickDetector } from "@gtinx-plane/hooks";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { ChevronRightOutline, MenuOutline } from "@makeplane/propel/icons";
 import { useUserSettings } from "@/hooks/store/user";
 import { IconButton } from "@makeplane/propel/components/icon-button";

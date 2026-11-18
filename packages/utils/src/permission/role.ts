@@ -5,8 +5,8 @@
  */
 
 // plane imports
-import { EUserPermissions } from "@plane/constants";
-import type { EUserProjectRoles, EUserWorkspaceRoles } from "@plane/types";
+import { EUserPermissions } from "@gtinx-plane/constants";
+import type { EUserProjectRoles, EUserWorkspaceRoles } from "@gtinx-plane/types";
 
 export const getUserRole = (role: EUserPermissions | EUserWorkspaceRoles | EUserProjectRoles) => {
   switch (role) {

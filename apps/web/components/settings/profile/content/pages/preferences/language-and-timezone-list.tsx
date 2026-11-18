@@ -7,8 +7,8 @@
 import { observer } from "mobx-react";
 // plane imports
 import { SelectField } from "@makeplane/propel/components/select-field";
-import { SUPPORTED_LANGUAGES, useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
+import { SUPPORTED_LANGUAGES, useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
 // components
 import { TimezoneSelect } from "@/components/global/timezone-select";
 import { StartOfWeekPreference } from "@/components/profile/start-of-week-preference";

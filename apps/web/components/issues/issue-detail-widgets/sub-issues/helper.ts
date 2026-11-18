@@ -6,11 +6,11 @@
 
 import { useMemo } from "react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
-import type { TIssueServiceType, TSubIssueOperations } from "@plane/types";
-import { EIssueServiceType } from "@plane/types";
-import { copyUrlToClipboard } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { TIssueServiceType, TSubIssueOperations } from "@gtinx-plane/types";
+import { EIssueServiceType } from "@gtinx-plane/types";
+import { copyUrlToClipboard } from "@gtinx-plane/utils";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 

@@ -5,7 +5,7 @@
  */
 
 // plane constants
-import type { TAdminAuthErrorInfo } from "@plane/constants";
+import type { TAdminAuthErrorInfo } from "@gtinx-plane/constants";
 import { Banner } from "@makeplane/propel/components/banner";
 
 type TAuthBanner = {

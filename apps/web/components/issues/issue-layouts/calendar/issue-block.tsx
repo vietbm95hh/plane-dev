@@ -10,12 +10,12 @@ import { useParams } from "next/navigation";
 import { MoreHorizontalOutline } from "@makeplane/propel/icons";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 // plane imports
-import { useOutsideClickDetector } from "@plane/hooks";
-import { useTranslation } from "@plane/i18n";
+import { useOutsideClickDetector } from "@gtinx-plane/hooks";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Popover, PopoverContent, PopoverTrigger } from "@makeplane/propel/components/popover";
-import type { TIssue } from "@plane/types";
-import { ControlLink } from "@plane/blocks/layout";
-import { cn, generateWorkItemLink } from "@plane/utils";
+import type { TIssue } from "@gtinx-plane/types";
+import { ControlLink } from "@gtinx-plane/blocks/layout";
+import { cn, generateWorkItemLink } from "@gtinx-plane/utils";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import { useIssues } from "@/hooks/store/use-issues";

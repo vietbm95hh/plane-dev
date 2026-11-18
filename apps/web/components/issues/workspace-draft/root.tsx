@@ -8,12 +8,12 @@ import { Fragment } from "react";
 import { observer } from "mobx-react";
 import useSWR from "swr";
 // plane imports
-import { EUserPermissionsLevel, EDraftIssuePaginationType } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
-import { EUserWorkspaceRoles } from "@plane/types";
+import { EUserPermissionsLevel, EDraftIssuePaginationType } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
+import { EUserWorkspaceRoles } from "@gtinx-plane/types";
 // components
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useCommandPalette } from "@/hooks/store/use-command-palette";
 import { useProject } from "@/hooks/store/use-project";

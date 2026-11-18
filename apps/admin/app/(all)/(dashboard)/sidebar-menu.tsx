@@ -13,7 +13,7 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { List, ListItem, ListItemLink } from "@makeplane/propel/components/list";
 import { ScrollArea } from "@makeplane/propel/components/scroll-area";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useTheme } from "@/hooks/store";
 import { useSidebarMenu } from "@/hooks/use-sidebar-menu";

@@ -6,8 +6,8 @@
 
 // plane imports
 import { observer } from "mobx-react";
-import type { EProductSubscriptionEnum, TBillingFrequency } from "@plane/types";
-import { calculateYearlyDiscount, cn } from "@plane/utils";
+import type { EProductSubscriptionEnum, TBillingFrequency } from "@gtinx-plane/types";
+import { calculateYearlyDiscount, cn } from "@gtinx-plane/utils";
 
 type TPlanFrequencyToggleProps = {
   subscriptionType: EProductSubscriptionEnum;

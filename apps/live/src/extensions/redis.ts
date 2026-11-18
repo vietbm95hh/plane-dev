@@ -8,7 +8,7 @@ import { Redis as HocuspocusRedis } from "@hocuspocus/extension-redis";
 import { Redlock } from "@sesamecare-oss/redlock";
 import { OutgoingMessage } from "@hocuspocus/server";
 import type { onConfigurePayload } from "@hocuspocus/server";
-import { logger } from "@plane/logger";
+import { logger } from "@gtinx-plane/logger";
 import { AppError } from "@/lib/errors";
 import { waitForRedisReady } from "@/lib/wait-for-redis";
 import { redisManager } from "@/redis";

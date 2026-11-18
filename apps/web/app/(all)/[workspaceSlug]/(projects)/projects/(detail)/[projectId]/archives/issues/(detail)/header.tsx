@@ -9,13 +9,13 @@ import { useParams } from "next/navigation";
 import useSWR from "swr";
 // ui
 import { ArchiveOutline, WorkItemsOutline } from "@makeplane/propel/icons";
-import { Breadcrumbs } from "@plane/blocks/breadcrumb";
-import { Header } from "@plane/blocks/layout";
+import { Breadcrumbs } from "@gtinx-plane/blocks/breadcrumb";
+import { Header } from "@gtinx-plane/blocks/layout";
 // components
 import { BreadcrumbLink } from "@/components/common/breadcrumb-link";
 import { IssueDetailQuickActions } from "@/components/issues/issue-detail/issue-detail-quick-actions";
 // constants
-import { ISSUE_DETAILS } from "@plane/constants";
+import { ISSUE_DETAILS } from "@gtinx-plane/constants";
 // hooks
 import { useProject } from "@/hooks/store/use-project";
 // plane web

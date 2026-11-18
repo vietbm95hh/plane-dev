@@ -10,7 +10,7 @@ import { usePathname } from "next/navigation";
 import { LockOutline } from "@makeplane/propel/icons";
 // plane imports
 import { Button } from "@makeplane/propel/components/button";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // components
 import { AddComment } from "@/components/issues/peek-overview/comment/add-comment";
 import { CommentCard } from "@/components/issues/peek-overview/comment/comment-detail-card";

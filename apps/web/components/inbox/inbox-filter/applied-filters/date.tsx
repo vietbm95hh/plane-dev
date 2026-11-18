@@ -5,13 +5,13 @@
  */
 
 import { observer } from "mobx-react";
-import { PAST_DURATION_FILTER_OPTIONS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { PAST_DURATION_FILTER_OPTIONS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { CloseOutline } from "@makeplane/propel/icons";
-import type { TInboxIssueFilterDateKeys } from "@plane/types";
-import { renderFormattedDate } from "@plane/utils";
+import type { TInboxIssueFilterDateKeys } from "@gtinx-plane/types";
+import { renderFormattedDate } from "@gtinx-plane/utils";
 import { useProjectInbox } from "@/hooks/store/use-project-inbox";
 import { APPLIED_FILTER_GROUP_CLASSNAME, RemovableChip } from "@/components/common/removable-chip";
 

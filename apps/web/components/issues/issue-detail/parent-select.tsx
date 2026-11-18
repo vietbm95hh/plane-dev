@@ -8,14 +8,14 @@ import React from "react";
 import { observer } from "mobx-react";
 import Link from "next/link";
 
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { CloseOutline, EditOutline } from "@makeplane/propel/icons";
 // plane imports
 import { Button } from "@makeplane/propel/elements/button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import { useProject } from "@/hooks/store/use-project";

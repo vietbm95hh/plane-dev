@@ -5,7 +5,7 @@
  */
 
 // plane web constants
-import { EEstimateSystem } from "@plane/constants";
+import { EEstimateSystem } from "@gtinx-plane/constants";
 
 export const isEstimatePointValuesRepeated = (
   estimatePoints: string[],

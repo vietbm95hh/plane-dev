@@ -6,7 +6,7 @@
 
 import type { ComponentProps } from "react";
 import { FilterOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // components
 import { FiltersDropdown } from "@/components/issues/issue-layouts/filters";
 // local imports

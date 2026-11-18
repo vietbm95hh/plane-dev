@@ -5,13 +5,13 @@
  */
 
 // plane imports
-import { API_BASE_URL } from "@plane/constants";
+import { API_BASE_URL } from "@gtinx-plane/constants";
 import type {
   IAnalyticsResponse,
   TAnalyticsTabsBase,
   TAnalyticsGraphsBase,
   TAnalyticsFilterParams,
-} from "@plane/types";
+} from "@gtinx-plane/types";
 // services
 import { APIService } from "./api.service";
 

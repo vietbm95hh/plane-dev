@@ -7,9 +7,9 @@
 import React from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import type { TIssuePriorities, TIssueServiceType } from "@plane/types";
-import { EIssueServiceType } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TIssuePriorities, TIssueServiceType } from "@gtinx-plane/types";
+import { EIssueServiceType } from "@gtinx-plane/types";
 // components
 import { MemberSelect } from "@/components/dropdowns/member/member-select";
 import { PrioritySelect } from "@/components/dropdowns/priority/priority-select";

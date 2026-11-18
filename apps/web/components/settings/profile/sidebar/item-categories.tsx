@@ -15,10 +15,10 @@ import {
   GROUPED_PROFILE_SETTINGS,
   PROFILE_SETTINGS_CATEGORIES,
   PROFILE_SETTINGS_CATEGORY_LABELS,
-} from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { ISvgIcons } from "@plane/blocks/icons";
-import type { TProfileSettingsTabs } from "@plane/types";
+} from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { ISvgIcons } from "@gtinx-plane/blocks/icons";
+import type { TProfileSettingsTabs } from "@gtinx-plane/types";
 // local imports
 import { SettingsSidebarItem } from "../../sidebar/item";
 import { SettingsSidebarSectionHeading } from "../../sidebar/section-heading";

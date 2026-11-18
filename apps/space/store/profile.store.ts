@@ -7,9 +7,9 @@
 import { set } from "lodash-es";
 import { action, makeObservable, observable, runInAction } from "mobx";
 // plane imports
-import { UserService } from "@plane/services";
-import type { TUserProfile } from "@plane/types";
-import { EStartOfTheWeek } from "@plane/types";
+import { UserService } from "@gtinx-plane/services";
+import type { TUserProfile } from "@gtinx-plane/types";
+import { EStartOfTheWeek } from "@gtinx-plane/types";
 // store
 import type { RootStore } from "@/store/root.store";
 

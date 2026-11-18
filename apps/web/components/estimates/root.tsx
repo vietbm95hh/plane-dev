@@ -9,13 +9,13 @@ import { observer } from "mobx-react";
 import useSWR from "swr";
 // plane imports
 import { AnchorButton } from "@makeplane/propel/components/anchor-button";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // components
 import { SettingsBoxedControlItem } from "@/components/settings/boxed-control-item";
-import { SETTINGS_DOCS_URLS } from "@plane/constants";
+import { SETTINGS_DOCS_URLS } from "@gtinx-plane/constants";
 import { SettingsHeading } from "@/components/settings/heading";
 // hooks
-import { EmptyStateCompact } from "@plane/blocks/empty-state";
+import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
 import { useProjectEstimates } from "@/hooks/store/estimates";
 import { useProject } from "@/hooks/store/use-project";
 // local imports

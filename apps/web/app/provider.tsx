@@ -7,9 +7,9 @@
 import { lazy, Suspense } from "react";
 import { SWRConfig } from "swr";
 // Plane Imports
-import { WEB_SWR_CONFIG } from "@plane/constants";
-import { TranslationProvider } from "@plane/i18n";
-import { PlaneToastProvider } from "@plane/blocks/toast";
+import { WEB_SWR_CONFIG } from "@gtinx-plane/constants";
+import { TranslationProvider } from "@gtinx-plane/i18n";
+import { PlaneToastProvider } from "@gtinx-plane/blocks/toast";
 // mobx store provider
 import { StoreProvider } from "@/lib/store-context";
 

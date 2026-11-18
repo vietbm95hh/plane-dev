@@ -6,9 +6,9 @@
 
 import { observer } from "mobx-react";
 
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { AddOutline } from "@makeplane/propel/icons";
-import { Row } from "@plane/blocks/layout";
+import { Row } from "@gtinx-plane/blocks/layout";
 import type { TQuickAddIssueButton } from "../root";
 
 export const ListQuickAddIssueButton = observer(function ListQuickAddIssueButton(props: TQuickAddIssueButton) {

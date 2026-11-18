@@ -22,17 +22,17 @@ import {
   TickCircleFilled,
 } from "@makeplane/propel/icons";
 // plane imports
-import { EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
-import { setToast } from "@plane/blocks/toast";
-import type { TNameDescriptionLoader } from "@plane/types";
-import { EInboxIssueStatus } from "@plane/types";
-import { Row } from "@plane/blocks/layout";
-import { copyUrlToClipboard, findHowManyDaysLeft, generateWorkItemLink } from "@plane/utils";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { TNameDescriptionLoader } from "@gtinx-plane/types";
+import { EInboxIssueStatus } from "@gtinx-plane/types";
+import { Row } from "@gtinx-plane/blocks/layout";
+import { copyUrlToClipboard, findHowManyDaysLeft, generateWorkItemLink } from "@gtinx-plane/utils";
 // components
 import { CreateUpdateIssueModal } from "@/components/issues/issue-modal/modal";
 import { NameDescriptionUpdateStatus } from "@/components/issues/issue-update-status";

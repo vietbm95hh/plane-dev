@@ -9,17 +9,17 @@ import { observer } from "mobx-react";
 import useSWR, { mutate } from "swr";
 import { RefreshOutline } from "@makeplane/propel/icons";
 // plane imports
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { Pagination } from "@makeplane/propel/components/pagination";
-import { EmptyStateCompact } from "@plane/blocks/empty-state";
-import type { IExportData } from "@plane/types";
+import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
+import type { IExportData } from "@gtinx-plane/types";
 // components
 import { DataTable } from "@/components/common/data-table";
 import { ImportExportSettingsLoader } from "@/components/ui/loader/settings/import-and-export";
 // constants
-import { EXPORT_SERVICES_LIST } from "@plane/constants";
+import { EXPORT_SERVICES_LIST } from "@gtinx-plane/constants";
 // services
 import { IntegrationService } from "@/services/integrations";
 // local imports

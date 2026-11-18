@@ -8,10 +8,10 @@ import { useState } from "react";
 import { useParams } from "next/navigation";
 // plane imports
 import { Dialog, DialogContent } from "@makeplane/propel/components/dialog";
-import { setToast } from "@plane/blocks/toast";
-import { useTranslation } from "@plane/i18n";
-import type { IWebhook, IWorkspace, TWebhookEventTypes } from "@plane/types";
-import { csvDownload } from "@plane/utils";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IWebhook, IWorkspace, TWebhookEventTypes } from "@gtinx-plane/types";
+import { csvDownload } from "@gtinx-plane/utils";
 // components
 import { WebhookForm } from "./form";
 import { GeneratedHookDetails } from "./generated-hook-details";

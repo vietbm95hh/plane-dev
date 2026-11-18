@@ -5,7 +5,7 @@
  */
 
 // plane imports
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // local imports
 import { SettingsDocsLink } from "./docs-link";
 

@@ -5,7 +5,7 @@
  */
 
 // plane imports
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
 
 function NotFound() {
   return (

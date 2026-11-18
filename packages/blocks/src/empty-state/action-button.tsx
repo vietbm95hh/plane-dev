@@ -31,7 +31,7 @@ const VARIANT_MAP: Record<ButtonVariant, PropelButtonVariant> = {
 };
 
 // Safely detects a non-production build without requiring @types/node — same idiom as
-// `combobox.tsx` and `@plane/blocks`' toast manager.
+// `combobox.tsx` and `@gtinx-plane/blocks`' toast manager.
 const __DEV__ = (() => {
   const proc = (globalThis as { process?: { env?: { NODE_ENV?: string } } }).process;
   return proc ? proc.env?.NODE_ENV !== "production" : false;

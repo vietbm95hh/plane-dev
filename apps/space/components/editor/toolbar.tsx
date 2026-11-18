@@ -16,9 +16,9 @@ import {
   ToolbarToggle,
 } from "@makeplane/propel/components/toolbar";
 import { Tooltip, TooltipProvider } from "@makeplane/propel/components/tooltip";
-import { TOOLBAR_ITEMS } from "@plane/editor";
-import type { ToolbarMenuItem, EditorRefApi } from "@plane/editor";
-import { useTranslation } from "@plane/i18n";
+import { TOOLBAR_ITEMS } from "@gtinx-plane/editor";
+import type { ToolbarMenuItem, EditorRefApi } from "@gtinx-plane/editor";
+import { useTranslation } from "@gtinx-plane/i18n";
 
 type Props = {
   executeCommand: (item: ToolbarMenuItem) => void;

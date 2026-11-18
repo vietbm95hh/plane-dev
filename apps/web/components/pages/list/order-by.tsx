@@ -5,11 +5,11 @@
  */
 
 // plane imports
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button as ButtonElement } from "@makeplane/propel/elements/button";
 import { Menu, MenuContent, MenuItem, MenuSeparator, MenuTrigger } from "@makeplane/propel/components/menu";
 // types
-import type { TPageFiltersSortBy, TPageFiltersSortKey } from "@plane/types";
+import type { TPageFiltersSortBy, TPageFiltersSortKey } from "@gtinx-plane/types";
 import { SortDescendingOutline, SortAscendingOutline } from "@makeplane/propel/icons";
 
 type Props = {

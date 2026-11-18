@@ -6,7 +6,7 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { setToast } from "@plane/blocks/toast";
+import { setToast } from "@gtinx-plane/blocks/toast";
 // components
 import { DataTable } from "@/components/common/data-table";
 // hooks

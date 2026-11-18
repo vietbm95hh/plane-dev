@@ -9,8 +9,8 @@ import { useParams } from "next/navigation";
 // plane imports
 import { Popover, PopoverContent, PopoverTrigger } from "@makeplane/propel/components/popover";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { ControlLink } from "@plane/blocks/layout";
-import { findTotalDaysInRange, generateWorkItemLink } from "@plane/utils";
+import { ControlLink } from "@gtinx-plane/blocks/layout";
+import { findTotalDaysInRange, generateWorkItemLink } from "@gtinx-plane/utils";
 // components
 import { SIDEBAR_WIDTH } from "@/components/gantt-chart/constants";
 import { IssueIdentifier } from "@/components/issues/issue-detail/issue-identifier";

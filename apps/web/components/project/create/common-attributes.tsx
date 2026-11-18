@@ -13,12 +13,12 @@ import { InputField } from "@makeplane/propel/components/input-field";
 import { TextAreaField } from "@makeplane/propel/components/text-area-field";
 import { InfoOutline } from "@makeplane/propel/icons";
 // plane imports
-import { ETabIndices } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { TProject } from "@plane/types";
+import { ETabIndices } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TProject } from "@gtinx-plane/types";
 // ui
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { projectIdentifierSanitizer, getTabIndex } from "@plane/utils";
+import { projectIdentifierSanitizer, getTabIndex } from "@gtinx-plane/utils";
 
 type Props = {
   setValue: UseFormSetValue<TProject>;

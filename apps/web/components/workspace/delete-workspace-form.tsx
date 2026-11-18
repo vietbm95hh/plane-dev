@@ -6,10 +6,10 @@
 
 import { observer } from "mobx-react";
 // Plane Imports
-import { useTranslation } from "@plane/i18n";
-import { TypeToConfirmDialog } from "@plane/blocks/dialog";
-import { setToast } from "@plane/blocks/toast";
-import type { IWorkspace } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { TypeToConfirmDialog } from "@gtinx-plane/blocks/dialog";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IWorkspace } from "@gtinx-plane/types";
 // hooks
 import { useWorkspace } from "@/hooks/store/use-workspace";
 import { useUserSettings } from "@/hooks/store/user";

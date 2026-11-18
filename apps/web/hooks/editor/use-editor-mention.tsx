@@ -7,11 +7,11 @@
 import { useCallback } from "react";
 // plane editor
 import { Avatar } from "@makeplane/propel/components/avatar";
-import type { TMentionSection, TMentionSuggestion } from "@plane/editor";
+import type { TMentionSection, TMentionSuggestion } from "@gtinx-plane/editor";
 // plane types
-import type { TSearchEntities, TSearchEntityRequestPayload, TSearchResponse, TUserSearchResponse } from "@plane/types";
+import type { TSearchEntities, TSearchEntityRequestPayload, TSearchResponse, TUserSearchResponse } from "@gtinx-plane/types";
 // helpers
-import { getFileURL } from "@plane/utils";
+import { getFileURL } from "@gtinx-plane/utils";
 // plane web hooks
 import { useAdditionalEditorMention } from "@/hooks/use-additional-editor-mention";
 

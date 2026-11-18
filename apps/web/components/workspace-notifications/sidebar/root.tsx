@@ -10,10 +10,10 @@ import { useParams } from "next/navigation";
 // plane imports
 import { ScrollArea } from "@makeplane/propel/components/scroll-area";
 import { Tab, Tabs, TabsList, TabsPanel } from "@makeplane/propel/components/tabs";
-import type { TNotificationTab } from "@plane/constants";
-import { NOTIFICATION_TABS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { cn, getNumberCount } from "@plane/utils";
+import type { TNotificationTab } from "@gtinx-plane/constants";
+import { NOTIFICATION_TABS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { cn, getNumberCount } from "@gtinx-plane/utils";
 // hooks
 import { useWorkspaceNotifications } from "@/hooks/store/notifications";
 import { useWorkspace } from "@/hooks/store/use-workspace";

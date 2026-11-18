@@ -5,9 +5,9 @@
  */
 
 import { observer } from "mobx-react";
-import { useTranslation } from "@plane/i18n";
-import type { IBaseLayoutsListItem, IBaseLayoutsListGroupProps } from "@plane/types";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IBaseLayoutsListItem, IBaseLayoutsListGroupProps } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
 import { useGroupDropTarget } from "../hooks/use-group-drop-target";
 import { GroupHeader } from "./group-header";
 import { BaseListItem } from "./item";

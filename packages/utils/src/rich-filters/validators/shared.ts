@@ -5,7 +5,7 @@
  */
 
 // plane imports
-import type { TFilterGroupNode, TFilterProperty } from "@plane/types";
+import type { TFilterGroupNode, TFilterProperty } from "@gtinx-plane/types";
 // local imports
 import { getGroupChildren } from "../types/shared";
 

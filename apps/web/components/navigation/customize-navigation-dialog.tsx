@@ -10,8 +10,8 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { CloseOutline, DragDropOutline } from "@makeplane/propel/icons";
 // plane imports
-import { WORKSPACE_SIDEBAR_DYNAMIC_NAVIGATION_ITEMS_LINKS, EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { WORKSPACE_SIDEBAR_DYNAMIC_NAVIGATION_ITEMS_LINKS, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Checkbox } from "@makeplane/propel/components/checkbox";
 import { CheckboxField } from "@makeplane/propel/components/checkbox-field";
 import { Field, FieldItem, FieldItemContent } from "@makeplane/propel/components/field";
@@ -38,7 +38,7 @@ import {
 } from "@makeplane/propel/components/dialog";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
-import { Sortable } from "@plane/blocks/common";
+import { Sortable } from "@gtinx-plane/blocks/common";
 // hooks
 import { useUserPermissions } from "@/hooks/store/user";
 import {
@@ -47,7 +47,7 @@ import {
   useWorkspaceNavigationPreferences,
 } from "@/hooks/use-navigation-preferences";
 // types
-import type { TPersonalNavigationItemKey } from "@plane/types";
+import type { TPersonalNavigationItemKey } from "@gtinx-plane/types";
 
 type TCustomizeNavigationDialogProps = {
   isOpen: boolean;

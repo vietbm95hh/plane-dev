@@ -6,11 +6,11 @@
 
 import { observer } from "mobx-react";
 import { ChevronDownOutline, SortAscendingOutline, SortDescendingOutline } from "@makeplane/propel/icons";
-import { INBOX_ISSUE_ORDER_BY_OPTIONS, INBOX_ISSUE_SORT_BY_OPTIONS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { INBOX_ISSUE_ORDER_BY_OPTIONS, INBOX_ISSUE_SORT_BY_OPTIONS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button as ButtonElement } from "@makeplane/propel/elements/button";
 import { Menu, MenuContent, MenuItem, MenuSeparator, MenuTrigger } from "@makeplane/propel/components/menu";
-import type { TInboxIssueSortingOrderByKeys, TInboxIssueSortingSortByKeys } from "@plane/types";
+import type { TInboxIssueSortingOrderByKeys, TInboxIssueSortingSortByKeys } from "@gtinx-plane/types";
 // hooks
 import { useProjectInbox } from "@/hooks/store/use-project-inbox";
 import useSize from "@/hooks/use-window-size";

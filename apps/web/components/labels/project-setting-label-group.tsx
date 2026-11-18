@@ -11,8 +11,8 @@ import { observer } from "mobx-react";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { ChevronDownOutline, DeleteOutline, EditOutline } from "@makeplane/propel/icons";
-import type { IIssueLabel } from "@plane/types";
-import { cn } from "@plane/utils";
+import type { IIssueLabel } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
 // components
 import type { TLabelOperationsCallbacks } from "./create-update-label-inline";
 import { CreateUpdateLabelInline } from "./create-update-label-inline";

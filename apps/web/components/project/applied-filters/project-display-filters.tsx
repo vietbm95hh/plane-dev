@@ -7,9 +7,9 @@
 import { observer } from "mobx-react";
 // icons
 // types
-import { PROJECT_DISPLAY_FILTER_OPTIONS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { TProjectAppliedDisplayFilterKeys } from "@plane/types";
+import { PROJECT_DISPLAY_FILTER_OPTIONS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TProjectAppliedDisplayFilterKeys } from "@gtinx-plane/types";
 import { RemovableChip } from "@/components/common/removable-chip";
 // constants
 

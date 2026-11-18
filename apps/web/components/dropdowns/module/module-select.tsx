@@ -8,11 +8,11 @@ import { useCallback, useMemo } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane imports
-import { ModuleSelect as ModuleSelectBlock } from "@plane/blocks/property-select";
-import type { ModuleOption } from "@plane/blocks/property-select";
-import type { SelectPaginationParams, SelectTooltip, SelectTooltipOverride, SelectVariant } from "@plane/blocks/select";
-import { useTranslation } from "@plane/i18n";
-import type { IModule, TPaginatedResponse } from "@plane/types";
+import { ModuleSelect as ModuleSelectBlock } from "@gtinx-plane/blocks/property-select";
+import type { ModuleOption } from "@gtinx-plane/blocks/property-select";
+import type { SelectPaginationParams, SelectTooltip, SelectTooltipOverride, SelectVariant } from "@gtinx-plane/blocks/select";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IModule, TPaginatedResponse } from "@gtinx-plane/types";
 // hooks
 import { useModule } from "@/hooks/store/use-module";
 

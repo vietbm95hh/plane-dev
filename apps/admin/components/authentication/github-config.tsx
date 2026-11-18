@@ -13,7 +13,7 @@ import { AnchorButton } from "@makeplane/propel/components/anchor-button";
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { Switch } from "@makeplane/propel/components/switch";
-import type { TInstanceAuthenticationMethodKeys } from "@plane/types";
+import type { TInstanceAuthenticationMethodKeys } from "@gtinx-plane/types";
 // hooks
 import { useInstance } from "@/hooks/store";
 

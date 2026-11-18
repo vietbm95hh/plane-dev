@@ -8,11 +8,11 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import { useParams, useRouter } from "next/navigation";
 // types
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
-import type { IProjectView } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IProjectView } from "@gtinx-plane/types";
 // ui
-import { ConfirmDialog } from "@plane/blocks/dialog";
+import { ConfirmDialog } from "@gtinx-plane/blocks/dialog";
 // hooks
 import { useProjectView } from "@/hooks/store/use-project-view";
 

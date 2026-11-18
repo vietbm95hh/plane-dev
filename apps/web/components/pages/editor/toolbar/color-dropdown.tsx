@@ -11,10 +11,10 @@ import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Popover, PopoverContent, PopoverTrigger } from "@makeplane/propel/components/popover";
 import { ToolbarMenuTriggerButton, ToolbarMenuTriggerLabel } from "@makeplane/propel/components/toolbar";
 // plane editor
-import { COLORS_LIST } from "@plane/editor";
-import type { TEditorCommands } from "@plane/editor";
+import { COLORS_LIST } from "@gtinx-plane/editor";
+import type { TEditorCommands } from "@gtinx-plane/editor";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type Props = {
   handleColorSelect: (

@@ -18,7 +18,7 @@ import {
   DialogTitle,
 } from "@makeplane/propel/components/dialog";
 import { InputField } from "@makeplane/propel/components/input-field";
-import { InstanceService } from "@plane/services";
+import { InstanceService } from "@gtinx-plane/services";
 
 type Props = {
   isOpen: boolean;

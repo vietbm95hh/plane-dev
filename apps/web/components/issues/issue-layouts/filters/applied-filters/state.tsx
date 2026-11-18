@@ -7,9 +7,9 @@
 import { observer } from "mobx-react";
 // icons
 // plane imports
-import { EIconSize } from "@plane/constants";
-import { StateGroupIcon } from "@plane/blocks/icons";
-import type { IState } from "@plane/types";
+import { EIconSize } from "@gtinx-plane/constants";
+import { StateGroupIcon } from "@gtinx-plane/blocks/icons";
+import type { IState } from "@gtinx-plane/types";
 import { RemovableChip } from "@/components/common/removable-chip";
 
 type Props = {

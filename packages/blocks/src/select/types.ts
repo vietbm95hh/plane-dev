@@ -9,7 +9,7 @@ import type { ComboboxContentSizing } from "@makeplane/propel/components/combobo
 import type { ComboboxSize } from "@makeplane/propel/elements/combobox";
 import type { PillButtonSize } from "../pill-button/helper";
 import type { IconElement } from "../types/icon";
-import type { TPaginatedResponse } from "@plane/types";
+import type { TPaginatedResponse } from "@gtinx-plane/types";
 
 /** Trigger chrome variants. */
 export type SelectTriggerVariant =

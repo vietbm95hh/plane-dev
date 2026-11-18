@@ -7,7 +7,7 @@
 // plane imports
 import { AnchorButton } from "@makeplane/propel/components/anchor-button";
 import { Button } from "@makeplane/propel/components/button";
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
 // layouts
 import DefaultLayout from "@/layouts/default-layout";
 

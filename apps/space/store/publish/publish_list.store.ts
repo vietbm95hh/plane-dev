@@ -7,8 +7,8 @@
 import { set } from "lodash-es";
 import { makeObservable, observable, runInAction, action } from "mobx";
 // plane imports
-import { SitesProjectPublishService } from "@plane/services";
-import type { TProjectPublishSettings } from "@plane/types";
+import { SitesProjectPublishService } from "@gtinx-plane/services";
+import type { TProjectPublishSettings } from "@gtinx-plane/types";
 // store
 import { PublishStore } from "@/store/publish/publish.store";
 import type { RootStore } from "@/store/root.store";

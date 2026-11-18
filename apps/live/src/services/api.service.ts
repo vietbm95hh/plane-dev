@@ -6,7 +6,7 @@
 
 import type { AxiosInstance } from "axios";
 import { create } from "axios";
-import { normalizeAPIRequestURL } from "@plane/services";
+import { normalizeAPIRequestURL } from "@gtinx-plane/services";
 import { env } from "@/env";
 import { AppError } from "@/lib/errors";
 

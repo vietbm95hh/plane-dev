@@ -8,9 +8,9 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import { CircleDashedOutline } from "@makeplane/propel/icons";
 import { Collapsible } from "@makeplane/propel/components/collapsible";
-import { ALL_ISSUES } from "@plane/constants";
-import type { IGroupByColumn, TIssue, TIssueServiceType, TSubIssueOperations } from "@plane/types";
-import { EIssuesStoreType } from "@plane/types";
+import { ALL_ISSUES } from "@gtinx-plane/constants";
+import type { IGroupByColumn, TIssue, TIssueServiceType, TSubIssueOperations } from "@gtinx-plane/types";
+import { EIssuesStoreType } from "@gtinx-plane/types";
 import { SubIssuesListItem } from "./list-item";
 
 interface TSubIssuesListGroupProps {

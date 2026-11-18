@@ -8,7 +8,7 @@ import type * as React from "react";
 import { useEffect, useMemo, useRef, useState } from "react";
 // plane imports
 import { ContextMenu as PropelContextMenu, ContextMenuContent } from "@makeplane/propel/components/context-menu";
-import { usePlatformOS } from "@plane/hooks";
+import { usePlatformOS } from "@gtinx-plane/hooks";
 // local imports
 import { ContextMenuItem } from "./context-menu-item";
 import { getRenderableItems, stopClickPropagation } from "./helpers";

@@ -8,12 +8,12 @@ import type { Dispatch, SetStateAction } from "react";
 import { useCallback, useState } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { estimateCount } from "@plane/constants";
+import { estimateCount } from "@gtinx-plane/constants";
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { AddOutline } from "@makeplane/propel/icons";
-import type { TEstimatePointsObject, TEstimateSystemKeys, TEstimateTypeError } from "@plane/types";
-import { Sortable } from "@plane/blocks/common";
+import type { TEstimatePointsObject, TEstimateSystemKeys, TEstimateTypeError } from "@gtinx-plane/types";
+import { Sortable } from "@gtinx-plane/blocks/common";
 // local imports
 import { EstimatePointCreate } from "./create";
 import { EstimatePointItemPreview } from "./preview";

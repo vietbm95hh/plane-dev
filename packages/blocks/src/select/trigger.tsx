@@ -7,12 +7,12 @@
 import { Icon as PropelIcon } from "@makeplane/propel/components/icon";
 import type { ReactNode } from "react";
 import { useLayoutEffect } from "react";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Combobox as BaseCombobox } from "@base-ui/react/combobox";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { CloseOutline } from "@makeplane/propel/icons";
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { useSelectContext } from "./context";
 import { useSelectEngine } from "./engine-context";
 import { SelectTriggerChrome } from "./trigger-chrome";

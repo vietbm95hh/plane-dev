@@ -6,7 +6,7 @@
 
 import React from "react";
 import { observer } from "mobx-react";
-import type { IWorkspace } from "@plane/types";
+import type { IWorkspace } from "@gtinx-plane/types";
 // components
 import { DeleteWorkspaceForm } from "@/components/workspace/delete-workspace-form";
 

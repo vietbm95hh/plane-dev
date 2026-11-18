@@ -7,7 +7,7 @@
 import Link from "next/link";
 // ui
 import { Button } from "@makeplane/propel/components/button";
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
 // types
 import type { Route } from "./+types/not-found";
 

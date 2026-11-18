@@ -12,13 +12,13 @@ import { useSearchParams } from "next/navigation";
 import { HideOutline, ShowOutline } from "@makeplane/propel/icons";
 // plane imports
 import { InputField } from "@makeplane/propel/components/input-field";
-import { E_PASSWORD_STRENGTH } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { E_PASSWORD_STRENGTH } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
-import { setToast } from "@plane/blocks/toast";
-import { PasswordStrengthIndicator } from "@plane/blocks/auth";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { PasswordStrengthIndicator } from "@gtinx-plane/blocks/auth";
 // components
-import { getPasswordStrength } from "@plane/utils";
+import { getPasswordStrength } from "@gtinx-plane/utils";
 // hooks
 import { useUser } from "@/hooks/store/user";
 import { useAppRouter } from "@/hooks/use-app-router";

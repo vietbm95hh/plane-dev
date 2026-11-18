@@ -10,7 +10,7 @@ import type {
   TFilterProperty,
   TFilterValue,
   TSupportedFilterFieldConfigs,
-} from "@plane/types";
+} from "@gtinx-plane/types";
 
 export const EMPTY_FILTER_PLACEHOLDER_TEXT = "--";
 

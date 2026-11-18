@@ -14,11 +14,11 @@ import {
   StateOutline,
 } from "@makeplane/propel/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { DateSelect } from "@plane/blocks/property-select";
-import { useTranslation } from "@plane/i18n";
-import type { TInboxDuplicateIssueDetails, TIssue } from "@plane/types";
-import { ControlLink } from "@plane/blocks/layout";
-import { getDate, renderFormattedPayloadDate, generateWorkItemLink } from "@plane/utils";
+import { DateSelect } from "@gtinx-plane/blocks/property-select";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TInboxDuplicateIssueDetails, TIssue } from "@gtinx-plane/types";
+import { ControlLink } from "@gtinx-plane/blocks/layout";
+import { getDate, renderFormattedPayloadDate, generateWorkItemLink } from "@gtinx-plane/utils";
 // components
 import { SidebarPropertyListItem } from "@/components/common/layout/sidebar/property-list-item";
 import { IntakeStateSelect } from "@/components/dropdowns/intake-state/intake-state-select";

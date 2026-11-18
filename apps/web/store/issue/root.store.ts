@@ -7,8 +7,8 @@
 import { isEmpty } from "lodash-es";
 import { autorun, makeObservable, observable } from "mobx";
 // types
-import type { ICycle, IIssueLabel, IModule, IProject, IState, IUserLite, TIssueServiceType } from "@plane/types";
-import { EIssueServiceType } from "@plane/types";
+import type { ICycle, IIssueLabel, IModule, IProject, IState, IUserLite, TIssueServiceType } from "@gtinx-plane/types";
+import { EIssueServiceType } from "@gtinx-plane/types";
 // plane web store
 import type { IIssueDetail } from "@/store/issue/issue-details/root.store";
 import { IssueDetail } from "@/store/issue/issue-details/root.store";

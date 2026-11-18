@@ -8,9 +8,9 @@ import { observer } from "mobx-react";
 // plane imports
 import { Menu, MenuContent, MenuGroup, MenuLabel, MenuTrigger } from "@makeplane/propel/components/menu";
 import { ChevronDownOutline, HistoryOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
-import type { TDescriptionVersion } from "@plane/types";
-import { calculateTimeAgo, cn } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TDescriptionVersion } from "@gtinx-plane/types";
+import { calculateTimeAgo, cn } from "@gtinx-plane/utils";
 // hooks
 import { useMember } from "@/hooks/store/use-member";
 // local imports

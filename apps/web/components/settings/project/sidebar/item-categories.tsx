@@ -14,8 +14,8 @@ import {
   GROUPED_PROJECT_SETTINGS,
   PROJECT_SETTINGS_CATEGORIES,
   PROJECT_SETTINGS_CATEGORY_LABELS,
-} from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+} from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 // components
 import { SettingsSidebarItem } from "@/components/settings/sidebar/item";
 import { SettingsSidebarSectionHeading } from "@/components/settings/sidebar/section-heading";

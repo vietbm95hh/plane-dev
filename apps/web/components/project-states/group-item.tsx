@@ -12,11 +12,11 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { AddOutline, ChevronDownOutline } from "@makeplane/propel/icons";
 // plane imports
-import { StateGroupIcon } from "@plane/blocks/icons";
-import { EIconSize } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { IState, TStateGroups, TStateOperationsCallbacks } from "@plane/types";
-import { cn } from "@plane/utils";
+import { StateGroupIcon } from "@gtinx-plane/blocks/icons";
+import { EIconSize } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IState, TStateGroups, TStateOperationsCallbacks } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { StateList, StateCreate } from "@/components/project-states";
 

@@ -10,17 +10,17 @@ import { Controller, useForm } from "react-hook-form";
 import { HideOutline, ShowOutline } from "@makeplane/propel/icons";
 import { Field } from "@makeplane/propel/components/field";
 import { Input, InputGroup } from "@makeplane/propel/components/input";
-import { E_PASSWORD_STRENGTH } from "@plane/constants";
+import { E_PASSWORD_STRENGTH } from "@gtinx-plane/constants";
 // types
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/elements/button";
-import { setToast } from "@plane/blocks/toast";
-import type { IUser, TUserProfile, TOnboardingSteps } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IUser, TUserProfile, TOnboardingSteps } from "@gtinx-plane/types";
 // ui
-import { PasswordStrengthIndicator } from "@plane/blocks/auth";
-import { Spinner } from "@plane/blocks/spinner";
+import { PasswordStrengthIndicator } from "@gtinx-plane/blocks/auth";
+import { Spinner } from "@gtinx-plane/blocks/spinner";
 // components
-import { cn, getFileURL, getPasswordStrength, validatePersonName } from "@plane/utils";
+import { cn, getFileURL, getPasswordStrength, validatePersonName } from "@gtinx-plane/utils";
 import { UserImageUploadModal } from "@/components/core/modals/user-image-upload-modal";
 // hooks
 import { useUser, useUserProfile } from "@/hooks/store/user";

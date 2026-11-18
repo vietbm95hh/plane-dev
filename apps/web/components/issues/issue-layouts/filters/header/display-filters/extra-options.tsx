@@ -6,8 +6,8 @@
 
 import { observer } from "mobx-react";
 import { MenuCheckboxItem } from "@makeplane/propel/components/menu";
-import { useTranslation } from "@plane/i18n";
-import type { IIssueDisplayFilterOptions, TIssueExtraOptions } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IIssueDisplayFilterOptions, TIssueExtraOptions } from "@gtinx-plane/types";
 
 // constants
 const ISSUE_EXTRA_OPTIONS: {

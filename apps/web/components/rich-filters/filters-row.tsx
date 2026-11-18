@@ -11,12 +11,12 @@ import { AddFilterOutline, ArrowCollapseOutline } from "@makeplane/propel/icons"
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
-import { useTranslation } from "@plane/i18n";
-import type { IFilterInstance } from "@plane/shared-state";
-import type { TExternalFilter, TFilterProperty } from "@plane/types";
-import { EHeaderVariant, Header } from "@plane/blocks/layout";
-import { Loader } from "@plane/blocks/skeleton";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IFilterInstance } from "@gtinx-plane/shared-state";
+import type { TExternalFilter, TFilterProperty } from "@gtinx-plane/types";
+import { EHeaderVariant, Header } from "@gtinx-plane/blocks/layout";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
+import { cn } from "@gtinx-plane/utils";
 // local imports
 import type { TAddFilterButtonProps } from "./add-filters/button";
 import { AddFilterButton } from "./add-filters/button";

@@ -17,10 +17,10 @@ import {
 } from "@makeplane/propel/icons";
 // plane imports
 import { Button } from "@makeplane/propel/components/button";
-import { setToast } from "@plane/blocks/toast";
-import type { TUserProfile } from "@plane/types";
-import { cn } from "@plane/utils";
-import { EOnboardingSteps } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { TUserProfile } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
+import { EOnboardingSteps } from "@gtinx-plane/types";
 // hooks
 import { useUserProfile } from "@/hooks/store/user";
 // local components

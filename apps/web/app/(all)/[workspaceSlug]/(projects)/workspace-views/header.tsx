@@ -8,18 +8,18 @@ import { useCallback, useMemo, useState } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane imports
-import { EIssueFilterType, ISSUE_DISPLAY_FILTERS_BY_PAGE, DEFAULT_GLOBAL_VIEWS_LIST } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { EIssueFilterType, ISSUE_DISPLAY_FILTERS_BY_PAGE, DEFAULT_GLOBAL_VIEWS_LIST } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Badge } from "@makeplane/propel/components/badge";
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { LockOutline, ViewsOutline } from "@makeplane/propel/icons";
-import type { IIssueDisplayFilterOptions, IIssueDisplayProperties } from "@plane/types";
-import { EIssuesStoreType, EIssueLayoutTypes } from "@plane/types";
-import type { BreadcrumbNavigationItem } from "@plane/blocks/breadcrumb";
-import { Breadcrumbs, BreadcrumbNavigationSelect } from "@plane/blocks/breadcrumb";
-import { Header } from "@plane/blocks/layout";
+import type { IIssueDisplayFilterOptions, IIssueDisplayProperties } from "@gtinx-plane/types";
+import { EIssuesStoreType, EIssueLayoutTypes } from "@gtinx-plane/types";
+import type { BreadcrumbNavigationItem } from "@gtinx-plane/blocks/breadcrumb";
+import { Breadcrumbs, BreadcrumbNavigationSelect } from "@gtinx-plane/blocks/breadcrumb";
+import { Header } from "@gtinx-plane/blocks/layout";
 // components
 import { BreadcrumbLink } from "@/components/common/breadcrumb-link";
 import { SwitcherLabel } from "@/components/common/switcher-label";

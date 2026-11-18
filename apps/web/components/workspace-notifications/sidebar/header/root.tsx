@@ -7,8 +7,8 @@
 import { observer } from "mobx-react";
 import { useNavigate } from "react-router";
 // plane imports
-import { ENotificationLoader, ENotificationQueryParamType } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { ENotificationLoader, ENotificationQueryParamType } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { ArrowLeftOutline, MarkAllReadOutline, RefreshOutline } from "@makeplane/propel/icons";

@@ -8,9 +8,9 @@ import { Menu, MenuContent, MenuItem, MenuSeparator, MenuTrigger } from "@makepl
 import { Button as ButtonElement } from "@makeplane/propel/elements/button";
 import { SortDescendingOutline } from "@makeplane/propel/icons";
 // plane imports
-import { PROJECT_ORDER_BY_OPTIONS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { TProjectOrderByOptions } from "@plane/types";
+import { PROJECT_ORDER_BY_OPTIONS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TProjectOrderByOptions } from "@gtinx-plane/types";
 
 type Props = {
   onChange: (value: TProjectOrderByOptions) => void;

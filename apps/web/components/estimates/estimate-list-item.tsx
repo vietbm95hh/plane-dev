@@ -6,8 +6,8 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { EEstimateSystem } from "@plane/constants";
-import { convertMinutesToHoursMinutesString } from "@plane/utils";
+import { EEstimateSystem } from "@gtinx-plane/constants";
+import { convertMinutesToHoursMinutesString } from "@gtinx-plane/utils";
 // components
 import { EstimateListItemButtons } from "./estimate-list-item-buttons";
 import { SettingsBoxedControlItem } from "@/components/settings/boxed-control-item";

@@ -8,9 +8,9 @@
 import React from "react";
 import { CalendarOutline } from "@makeplane/propel/icons";
 // plane package imports
-import { ANALYTICS_DURATION_FILTER_OPTIONS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { Select } from "@plane/blocks/select";
+import { ANALYTICS_DURATION_FILTER_OPTIONS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { Select } from "@gtinx-plane/blocks/select";
 
 type TDurationOption = (typeof ANALYTICS_DURATION_FILTER_OPTIONS)[number];
 

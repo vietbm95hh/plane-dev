@@ -9,9 +9,9 @@ import { observer } from "mobx-react";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconPill } from "@makeplane/propel/components/pill";
 import { CloseOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
-import type { IFilterInstance } from "@plane/shared-state";
-import type { TExternalFilter, TFilterProperty } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IFilterInstance } from "@gtinx-plane/shared-state";
+import type { TExternalFilter, TFilterProperty } from "@gtinx-plane/types";
 
 interface FilterItemCloseButtonProps<P extends TFilterProperty, E extends TExternalFilter> {
   conditionId: string;

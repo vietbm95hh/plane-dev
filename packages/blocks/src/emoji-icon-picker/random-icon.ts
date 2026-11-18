@@ -11,9 +11,9 @@ import { LUCIDE_ICONS_LIST } from "./lucide-icons";
  * so a work item type or collection has a glyph before anyone picks one.
  *
  * It lived in the retired UI package, and its only input is the picker's own icon list,
- * so it belongs beside that list rather than in `@plane/utils` — which has no propel dependency and
+ * so it belongs beside that list rather than in `@gtinx-plane/utils` — which has no propel dependency and
  * should not grow one for a package slated for deletion. Import it from
- * `@plane/blocks/emoji-icon-picker/data`, the data-only entry, so a caller that just needs a name
+ * `@gtinx-plane/blocks/emoji-icon-picker/data`, the data-only entry, so a caller that just needs a name
  * does not pull the picker's React modules into its bundle.
  */
 export const getRandomIconName = (): string =>

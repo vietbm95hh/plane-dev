@@ -10,8 +10,8 @@ import { GlobeOutline, InfoOutline, LockOutline } from "@makeplane/propel/icons"
 import { Avatar } from "@makeplane/propel/components/avatar";
 import { Icon } from "@makeplane/propel/components/icon";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { FavoriteStar } from "@plane/blocks/common";
-import { renderFormattedDate, getFileURL } from "@plane/utils";
+import { FavoriteStar } from "@gtinx-plane/blocks/common";
+import { renderFormattedDate, getFileURL } from "@gtinx-plane/utils";
 // hooks
 import { useMember } from "@/hooks/store/use-member";
 import { usePageOperations } from "@/hooks/use-page-operations";

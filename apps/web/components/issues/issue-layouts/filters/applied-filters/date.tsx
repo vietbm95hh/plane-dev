@@ -6,9 +6,9 @@
 
 import { observer } from "mobx-react";
 // icons
-import { DATE_AFTER_FILTER_OPTIONS } from "@plane/constants";
+import { DATE_AFTER_FILTER_OPTIONS } from "@gtinx-plane/constants";
 // helpers
-import { renderFormattedDate, capitalizeFirstLetter } from "@plane/utils";
+import { renderFormattedDate, capitalizeFirstLetter } from "@gtinx-plane/utils";
 import { RemovableChip } from "@/components/common/removable-chip";
 // constants
 

@@ -8,13 +8,13 @@ import { useCallback, useMemo } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane imports
-import { EUserPermissionsLevel, getRandomLabelColor } from "@plane/constants";
-import { LabelSelect as LabelSelectBlock } from "@plane/blocks/property-select";
-import type { LabelOption } from "@plane/blocks/property-select";
-import type { SelectPaginationParams, SelectTooltip, SelectTooltipOverride, SelectVariant } from "@plane/blocks/select";
-import { useTranslation } from "@plane/i18n";
-import type { IIssueLabel, TPaginatedResponse } from "@plane/types";
-import { EUserPermissions } from "@plane/types";
+import { EUserPermissionsLevel, getRandomLabelColor } from "@gtinx-plane/constants";
+import { LabelSelect as LabelSelectBlock } from "@gtinx-plane/blocks/property-select";
+import type { LabelOption } from "@gtinx-plane/blocks/property-select";
+import type { SelectPaginationParams, SelectTooltip, SelectTooltipOverride, SelectVariant } from "@gtinx-plane/blocks/select";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IIssueLabel, TPaginatedResponse } from "@gtinx-plane/types";
+import { EUserPermissions } from "@gtinx-plane/types";
 // hooks
 import { useLabel } from "@/hooks/store/use-label";
 import { useUserPermissions } from "@/hooks/store/user";

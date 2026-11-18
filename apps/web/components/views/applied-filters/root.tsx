@@ -4,14 +4,14 @@
  * See the LICENSE file for details.
  */
 
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { CloseOutline } from "@makeplane/propel/icons";
 // plane imports
-import type { EViewAccess, TViewFilterProps } from "@plane/types";
-import { replaceUnderscoreIfSnakeCase } from "@plane/utils";
+import type { EViewAccess, TViewFilterProps } from "@gtinx-plane/types";
+import { replaceUnderscoreIfSnakeCase } from "@gtinx-plane/utils";
 // components
 import { AppliedDateFilters } from "@/components/common/applied-filters/date";
 import { AppliedMembersFilters } from "@/components/common/applied-filters/members";

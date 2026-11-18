@@ -6,7 +6,7 @@
 
 import { Outlet, redirect } from "react-router";
 // plane imports
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // local
 import { ensureTrailingSlash } from "./compat/next/helper";
 import { AppProvider } from "./provider";

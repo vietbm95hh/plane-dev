@@ -9,8 +9,8 @@ import { useState } from "react";
 import type { IconGlyph } from "@makeplane/propel/components/icon";
 
 // plane imports
-import { ETabIndices, EPageAccess } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { ETabIndices, EPageAccess } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import {
   DialogActions,
@@ -22,12 +22,12 @@ import {
   DialogTitle,
 } from "@makeplane/propel/components/dialog";
 import { InputField } from "@makeplane/propel/components/input-field";
-import { EmojiPicker, Logo } from "@plane/blocks/emoji-icon-picker";
+import { EmojiPicker, Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 import { GlobeOutline, LockOutline, PagesOutline } from "@makeplane/propel/icons";
-import type { ISvgIcons } from "@plane/blocks/icons";
-import type { TPage } from "@plane/types";
+import type { ISvgIcons } from "@gtinx-plane/blocks/icons";
+import type { TPage } from "@gtinx-plane/types";
 
-import { getTabIndex } from "@plane/utils";
+import { getTabIndex } from "@gtinx-plane/utils";
 // components
 import { AccessField } from "@/components/common/access-field";
 // hooks

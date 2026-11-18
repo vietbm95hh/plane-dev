@@ -9,8 +9,8 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import useSWR from "swr";
 // plane constants
-import { ISSUE_DISPLAY_FILTERS_BY_PAGE } from "@plane/constants";
-import { EIssuesStoreType, EIssueLayoutTypes } from "@plane/types";
+import { ISSUE_DISPLAY_FILTERS_BY_PAGE } from "@gtinx-plane/constants";
+import { EIssuesStoreType, EIssueLayoutTypes } from "@gtinx-plane/types";
 // hooks
 import { ProjectLevelWorkItemFiltersHOC } from "@/components/work-item-filters/filters-hoc/project-level";
 import { WorkItemFiltersRow } from "@/components/work-item-filters/filters-row";

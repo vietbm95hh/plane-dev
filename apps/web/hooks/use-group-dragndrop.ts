@@ -5,9 +5,9 @@
  */
 
 import { useParams } from "next/navigation";
-import { setToast } from "@plane/blocks/toast";
-import type { SetToastProps } from "@plane/blocks/toast";
-import type { EIssuesStoreType, TIssue, TIssueGroupByOptions, TIssueOrderByOptions } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { SetToastProps } from "@gtinx-plane/blocks/toast";
+import type { EIssuesStoreType, TIssue, TIssueGroupByOptions, TIssueOrderByOptions } from "@gtinx-plane/types";
 import type { GroupDropLocation } from "@/components/issues/issue-layouts/utils";
 import { handleGroupDragDrop } from "@/components/issues/issue-layouts/utils";
 import { ISSUE_FILTER_DEFAULT_DATA } from "@/store/issue/helpers/base-issues.store";

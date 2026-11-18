@@ -5,7 +5,7 @@
  */
 
 // plane imports
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
 
 export function SomethingWentWrongError() {
   return (

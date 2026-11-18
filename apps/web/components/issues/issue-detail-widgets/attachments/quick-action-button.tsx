@@ -11,8 +11,8 @@ import { useDropzone } from "react-dropzone";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { AddOutline } from "@makeplane/propel/icons";
 // plane imports
-import { setToast } from "@plane/blocks/toast";
-import type { TIssueServiceType } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { TIssueServiceType } from "@gtinx-plane/types";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 // plane web hooks

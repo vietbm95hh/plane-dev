@@ -8,9 +8,9 @@ import { useId, useState } from "react";
 import { observer } from "mobx-react";
 import { FormProvider, useForm } from "react-hook-form";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
-import { EFileAssetType } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { EFileAssetType } from "@gtinx-plane/types";
 // components
 import ProjectCommonAttributes from "@/components/project/create/common-attributes";
 import ProjectCreateHeader from "@/components/project/create/header";
@@ -20,7 +20,7 @@ import { getCoverImageType, uploadCoverImage } from "@/helpers/cover-image.helpe
 import { useProject } from "@/hooks/store/use-project";
 import { usePlatformOS } from "@/hooks/use-platform-os";
 // plane web types
-import type { TProject } from "@plane/types";
+import type { TProject } from "@gtinx-plane/types";
 import { ProjectAttributes } from "./attributes";
 import { getProjectFormValues } from "./utils";
 

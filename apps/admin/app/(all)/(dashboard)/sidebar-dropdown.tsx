@@ -21,9 +21,9 @@ import { Avatar } from "@makeplane/propel/components/avatar";
 import { IconButton } from "@makeplane/propel/elements/icon-button";
 import { LogOutOutline, PaletteOutline, UserCogOutline } from "@makeplane/propel/icons";
 // plane internal packages
-import { API_BASE_URL } from "@plane/constants";
-import { AuthService } from "@plane/services";
-import { getFileURL } from "@plane/utils";
+import { API_BASE_URL } from "@gtinx-plane/constants";
+import { AuthService } from "@gtinx-plane/services";
+import { getFileURL } from "@gtinx-plane/utils";
 // hooks
 import { useTheme, useUser } from "@/hooks/store";
 

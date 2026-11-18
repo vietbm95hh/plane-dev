@@ -12,11 +12,11 @@ import { ShowOutline } from "@makeplane/propel/icons";
 import { Badge } from "@makeplane/propel/components/badge";
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
-import { EmptyStateCompact } from "@plane/blocks/empty-state";
-import { setToast } from "@plane/blocks/toast";
-import { useTranslation } from "@plane/i18n";
-import type { TPageVersion } from "@plane/types";
-import { renderFormattedDate, renderFormattedTime } from "@plane/utils";
+import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TPageVersion } from "@gtinx-plane/types";
+import { renderFormattedDate, renderFormattedTime } from "@gtinx-plane/utils";
 // helpers
 import type { EPageStoreType } from "@/hooks/store";
 // local imports

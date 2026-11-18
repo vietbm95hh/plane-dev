@@ -9,14 +9,14 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { StateOutline } from "@makeplane/propel/icons";
 // plane imports
-import { PROJECT_AUTOMATION_MONTHS, EUserPermissions, EUserPermissionsLevel, EIconSize } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { StateGroupIcon } from "@plane/blocks/icons";
-import type { IProject, IState } from "@plane/types";
-import { cn } from "@plane/utils";
+import { PROJECT_AUTOMATION_MONTHS, EUserPermissions, EUserPermissionsLevel, EIconSize } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { StateGroupIcon } from "@gtinx-plane/blocks/icons";
+import type { IProject, IState } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
 import { Switch } from "@makeplane/propel/components/switch";
-import { Select } from "@plane/blocks/select";
-import { Loader } from "@plane/blocks/skeleton";
+import { Select } from "@gtinx-plane/blocks/select";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
 import { SelectMonthModal } from "@/components/automation";
 import { SettingsBoxedControlItem } from "@/components/settings/boxed-control-item";
 // hooks

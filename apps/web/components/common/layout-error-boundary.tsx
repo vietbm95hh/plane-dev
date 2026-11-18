@@ -7,7 +7,7 @@
 import { Component, Fragment } from "react";
 import type { ErrorInfo, ReactNode } from "react";
 import { WarningTriangleOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 
 type Props = {

@@ -8,10 +8,10 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // Plane Imports
-import { ConfirmDialog } from "@plane/blocks/dialog";
-import { setToast } from "@plane/blocks/toast";
-import { useTranslation } from "@plane/i18n";
-import type { IWorkspaceView } from "@plane/types";
+import { ConfirmDialog } from "@gtinx-plane/blocks/dialog";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IWorkspaceView } from "@gtinx-plane/types";
 // hooks
 import { useGlobalView } from "@/hooks/store/use-global-view";
 

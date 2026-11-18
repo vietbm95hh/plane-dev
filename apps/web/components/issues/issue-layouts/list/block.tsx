@@ -12,14 +12,14 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { ChevronRightOutline } from "@makeplane/propel/icons";
 // types
-import { setToast } from "@plane/blocks/toast";
+import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { TIssue, IIssueDisplayProperties, TIssueMap } from "@plane/types";
-import { EIssueServiceType } from "@plane/types";
+import type { TIssue, IIssueDisplayProperties, TIssueMap } from "@gtinx-plane/types";
+import { EIssueServiceType } from "@gtinx-plane/types";
 // ui
-import { ControlLink, Row } from "@plane/blocks/layout";
-import { Spinner } from "@plane/blocks/spinner";
-import { cn, generateWorkItemLink } from "@plane/utils";
+import { ControlLink, Row } from "@gtinx-plane/blocks/layout";
+import { Spinner } from "@gtinx-plane/blocks/spinner";
+import { cn, generateWorkItemLink } from "@gtinx-plane/utils";
 // components
 import { MultipleSelectEntityAction } from "@/components/core/multiple-select";
 import { IssueProperties } from "@/components/issues/issue-layouts/properties";

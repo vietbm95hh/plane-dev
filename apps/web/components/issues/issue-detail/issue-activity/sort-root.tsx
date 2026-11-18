@@ -7,8 +7,8 @@
 import { memo } from "react";
 import { SortAscendingOutline, SortDescendingOutline } from "@makeplane/propel/icons";
 // plane package imports
-import { E_SORT_ORDER } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { E_SORT_ORDER } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Icon } from "@makeplane/propel/components/icon";
 

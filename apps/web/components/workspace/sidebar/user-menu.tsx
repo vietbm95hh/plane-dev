@@ -8,9 +8,9 @@ import React from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane imports
-import { PiChatLogo } from "@plane/blocks/icons";
+import { PiChatLogo } from "@gtinx-plane/blocks/icons";
 import { DashboardsOutline, DraftsOutline, HomeOutline, YourWorkOutline } from "@makeplane/propel/icons";
-import { EUserWorkspaceRoles } from "@plane/types";
+import { EUserWorkspaceRoles } from "@gtinx-plane/types";
 // hooks
 import { useUserPermissions, useUser } from "@/hooks/store/user";
 // local imports

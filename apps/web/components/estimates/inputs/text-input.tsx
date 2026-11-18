@@ -4,7 +4,7 @@
  * See the LICENSE file for details.
  */
 
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { InputField } from "@makeplane/propel/components/input-field";
 type TEstimateTextInputProps = {
   value?: string;

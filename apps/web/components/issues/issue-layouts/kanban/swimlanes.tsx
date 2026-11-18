@@ -18,9 +18,9 @@ import type {
   TIssueKanbanFilters,
   TIssueGroupByOptions,
   TIssueOrderByOptions,
-} from "@plane/types";
-import { ERowVariant, Row } from "@plane/blocks/layout";
-import { cn } from "@plane/utils";
+} from "@gtinx-plane/types";
+import { ERowVariant, Row } from "@gtinx-plane/blocks/layout";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useIssueStoreType } from "@/hooks/use-issue-layout-store";
 // plane web imports

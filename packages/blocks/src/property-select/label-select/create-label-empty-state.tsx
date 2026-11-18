@@ -7,10 +7,10 @@
 import { useEffect, useEffectEvent, useState } from "react";
 
 // plane imports
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { AddOutline, LoadingOutline } from "@makeplane/propel/icons";
 import { setToast } from "../../toast/toast-manager";
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // local imports
 import { useSelectContext } from "../../select/context";
 import type { LabelOption } from "./label-select";

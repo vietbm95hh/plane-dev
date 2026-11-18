@@ -8,7 +8,7 @@ import { generateHTML, generateJSON } from "@tiptap/html";
 // local imports
 import { createDocumentCodecs } from "./document-codecs";
 
-// browser codecs; the server entry (`@plane/editor/server`) builds the same helpers on happy-dom
+// browser codecs; the server entry (`@gtinx-plane/editor/server`) builds the same helpers on happy-dom
 export const {
   TITLE_EDITOR_EXTENSIONS,
   applyUpdates,

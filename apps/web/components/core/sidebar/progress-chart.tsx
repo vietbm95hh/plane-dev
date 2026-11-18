@@ -6,9 +6,9 @@
 
 import React from "react";
 // plane imports
-import { AreaChart } from "@plane/blocks/charts/area-chart";
-import type { TChartData, TModuleCompletionChartDistribution } from "@plane/types";
-import { renderFormattedDateWithoutYear } from "@plane/utils";
+import { AreaChart } from "@gtinx-plane/blocks/charts/area-chart";
+import type { TChartData, TModuleCompletionChartDistribution } from "@gtinx-plane/types";
+import { renderFormattedDateWithoutYear } from "@gtinx-plane/utils";
 
 type Props = {
   distribution: TModuleCompletionChartDistribution;

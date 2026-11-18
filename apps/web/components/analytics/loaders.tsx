@@ -4,8 +4,8 @@
  * See the LICENSE file for details.
  */
 
-import { Loader } from "@plane/blocks/skeleton";
-import { cn } from "@plane/utils";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
+import { cn } from "@gtinx-plane/utils";
 // local imports
 import { ANALYTICS_CHART_HEIGHT_CLASSNAME } from "./constants";
 

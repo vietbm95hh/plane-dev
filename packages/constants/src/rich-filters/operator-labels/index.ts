@@ -4,7 +4,7 @@
  * See the LICENSE file for details.
  */
 
-import type { TAllAvailableOperatorsForDisplay, TAllAvailableDateFilterOperatorsForDisplay } from "@plane/types";
+import type { TAllAvailableOperatorsForDisplay, TAllAvailableDateFilterOperatorsForDisplay } from "@gtinx-plane/types";
 import {
   CORE_OPERATOR_LABELS_MAP,
   CORE_DATE_OPERATOR_LABELS_MAP,

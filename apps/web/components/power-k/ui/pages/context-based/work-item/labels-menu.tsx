@@ -6,8 +6,8 @@
 
 import { observer } from "mobx-react";
 // plane types
-import type { IIssueLabel, TIssue } from "@plane/types";
-import { Spinner } from "@plane/blocks/spinner";
+import type { IIssueLabel, TIssue } from "@gtinx-plane/types";
+import { Spinner } from "@gtinx-plane/blocks/spinner";
 // components
 import { PowerKLabelsMenu } from "@/components/power-k/menus/labels";
 // hooks

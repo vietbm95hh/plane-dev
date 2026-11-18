@@ -5,9 +5,9 @@
  */
 
 // plane imports
-import type { IFavorite } from "@plane/types";
+import type { IFavorite } from "@gtinx-plane/types";
 // components
-import { getPageName } from "@plane/utils";
+import { getPageName } from "@gtinx-plane/utils";
 import {
   FavoriteItemIcon,
   generateFavoriteItemLink,

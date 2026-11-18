@@ -18,8 +18,8 @@ import type {
   TDateFilterFieldConfig,
   TDateRangeFilterFieldConfig,
   TFilterConditionNodeForDisplay,
-} from "@plane/types";
-import { FILTER_FIELD_TYPE } from "@plane/types";
+} from "@gtinx-plane/types";
+import { FILTER_FIELD_TYPE } from "@gtinx-plane/types";
 import type { TFilterValueInputProps } from "../shared";
 import { DateRangeFilterValueInput } from "./date/range";
 import { SingleDateFilterValueInput } from "./date/single";

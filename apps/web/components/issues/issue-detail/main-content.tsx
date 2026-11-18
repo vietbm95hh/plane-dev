@@ -9,11 +9,11 @@ import { useEffect, useRef, useState } from "react";
 import { observer } from "mobx-react";
 // plane imports
 import { Button } from "@makeplane/propel/components/button";
-import { Loader } from "@plane/blocks/skeleton";
-import type { EditorRefApi } from "@plane/editor";
-import { useTranslation } from "@plane/i18n";
-import type { TNameDescriptionLoader } from "@plane/types";
-import { EFileAssetType, EIssueServiceType } from "@plane/types";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
+import type { EditorRefApi } from "@gtinx-plane/editor";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TNameDescriptionLoader } from "@gtinx-plane/types";
+import { EFileAssetType, EIssueServiceType } from "@gtinx-plane/types";
 // components
 import { DescriptionVersionsRoot } from "@/components/core/description-versions";
 import { DescriptionInput } from "@/components/editor/rich-text/description-input";

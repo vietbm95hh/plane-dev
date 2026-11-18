@@ -7,10 +7,10 @@
 import type React from "react";
 import { observer } from "mobx-react";
 // ui
-import type { ISvgIcons } from "@plane/blocks/icons";
+import type { ISvgIcons } from "@gtinx-plane/blocks/icons";
 import { GridOutline, ListOutline, TimelineOutline } from "@makeplane/propel/icons";
 // plane package imports
-import type { TCycleLayoutOptions } from "@plane/types";
+import type { TCycleLayoutOptions } from "@gtinx-plane/types";
 import { Icon } from "@makeplane/propel/components/icon";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
 // hooks

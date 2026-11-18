@@ -8,10 +8,10 @@ import { useCallback, useMemo } from "react";
 import { observer } from "mobx-react";
 // plane imports
 import { FilterOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
-import type { GroupByColumnTypes, TIssue, TIssueServiceType, TSubIssueOperations } from "@plane/types";
-import { EIssueServiceType, EIssuesStoreType } from "@plane/types";
+import type { GroupByColumnTypes, TIssue, TIssueServiceType, TSubIssueOperations } from "@gtinx-plane/types";
+import { EIssueServiceType, EIssuesStoreType } from "@gtinx-plane/types";
 // hooks
 import { SectionEmptyState } from "@/components/empty-state/section-empty-state-root";
 import { getGroupByColumns, isWorkspaceLevel } from "@/components/issues/issue-layouts/utils";

@@ -555,25 +555,25 @@ importers:
       '@makeplane/propel':
         specifier: 'catalog:'
         version: 0.9.7(@date-fns/tz@1.4.1)(@types/react@19.2.17)(date-fns@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwindcss@4.2.4)
-      '@plane/blocks':
+      '@gtinx-plane/blocks':
         specifier: workspace:*
         version: link:../../packages/blocks
-      '@plane/constants':
+      '@gtinx-plane/constants':
         specifier: workspace:*
         version: link:../../packages/constants
-      '@plane/hooks':
+      '@gtinx-plane/hooks':
         specifier: workspace:*
         version: link:../../packages/hooks
-      '@plane/i18n':
+      '@gtinx-plane/i18n':
         specifier: workspace:*
         version: link:../../packages/i18n
-      '@plane/services':
+      '@gtinx-plane/services':
         specifier: workspace:*
         version: link:../../packages/services
-      '@plane/types':
+      '@gtinx-plane/types':
         specifier: workspace:*
         version: link:../../packages/types
-      '@plane/utils':
+      '@gtinx-plane/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       '@react-router/node':
@@ -616,10 +616,10 @@ importers:
         specifier: 14.0.0
         version: 14.0.0
     devDependencies:
-      '@plane/tailwind-config':
+      '@gtinx-plane/tailwind-config':
         specifier: workspace:*
         version: link:../../packages/tailwind-config
-      '@plane/typescript-config':
+      '@gtinx-plane/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
       '@react-router/dev':
@@ -670,22 +670,22 @@ importers:
       '@hocuspocus/server':
         specifier: 'catalog:'
         version: 3.4.4(y-protocols@1.0.6(yjs@13.6.27))(yjs@13.6.27)
-      '@plane/decorators':
+      '@gtinx-plane/decorators':
         specifier: workspace:*
         version: link:../../packages/decorators
-      '@plane/editor':
+      '@gtinx-plane/editor':
         specifier: workspace:*
         version: link:../../packages/editor
-      '@plane/logger':
+      '@gtinx-plane/logger':
         specifier: workspace:*
         version: link:../../packages/logger
-      '@plane/services':
+      '@gtinx-plane/services':
         specifier: workspace:*
         version: link:../../packages/services
-      '@plane/types':
+      '@gtinx-plane/types':
         specifier: workspace:*
         version: link:../../packages/types
-      '@plane/utils':
+      '@gtinx-plane/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       '@react-pdf/renderer':
@@ -761,7 +761,7 @@ importers:
       '@hocuspocus/provider':
         specifier: 'catalog:'
         version: 3.4.4(y-protocols@1.0.6(yjs@13.6.27))(yjs@13.6.27)
-      '@plane/typescript-config':
+      '@gtinx-plane/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
       '@types/compression':
@@ -821,25 +821,25 @@ importers:
       '@makeplane/propel':
         specifier: 'catalog:'
         version: 0.9.7(@date-fns/tz@1.4.1)(@types/react@19.2.17)(date-fns@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwindcss@4.2.4)
-      '@plane/blocks':
+      '@gtinx-plane/blocks':
         specifier: workspace:*
         version: link:../../packages/blocks
-      '@plane/constants':
+      '@gtinx-plane/constants':
         specifier: workspace:*
         version: link:../../packages/constants
-      '@plane/editor':
+      '@gtinx-plane/editor':
         specifier: workspace:*
         version: link:../../packages/editor
-      '@plane/i18n':
+      '@gtinx-plane/i18n':
         specifier: workspace:*
         version: link:../../packages/i18n
-      '@plane/services':
+      '@gtinx-plane/services':
         specifier: workspace:*
         version: link:../../packages/services
-      '@plane/types':
+      '@gtinx-plane/types':
         specifier: workspace:*
         version: link:../../packages/types
-      '@plane/utils':
+      '@gtinx-plane/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       '@react-router/node':
@@ -897,10 +897,10 @@ importers:
         specifier: 14.0.0
         version: 14.0.0
     devDependencies:
-      '@plane/tailwind-config':
+      '@gtinx-plane/tailwind-config':
         specifier: workspace:*
         version: link:../../packages/tailwind-config
-      '@plane/typescript-config':
+      '@gtinx-plane/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
       '@react-router/dev':
@@ -966,31 +966,31 @@ importers:
       '@makeplane/propel':
         specifier: 'catalog:'
         version: 0.9.7(@date-fns/tz@1.4.1)(@types/react@19.2.17)(date-fns@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwindcss@4.2.4)
-      '@plane/blocks':
+      '@gtinx-plane/blocks':
         specifier: workspace:*
         version: link:../../packages/blocks
-      '@plane/constants':
+      '@gtinx-plane/constants':
         specifier: workspace:*
         version: link:../../packages/constants
-      '@plane/editor':
+      '@gtinx-plane/editor':
         specifier: workspace:*
         version: link:../../packages/editor
-      '@plane/hooks':
+      '@gtinx-plane/hooks':
         specifier: workspace:*
         version: link:../../packages/hooks
-      '@plane/i18n':
+      '@gtinx-plane/i18n':
         specifier: workspace:*
         version: link:../../packages/i18n
-      '@plane/services':
+      '@gtinx-plane/services':
         specifier: workspace:*
         version: link:../../packages/services
-      '@plane/shared-state':
+      '@gtinx-plane/shared-state':
         specifier: workspace:*
         version: link:../../packages/shared-state
-      '@plane/types':
+      '@gtinx-plane/types':
         specifier: workspace:*
         version: link:../../packages/types
-      '@plane/utils':
+      '@gtinx-plane/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       '@react-pdf/renderer':
@@ -1090,10 +1090,10 @@ importers:
         specifier: 14.0.0
         version: 14.0.0
     devDependencies:
-      '@plane/tailwind-config':
+      '@gtinx-plane/tailwind-config':
         specifier: workspace:*
         version: link:../../packages/tailwind-config
-      '@plane/typescript-config':
+      '@gtinx-plane/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
       '@react-router/dev':
@@ -1144,19 +1144,19 @@ importers:
       '@makeplane/propel':
         specifier: 'catalog:'
         version: 0.9.7(@date-fns/tz@1.4.1)(@types/react@19.2.17)(date-fns@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwindcss@4.2.4)
-      '@plane/constants':
+      '@gtinx-plane/constants':
         specifier: workspace:*
         version: link:../constants
-      '@plane/hooks':
+      '@gtinx-plane/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@plane/i18n':
+      '@gtinx-plane/i18n':
         specifier: workspace:*
         version: link:../i18n
-      '@plane/types':
+      '@gtinx-plane/types':
         specifier: workspace:*
         version: link:../types
-      '@plane/utils':
+      '@gtinx-plane/utils':
         specifier: workspace:*
         version: link:../utils
       '@tanstack/react-virtual':
@@ -1193,10 +1193,10 @@ importers:
         specifier: 'catalog:'
         version: 1.3.0(react@19.2.8)
     devDependencies:
-      '@plane/tailwind-config':
+      '@gtinx-plane/tailwind-config':
         specifier: workspace:*
         version: link:../tailwind-config
-      '@plane/typescript-config':
+      '@gtinx-plane/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@testing-library/react':
@@ -1247,11 +1247,11 @@ importers:
 
   packages/constants:
     dependencies:
-      '@plane/types':
+      '@gtinx-plane/types':
         specifier: workspace:*
         version: link:../types
     devDependencies:
-      '@plane/typescript-config':
+      '@gtinx-plane/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/node':
@@ -1269,7 +1269,7 @@ importers:
 
   packages/decorators:
     devDependencies:
-      '@plane/typescript-config':
+      '@gtinx-plane/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/express':
@@ -1305,19 +1305,19 @@ importers:
       '@makeplane/propel':
         specifier: 'catalog:'
         version: 0.9.7(@date-fns/tz@1.4.1)(@types/react@19.2.17)(date-fns@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwindcss@4.2.4)
-      '@plane/blocks':
+      '@gtinx-plane/blocks':
         specifier: workspace:*
         version: link:../blocks
-      '@plane/constants':
+      '@gtinx-plane/constants':
         specifier: workspace:*
         version: link:../constants
-      '@plane/hooks':
+      '@gtinx-plane/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@plane/types':
+      '@gtinx-plane/types':
         specifier: workspace:*
         version: link:../types
-      '@plane/utils':
+      '@gtinx-plane/utils':
         specifier: workspace:*
         version: link:../utils
       '@tiptap/core':
@@ -1441,10 +1441,10 @@ importers:
         specifier: 'catalog:'
         version: 13.6.27
     devDependencies:
-      '@plane/tailwind-config':
+      '@gtinx-plane/tailwind-config':
         specifier: workspace:*
         version: link:../tailwind-config
-      '@plane/typescript-config':
+      '@gtinx-plane/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/lodash-es':
@@ -1478,7 +1478,7 @@ importers:
         specifier: 19.2.8
         version: 19.2.8
     devDependencies:
-      '@plane/typescript-config':
+      '@gtinx-plane/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/node':
@@ -1512,7 +1512,7 @@ importers:
         specifier: 'catalog:'
         version: 16.6.6(i18next@25.10.9(typescript@5.8.3))(react@19.2.8)(typescript@5.8.3)
     devDependencies:
-      '@plane/typescript-config':
+      '@gtinx-plane/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/node':
@@ -1540,7 +1540,7 @@ importers:
         specifier: 'catalog:'
         version: 3.17.0
     devDependencies:
-      '@plane/typescript-config':
+      '@gtinx-plane/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/express':
@@ -1558,10 +1558,10 @@ importers:
 
   packages/services:
     dependencies:
-      '@plane/constants':
+      '@gtinx-plane/constants':
         specifier: workspace:*
         version: link:../constants
-      '@plane/types':
+      '@gtinx-plane/types':
         specifier: workspace:*
         version: link:../types
       axios:
@@ -1571,7 +1571,7 @@ importers:
         specifier: 'catalog:'
         version: 21.3.3
     devDependencies:
-      '@plane/typescript-config':
+      '@gtinx-plane/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       tsdown:
@@ -1586,13 +1586,13 @@ importers:
 
   packages/shared-state:
     dependencies:
-      '@plane/constants':
+      '@gtinx-plane/constants':
         specifier: workspace:*
         version: link:../constants
-      '@plane/types':
+      '@gtinx-plane/types':
         specifier: workspace:*
         version: link:../types
-      '@plane/utils':
+      '@gtinx-plane/utils':
         specifier: workspace:*
         version: link:../utils
       lodash-es:
@@ -1611,7 +1611,7 @@ importers:
         specifier: ^4.6.7
         version: 4.6.7
     devDependencies:
-      '@plane/typescript-config':
+      '@gtinx-plane/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/lodash-es':
@@ -1652,7 +1652,7 @@ importers:
         specifier: 19.2.8
         version: 19.2.8(react@19.2.8)
     devDependencies:
-      '@plane/typescript-config':
+      '@gtinx-plane/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/node':
@@ -1678,10 +1678,10 @@ importers:
       '@makeplane/propel':
         specifier: 'catalog:'
         version: 0.9.7(@date-fns/tz@1.4.1)(@types/react@19.2.17)(date-fns@4.1.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(tailwindcss@4.2.4)
-      '@plane/constants':
+      '@gtinx-plane/constants':
         specifier: workspace:*
         version: link:../constants
-      '@plane/types':
+      '@gtinx-plane/types':
         specifier: workspace:*
         version: link:../types
       chroma-js:
@@ -1733,7 +1733,7 @@ importers:
         specifier: 14.0.0
         version: 14.0.0
     devDependencies:
-      '@plane/typescript-config':
+      '@gtinx-plane/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
       '@types/chroma-js':

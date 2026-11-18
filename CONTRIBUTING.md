@@ -213,7 +213,7 @@ We use [i18next](https://www.i18next.com/) with ICU message format ([i18next-icu
 4. Run the sync check. It reports keys missing from a language, keys duplicated across namespaces, and keys that are both a value and a parent of other keys. CI runs it in `--ci` mode on every pull request that touches `packages/i18n`.
 
 ```bash
-pnpm --filter=@plane/i18n sync:check
+pnpm --filter=@gtinx-plane/i18n sync:check
 ```
 
 The TypeScript key types (`packages/i18n/src/types/keys.generated.ts`) are generated from the English files during build and type check. The file is git-ignored; do not edit it by hand.
@@ -246,7 +246,7 @@ export const SUPPORTED_LANGUAGES: ILanguageOption[] = [
 
     2. Translate all keys in every file.
 
-    3. Run `pnpm --filter=@plane/i18n sync:check` and fix anything it reports.
+    3. Run `pnpm --filter=@gtinx-plane/i18n sync:check` and fix anything it reports.
 
 No loader change is needed: namespace files are imported dynamically by language code (`packages/i18n/src/core/instance.ts`).
 

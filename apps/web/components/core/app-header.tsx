@@ -7,9 +7,9 @@
 import type { ReactNode } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { Row } from "@plane/blocks/layout";
+import { Row } from "@gtinx-plane/blocks/layout";
 // components
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { ExtendedAppHeader } from "@/components/common/extended-app-header";
 
 export interface AppHeaderProps {

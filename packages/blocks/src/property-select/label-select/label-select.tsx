@@ -5,9 +5,9 @@
  */
 
 import { Swatch } from "@makeplane/propel/elements/swatch";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { LabelPropertyIcon } from "../../icons/properties/label-icon";
-import type { TPaginatedResponse } from "@plane/types";
+import type { TPaginatedResponse } from "@gtinx-plane/types";
 import { Select } from "../../select/select";
 import type { SelectPaginationParams, SelectTooltip, SelectVariant } from "../../select/types";
 import { splitSelectVariant } from "../../select/utils";

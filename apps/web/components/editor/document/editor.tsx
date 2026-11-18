@@ -6,10 +6,10 @@
 
 import { forwardRef } from "react";
 // plane imports
-import { DocumentEditorWithRef } from "@plane/editor";
-import type { IEditorPropsExtended, EditorRefApi, IDocumentEditorProps, TFileHandler } from "@plane/editor";
-import type { MakeOptional, TSearchEntityRequestPayload, TSearchResponse } from "@plane/types";
-import { cn } from "@plane/utils";
+import { DocumentEditorWithRef } from "@gtinx-plane/editor";
+import type { IEditorPropsExtended, EditorRefApi, IDocumentEditorProps, TFileHandler } from "@gtinx-plane/editor";
+import type { MakeOptional, TSearchEntityRequestPayload, TSearchResponse } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useEditorConfig, useEditorMention } from "@/hooks/editor";
 import { useMember } from "@/hooks/store/use-member";

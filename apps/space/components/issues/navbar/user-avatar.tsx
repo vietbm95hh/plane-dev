@@ -9,14 +9,14 @@ import { observer } from "mobx-react";
 import { Link } from "react-router";
 import { usePathname, useSearchParams } from "next/navigation";
 // plane imports
-import { API_BASE_URL } from "@plane/constants";
+import { API_BASE_URL } from "@gtinx-plane/constants";
 import { Avatar } from "@makeplane/propel/components/avatar";
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
 import { LogOutOutline } from "@makeplane/propel/icons";
-import { AuthService } from "@plane/services";
-import { getFileURL } from "@plane/utils";
+import { AuthService } from "@gtinx-plane/services";
+import { getFileURL } from "@gtinx-plane/utils";
 // helpers
 import { queryParamGenerator } from "@/helpers/query-param-generator";
 // hooks

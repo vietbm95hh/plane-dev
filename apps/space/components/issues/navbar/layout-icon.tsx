@@ -4,9 +4,9 @@
  * See the LICENSE file for details.
  */
 
-import type { TIssueLayout } from "@plane/constants";
+import type { TIssueLayout } from "@gtinx-plane/constants";
 import { BoardOutline, ListOutline } from "@makeplane/propel/icons";
-import type { ISvgIcons } from "@plane/blocks/icons";
+import type { ISvgIcons } from "@gtinx-plane/blocks/icons";
 
 export function IssueLayoutIcon({
   layout,

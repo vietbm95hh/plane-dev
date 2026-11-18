@@ -10,13 +10,13 @@ import { useParams } from "next/navigation";
 import { Tab, Tabs, TabsList } from "@makeplane/propel/components/tabs";
 import { ExpandableSearch } from "@makeplane/propel/components/expandable-search";
 // plane helpers
-import { MODULE_VIEW_LAYOUTS } from "@plane/constants";
+import { MODULE_VIEW_LAYOUTS } from "@gtinx-plane/constants";
 // types
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { TModuleFilters } from "@plane/types";
+import type { TModuleFilters } from "@gtinx-plane/types";
 // ui
-import { calculateTotalFilters } from "@plane/utils";
+import { calculateTotalFilters } from "@gtinx-plane/utils";
 // plane utils
 // components
 import { ModuleOrderByDropdown } from "@/components/modules/dropdowns";

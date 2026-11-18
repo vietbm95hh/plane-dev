@@ -5,7 +5,7 @@
  */
 
 import { useEffect, useState } from "react";
-import { AuthService } from "@plane/services";
+import { AuthService } from "@gtinx-plane/services";
 
 // service initialization
 const authService = new AuthService();

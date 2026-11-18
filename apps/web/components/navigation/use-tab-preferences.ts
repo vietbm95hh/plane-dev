@@ -5,7 +5,7 @@
  */
 
 import { useMemo } from "react";
-import { setToast } from "@plane/blocks/toast";
+import { setToast } from "@gtinx-plane/blocks/toast";
 import { useMember } from "@/hooks/store/use-member";
 import { useUser } from "@/hooks/store/user";
 import { DEFAULT_TAB_KEY } from "./tab-navigation-utils";

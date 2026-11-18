@@ -5,8 +5,8 @@
  */
 
 // plane types
-import { API_BASE_URL } from "@plane/constants";
-import type { TPageVersion } from "@plane/types";
+import { API_BASE_URL } from "@gtinx-plane/constants";
+import type { TPageVersion } from "@gtinx-plane/types";
 // helpers
 // services
 import { APIService } from "@/services/api.service";

@@ -5,7 +5,7 @@
  */
 
 import { StateGroupIcon } from "../icons/state/state-group-icon";
-import type { TPaginatedResponse, TStateGroups } from "@plane/types";
+import type { TPaginatedResponse, TStateGroups } from "@gtinx-plane/types";
 import { Select } from "../select/select";
 import type { SelectPaginationParams, SelectTooltip, SelectVariant } from "../select/types";
 import type { ReactNode } from "react";

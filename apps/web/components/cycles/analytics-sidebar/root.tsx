@@ -11,8 +11,8 @@ import { DrawerBody, DrawerHeader, DrawerHeaderActions } from "@makeplane/propel
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { ArrowNarrowRightOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
-import { Loader } from "@plane/blocks/skeleton";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
 // local imports
 import useCyclesDetails from "../active-cycle/use-cycles-details";
 import { CycleAnalyticsProgress } from "./issue-progress";

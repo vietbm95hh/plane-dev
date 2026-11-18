@@ -9,10 +9,10 @@ import { useRef } from "react";
 import { observer } from "mobx-react";
 import { usePathname, useSearchParams } from "next/navigation";
 // plane imports
-import { CycleGroupIcon } from "@plane/blocks/icons";
-import type { TCycleGroups } from "@plane/types";
+import { CycleGroupIcon } from "@gtinx-plane/blocks/icons";
+import type { TCycleGroups } from "@gtinx-plane/types";
 // components
-import { generateQueryParams } from "@plane/utils";
+import { generateQueryParams } from "@gtinx-plane/utils";
 import { ListItem } from "@/components/core/list";
 // hooks
 import { useCycle } from "@/hooks/store/use-cycle";

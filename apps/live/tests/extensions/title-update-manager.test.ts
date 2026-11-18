@@ -12,7 +12,7 @@ const { mockGetPageService, mockUpdatePageProperties } = vi.hoisted(() => ({
 }));
 
 vi.mock("@/services/page/handler", () => ({ getPageService: mockGetPageService }));
-vi.mock("@plane/logger", () => ({ logger: { info: vi.fn(), error: vi.fn(), warn: vi.fn(), debug: vi.fn() } }));
+vi.mock("@gtinx-plane/logger", () => ({ logger: { info: vi.fn(), error: vi.fn(), warn: vi.fn(), debug: vi.fn() } }));
 
 import { TitleUpdateManager } from "@/extensions/title-update/title-update-manager";
 import type { HocusPocusServerContext } from "@/types";

@@ -19,8 +19,8 @@ import type {
   IWorkspacePageSearchResult,
   IWorkspaceProjectSearchResult,
   IWorkspaceSearchResult,
-} from "@plane/types";
-import { generateWorkItemLink } from "@plane/utils";
+} from "@gtinx-plane/types";
+import { generateWorkItemLink } from "@gtinx-plane/utils";
 // components
 import type { TPowerKSearchResultsKeys } from "@/components/power-k/core/types";
 import { IssueIdentifier } from "@/components/issues/issue-detail/issue-identifier";

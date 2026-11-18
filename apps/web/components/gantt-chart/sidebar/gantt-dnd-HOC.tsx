@@ -9,9 +9,9 @@ import { combine } from "@atlaskit/pragmatic-drag-and-drop/combine";
 import { draggable, dropTargetForElements } from "@atlaskit/pragmatic-drag-and-drop/element/adapter";
 import { attachInstruction, extractInstruction } from "@atlaskit/pragmatic-drag-and-drop-hitbox/tree-item";
 import { observer } from "mobx-react";
-import { useOutsideClickDetector } from "@plane/hooks";
-import { setToast } from "@plane/blocks/toast";
-import { DropIndicator } from "@plane/blocks/common";
+import { useOutsideClickDetector } from "@gtinx-plane/hooks";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { DropIndicator } from "@gtinx-plane/blocks/common";
 import { HIGHLIGHT_WITH_LINE, highlightIssueOnDrop } from "@/components/issues/issue-layouts/utils";
 
 type Props = {

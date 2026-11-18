@@ -7,8 +7,8 @@
 import React, { useEffect, useState } from "react";
 import { observer } from "mobx-react";
 // plane package imports
-import { ModalPortal } from "@plane/blocks/portal";
-import type { ICycle, IModule, IProject } from "@plane/types";
+import { ModalPortal } from "@gtinx-plane/blocks/portal";
+import type { ICycle, IModule, IProject } from "@gtinx-plane/types";
 import { useAnalytics } from "@/hooks/store/use-analytics";
 // plane web components
 import { WorkItemsModalMainContent } from "./content";

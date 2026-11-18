@@ -7,7 +7,7 @@
 import { useState } from "react";
 import { addDays } from "date-fns";
 // ui
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { Calendar } from "@makeplane/propel/components/calendar";
 import { Dialog, DialogActions, DialogBody, DialogContent, DialogMain } from "@makeplane/propel/components/dialog";

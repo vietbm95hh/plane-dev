@@ -9,10 +9,10 @@ import { Icon as PropelIcon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
 import { MoreVerticalOutline } from "@makeplane/propel/icons";
-import { getRenderableItems, resolveItemVariant } from "@plane/blocks/context-menu";
-import type { TContextMenuItem } from "@plane/blocks/context-menu";
-import { useTranslation } from "@plane/i18n";
-import { calculateTimeAgo, getIconForLink } from "@plane/utils";
+import { getRenderableItems, resolveItemVariant } from "@gtinx-plane/blocks/context-menu";
+import type { TContextMenuItem } from "@gtinx-plane/blocks/context-menu";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { calculateTimeAgo, getIconForLink } from "@gtinx-plane/utils";
 
 export type TLinkItemBlockProps = {
   title: string;

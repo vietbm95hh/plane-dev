@@ -4,10 +4,10 @@
  * See the LICENSE file for details.
  */
 
-import type { TPaginatedResponse } from "@plane/types";
+import type { TPaginatedResponse } from "@gtinx-plane/types";
 
 /**
- * Wraps an already-loaded option list as the single page a `@plane/blocks` property select expects
+ * Wraps an already-loaded option list as the single page a `@gtinx-plane/blocks` property select expects
  * from `getValues`. The published board loads every option up front, so there is no cursor.
  */
 export const toSinglePage = <T>(options: T[] | undefined): Promise<TPaginatedResponse<T[]>> =>

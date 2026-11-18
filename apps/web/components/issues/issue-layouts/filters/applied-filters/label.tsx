@@ -7,7 +7,7 @@
 import { observer } from "mobx-react";
 
 // icons
-import type { IIssueLabel } from "@plane/types";
+import type { IIssueLabel } from "@gtinx-plane/types";
 import { RemovableChip } from "@/components/common/removable-chip";
 // types
 

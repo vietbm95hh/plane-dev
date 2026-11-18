@@ -9,8 +9,8 @@ import { action, computed, makeObservable, observable, runInAction } from "mobx"
 import { computedFn } from "mobx-utils";
 import { v4 as uuidv4 } from "uuid";
 // plane types
-import type { EFileAssetType, TFileEntityInfo, TFileSignedURLResponse } from "@plane/types";
-import { isValidAssetId } from "@plane/utils";
+import type { EFileAssetType, TFileEntityInfo, TFileSignedURLResponse } from "@gtinx-plane/types";
+import { isValidAssetId } from "@gtinx-plane/utils";
 // services
 import { FileService } from "@/services/file.service";
 import type { TAttachmentUploadStatus } from "../issue/issue-details/attachment.store";

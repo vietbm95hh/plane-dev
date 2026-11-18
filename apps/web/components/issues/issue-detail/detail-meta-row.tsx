@@ -7,9 +7,9 @@
 import { observer } from "mobx-react";
 // plane imports
 import { DueDateOutline, StartDateOutline } from "@makeplane/propel/icons";
-import { DateSelect } from "@plane/blocks/property-select";
-import { useTranslation } from "@plane/i18n";
-import { getDate, getIssueDueDateClassName, renderFormattedPayloadDate } from "@plane/utils";
+import { DateSelect } from "@gtinx-plane/blocks/property-select";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { getDate, getIssueDueDateClassName, renderFormattedPayloadDate } from "@gtinx-plane/utils";
 // components
 import { MemberSelect } from "@/components/dropdowns/member/member-select";
 import { PrioritySelect } from "@/components/dropdowns/priority/priority-select";

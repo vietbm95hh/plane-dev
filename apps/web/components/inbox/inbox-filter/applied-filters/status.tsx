@@ -5,9 +5,9 @@
  */
 
 import { observer } from "mobx-react";
-import { INBOX_STATUS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { TInboxIssueStatus } from "@plane/types";
+import { INBOX_STATUS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TInboxIssueStatus } from "@gtinx-plane/types";
 import { useProjectInbox } from "@/hooks/store/use-project-inbox";
 import { InboxStatusIcon } from "../../inbox-status-icon";
 import { APPLIED_FILTER_GROUP_CLASSNAME, RemovableChip } from "@/components/common/removable-chip";

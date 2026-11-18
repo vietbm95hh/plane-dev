@@ -5,10 +5,10 @@
  */
 
 import { useState } from "react";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // ui
-import { ConfirmDialog } from "@plane/blocks/dialog";
-import { setToast } from "@plane/blocks/toast";
+import { ConfirmDialog } from "@gtinx-plane/blocks/dialog";
+import { setToast } from "@gtinx-plane/blocks/toast";
 // hooks
 import { useUser } from "@/hooks/store/user";
 import { useAppRouter } from "@/hooks/use-app-router";

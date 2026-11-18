@@ -9,7 +9,7 @@ import { Tab, Tabs, TabsList } from "@makeplane/propel/components/tabs";
 import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
 // types
-import type { IProject } from "@plane/types";
+import type { IProject } from "@gtinx-plane/types";
 // hooks
 import { useProject } from "@/hooks/store/use-project";
 

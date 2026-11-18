@@ -7,10 +7,10 @@
 import React from "react";
 import { observer } from "mobx-react";
 // types
-import type { TIssue } from "@plane/types";
+import type { TIssue } from "@gtinx-plane/types";
 // helpers
-import { Row } from "@plane/blocks/layout";
-import { renderFormattedDate } from "@plane/utils";
+import { Row } from "@gtinx-plane/blocks/layout";
+import { renderFormattedDate } from "@gtinx-plane/utils";
 
 type Props = {
   issue: TIssue;

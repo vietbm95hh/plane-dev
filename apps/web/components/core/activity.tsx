@@ -28,10 +28,10 @@ import {
   RelatesToOutline,
   WorkItemsOutline,
 } from "@makeplane/propel/icons";
-import { BlockedIcon, BlockerIcon } from "@plane/blocks/icons";
+import { BlockedIcon, BlockerIcon } from "@gtinx-plane/blocks/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { IIssueActivity } from "@plane/types";
-import { renderFormattedDate, generateWorkItemLink, capitalizeFirstLetter } from "@plane/utils";
+import type { IIssueActivity } from "@gtinx-plane/types";
+import { renderFormattedDate, generateWorkItemLink, capitalizeFirstLetter } from "@gtinx-plane/utils";
 // helpers
 import { useLabel } from "@/hooks/store/use-label";
 import { usePlatformOS } from "@/hooks/use-platform-os";

@@ -6,18 +6,18 @@
 
 import React from "react";
 import { observer } from "mobx-react";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { CloseOutline, DeleteOutline, EditOutline, LinkOutline, MoreHorizontalOutline } from "@makeplane/propel/icons";
 // plane imports
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { TIssueRelationTypes } from "@plane/types";
-import type { TIssue, TIssueServiceType } from "@plane/types";
-import { EIssueServiceType } from "@plane/types";
-import { ControlLink } from "@plane/blocks/layout";
-import { generateWorkItemLink } from "@plane/utils";
+import type { TIssueRelationTypes } from "@gtinx-plane/types";
+import type { TIssue, TIssueServiceType } from "@gtinx-plane/types";
+import { EIssueServiceType } from "@gtinx-plane/types";
+import { ControlLink } from "@gtinx-plane/blocks/layout";
+import { generateWorkItemLink } from "@gtinx-plane/utils";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import { useProject } from "@/hooks/store/use-project";

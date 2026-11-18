@@ -11,11 +11,11 @@ import useSWR from "swr";
 // plane imports
 import { AnchorButton } from "@makeplane/propel/components/anchor-button";
 import { Button } from "@makeplane/propel/components/button";
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
 // components
 import { LogoSpinner } from "@/components/common/logo-spinner";
 // constants
-import { WORKSPACE_INVITATION } from "@plane/constants";
+import { WORKSPACE_INVITATION } from "@gtinx-plane/constants";
 // helpers
 import { EPageTypes } from "@/helpers/authentication.helper";
 // hooks

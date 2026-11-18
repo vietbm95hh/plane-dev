@@ -8,20 +8,20 @@ import { observer } from "mobx-react";
 import Link from "next/link";
 import { Controller, useForm } from "react-hook-form";
 // plane imports
-import { ROLE, EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { ROLE, EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { DeactivatedUserOutline, DeleteOutline, MoreHorizontalOutline } from "@makeplane/propel/icons";
 import { Avatar } from "@makeplane/propel/components/avatar";
 import { Badge } from "@makeplane/propel/components/badge";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
-import { setToast } from "@plane/blocks/toast";
-import type { IUser, IWorkspaceMember } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IUser, IWorkspaceMember } from "@gtinx-plane/types";
 // plane ui
-import { Select } from "@plane/blocks/select";
+import { Select } from "@gtinx-plane/blocks/select";
 // helpers
-import { getFileURL } from "@plane/utils";
+import { getFileURL } from "@gtinx-plane/utils";
 // hooks
 import { useMember } from "@/hooks/store/use-member";
 import { useUser, useUserPermissions } from "@/hooks/store/user";

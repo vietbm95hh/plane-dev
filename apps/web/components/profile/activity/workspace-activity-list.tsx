@@ -8,9 +8,9 @@ import { useEffect } from "react";
 import { useParams } from "next/navigation";
 import useSWR from "swr";
 // plane imports
-import { EmptyStateCompact } from "@plane/blocks/empty-state";
-import { USER_PROFILE_ACTIVITY } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
+import { USER_PROFILE_ACTIVITY } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 // services
 import { UserService } from "@/services/user.service";
 // components

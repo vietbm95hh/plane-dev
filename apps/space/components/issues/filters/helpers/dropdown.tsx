@@ -6,8 +6,8 @@
 
 import type React from "react";
 // plane imports
-import { toSideAndAlign } from "@plane/blocks/common";
-import type { TPopoverMenuPlacement } from "@plane/blocks/common";
+import { toSideAndAlign } from "@gtinx-plane/blocks/common";
+import type { TPopoverMenuPlacement } from "@gtinx-plane/blocks/common";
 import { Button } from "@makeplane/propel/components/button";
 import { Popover, PopoverBody, PopoverContent, PopoverTrigger } from "@makeplane/propel/components/popover";
 

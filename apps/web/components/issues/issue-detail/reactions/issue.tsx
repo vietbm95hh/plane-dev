@@ -6,14 +6,14 @@
 
 import { useMemo, useState } from "react";
 import { observer } from "mobx-react";
-import { stringToEmoji } from "@plane/blocks/emoji-icon-picker";
-import { EmojiReactionButton, EmojiReactionGroup, EmojiReactionPicker } from "@plane/blocks/emoji-reaction";
-import type { EmojiReactionType } from "@plane/blocks/emoji-reaction";
-import { setToast } from "@plane/blocks/toast";
-import type { IUser } from "@plane/types";
+import { stringToEmoji } from "@gtinx-plane/blocks/emoji-icon-picker";
+import { EmojiReactionButton, EmojiReactionGroup, EmojiReactionPicker } from "@gtinx-plane/blocks/emoji-reaction";
+import type { EmojiReactionType } from "@gtinx-plane/blocks/emoji-reaction";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IUser } from "@gtinx-plane/types";
 // hooks
 // ui
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // helpers
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import { useMember } from "@/hooks/store/use-member";

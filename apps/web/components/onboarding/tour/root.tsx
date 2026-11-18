@@ -8,7 +8,7 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 // plane imports
 import { Button } from "@makeplane/propel/components/button";
-import { PlaneLockup } from "@plane/blocks/icons";
+import { PlaneLockup } from "@gtinx-plane/blocks/icons";
 import { CloseOutline } from "@makeplane/propel/icons";
 // assets
 import CyclesTour from "@/app/assets/onboarding/cycles.webp?url";

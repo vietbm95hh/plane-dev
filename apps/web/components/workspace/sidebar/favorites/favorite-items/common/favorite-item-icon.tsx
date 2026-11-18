@@ -6,11 +6,11 @@
 
 import type { IconGlyph } from "@makeplane/propel/components/icon";
 // plane imports
-import type { TLogoProps } from "@plane/types";
-import { FavoriteFolderIcon } from "@plane/blocks/icons";
+import type { TLogoProps } from "@gtinx-plane/types";
+import { FavoriteFolderIcon } from "@gtinx-plane/blocks/icons";
 import { CyclesOutline, ModuleOutline, PagesOutline, ProjectsOutline, ViewsOutline } from "@makeplane/propel/icons";
-import type { ISvgIcons } from "@plane/blocks/icons";
-import { Logo } from "@plane/blocks/emoji-icon-picker";
+import type { ISvgIcons } from "@gtinx-plane/blocks/icons";
+import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 
 const ICON_MAP: Record<string, React.FC<ISvgIcons> | IconGlyph> = {
   page: PagesOutline,

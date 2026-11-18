@@ -8,13 +8,13 @@ import { useState } from "react";
 import { isNil } from "lodash-es";
 import { observer } from "mobx-react";
 // plane-i18n
-import { EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 // UI
 import { Button } from "@makeplane/propel/components/button";
-import { setToast } from "@plane/blocks/toast";
-import { EIssueServiceType } from "@plane/types";
-import { Loader } from "@plane/blocks/skeleton";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { EIssueServiceType } from "@gtinx-plane/types";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import { useUserPermissions } from "@/hooks/store/user";

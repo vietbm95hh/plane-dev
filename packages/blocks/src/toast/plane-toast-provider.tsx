@@ -9,7 +9,7 @@ import { IconButton } from "@makeplane/propel/components/icon-button";
 import { ToastProvider } from "@makeplane/propel/components/toast";
 import { CloseOutline } from "@makeplane/propel/icons";
 import type { ReactNode } from "react";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { toastManager } from "./toast-manager";
 
 export type PlaneToastProviderProps = {

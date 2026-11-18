@@ -10,9 +10,9 @@ import { combine } from "@atlaskit/pragmatic-drag-and-drop/combine";
 import { dropTargetForElements } from "@atlaskit/pragmatic-drag-and-drop/element/adapter";
 import { observer } from "mobx-react";
 // plane imports
-import { DRAG_ALLOWED_GROUPS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
+import { DRAG_ALLOWED_GROUPS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
 import type {
   IGroupByColumn,
   TIssueMap,
@@ -21,10 +21,10 @@ import type {
   TIssue,
   IIssueDisplayProperties,
   TIssueKanbanFilters,
-} from "@plane/types";
-import { EIssueLayoutTypes } from "@plane/types";
-import { Row } from "@plane/blocks/layout";
-import { cn } from "@plane/utils";
+} from "@gtinx-plane/types";
+import { EIssueLayoutTypes } from "@gtinx-plane/types";
+import { Row } from "@gtinx-plane/blocks/layout";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { ListLoaderItemRow } from "@/components/ui/loader/layouts/list-layout-loader";
 import { useWorkFlowFDragNDrop } from "@/components/workflow";

@@ -6,7 +6,7 @@
 
 import type { MouseEvent, ReactNode } from "react";
 import { Button } from "@makeplane/propel/components/button";
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 export type CommentBoxProps = {
   /** The rich-text editor. */

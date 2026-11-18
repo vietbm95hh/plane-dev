@@ -9,9 +9,9 @@ import { observer } from "mobx-react";
 import { useForm } from "react-hook-form";
 // Plane imports
 import { Dialog, DialogContent } from "@makeplane/propel/components/dialog";
-import { setToast } from "@plane/blocks/toast";
-import { useTranslation } from "@plane/i18n";
-import type { IModule } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IModule } from "@gtinx-plane/types";
 // components
 import { ModuleForm } from "@/components/modules";
 // hooks

@@ -10,9 +10,9 @@ import type { FormEvent } from "react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { ETabIndices } from "@plane/constants";
-import type { EditorRefApi } from "@plane/editor";
-import { useTranslation } from "@plane/i18n";
+import { ETabIndices } from "@gtinx-plane/constants";
+import type { EditorRefApi } from "@gtinx-plane/editor";
+import { useTranslation } from "@gtinx-plane/i18n";
 import {
   DialogActions,
   DialogBody,
@@ -23,10 +23,10 @@ import {
   DialogTitle,
 } from "@makeplane/propel/components/dialog";
 import { Button } from "@makeplane/propel/components/button";
-import { setToast } from "@plane/blocks/toast";
-import type { TIssue } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { TIssue } from "@gtinx-plane/types";
 import { Switch } from "@makeplane/propel/components/switch";
-import { renderFormattedPayloadDate, getTabIndex } from "@plane/utils";
+import { renderFormattedPayloadDate, getTabIndex } from "@gtinx-plane/utils";
 // hooks
 import { useProjectInbox } from "@/hooks/store/use-project-inbox";
 import { useWorkspace } from "@/hooks/store/use-workspace";

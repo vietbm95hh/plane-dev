@@ -6,8 +6,8 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { PAST_DURATION_FILTER_OPTIONS } from "@plane/constants";
-import type { TInboxIssueFilterDateKeys } from "@plane/types";
+import { PAST_DURATION_FILTER_OPTIONS } from "@gtinx-plane/constants";
+import type { TInboxIssueFilterDateKeys } from "@gtinx-plane/types";
 // components
 import { DateFilterSubmenu, isCustomDateFilterValue } from "@/components/common/filters/date-filter-submenu";
 // hooks

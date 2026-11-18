@@ -9,11 +9,11 @@ import { observer } from "mobx-react";
 import { useForm } from "react-hook-form";
 // plane imports
 import { Button } from "@makeplane/propel/components/button";
-import { CommentBox } from "@plane/blocks/comment-box";
-import type { EditorRefApi } from "@plane/editor";
-import { useTranslation } from "@plane/i18n";
-import type { TCommentsOperations, TIssueComment } from "@plane/types";
-import { isCommentEmpty } from "@plane/utils";
+import { CommentBox } from "@gtinx-plane/blocks/comment-box";
+import type { EditorRefApi } from "@gtinx-plane/editor";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TCommentsOperations, TIssueComment } from "@gtinx-plane/types";
+import { isCommentEmpty } from "@gtinx-plane/utils";
 // components
 import { LiteTextEditor } from "@/components/editor/lite-text";
 import { IssueCommentToolbar } from "@/components/editor/lite-text/toolbar";

@@ -9,7 +9,7 @@ import { AiStar1Outline, CornerRightDownOutline, RefreshOutline, UpgradeOutline 
 // ui
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 // components
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { RichTextEditor } from "@/components/editor/rich-text";
 // helpers
 // hooks

@@ -10,13 +10,13 @@ import { Controller, useForm } from "react-hook-form";
 // plane imports
 import { Avatar } from "@makeplane/propel/components/avatar";
 import { InputField } from "@makeplane/propel/components/input-field";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
-import { setPromiseToast, setToast } from "@plane/blocks/toast";
-import { EFileAssetType } from "@plane/types";
-import type { IUser, TUserProfile } from "@plane/types";
+import { setPromiseToast, setToast } from "@gtinx-plane/blocks/toast";
+import { EFileAssetType } from "@gtinx-plane/types";
+import type { IUser, TUserProfile } from "@gtinx-plane/types";
 
-import { getFileURL } from "@plane/utils";
+import { getFileURL } from "@gtinx-plane/utils";
 // components
 import { DeactivateAccountModal } from "@/components/account/deactivate-account-modal";
 import { ImagePickerPopover } from "@/components/core/image-picker-popover";
@@ -30,7 +30,7 @@ import { handleCoverImageChange } from "@/helpers/cover-image.helper";
 import { useInstance } from "@/hooks/store/use-instance";
 import { useUser, useUserProfile } from "@/hooks/store/user";
 // utils
-import { validatePersonName, validateOptionalPersonName, validateDisplayName } from "@plane/utils";
+import { validatePersonName, validateOptionalPersonName, validateDisplayName } from "@gtinx-plane/utils";
 
 type TUserProfileForm = {
   avatar_url: string;

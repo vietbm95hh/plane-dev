@@ -9,16 +9,16 @@ import { Combobox, ComboboxItem, ComboboxList } from "@makeplane/propel/componen
 import { Dialog, DialogContent, DialogTitle } from "@makeplane/propel/components/dialog";
 import { CloseOutline, NewTabOutline } from "@makeplane/propel/icons";
 // i18n
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // types
 import { Button } from "@makeplane/propel/components/button";
-import { setToast } from "@plane/blocks/toast";
+import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { ISearchIssueResponse, TProjectIssuesSearchParams } from "@plane/types";
+import type { ISearchIssueResponse, TProjectIssuesSearchParams } from "@gtinx-plane/types";
 // ui
 import { Switch } from "@makeplane/propel/components/switch";
-import { Loader } from "@plane/blocks/skeleton";
-import { generateWorkItemLink, getTabIndex } from "@plane/utils";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
+import { generateWorkItemLink, getTabIndex } from "@gtinx-plane/utils";
 // helpers
 // hooks
 import useDebounce from "@/hooks/use-debounce";

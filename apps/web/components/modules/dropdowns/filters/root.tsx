@@ -7,8 +7,8 @@
 import { observer } from "mobx-react";
 // plane imports
 import { MenuCheckboxItem, MenuSeparator } from "@makeplane/propel/components/menu";
-import type { TModuleStatus } from "@plane/blocks/icons";
-import type { TModuleDisplayFilters, TModuleFilters } from "@plane/types";
+import type { TModuleStatus } from "@gtinx-plane/blocks/icons";
+import type { TModuleDisplayFilters, TModuleFilters } from "@gtinx-plane/types";
 // local imports
 import { FilterLead } from "./lead";
 import { FilterMembers } from "./members";

@@ -16,11 +16,11 @@ import {
   ComboboxList,
   ComboboxSearch,
 } from "@makeplane/propel/components/combobox";
-import { setToast } from "@plane/blocks/toast";
-import { useTranslation } from "@plane/i18n";
-import type { IFilterInstance } from "@plane/shared-state";
-import type { TExternalFilter, TFilterProperty, TSupportedOperators } from "@plane/types";
-import { cn, getOperatorForPayload } from "@plane/utils";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IFilterInstance } from "@gtinx-plane/shared-state";
+import type { TExternalFilter, TFilterProperty, TSupportedOperators } from "@gtinx-plane/types";
+import { cn, getOperatorForPayload } from "@gtinx-plane/utils";
 
 export type TAddFilterDropdownProps<P extends TFilterProperty, E extends TExternalFilter> = {
   customButton?: React.ReactNode;

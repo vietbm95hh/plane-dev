@@ -4,12 +4,12 @@
  * See the LICENSE file for details.
  */
 
-import { GOD_MODE_URL } from "@plane/constants";
+import { GOD_MODE_URL } from "@gtinx-plane/constants";
 // assets
 import GradientLogo from "@/app/assets/auth/gradient-logo.webp?url";
 import GradientBgLogo from "@/app/assets/auth/gradient-bg-logo.webp?url";
 import DefaultLayout from "@/layouts/default-layout";
-import { PlaneLockup } from "@plane/blocks/icons";
+import { PlaneLockup } from "@gtinx-plane/blocks/icons";
 import { Button } from "@makeplane/propel/components/button";
 
 export function InstanceNotReady() {

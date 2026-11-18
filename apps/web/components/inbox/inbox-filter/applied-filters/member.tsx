@@ -5,16 +5,16 @@
  */
 
 import { observer } from "mobx-react";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 
 // plane types
 import { Avatar } from "@makeplane/propel/components/avatar";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { CloseOutline } from "@makeplane/propel/icons";
-import type { TInboxIssueFilterMemberKeys } from "@plane/types";
+import type { TInboxIssueFilterMemberKeys } from "@gtinx-plane/types";
 // helpers
-import { getFileURL } from "@plane/utils";
+import { getFileURL } from "@gtinx-plane/utils";
 // hooks
 import { useMember } from "@/hooks/store/use-member";
 import { useProjectInbox } from "@/hooks/store/use-project-inbox";

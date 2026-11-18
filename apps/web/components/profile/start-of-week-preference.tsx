@@ -7,9 +7,9 @@
 import { observer } from "mobx-react";
 // plane imports
 import { SelectField } from "@makeplane/propel/components/select-field";
-import { START_OF_THE_WEEK_OPTIONS } from "@plane/constants";
-import { setToast } from "@plane/blocks/toast";
-import type { EStartOfTheWeek } from "@plane/types";
+import { START_OF_THE_WEEK_OPTIONS } from "@gtinx-plane/constants";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { EStartOfTheWeek } from "@gtinx-plane/types";
 // components
 import { SettingsControlItem } from "@/components/settings/control-item";
 // hooks

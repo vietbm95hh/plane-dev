@@ -6,9 +6,9 @@
 
 import { observer } from "mobx-react";
 // plane package imports
-import { EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
+import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
 import { Tabs, TabsList, TabsPanel } from "@makeplane/propel/components/tabs";
 // components
 import AnalyticsFilterActions from "@/components/analytics/analytics-filter-actions";

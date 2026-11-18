@@ -7,7 +7,7 @@
 import { observer } from "mobx-react";
 // plane imports
 import { ComboboxItem } from "@makeplane/propel/components/combobox";
-import type { ISearchIssueResponse } from "@plane/types";
+import type { ISearchIssueResponse } from "@gtinx-plane/types";
 // components
 import { IssueIdentifier } from "@/components/issues/issue-detail/issue-identifier";
 

@@ -7,10 +7,10 @@
 import { useMemo, useState } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { stringToEmoji } from "@plane/blocks/emoji-icon-picker";
-import { EmojiReactionButton, EmojiReactionGroup, EmojiReactionPicker } from "@plane/blocks/emoji-reaction";
-import type { EmojiReactionType } from "@plane/blocks/emoji-reaction";
-import type { TCommentsOperations, TIssueComment } from "@plane/types";
+import { stringToEmoji } from "@gtinx-plane/blocks/emoji-icon-picker";
+import { EmojiReactionButton, EmojiReactionGroup, EmojiReactionPicker } from "@gtinx-plane/blocks/emoji-reaction";
+import type { EmojiReactionType } from "@gtinx-plane/blocks/emoji-reaction";
+import type { TCommentsOperations, TIssueComment } from "@gtinx-plane/types";
 // helpers
 // local imports
 

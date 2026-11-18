@@ -6,8 +6,8 @@
 
 import { ThemeProvider } from "next-themes";
 import { SWRConfig } from "swr";
-import { PlaneToastProvider } from "@plane/blocks/toast";
-import { TranslationProvider } from "@plane/i18n";
+import { PlaneToastProvider } from "@gtinx-plane/blocks/toast";
+import { TranslationProvider } from "@gtinx-plane/i18n";
 import { AppProgressBar } from "@/lib/b-progress";
 // local imports
 import { StoreProvider } from "./store.provider";

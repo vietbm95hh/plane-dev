@@ -20,10 +20,10 @@ import { Badge } from "@makeplane/propel/components/badge";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuSeparator, MenuTrigger } from "@makeplane/propel/components/menu";
-import { setToast } from "@plane/blocks/toast";
-import { useTranslation } from "@plane/i18n";
-import type { IWebhook } from "@plane/types";
-import { renderFormattedDate } from "@plane/utils";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IWebhook } from "@gtinx-plane/types";
+import { renderFormattedDate } from "@gtinx-plane/utils";
 // components
 import type { DataTableColumn } from "@/components/common/data-table";
 import { DataTable } from "@/components/common/data-table";

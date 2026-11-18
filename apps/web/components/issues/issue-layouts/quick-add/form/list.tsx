@@ -6,7 +6,7 @@
 
 import { observer } from "mobx-react";
 import { Input } from "@makeplane/propel/components/input";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { calculateIdentifierWidth } from "../../utils";
 import type { TQuickAddIssueForm } from "../root";
 

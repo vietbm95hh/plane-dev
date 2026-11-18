@@ -17,11 +17,11 @@ import {
   StarOutline,
   UnlockedOutline,
 } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // plane imports
-import { setToast } from "@plane/blocks/toast";
-import { EPageAccess } from "@plane/types";
-import { copyTextToClipboard } from "@plane/utils";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { EPageAccess } from "@gtinx-plane/types";
+import { copyTextToClipboard } from "@gtinx-plane/utils";
 // components
 import type { TPowerKCommandConfig } from "@/components/power-k/core/types";
 // plane web imports

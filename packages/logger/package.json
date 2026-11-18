@@ -1,5 +1,5 @@
 {
-  "name": "@plane/logger",
+  "name": "@gtinx-plane/logger",
   "version": "1.5.0",
   "private": true,
   "description": "Logger shared across multiple apps internally",
@@ -27,7 +27,7 @@
     "winston": "catalog:"
   },
   "devDependencies": {
-    "@plane/typescript-config": "workspace:*",
+    "@gtinx-plane/typescript-config": "workspace:*",
     "@types/express": "catalog:",
     "@types/node": "catalog:",
     "tsdown": "catalog:",

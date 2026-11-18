@@ -10,11 +10,11 @@ import { Controller } from "react-hook-form";
 // plane imports
 import { Field } from "@makeplane/propel/components/field";
 import { Input, InputGroup } from "@makeplane/propel/components/input";
-import { ROLE } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { ROLE } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { CloseOutline } from "@makeplane/propel/icons";
-import { Select } from "@plane/blocks/select";
-import { cn } from "@plane/utils";
+import { Select } from "@gtinx-plane/blocks/select";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useUserPermissions } from "@/hooks/store/user";
 import type { InvitationFormValues } from "@/hooks/use-workspace-invitation";

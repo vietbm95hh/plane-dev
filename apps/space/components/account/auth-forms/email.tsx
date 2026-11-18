@@ -11,11 +11,11 @@ import { observer } from "mobx-react";
 import { CloseCircleOutline, WarningCircleOutline } from "@makeplane/propel/icons";
 // types
 import { Button } from "@makeplane/propel/components/button";
-import type { IEmailCheckData } from "@plane/types";
+import type { IEmailCheckData } from "@gtinx-plane/types";
 // ui
 import { Input } from "@makeplane/propel/components/input";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { checkEmailValidity } from "@/helpers/string.helper";
 
 type TAuthEmailForm = {

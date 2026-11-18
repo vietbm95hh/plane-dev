@@ -14,9 +14,9 @@ import {
   EntityDetailWidgetToolbarIconButton,
   EntityDetailWidgetToolbarMenuButton,
   EntityDetailWidgetToolbarTextButton,
-} from "@plane/blocks/entity-detail";
-import { useTranslation } from "@plane/i18n";
-import type { TIssueServiceType, TWorkItemWidgets } from "@plane/types";
+} from "@gtinx-plane/blocks/entity-detail";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TIssueServiceType, TWorkItemWidgets } from "@gtinx-plane/types";
 // local imports
 import { IssueAttachmentActionButton } from "./attachments";
 import { IssueLinksActionButton } from "./links";

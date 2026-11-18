@@ -6,9 +6,9 @@
 
 import { observer } from "mobx-react";
 // Plane
-import { Row } from "@plane/blocks/layout";
+import { Row } from "@gtinx-plane/blocks/layout";
 // components
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { BLOCK_HEIGHT } from "@/components/gantt-chart/constants";
 import { ModuleGanttSidebarBlock } from "@/components/modules";
 // helpers

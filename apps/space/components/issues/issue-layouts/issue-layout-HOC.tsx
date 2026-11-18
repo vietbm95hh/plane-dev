@@ -6,9 +6,9 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { EmptyStateCompact } from "@plane/blocks/empty-state";
-import { useTranslation } from "@plane/i18n";
-import type { TLoader } from "@plane/types";
+import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TLoader } from "@gtinx-plane/types";
 // components
 import { LogoSpinner } from "@/components/common/logo-spinner";
 

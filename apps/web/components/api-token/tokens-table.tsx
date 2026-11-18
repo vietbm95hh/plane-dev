@@ -12,9 +12,9 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { useTranslation } from "@plane/i18n";
-import type { IApiToken } from "@plane/types";
-import { cn, renderFormattedDate } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IApiToken } from "@gtinx-plane/types";
+import { cn, renderFormattedDate } from "@gtinx-plane/utils";
 // components
 import { DeleteApiTokenModal } from "@/components/api-token/delete-token-modal";
 import type { DataTableColumn } from "@/components/common/data-table";

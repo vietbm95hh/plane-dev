@@ -6,10 +6,10 @@
 
 import { useMemo } from "react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { CyclesOutline } from "@makeplane/propel/icons";
 import { CycleGroupIcon } from "../icons/cycle/cycle-group-icon";
-import type { TCycleGroups, TPaginatedResponse } from "@plane/types";
+import type { TCycleGroups, TPaginatedResponse } from "@gtinx-plane/types";
 // local imports
 import type { SelectPaginationParams, SelectTooltip, SelectVariant } from "../select/types";
 import { Select } from "../select/select";

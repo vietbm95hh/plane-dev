@@ -6,14 +6,14 @@
 
 import { observer } from "mobx-react";
 // plane types
-import { PriorityIcon, StateGroupIcon } from "@plane/blocks/icons";
+import { PriorityIcon, StateGroupIcon } from "@gtinx-plane/blocks/icons";
 import { Icon } from "@makeplane/propel/components/icon";
 import { WorkItemsOutline } from "@makeplane/propel/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { TActivityEntityData, TIssueEntityData } from "@plane/types";
-import { EIssueServiceType } from "@plane/types";
+import type { TActivityEntityData, TIssueEntityData } from "@gtinx-plane/types";
+import { EIssueServiceType } from "@gtinx-plane/types";
 // plane ui
-import { calculateTimeAgo, generateWorkItemLink } from "@plane/utils";
+import { calculateTimeAgo, generateWorkItemLink } from "@gtinx-plane/utils";
 // components
 import { ListItem } from "@/components/core/list";
 import { ButtonAvatars } from "@/components/dropdowns/member/avatar";

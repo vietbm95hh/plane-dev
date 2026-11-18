@@ -10,12 +10,12 @@ import { CopyOutline, DeleteOutline, EditOutline } from "@makeplane/propel/icons
 // plane types
 import { Icon as PropelIcon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { ILinkDetails } from "@plane/types";
+import type { ILinkDetails } from "@gtinx-plane/types";
 // plane ui
-import { getIconForLink, copyTextToClipboard, calculateTimeAgo } from "@plane/utils";
+import { getIconForLink, copyTextToClipboard, calculateTimeAgo } from "@gtinx-plane/utils";
 // helpers
 //
 // hooks

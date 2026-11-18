@@ -8,9 +8,9 @@ import { useCallback } from "react";
 import { useTheme } from "next-themes";
 import { CalendarOutline, GlobeOutline, PaletteOutline, TranslateOutline } from "@makeplane/propel/icons";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
-import type { EStartOfTheWeek, TUserProfile } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { EStartOfTheWeek, TUserProfile } from "@gtinx-plane/types";
 // components
 import type { TPowerKCommandConfig } from "@/components/power-k/core/types";
 // hooks

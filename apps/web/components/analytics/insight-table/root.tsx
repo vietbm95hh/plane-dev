@@ -6,10 +6,10 @@
 
 import type { ColumnDef, Row, Table } from "@tanstack/react-table";
 import { ExportOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
-import type { AnalyticsTableDataMap, TAnalyticsTabsBase } from "@plane/types";
+import type { AnalyticsTableDataMap, TAnalyticsTabsBase } from "@gtinx-plane/types";
 import { DataTable } from "./data-table";
 import { TableLoader } from "./loader";
 interface InsightTableProps<T extends Exclude<TAnalyticsTabsBase, "overview">> {

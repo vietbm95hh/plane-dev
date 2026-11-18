@@ -7,13 +7,13 @@
 import { useEffect, useMemo, useState } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { EEstimateSystem, ESTIMATE_SYSTEMS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { EEstimateSystem, ESTIMATE_SYSTEMS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { ChevronLeftOutline } from "@makeplane/propel/icons";
-import { setToast } from "@plane/blocks/toast";
-import type { IEstimateFormData, TEstimateSystemKeys, TEstimatePointsObject, TEstimateTypeError } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IEstimateFormData, TEstimateSystemKeys, TEstimatePointsObject, TEstimateTypeError } from "@gtinx-plane/types";
 import {
   Dialog,
   DialogActions,

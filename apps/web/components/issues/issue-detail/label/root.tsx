@@ -6,10 +6,10 @@
 
 import { useMemo } from "react";
 import { observer } from "mobx-react";
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
-import type { TIssue, TIssueServiceType } from "@plane/types";
-import { EIssueServiceType } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { TIssue, TIssueServiceType } from "@gtinx-plane/types";
+import { EIssueServiceType } from "@gtinx-plane/types";
 // components
 import { LabelSelect } from "@/components/dropdowns/label/label-select";
 // hooks

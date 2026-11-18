@@ -10,9 +10,9 @@ import { Controller, useForm } from "react-hook-form";
 // plane types
 // plane ui
 import { InputField } from "@makeplane/propel/components/input-field";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
-import type { TLinkEditableFields } from "@plane/types";
+import type { TLinkEditableFields } from "@gtinx-plane/types";
 import {
   Dialog,
   DialogActions,

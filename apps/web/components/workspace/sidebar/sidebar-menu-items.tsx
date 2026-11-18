@@ -14,8 +14,8 @@ import {
   WORKSPACE_SIDEBAR_STATIC_NAVIGATION_ITEMS,
   WORKSPACE_SIDEBAR_STATIC_NAVIGATION_ITEMS_LINKS,
   WORKSPACE_SIDEBAR_STATIC_PINNED_NAVIGATION_ITEMS_LINKS,
-} from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+} from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 // components
 import { ListItem, ListItemLabel } from "@makeplane/propel/components/list";
 import { ListItemButton } from "@makeplane/propel/elements/list";

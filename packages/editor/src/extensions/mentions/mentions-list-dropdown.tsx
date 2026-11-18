@@ -19,7 +19,7 @@ import {
   SuggestionMenuLabel,
 } from "@makeplane/propel/elements/suggestion-menu";
 // plane utils
-import { useOutsideClickDetector } from "@plane/hooks";
+import { useOutsideClickDetector } from "@gtinx-plane/hooks";
 // helpers
 import { DROPDOWN_NAVIGATION_KEYS, getNextValidIndex } from "@/helpers/tippy";
 // types

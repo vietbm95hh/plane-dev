@@ -5,7 +5,7 @@
  */
 
 // plane imports
-import { EStartOfTheWeek } from "@plane/types";
+import { EStartOfTheWeek } from "@gtinx-plane/types";
 
 export const PROFILE_VIEWER_TAB = [
   {

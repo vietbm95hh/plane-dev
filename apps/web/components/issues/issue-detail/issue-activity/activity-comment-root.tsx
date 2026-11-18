@@ -6,11 +6,11 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { EmptyStateCompact } from "@plane/blocks/empty-state";
-import type { E_SORT_ORDER, TActivityFilters } from "@plane/constants";
-import { BASE_ACTIVITY_FILTER_TYPES, EActivityFilterType, filterActivityOnSelectedFilters } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { TCommentsOperations } from "@plane/types";
+import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
+import type { E_SORT_ORDER, TActivityFilters } from "@gtinx-plane/constants";
+import { BASE_ACTIVITY_FILTER_TYPES, EActivityFilterType, filterActivityOnSelectedFilters } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TCommentsOperations } from "@gtinx-plane/types";
 // components
 import { CommentCard } from "@/components/comments/card/root";
 // hooks

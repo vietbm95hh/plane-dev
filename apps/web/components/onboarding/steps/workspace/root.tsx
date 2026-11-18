@@ -7,8 +7,8 @@
 import React, { useEffect, useState } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import type { IWorkspaceMemberInvitation } from "@plane/types";
-import { ECreateOrJoinWorkspaceViews, EOnboardingSteps } from "@plane/types";
+import type { IWorkspaceMemberInvitation } from "@gtinx-plane/types";
+import { ECreateOrJoinWorkspaceViews, EOnboardingSteps } from "@gtinx-plane/types";
 // hooks
 import { useUser } from "@/hooks/store/user";
 // local components

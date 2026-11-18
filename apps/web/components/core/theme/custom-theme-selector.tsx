@@ -8,11 +8,11 @@ import { useMemo, useState } from "react";
 import { observer } from "mobx-react";
 import { useForm } from "react-hook-form";
 // plane imports
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
-import { setToast } from "@plane/blocks/toast";
-import type { IUserTheme } from "@plane/types";
-import { applyCustomTheme } from "@plane/utils";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IUserTheme } from "@gtinx-plane/types";
+import { applyCustomTheme } from "@gtinx-plane/utils";
 // components
 import { ProfileSettingsHeading } from "@/components/settings/profile/heading";
 // hooks

@@ -12,13 +12,13 @@ import { Controller, useForm } from "react-hook-form";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { InputField } from "@makeplane/propel/components/input-field";
 import { LabelsFilled } from "@makeplane/propel/icons";
-import { getRandomLabelColor, LABEL_COLOR_OPTIONS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { getRandomLabelColor, LABEL_COLOR_OPTIONS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { Popover, PopoverContent, PopoverTrigger } from "@makeplane/propel/components/popover";
-import { ColorSwatchPicker } from "@plane/blocks/common";
-import { setToast } from "@plane/blocks/toast";
-import type { IIssueLabel } from "@plane/types";
+import { ColorSwatchPicker } from "@gtinx-plane/blocks/common";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IIssueLabel } from "@gtinx-plane/types";
 
 // error codes
 const errorCodes = {

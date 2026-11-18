@@ -17,14 +17,14 @@ import {
 } from "@makeplane/propel/components/dialog";
 import { InputField } from "@makeplane/propel/components/input-field";
 import { TextAreaField } from "@makeplane/propel/components/text-area-field";
-import { ETabIndices } from "@plane/constants";
+import { ETabIndices } from "@gtinx-plane/constants";
 // types
-import { useTranslation } from "@plane/i18n";
-import { DateRangeSelect } from "@plane/blocks/property-select";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { DateRangeSelect } from "@gtinx-plane/blocks/property-select";
 import { Button } from "@makeplane/propel/components/button";
 import { CalendarOutline } from "@makeplane/propel/icons";
-import type { ICycle } from "@plane/types";
-import { getDate, renderFormattedPayloadDate, getTabIndex } from "@plane/utils";
+import type { ICycle } from "@gtinx-plane/types";
+import { getDate, renderFormattedPayloadDate, getTabIndex } from "@gtinx-plane/utils";
 // components
 import { ProjectSelect } from "@/components/dropdowns/project/project-select";
 // hooks

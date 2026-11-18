@@ -6,8 +6,8 @@
 
 import { useRef, useState } from "react";
 // Plane
-import { setToast } from "@plane/blocks/toast";
-import type { IBlockUpdateDependencyData, IGanttBlock } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IBlockUpdateDependencyData, IGanttBlock } from "@gtinx-plane/types";
 // hooks
 import { useTimeLineChartStore } from "@/hooks/use-timeline-chart";
 //

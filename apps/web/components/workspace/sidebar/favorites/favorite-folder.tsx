@@ -28,19 +28,19 @@ import {
   StarFilled,
 } from "@makeplane/propel/icons";
 // plane imports
-import { useOutsideClickDetector } from "@plane/hooks";
-import { useTranslation } from "@plane/i18n";
-import { FavoriteFolderIcon } from "@plane/blocks/icons";
+import { useOutsideClickDetector } from "@gtinx-plane/hooks";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { FavoriteFolderIcon } from "@gtinx-plane/blocks/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { IFavorite, InstructionType } from "@plane/types";
+import type { IFavorite, InstructionType } from "@gtinx-plane/types";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { ListItem, ListItemLabel } from "@makeplane/propel/components/list";
 import { ListItemButton } from "@makeplane/propel/elements/list";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
-import { DropIndicator } from "@plane/blocks/common";
+import { DropIndicator } from "@gtinx-plane/blocks/common";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useFavorite } from "@/hooks/store/use-favorite";
 import { usePlatformOS } from "@/hooks/use-platform-os";

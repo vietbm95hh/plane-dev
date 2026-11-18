@@ -11,10 +11,10 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { CloseOutline, MembersOutline, ProjectsOutline, TickOutline } from "@makeplane/propel/icons";
 // plane ui
-import { EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { useLocalStorage } from "@plane/hooks";
-import { useTranslation } from "@plane/i18n";
-import { cn, getFileURL } from "@plane/utils";
+import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useLocalStorage } from "@gtinx-plane/hooks";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { cn, getFileURL } from "@gtinx-plane/utils";
 // hooks
 import { useCommandPalette } from "@/hooks/store/use-command-palette";
 import { useProject } from "@/hooks/store/use-project";

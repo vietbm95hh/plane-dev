@@ -10,13 +10,13 @@ import { useTheme } from "next-themes";
 import useSWR from "swr";
 // plane internal packages
 import { Switch } from "@makeplane/propel/components/switch";
-import type { TInstanceConfigurationKeys, TInstanceAuthenticationModes } from "@plane/types";
-import { cn, resolveGeneralTheme } from "@plane/utils";
+import type { TInstanceConfigurationKeys, TInstanceAuthenticationModes } from "@gtinx-plane/types";
+import { cn, resolveGeneralTheme } from "@gtinx-plane/utils";
 // components
 import { PageWrapper } from "@/components/common/page-wrapper";
 import { AuthenticationMethodCard } from "@/components/authentication/authentication-method-card";
-import { Skeleton } from "@plane/blocks/skeleton";
-import { setPromiseToast, setToast } from "@plane/blocks/toast";
+import { Skeleton } from "@gtinx-plane/blocks/skeleton";
+import { setPromiseToast, setToast } from "@gtinx-plane/blocks/toast";
 // helpers
 import { canDisableAuthMethod } from "@/helpers/authentication";
 // hooks

@@ -5,9 +5,9 @@
  */
 
 import { observer } from "mobx-react";
-import { EIconSize } from "@plane/constants";
-import { StateGroupIcon } from "@plane/blocks/icons";
-import { useTranslation } from "@plane/i18n";
+import { EIconSize } from "@gtinx-plane/constants";
+import { StateGroupIcon } from "@gtinx-plane/blocks/icons";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { CloseOutline } from "@makeplane/propel/icons";

@@ -10,8 +10,8 @@ import { useParams } from "next/navigation";
 import { Collapsible } from "@makeplane/propel/components/collapsible";
 // plane imports
 import { AnalyticsOutline, CyclesOutline, ProjectsOutline, ViewsOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
-import { EUserWorkspaceRoles } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EUserWorkspaceRoles } from "@gtinx-plane/types";
 // hooks
 import useLocalStorage from "@/hooks/use-local-storage";
 // local imports

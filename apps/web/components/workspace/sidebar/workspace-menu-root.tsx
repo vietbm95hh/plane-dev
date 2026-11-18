@@ -14,11 +14,11 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { Menu, MenuContent, MenuItem, MenuSeparator, MenuTrigger } from "@makeplane/propel/components/menu";
 import { ScrollArea } from "@makeplane/propel/components/scroll-area";
 import { WorkspaceAvatar } from "@makeplane/propel/components/workspace-avatar";
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
-import type { IWorkspace } from "@plane/types";
-import { Loader } from "@plane/blocks/skeleton";
-import { orderWorkspacesList, cn, getFileURL } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IWorkspace } from "@gtinx-plane/types";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
+import { orderWorkspacesList, cn, getFileURL } from "@gtinx-plane/utils";
 // helpers
 import { AppSidebarItem } from "@/components/sidebar/sidebar-item";
 // hooks

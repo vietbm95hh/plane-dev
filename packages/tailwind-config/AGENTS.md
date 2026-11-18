@@ -31,7 +31,7 @@ The tokens behind these classes come from the published `@makeplane/propel` pack
 **Example**:
 
 ```tsx
-// ✅ Correct: Canvas is already applied once, to <body>, by @plane/tailwind-config/index.css:
+// ✅ Correct: Canvas is already applied once, to <body>, by @gtinx-plane/tailwind-config/index.css:
 //   body { @apply font-body bg-canvas text-primary; }
 // Don't add bg-canvas anywhere else (root.tsx, layouts, pages).
 

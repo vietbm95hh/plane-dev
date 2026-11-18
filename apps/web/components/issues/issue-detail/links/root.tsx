@@ -8,9 +8,9 @@ import { useCallback, useMemo, useState } from "react";
 
 import { AddOutline } from "@makeplane/propel/icons";
 // plane imports
-import { setToast } from "@plane/blocks/toast";
-import type { TIssueLink } from "@plane/types";
-import { EIssueServiceType } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { TIssueLink } from "@gtinx-plane/types";
+import { EIssueServiceType } from "@gtinx-plane/types";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 // local imports

@@ -4,7 +4,7 @@
  * See the LICENSE file for details.
  */
 
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 export type DotSeparatorProps = { className?: string };
 

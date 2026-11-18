@@ -10,7 +10,7 @@ import { pdf } from "@react-pdf/renderer";
 import { Controller, useForm } from "react-hook-form";
 import { useParams } from "react-router";
 // plane editor
-import type { EditorRefApi } from "@plane/editor";
+import type { EditorRefApi } from "@gtinx-plane/editor";
 // plane ui
 import { Button } from "@makeplane/propel/components/button";
 import {
@@ -23,8 +23,8 @@ import {
   DialogMain,
   DialogTitle,
 } from "@makeplane/propel/components/dialog";
-import { Select, SelectDropdownPlacementContext } from "@plane/blocks/select";
-import { setToast } from "@plane/blocks/toast";
+import { Select, SelectDropdownPlacementContext } from "@gtinx-plane/blocks/select";
+import { setToast } from "@gtinx-plane/blocks/toast";
 // components
 import { PDFDocument } from "@/components/editor/pdf";
 // hooks

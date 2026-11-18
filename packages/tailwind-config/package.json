@@ -1,5 +1,5 @@
 {
-  "name": "@plane/tailwind-config",
+  "name": "@gtinx-plane/tailwind-config",
   "version": "1.5.0",
   "private": true,
   "description": "common tailwind configuration across monorepo",

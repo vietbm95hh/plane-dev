@@ -9,8 +9,8 @@ import { useEffect, useState } from "react";
 import { observer } from "mobx-react";
 import useSWR from "swr";
 // plane imports
-import { EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { GANTT_TIMELINE_TYPE } from "@plane/types";
+import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { GANTT_TIMELINE_TYPE } from "@gtinx-plane/types";
 // components
 import { ProjectAccessRestriction } from "@/components/auth-screens/project/project-access-restriction";
 import {
@@ -25,7 +25,7 @@ import {
   PROJECT_MODULES,
   PROJECT_VIEWS,
   PROJECT_INTAKE_STATE,
-} from "@plane/constants";
+} from "@gtinx-plane/constants";
 // hooks
 import { useProjectEstimates } from "@/hooks/store/estimates";
 import { useCycle } from "@/hooks/store/use-cycle";

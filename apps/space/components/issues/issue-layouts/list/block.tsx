@@ -10,10 +10,10 @@ import { Link } from "react-router";
 import { useParams, useSearchParams } from "next/navigation";
 // plane types
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { IIssueDisplayProperties } from "@plane/types";
+import type { IIssueDisplayProperties } from "@gtinx-plane/types";
 // plane ui
 // plane utils
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // helpers
 import { queryParamGenerator } from "@/helpers/query-param-generator";
 // hooks

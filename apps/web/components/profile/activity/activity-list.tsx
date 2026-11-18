@@ -10,8 +10,8 @@ import { useParams } from "next/navigation";
 import { ChatOutline, HistoryOutline } from "@makeplane/propel/icons";
 import { Avatar } from "@makeplane/propel/components/avatar";
 // plane imports
-import type { IUserActivityResponse } from "@plane/types";
-import { calculateTimeAgo, getFileURL } from "@plane/utils";
+import type { IUserActivityResponse } from "@gtinx-plane/types";
+import { calculateTimeAgo, getFileURL } from "@gtinx-plane/utils";
 // components
 import { ActivityIcon, ActivityMessage, IssueLink } from "@/components/core/activity";
 import { RichTextEditor } from "@/components/editor/rich-text";

@@ -5,7 +5,7 @@
  */
 
 import { observer } from "mobx-react";
-import type { IIssueLabel } from "@plane/types";
+import type { IIssueLabel } from "@gtinx-plane/types";
 // components
 import { FilterSubmenu } from "@/components/common/filters/filter-submenu";
 // hooks

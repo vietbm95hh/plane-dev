@@ -8,8 +8,8 @@ import { useEffect, useRef } from "react";
 // plane imports
 import { PillGroup } from "@makeplane/propel/components/pill";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { SingleOrArray, TFilterValue } from "@plane/types";
-import { hasValidValue, cn } from "@plane/utils";
+import type { SingleOrArray, TFilterValue } from "@gtinx-plane/types";
+import { hasValidValue, cn } from "@gtinx-plane/utils";
 
 interface FilterItemContainerProps {
   children: React.ReactNode;

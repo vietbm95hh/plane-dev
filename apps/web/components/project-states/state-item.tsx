@@ -10,10 +10,10 @@ import { draggable, dropTargetForElements } from "@atlaskit/pragmatic-drag-and-d
 import { attachClosestEdge, extractClosestEdge } from "@atlaskit/pragmatic-drag-and-drop-hitbox/closest-edge";
 import { observer } from "mobx-react";
 // Plane
-import type { TDraggableData } from "@plane/constants";
-import type { IState, TStateGroups, TStateOperationsCallbacks } from "@plane/types";
-import { DropIndicator } from "@plane/blocks/common";
-import { cn, getCurrentStateSequence } from "@plane/utils";
+import type { TDraggableData } from "@gtinx-plane/constants";
+import type { IState, TStateGroups, TStateOperationsCallbacks } from "@gtinx-plane/types";
+import { DropIndicator } from "@gtinx-plane/blocks/common";
+import { cn, getCurrentStateSequence } from "@gtinx-plane/utils";
 // components
 import { StateItemTitle, StateUpdate } from "@/components/project-states";
 // helpers

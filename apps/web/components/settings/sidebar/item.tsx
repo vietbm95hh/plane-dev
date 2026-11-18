@@ -11,7 +11,7 @@ import { useLinkClickHandler } from "react-router";
 import { Icon } from "@makeplane/propel/components/icon";
 import type { IconGlyph } from "@makeplane/propel/components/icon";
 import { ListItem, ListItemButton, ListItemLink } from "@makeplane/propel/components/list";
-import type { ISvgIcons } from "@plane/blocks/icons";
+import type { ISvgIcons } from "@gtinx-plane/blocks/icons";
 // helpers
 import { ensureTrailingSlash } from "@/app/compat/next/helper";
 

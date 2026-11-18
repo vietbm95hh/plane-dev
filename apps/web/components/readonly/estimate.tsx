@@ -6,10 +6,10 @@
 
 import { useEffect } from "react";
 import { observer } from "mobx-react";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { EstimateOutline } from "@makeplane/propel/icons";
-import { EEstimateSystem } from "@plane/types";
-import { cn, convertMinutesToHoursMinutesString } from "@plane/utils";
+import { EEstimateSystem } from "@gtinx-plane/types";
+import { cn, convertMinutesToHoursMinutesString } from "@gtinx-plane/utils";
 // hooks
 import { useProjectEstimates } from "@/hooks/store/estimates";
 import { useEstimate } from "@/hooks/store/estimates/use-estimate";

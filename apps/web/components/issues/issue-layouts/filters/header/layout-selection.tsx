@@ -7,9 +7,9 @@
 // plane imports
 import { Tab, Tabs, TabsList } from "@makeplane/propel/components/tabs";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { ISSUE_LAYOUTS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { EIssueLayoutTypes } from "@plane/types";
+import { ISSUE_LAYOUTS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { EIssueLayoutTypes } from "@gtinx-plane/types";
 // components
 import { IssueLayoutIcon } from "@/components/issues/issue-layouts/layout-icon";
 // hooks

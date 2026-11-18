@@ -15,16 +15,16 @@ import {
   ISSUE_DISPLAY_FILTERS_BY_PAGE,
   EUserPermissions,
   EUserPermissionsLevel,
-} from "@plane/constants";
+} from "@gtinx-plane/constants";
 import { Badge } from "@makeplane/propel/components/badge";
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { IIssueDisplayFilterOptions, IIssueDisplayProperties } from "@plane/types";
-import { EIssuesStoreType, EIssueLayoutTypes } from "@plane/types";
-import { Breadcrumbs } from "@plane/blocks/breadcrumb";
-import { Header } from "@plane/blocks/layout";
+import type { IIssueDisplayFilterOptions, IIssueDisplayProperties } from "@gtinx-plane/types";
+import { EIssuesStoreType, EIssueLayoutTypes } from "@gtinx-plane/types";
+import { Breadcrumbs } from "@gtinx-plane/blocks/breadcrumb";
+import { Header } from "@gtinx-plane/blocks/layout";
 // components
 import { WorkItemsModal } from "@/components/analytics/work-items/modal";
 import { BreadcrumbLink } from "@/components/common/breadcrumb-link";

@@ -10,7 +10,7 @@ import { Button } from "@makeplane/propel/elements/button";
 import { IconButton } from "@makeplane/propel/elements/icon-button";
 import { PopoverPopup } from "@makeplane/propel/elements/popover";
 // plane utils
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // constants
 import { COLORS_LIST } from "@/constants/common";
 

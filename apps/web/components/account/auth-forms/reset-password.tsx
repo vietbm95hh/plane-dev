@@ -12,12 +12,12 @@ import { HideOutline, ShowOutline } from "@makeplane/propel/icons";
 // ui
 import { Banner } from "@makeplane/propel/components/banner";
 import { InputField } from "@makeplane/propel/components/input-field";
-import { API_BASE_URL, E_PASSWORD_STRENGTH } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { API_BASE_URL, E_PASSWORD_STRENGTH } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
-import { PasswordStrengthIndicator } from "@plane/blocks/auth";
+import { PasswordStrengthIndicator } from "@gtinx-plane/blocks/auth";
 // components
-import { getPasswordStrength } from "@plane/utils";
+import { getPasswordStrength } from "@gtinx-plane/utils";
 // helpers
 import type { EAuthenticationErrorCodes, TAuthErrorInfo } from "@/helpers/authentication.helper";
 import { EErrorAlertType, authErrorHandler } from "@/helpers/authentication.helper";

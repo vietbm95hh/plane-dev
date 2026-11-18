@@ -7,10 +7,10 @@
 import { Command } from "cmdk";
 import { observer } from "mobx-react";
 // plane imports
-import { MODULE_STATUS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { ModuleStatusIcon } from "@plane/blocks/icons";
-import type { TModuleStatus } from "@plane/types";
+import { MODULE_STATUS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { ModuleStatusIcon } from "@gtinx-plane/blocks/icons";
+import type { TModuleStatus } from "@gtinx-plane/types";
 // local imports
 import { PowerKModalCommandItem } from "../../../modal/command-item";
 

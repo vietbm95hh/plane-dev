@@ -9,10 +9,10 @@ import { Button } from "@makeplane/propel/components/button";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Tab, Tabs, TabsList } from "@makeplane/propel/components/tabs";
 import { ArrowCollapseOutline, ArrowExpandOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // plane
-import type { TGanttViews } from "@plane/types";
-import { Row } from "@plane/blocks/layout";
+import type { TGanttViews } from "@gtinx-plane/types";
+import { Row } from "@gtinx-plane/blocks/layout";
 // components
 import { VIEWS_LIST } from "@/components/gantt-chart/data";
 // helpers

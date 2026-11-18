@@ -6,7 +6,7 @@
 
 // plane imports
 import { ExpandableSearch } from "@makeplane/propel/components/expandable-search";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 
 type Props = {
   searchQuery: string;

@@ -10,15 +10,15 @@ import { useTheme } from "next-themes";
 import useSWR from "swr";
 // plane internal packages
 import { Switch } from "@makeplane/propel/components/switch";
-import { resolveGeneralTheme } from "@plane/utils";
+import { resolveGeneralTheme } from "@gtinx-plane/utils";
 // assets
 import githubLightModeImage from "@/app/assets/logos/github-black.png?url";
 import githubDarkModeImage from "@/app/assets/logos/github-white.png?url";
 // components
 import { AuthenticationMethodCard } from "@/components/authentication/authentication-method-card";
 import { PageWrapper } from "@/components/common/page-wrapper";
-import { Skeleton } from "@plane/blocks/skeleton";
-import { setPromiseToast } from "@plane/blocks/toast";
+import { Skeleton } from "@gtinx-plane/blocks/skeleton";
+import { setPromiseToast } from "@gtinx-plane/blocks/toast";
 // hooks
 import { useInstance } from "@/hooks/store";
 // types

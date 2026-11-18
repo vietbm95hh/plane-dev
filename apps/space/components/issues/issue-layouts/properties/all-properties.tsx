@@ -7,10 +7,10 @@
 import { observer } from "mobx-react";
 import { AttachOutline, LinkOutline, SubWorkItemsOutline } from "@makeplane/propel/icons";
 // plane imports
-import { WorkItemPropertiesList, WorkItemPropertyCountChip } from "@plane/blocks/work-item-properties";
-import type { WorkItemPropertiesListProps } from "@plane/blocks/work-item-properties";
-import { useTranslation } from "@plane/i18n";
-import type { IIssueDisplayProperties } from "@plane/types";
+import { WorkItemPropertiesList, WorkItemPropertyCountChip } from "@gtinx-plane/blocks/work-item-properties";
+import type { WorkItemPropertiesListProps } from "@gtinx-plane/blocks/work-item-properties";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IIssueDisplayProperties } from "@gtinx-plane/types";
 // types
 import type { IIssue } from "@/types/issue";
 // local imports
@@ -30,7 +30,7 @@ export interface IIssueProperties {
 
 /**
  * A public work item's property chips, read-only, in row order. Builds the same entry list the
- * web app hands to `@plane/blocks`, and renders it with the shared wrapping list.
+ * web app hands to `@gtinx-plane/blocks`, and renders it with the shared wrapping list.
  */
 export const IssueProperties = observer(function IssueProperties(props: IIssueProperties) {
   const { issue, displayProperties, className } = props;

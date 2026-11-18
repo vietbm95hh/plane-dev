@@ -11,14 +11,14 @@ import { Controller } from "react-hook-form";
 // plane imports
 import { Field } from "@makeplane/propel/components/field";
 import { Input, InputGroup } from "@makeplane/propel/components/input";
-import { ETabIndices } from "@plane/constants";
+import { ETabIndices } from "@gtinx-plane/constants";
 // types
-import { useTranslation } from "@plane/i18n";
-import type { TIssue } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TIssue } from "@gtinx-plane/types";
 // ui
 
 // helpers
-import { getTabIndex } from "@plane/utils";
+import { getTabIndex } from "@gtinx-plane/utils";
 // hooks
 import { usePlatformOS } from "@/hooks/use-platform-os";
 

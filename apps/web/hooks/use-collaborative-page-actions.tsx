@@ -5,10 +5,10 @@
  */
 
 import { useState, useEffect, useCallback, useMemo } from "react";
-import type { TDocumentEventsServer } from "@plane/editor";
-import type { TDocumentEventsClient } from "@plane/editor/lib";
-import { DocumentCollaborativeEvents, getServerEventName } from "@plane/editor/lib";
-import { setToast } from "@plane/blocks/toast";
+import type { TDocumentEventsServer } from "@gtinx-plane/editor";
+import type { TDocumentEventsClient } from "@gtinx-plane/editor/lib";
+import { DocumentCollaborativeEvents, getServerEventName } from "@gtinx-plane/editor/lib";
+import { setToast } from "@gtinx-plane/blocks/toast";
 // store
 import type { TPageInstance } from "@/store/pages/base-page";
 

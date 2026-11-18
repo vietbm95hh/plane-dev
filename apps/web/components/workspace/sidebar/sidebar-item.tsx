@@ -9,10 +9,10 @@ import { observer } from "mobx-react";
 import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
 // plane imports
-import type { IWorkspaceSidebarNavigationItem } from "@plane/constants";
-import { EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { joinUrlPath } from "@plane/utils";
+import type { IWorkspaceSidebarNavigationItem } from "@gtinx-plane/constants";
+import { EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { joinUrlPath } from "@gtinx-plane/utils";
 // components
 import { ListItem, ListItemLabel } from "@makeplane/propel/components/list";
 import { ListItemLink } from "@makeplane/propel/elements/list";

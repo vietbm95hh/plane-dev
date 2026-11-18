@@ -7,10 +7,10 @@
 import { observer } from "mobx-react";
 import { PreferencesOutline } from "@makeplane/propel/icons";
 // plane imports
-import { Select } from "@plane/blocks/select";
-import { SPREADSHEET_PROPERTY_DETAILS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { IIssueDisplayProperties } from "@plane/types";
+import { Select } from "@gtinx-plane/blocks/select";
+import { SPREADSHEET_PROPERTY_DETAILS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IIssueDisplayProperties } from "@gtinx-plane/types";
 // local imports
 import { SpreadSheetPropertyIcon } from "./issue-layouts/utils";
 

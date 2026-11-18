@@ -11,10 +11,10 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
 // plane imports
-import { EEstimateSystem, estimateCount } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { TEstimatePointsObject, TEstimateSystemKeys, TEstimateTypeErrorObject } from "@plane/types";
-import { convertMinutesToHoursMinutesString } from "@plane/utils";
+import { EEstimateSystem, estimateCount } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TEstimatePointsObject, TEstimateSystemKeys, TEstimateTypeErrorObject } from "@gtinx-plane/types";
+import { convertMinutesToHoursMinutesString } from "@gtinx-plane/utils";
 // local imports
 import { EstimatePointUpdate } from "./update";
 

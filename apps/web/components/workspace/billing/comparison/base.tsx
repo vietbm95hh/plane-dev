@@ -9,7 +9,7 @@ import { ArrowDownOutline, TopArrowOutline } from "@makeplane/propel/icons";
 // plane imports
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // constants
 import type { TPlanePlans } from "@/components/workspace/billing/comparison/plans";
 import { ComingSoonBadge, PLANE_PLANS, PLANS_LIST } from "@/components/workspace/billing/comparison/plans";

@@ -9,10 +9,10 @@ import { InputField } from "@makeplane/propel/components/input-field";
 import { Popover, PopoverContent, PopoverTrigger } from "@makeplane/propel/components/popover";
 import { TextAreaField } from "@makeplane/propel/components/text-area-field";
 import { Button } from "@makeplane/propel/components/button";
-import { ColorSwatchPicker } from "@plane/blocks/common";
-import { useTranslation } from "@plane/i18n";
-import { StateGroupIcon } from "@plane/blocks/icons";
-import type { IState, TStateGroups } from "@plane/types";
+import { ColorSwatchPicker } from "@gtinx-plane/blocks/common";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { StateGroupIcon } from "@gtinx-plane/blocks/icons";
+import type { IState, TStateGroups } from "@gtinx-plane/types";
 
 type TStateForm = {
   data: Partial<IState>;

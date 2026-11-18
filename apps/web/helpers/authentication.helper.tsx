@@ -7,7 +7,7 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 // plane imports
-import { SUPPORT_EMAIL } from "@plane/constants";
+import { SUPPORT_EMAIL } from "@gtinx-plane/constants";
 
 export enum EPageTypes {
   PUBLIC = "PUBLIC",

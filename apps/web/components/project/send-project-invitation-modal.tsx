@@ -8,12 +8,12 @@ import { useEffect } from "react";
 import { observer } from "mobx-react";
 import { useForm, Controller, useFieldArray } from "react-hook-form";
 // plane imports
-import { ROLE, EUserPermissions } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { ROLE, EUserPermissions } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { AddOutline, ChevronDownOutline, CloseOutline } from "@makeplane/propel/icons";
-import { setToast } from "@plane/blocks/toast";
-import { Select } from "@plane/blocks/select";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { Select } from "@gtinx-plane/blocks/select";
 import {
   Dialog,
   DialogActions,

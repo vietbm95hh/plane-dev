@@ -14,10 +14,10 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { Menu, MenuContent, MenuItem, MenuSeparator, MenuTrigger } from "@makeplane/propel/components/menu";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { IconButton } from "@makeplane/propel/elements/icon-button";
-import { GOD_MODE_URL } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
-import { getFileURL } from "@plane/utils";
+import { GOD_MODE_URL } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { getFileURL } from "@gtinx-plane/utils";
 // components
 import { CoverImage } from "@/components/common/cover-image";
 // hooks

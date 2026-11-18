@@ -5,7 +5,7 @@
  */
 
 import { range } from "lodash-es";
-import { Row } from "@plane/blocks/layout";
+import { Row } from "@gtinx-plane/blocks/layout";
 import { BLOCK_HEIGHT } from "@/components/gantt-chart/constants";
 import { getRandomLength } from "../utils";
 

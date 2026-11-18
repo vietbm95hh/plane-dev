@@ -8,10 +8,10 @@ import { useCallback, useEffect } from "react";
 import { observer } from "mobx-react";
 import useSWR from "swr";
 // plane imports
-import { ENotificationLoader, ENotificationQueryParamType } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
-import { cn } from "@plane/utils";
+import { ENotificationLoader, ENotificationQueryParamType } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { LogoSpinner } from "@/components/common/logo-spinner";
 // hooks

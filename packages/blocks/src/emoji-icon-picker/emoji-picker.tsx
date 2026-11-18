@@ -7,8 +7,8 @@
 import { useMemo, useCallback, useState } from "react";
 import { Popover, PopoverBody, PopoverContent, PopoverTrigger } from "@makeplane/propel/components/popover";
 import { Tab, Tabs, TabsList, TabsPanel } from "@makeplane/propel/components/tabs";
-import { useTranslation } from "@plane/i18n";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { cn } from "@gtinx-plane/utils";
 import type { Placement, Side, Align } from "../utils/placement";
 import { convertPlacementToSideAndAlign } from "../utils/placement";
 import { EmojiRoot } from "./emoji/emoji";

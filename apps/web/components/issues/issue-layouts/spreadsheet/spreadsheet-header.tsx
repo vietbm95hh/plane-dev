@@ -7,11 +7,11 @@
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // constants
-import { SPREADSHEET_SELECT_GROUP } from "@plane/constants";
+import { SPREADSHEET_SELECT_GROUP } from "@gtinx-plane/constants";
 // ui
-import type { IIssueDisplayFilterOptions, IIssueDisplayProperties } from "@plane/types";
+import type { IIssueDisplayFilterOptions, IIssueDisplayProperties } from "@gtinx-plane/types";
 // components
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { MultipleSelectGroupAction } from "@/components/core/multiple-select";
 import { SpreadsheetColumnsToggle } from "@/components/issues/spreadsheet-columns-toggle";
 // hooks

@@ -8,16 +8,16 @@ import { useMemo, useState } from "react";
 import { observer } from "mobx-react";
 import { useSearchParams } from "next/navigation";
 import { WarningCircleOutline } from "@makeplane/propel/icons";
-import { EEstimateSystem } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { TModulePlotType, TStateGroups } from "@plane/types";
-import { EIssuesStoreType } from "@plane/types";
-import { Select } from "@plane/blocks/select";
-import { Spinner } from "@plane/blocks/spinner";
+import { EEstimateSystem } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TModulePlotType, TStateGroups } from "@gtinx-plane/types";
+import { EIssuesStoreType } from "@gtinx-plane/types";
+import { Select } from "@gtinx-plane/blocks/select";
+import { Spinner } from "@gtinx-plane/blocks/spinner";
 // components
 // constants
 // helpers
-import { getDate, toFilterArray } from "@plane/utils";
+import { getDate, toFilterArray } from "@gtinx-plane/utils";
 import { createFilterUpdateHandler } from "@/components/core/sidebar/progress-stats/shared";
 import { ModuleProgressStats } from "@/components/modules";
 // hooks

@@ -5,15 +5,15 @@
  */
 
 import { useEffect, useState } from "react";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Dialog, DialogContent } from "@makeplane/propel/components/dialog";
-import { getAssetIdFromUrl, checkURLValidity } from "@plane/utils";
+import { getAssetIdFromUrl, checkURLValidity } from "@gtinx-plane/utils";
 // plane ui
 // helpers
 // plane web components
 import { CreateProjectForm } from "@/components/projects/create/root";
 // plane web types
-import type { TProject } from "@plane/types";
+import type { TProject } from "@gtinx-plane/types";
 // services
 import { FileService } from "@/services/file.service";
 const fileService = new FileService();

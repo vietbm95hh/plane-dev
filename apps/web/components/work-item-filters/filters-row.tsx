@@ -6,8 +6,8 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import type { IWorkItemFilterInstance } from "@plane/shared-state";
-import type { TWorkItemFilterExpression, TWorkItemFilterProperty } from "@plane/types";
+import type { IWorkItemFilterInstance } from "@gtinx-plane/shared-state";
+import type { TWorkItemFilterExpression, TWorkItemFilterProperty } from "@gtinx-plane/types";
 // components
 import type { TFiltersRowProps } from "@/components/rich-filters/filters-row";
 import { FiltersRow } from "@/components/rich-filters/filters-row";

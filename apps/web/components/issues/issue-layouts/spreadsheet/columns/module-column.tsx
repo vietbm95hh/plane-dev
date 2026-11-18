@@ -9,7 +9,7 @@ import { xor } from "lodash-es";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // types
-import type { TIssue } from "@plane/types";
+import type { TIssue } from "@gtinx-plane/types";
 // components
 import { ModuleSelect } from "@/components/dropdowns/module/module-select";
 // hooks

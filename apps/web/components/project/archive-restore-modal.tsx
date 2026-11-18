@@ -7,7 +7,7 @@
 import { useState } from "react";
 // ui
 import { Button } from "@makeplane/propel/components/button";
-import { setToast } from "@plane/blocks/toast";
+import { setToast } from "@gtinx-plane/blocks/toast";
 import {
   Dialog,
   DialogActions,

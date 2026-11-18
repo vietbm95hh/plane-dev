@@ -7,8 +7,8 @@
 import { useEffect, useRef, useState } from "react";
 import { observer } from "mobx-react";
 // plane helpers
-import { useOutsideClickDetector } from "@plane/hooks";
-import { useTranslation } from "@plane/i18n";
+import { useOutsideClickDetector } from "@gtinx-plane/hooks";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { PreferencesOutline } from "@makeplane/propel/icons";
 import { ScrollArea } from "@makeplane/propel/components/scroll-area";
 // components

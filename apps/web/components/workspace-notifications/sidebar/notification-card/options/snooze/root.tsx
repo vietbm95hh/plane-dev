@@ -9,9 +9,9 @@ import { observer } from "mobx-react";
 import { ClockOutline } from "@makeplane/propel/icons";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
 // plane imports
-import { NOTIFICATION_SNOOZE_OPTIONS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
+import { NOTIFICATION_SNOOZE_OPTIONS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 // hooks

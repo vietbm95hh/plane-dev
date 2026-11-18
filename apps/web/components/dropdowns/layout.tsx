@@ -7,10 +7,10 @@
 import { useMemo } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { ISSUE_LAYOUT_MAP } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { EIssueLayoutTypes } from "@plane/types";
-import { Select } from "@plane/blocks/select";
+import { ISSUE_LAYOUT_MAP } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EIssueLayoutTypes } from "@gtinx-plane/types";
+import { Select } from "@gtinx-plane/blocks/select";
 // components
 import { IssueLayoutIcon } from "@/components/issues/issue-layouts/layout-icon";
 

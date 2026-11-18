@@ -5,11 +5,11 @@
  */
 
 import { observer } from "mobx-react";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Tabs, TabsList, Tab, TabsPanel } from "@makeplane/propel/components/tabs";
-import type { TWorkItemFilterCondition } from "@plane/shared-state";
-import type { TModuleDistribution, TModuleEstimateDistribution, TModulePlotType } from "@plane/types";
-import { toFilterArray } from "@plane/utils";
+import type { TWorkItemFilterCondition } from "@gtinx-plane/shared-state";
+import type { TModuleDistribution, TModuleEstimateDistribution, TModulePlotType } from "@gtinx-plane/types";
+import { toFilterArray } from "@gtinx-plane/utils";
 // components
 import type { TAssigneeData } from "@/components/core/sidebar/progress-stats/assignee";
 import { AssigneeStatComponent } from "@/components/core/sidebar/progress-stats/assignee";

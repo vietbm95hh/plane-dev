@@ -15,14 +15,14 @@ import {
   MoreHorizontalOutline,
 } from "@makeplane/propel/icons";
 // plane imports
-import { EIssueCommentAccessSpecifier } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { EIssueCommentAccessSpecifier } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
-import type { TIssueComment, TCommentsOperations } from "@plane/types";
-import type { TContextMenuItem } from "@plane/blocks/context-menu";
-import { resolveItemVariant } from "@plane/blocks/context-menu";
+import type { TIssueComment, TCommentsOperations } from "@gtinx-plane/types";
+import type { TContextMenuItem } from "@gtinx-plane/blocks/context-menu";
+import { resolveItemVariant } from "@gtinx-plane/blocks/context-menu";
 // hooks
 import { useUser } from "@/hooks/store/user";
 

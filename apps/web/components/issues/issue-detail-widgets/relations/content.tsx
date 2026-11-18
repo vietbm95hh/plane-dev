@@ -9,9 +9,9 @@ import { observer } from "mobx-react";
 // plane imports
 import { Collapsible } from "@makeplane/propel/components/collapsible";
 import { Pill, PillLabel } from "@makeplane/propel/elements/pill";
-import { useTranslation } from "@plane/i18n";
-import type { TIssue, TIssueServiceType, TIssueRelationTypes } from "@plane/types";
-import { EIssueServiceType } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TIssue, TIssueServiceType, TIssueRelationTypes } from "@gtinx-plane/types";
+import { EIssueServiceType } from "@gtinx-plane/types";
 // components
 import { CreateUpdateIssueModal } from "@/components/issues/issue-modal/modal";
 import { useTimeLineRelationOptions } from "@/components/relations";

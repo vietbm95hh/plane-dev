@@ -5,11 +5,11 @@
  */
 
 // plane imports
-import { STATE_GROUPS } from "@plane/constants";
+import { STATE_GROUPS } from "@gtinx-plane/constants";
 // types
-import { useTranslation } from "@plane/i18n";
-import type { IUserStateDistribution } from "@plane/types";
-import { Card } from "@plane/blocks/card";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IUserStateDistribution } from "@gtinx-plane/types";
+import { Card } from "@gtinx-plane/blocks/card";
 // constants
 
 type Props = {

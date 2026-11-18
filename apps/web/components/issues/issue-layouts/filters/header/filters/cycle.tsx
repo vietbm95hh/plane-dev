@@ -6,8 +6,8 @@
 
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
-import { CycleGroupIcon } from "@plane/blocks/icons";
-import type { TCycleGroups } from "@plane/types";
+import { CycleGroupIcon } from "@gtinx-plane/blocks/icons";
+import type { TCycleGroups } from "@gtinx-plane/types";
 // components
 import { FilterSubmenu } from "@/components/common/filters/filter-submenu";
 // hooks

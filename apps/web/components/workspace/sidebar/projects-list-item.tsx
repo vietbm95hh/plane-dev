@@ -26,18 +26,18 @@ import {
   ShareAltOutline,
 } from "@makeplane/propel/icons";
 // plane imports
-import { EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { useOutsideClickDetector } from "@plane/hooks";
-import { useTranslation } from "@plane/i18n";
-import { Logo } from "@plane/blocks/emoji-icon-picker";
+import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useOutsideClickDetector } from "@gtinx-plane/hooks";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { ControlLink } from "@plane/blocks/layout";
+import { ControlLink } from "@gtinx-plane/blocks/layout";
 import { ListItem, ListItemLabel, ListItemLink } from "@makeplane/propel/elements/list";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
-import { DropIndicator } from "@plane/blocks/common";
-import { cn } from "@plane/utils";
+import { DropIndicator } from "@gtinx-plane/blocks/common";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { DEFAULT_TAB_KEY, getTabUrl } from "@/components/navigation/tab-navigation-utils";
 import { useTabPreferences } from "@/components/navigation/use-tab-preferences";

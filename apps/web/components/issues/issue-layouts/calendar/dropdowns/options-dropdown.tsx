@@ -21,10 +21,10 @@ import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 // plane imports
-import type { TSupportedFilterTypeForUpdate } from "@plane/constants";
-import { CALENDAR_LAYOUTS, EIssueFilterType } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { TCalendarLayouts, TSupportedFilterForUpdate } from "@plane/types";
+import type { TSupportedFilterTypeForUpdate } from "@gtinx-plane/constants";
+import { CALENDAR_LAYOUTS, EIssueFilterType } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TCalendarLayouts, TSupportedFilterForUpdate } from "@gtinx-plane/types";
 // hooks
 import { useCalendarView } from "@/hooks/store/use-calendar-view";
 import useSize from "@/hooks/use-window-size";

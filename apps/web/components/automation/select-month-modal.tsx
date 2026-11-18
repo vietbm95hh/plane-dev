@@ -19,7 +19,7 @@ import {
   DialogTitle,
 } from "@makeplane/propel/components/dialog";
 import { InputField } from "@makeplane/propel/components/input-field";
-import type { IProject } from "@plane/types";
+import type { IProject } from "@gtinx-plane/types";
 
 // types
 type Props = {

@@ -7,9 +7,9 @@
 import React from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { AddOutline, WorkItemsOutline } from "@makeplane/propel/icons";
-import type { TIssue, TIssueServiceType } from "@plane/types";
+import type { TIssue, TIssueServiceType } from "@gtinx-plane/types";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
 // components
 import { handleTriggerClick, handleTriggerKeyDown } from "@/components/common/trigger-guard";

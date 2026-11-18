@@ -5,8 +5,8 @@
  */
 
 import { redirect } from "react-router";
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
 // components
 import { LogoSpinner } from "@/components/common/logo-spinner";
 // hooks

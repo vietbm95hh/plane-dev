@@ -19,14 +19,14 @@ import {
   NewTabOutline,
   TickCircleFilled,
 } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
-import type { TNameDescriptionLoader } from "@plane/types";
+import type { TNameDescriptionLoader } from "@gtinx-plane/types";
 
-import { Header, EHeaderVariant } from "@plane/blocks/layout";
-import { cn, findHowManyDaysLeft, generateWorkItemLink } from "@plane/utils";
+import { Header, EHeaderVariant } from "@gtinx-plane/blocks/layout";
+import { cn, findHowManyDaysLeft, generateWorkItemLink } from "@gtinx-plane/utils";
 // components
 import { NameDescriptionUpdateStatus } from "@/components/issues/issue-update-status";
 // hooks

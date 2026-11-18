@@ -7,8 +7,8 @@
 import { isEmpty } from "lodash-es";
 import { useWatch } from "react-hook-form";
 // plane internal packages
-import { API_BASE_URL } from "@plane/constants";
-import type { IFormattedInstanceConfiguration, TInstanceGiteaAuthenticationConfigurationKeys } from "@plane/types";
+import { API_BASE_URL } from "@gtinx-plane/constants";
+import type { IFormattedInstanceConfiguration, TInstanceGiteaAuthenticationConfigurationKeys } from "@gtinx-plane/types";
 // components
 import { CodeBlock } from "@/components/common/code-block";
 import type { TControllerInputFormField } from "@/components/common/controller-input";

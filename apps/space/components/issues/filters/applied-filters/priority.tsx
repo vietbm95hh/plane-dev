@@ -4,12 +4,12 @@
  * See the LICENSE file for details.
  */
 
-import { PriorityIcon } from "@plane/blocks/icons";
-import { useTranslation } from "@plane/i18n";
+import { PriorityIcon } from "@gtinx-plane/blocks/icons";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { CloseOutline } from "@makeplane/propel/icons";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
-import type { TIssuePriorities } from "@plane/blocks/icons";
+import type { TIssuePriorities } from "@gtinx-plane/blocks/icons";
 
 type Props = {
   handleRemove: (val: string) => void;

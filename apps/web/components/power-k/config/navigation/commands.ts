@@ -20,9 +20,9 @@ import {
   WorkItemsOutline,
 } from "@makeplane/propel/icons";
 // plane imports
-import { EUserPermissionsLevel } from "@plane/constants";
-import type { ICycle, IModule, IPartialProject, IProjectView, IWorkspace } from "@plane/types";
-import { EUserProjectRoles, EUserWorkspaceRoles } from "@plane/types";
+import { EUserPermissionsLevel } from "@gtinx-plane/constants";
+import type { ICycle, IModule, IPartialProject, IProjectView, IWorkspace } from "@gtinx-plane/types";
+import { EUserProjectRoles, EUserWorkspaceRoles } from "@gtinx-plane/types";
 // components
 import type { TPowerKCommandConfig, TPowerKContext } from "@/components/power-k/core/types";
 import { handlePowerKNavigate } from "@/components/power-k/utils/navigation";

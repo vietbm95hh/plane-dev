@@ -10,8 +10,8 @@ import { observer } from "mobx-react";
 import { Icon } from "@makeplane/propel/components/icon";
 import { Pill } from "@makeplane/propel/components/pill";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { IFilterInstance } from "@plane/shared-state";
-import type { TExternalFilter, TFilterProperty, TSupportedOperators } from "@plane/types";
+import type { IFilterInstance } from "@gtinx-plane/shared-state";
+import type { TExternalFilter, TFilterProperty, TSupportedOperators } from "@gtinx-plane/types";
 // local imports
 import { AddFilterDropdown } from "../add-filters/dropdown";
 

@@ -7,7 +7,7 @@
 import { useEffect, useState } from "react";
 import { InfiniteVirtualList } from "../virtual-list/infinite-virtual-list";
 import { VirtualList } from "../virtual-list/virtual-list";
-import type { TPaginatedResponse } from "@plane/types";
+import type { TPaginatedResponse } from "@gtinx-plane/types";
 // local imports
 import { MenuSearchInput } from "./menu-search-input";
 import { MenuRow } from "./menu-parts";

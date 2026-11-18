@@ -6,10 +6,10 @@
 
 import { useCallback, useMemo } from "react";
 // plane imports
-import type { EventToPayloadMap } from "@plane/editor";
-import { setToast } from "@plane/blocks/toast";
+import type { EventToPayloadMap } from "@gtinx-plane/editor";
+import { setToast } from "@gtinx-plane/blocks/toast";
 // types
-import type { IUserLite } from "@plane/types";
+import type { IUserLite } from "@gtinx-plane/types";
 // components
 import type { TEditorBodyHandlers } from "@/components/pages/editor/editor-body";
 // hooks

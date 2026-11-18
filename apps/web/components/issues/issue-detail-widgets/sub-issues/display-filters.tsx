@@ -9,10 +9,10 @@ import { isEmpty } from "lodash-es";
 import { observer } from "mobx-react";
 import { MenuSeparator } from "@makeplane/propel/components/menu";
 import { PreferencesOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // plane imports
-import type { IIssueDisplayFilterOptions, ILayoutDisplayFiltersOptions, IIssueDisplayProperties } from "@plane/types";
-import { cn } from "@plane/utils";
+import type { IIssueDisplayFilterOptions, ILayoutDisplayFiltersOptions, IIssueDisplayProperties } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
 // components
 import {
   FilterDisplayProperties,

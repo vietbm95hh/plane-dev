@@ -6,10 +6,10 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { setPromiseToast } from "@plane/blocks/toast";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setPromiseToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { IProject } from "@plane/types";
+import type { IProject } from "@gtinx-plane/types";
 import { CyclesOutline, IntakeOutline, ModuleOutline, PagesOutline, ViewsOutline } from "@makeplane/propel/icons";
 // components
 import { SettingsBoxedControlItem } from "@/components/settings/boxed-control-item";

@@ -7,9 +7,9 @@
 import type { Dispatch, ReactElement, SetStateAction } from "react";
 import React, { useCallback, useEffect, useState, useRef } from "react";
 // helpers
-import { usePlatformOS } from "@plane/hooks";
-import { useTranslation } from "@plane/i18n";
-import { cn } from "@plane/utils";
+import { usePlatformOS } from "@gtinx-plane/hooks";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { cn } from "@gtinx-plane/utils";
 
 interface ResizableSidebarProps {
   showPeek?: boolean;

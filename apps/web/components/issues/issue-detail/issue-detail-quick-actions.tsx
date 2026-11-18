@@ -7,14 +7,14 @@
 import { useRef } from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { LinkOutline } from "@makeplane/propel/icons";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Icon } from "@makeplane/propel/components/icon";
-import { setToast } from "@plane/blocks/toast";
+import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { EIssuesStoreType } from "@plane/types";
-import { generateWorkItemLink, copyTextToClipboard } from "@plane/utils";
+import { EIssuesStoreType } from "@gtinx-plane/types";
+import { generateWorkItemLink, copyTextToClipboard } from "@gtinx-plane/utils";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import { useIssues } from "@/hooks/store/use-issues";

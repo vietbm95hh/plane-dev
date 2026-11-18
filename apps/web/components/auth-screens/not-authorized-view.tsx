@@ -7,8 +7,8 @@
 import React from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
-import { cn } from "@plane/utils";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
+import { cn } from "@gtinx-plane/utils";
 // layouts
 import DefaultLayout from "@/layouts/default-layout";
 

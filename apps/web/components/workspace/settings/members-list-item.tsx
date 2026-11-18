@@ -7,9 +7,9 @@
 import { isEmpty } from "lodash-es";
 import { observer } from "mobx-react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
-import type { IWorkspaceMember } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IWorkspaceMember } from "@gtinx-plane/types";
 // components
 import { DataTable } from "@/components/common/data-table";
 import { MembersLayoutLoader } from "@/components/ui/loader/layouts/members-layout-loader";

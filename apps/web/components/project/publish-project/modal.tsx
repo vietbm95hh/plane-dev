@@ -10,14 +10,14 @@ import { useParams } from "next/navigation";
 import { Controller, useForm } from "react-hook-form";
 
 // types
-import { SPACE_BASE_PATH, SPACE_BASE_URL } from "@plane/constants";
+import { SPACE_BASE_PATH, SPACE_BASE_URL } from "@gtinx-plane/constants";
 import { Button } from "@makeplane/propel/components/button";
 import { GlobeOutline, NewTabOutline } from "@makeplane/propel/icons";
-import { setToast } from "@plane/blocks/toast";
-import type { TProjectPublishLayouts, TProjectPublishSettings } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { TProjectPublishLayouts, TProjectPublishSettings } from "@gtinx-plane/types";
 // ui
 import { Switch } from "@makeplane/propel/components/switch";
-import { Select } from "@plane/blocks/select";
+import { Select } from "@gtinx-plane/blocks/select";
 import {
   Dialog,
   DialogActions,
@@ -30,9 +30,9 @@ import {
   DialogMain,
   DialogTitle,
 } from "@makeplane/propel/components/dialog";
-import { Loader } from "@plane/blocks/skeleton";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
 // helpers
-import { copyTextToClipboard } from "@plane/utils";
+import { copyTextToClipboard } from "@gtinx-plane/utils";
 // hooks
 import { useProjectPublish } from "@/hooks/store/use-project-publish";
 

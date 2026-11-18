@@ -8,16 +8,16 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import { Controller, useForm } from "react-hook-form";
 // plane imports
-import { ORGANIZATION_SIZE, RESTRICTED_URLS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { ORGANIZATION_SIZE, RESTRICTED_URLS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { InputField } from "@makeplane/propel/components/input-field";
 import { Icon } from "@makeplane/propel/components/icon";
 import { Toggle } from "@makeplane/propel/components/toggle";
 import { TickCircleOutline } from "@makeplane/propel/icons";
-import { setToast } from "@plane/blocks/toast";
-import type { IUser, IWorkspace } from "@plane/types";
-import { validateWorkspaceName, validateSlug } from "@plane/utils";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IUser, IWorkspace } from "@gtinx-plane/types";
+import { validateWorkspaceName, validateSlug } from "@gtinx-plane/utils";
 // hooks
 import { useInstance } from "@/hooks/store/use-instance";
 import { useWorkspace } from "@/hooks/store/use-workspace";

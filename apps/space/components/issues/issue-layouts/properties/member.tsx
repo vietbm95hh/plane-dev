@@ -6,10 +6,10 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { MemberSelect } from "@plane/blocks/property-select";
-import type { MemberOption, MemberSelectVariant } from "@plane/blocks/property-select";
-import { useTranslation } from "@plane/i18n";
-import { cn, getFileURL } from "@plane/utils";
+import { MemberSelect } from "@gtinx-plane/blocks/property-select";
+import type { MemberOption, MemberSelectVariant } from "@gtinx-plane/blocks/property-select";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { cn, getFileURL } from "@gtinx-plane/utils";
 // helpers
 import { READ_ONLY_SELECT_CLASSNAME, toSinglePage } from "@/helpers/select.helper";
 // hooks

@@ -8,8 +8,8 @@ import { observer } from "mobx-react";
 // types
 // plane imports
 import { Button } from "@makeplane/propel/components/button";
-import type { EProductSubscriptionEnum, IPaymentProduct, TSubscriptionPrice } from "@plane/types";
-import { Loader } from "@plane/blocks/skeleton";
+import type { EProductSubscriptionEnum, IPaymentProduct, TSubscriptionPrice } from "@gtinx-plane/types";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
 // local imports
 import { BasePaidPlanCard } from "./base-paid-plan-card";
 

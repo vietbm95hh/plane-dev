@@ -9,9 +9,9 @@ import { makeObservable, observable, action, runInAction } from "mobx";
 import { computedFn } from "mobx-utils";
 import { v4 as uuidv4 } from "uuid";
 // plane imports
-import { SitesFileService, SitesIssueService } from "@plane/services";
-import type { TFileSignedURLResponse, TIssuePublicComment } from "@plane/types";
-import { EFileAssetType } from "@plane/types";
+import { SitesFileService, SitesIssueService } from "@gtinx-plane/services";
+import type { TFileSignedURLResponse, TIssuePublicComment } from "@gtinx-plane/types";
+import { EFileAssetType } from "@gtinx-plane/types";
 // store
 import type { RootStore } from "@/store/root.store";
 // types

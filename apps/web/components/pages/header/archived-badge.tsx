@@ -9,7 +9,7 @@ import { observer } from "mobx-react";
 import { Badge } from "@makeplane/propel/components/badge";
 import { Icon } from "@makeplane/propel/components/icon";
 import { ArchiveOutline } from "@makeplane/propel/icons";
-import { renderFormattedDate } from "@plane/utils";
+import { renderFormattedDate } from "@gtinx-plane/utils";
 // store
 import type { TPageInstance } from "@/store/pages/base-page";
 

@@ -7,8 +7,8 @@
 import type React from "react";
 import { observer } from "mobx-react";
 // plane imports
-import type { TPopoverMenuPlacement } from "@plane/blocks/common";
-import { cn } from "@plane/utils";
+import type { TPopoverMenuPlacement } from "@gtinx-plane/blocks/common";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { LabelSelect } from "@/components/dropdowns/label/label-select";
 

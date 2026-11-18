@@ -13,9 +13,9 @@ import { Popover, PopoverContent, PopoverTrigger } from "@makeplane/propel/compo
 import { Toolbar, ToolbarButton, ToolbarGroup, ToolbarToggle } from "@makeplane/propel/components/toolbar";
 import { Tooltip, TooltipProvider } from "@makeplane/propel/components/tooltip";
 import { DeleteOutline, PaletteOutline } from "@makeplane/propel/icons";
-import type { EditorRefApi, ToolbarMenuItem } from "@plane/editor";
-import { TOOLBAR_ITEMS } from "@plane/editor";
-import type { TSticky } from "@plane/types";
+import type { EditorRefApi, ToolbarMenuItem } from "@gtinx-plane/editor";
+import { TOOLBAR_ITEMS } from "@gtinx-plane/editor";
+import type { TSticky } from "@gtinx-plane/types";
 // local imports
 import { ColorPalette } from "./color-palette";
 

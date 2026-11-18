@@ -5,7 +5,7 @@
  */
 
 // plane imports
-import { CORE_EXTENSIONS } from "@plane/utils";
+import { CORE_EXTENSIONS } from "@gtinx-plane/utils";
 // plane editor imports
 import type { ExtensionFileSetStorageKey } from "@/types/storage";
 

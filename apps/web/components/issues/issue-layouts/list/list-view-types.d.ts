@@ -1,5 +1,5 @@
-import type { TPopoverMenuPlacement } from "@plane/blocks/common";
-import type { TIssue } from "@plane/types";
+import type { TPopoverMenuPlacement } from "@gtinx-plane/blocks/common";
+import type { TIssue } from "@gtinx-plane/types";
 
 export interface IQuickActionProps {
   parentRef: React.RefObject<HTMLElement | null>;

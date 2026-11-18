@@ -8,12 +8,12 @@ import { useState } from "react";
 import { mutate } from "swr";
 // plane imports
 import { Dialog, DialogContent } from "@makeplane/propel/components/dialog";
-import { setToast } from "@plane/blocks/toast";
-import { APITokenService } from "@plane/services";
-import type { IApiToken } from "@plane/types";
-import { renderFormattedDate, csvDownload } from "@plane/utils";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { APITokenService } from "@gtinx-plane/services";
+import type { IApiToken } from "@gtinx-plane/types";
+import { renderFormattedDate, csvDownload } from "@gtinx-plane/utils";
 // constants
-import { API_TOKENS_LIST } from "@plane/constants";
+import { API_TOKENS_LIST } from "@gtinx-plane/constants";
 // local imports
 import { CreateApiTokenForm } from "./form";
 import { GeneratedTokenDetails } from "./generated-token-details";

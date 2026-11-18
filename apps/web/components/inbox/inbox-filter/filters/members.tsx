@@ -6,7 +6,7 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import type { TInboxIssueFilterMemberKeys } from "@plane/types";
+import type { TInboxIssueFilterMemberKeys } from "@gtinx-plane/types";
 // components
 import { MemberFilterSubmenu } from "@/components/common/filters/member-filter-submenu";
 // hooks

@@ -9,7 +9,7 @@ import type * as React from "react";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { ChevronDownOutline, TickOutline } from "@makeplane/propel/icons";
 import type { IconElement } from "../types/icon";
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // local imports
 import { Select } from "../select/select";
 import { BreadcrumbItemContext, useBreadcrumbCurrent } from "./breadcrumb-context";
@@ -124,7 +124,7 @@ function NavigationRow({ item, isSelected }: { item: BreadcrumbNavigationItem; i
 
 /**
  * A breadcrumb crumb you can switch: the current destination plus a dropdown of its siblings, built
- * on `@plane/blocks/select`. Replaces the retired UI package's `BreadcrumbNavigationDropdown` and
+ * on `@gtinx-plane/blocks/select`. Replaces the retired UI package's `BreadcrumbNavigationDropdown` and
  * `BreadcrumbNavigationSearchDropdown` — one component, with `showSearch` covering the difference.
  *
  * The crumb is a pair of sibling controls inside one `Select`, matching the legacy split: a label

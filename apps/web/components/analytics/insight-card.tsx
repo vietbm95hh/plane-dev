@@ -6,9 +6,9 @@
 
 // plane package imports
 import React from "react";
-import type { IAnalyticsResponseFields } from "@plane/types";
-import { Loader } from "@plane/blocks/skeleton";
-import { cn } from "@plane/utils";
+import type { IAnalyticsResponseFields } from "@gtinx-plane/types";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
+import { cn } from "@gtinx-plane/utils";
 
 export type InsightCardProps = {
   data?: IAnalyticsResponseFields;

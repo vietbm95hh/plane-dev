@@ -7,8 +7,8 @@
 import React, { useId, useState } from "react";
 
 import { SearchOutline, InfoOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { cn } from "@gtinx-plane/utils";
 import { adjustColorForContrast, DEFAULT_COLORS } from "../helper";
 import { LucideIconsList } from "./lucide-root";
 import { MaterialIconList } from "./material-root";

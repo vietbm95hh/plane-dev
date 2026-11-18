@@ -5,7 +5,7 @@
  */
 
 // plane imports
-import type { TFilterProperty } from "@plane/types";
+import type { TFilterProperty } from "@gtinx-plane/types";
 // local imports
 import type { TCreateFilterConfig, TCreateDateFilterParams } from "../../../rich-filters";
 import { createFilterConfig, getSupportedDateOperators } from "../../../rich-filters";

@@ -8,7 +8,7 @@ import { useCallback, useEffect, useEffectEvent, useRef } from "react";
 import { observer } from "mobx-react";
 import { useRouter, useSearchParams } from "next/navigation";
 // plane imports
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // hooks
 import { useIssueDetails } from "@/hooks/store/use-issue-details";
 // local imports

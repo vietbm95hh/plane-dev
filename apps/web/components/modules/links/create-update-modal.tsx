@@ -19,8 +19,8 @@ import {
   DialogTitle,
 } from "@makeplane/propel/components/dialog";
 import { InputField } from "@makeplane/propel/components/input-field";
-import { setToast } from "@plane/blocks/toast";
-import type { ILinkDetails, ModuleLink } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { ILinkDetails, ModuleLink } from "@gtinx-plane/types";
 
 type Props = {
   createLink: (formData: ModuleLink) => Promise<void>;

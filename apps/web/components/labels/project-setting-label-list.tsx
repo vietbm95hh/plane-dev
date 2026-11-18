@@ -8,15 +8,15 @@ import { useMemo, useState, useRef } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane imports
-import { EUserPermissions, EUserPermissionsLevel, SETTINGS_DOCS_URLS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { EUserPermissions, EUserPermissionsLevel, SETTINGS_DOCS_URLS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { InputField } from "@makeplane/propel/components/input-field";
 import { SearchOutline } from "@makeplane/propel/icons";
-import { EmptyStateCompact } from "@plane/blocks/empty-state";
-import type { IIssueLabel } from "@plane/types";
-import { Loader } from "@plane/blocks/skeleton";
+import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
+import type { IIssueLabel } from "@gtinx-plane/types";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
 import type { TLabelOperationsCallbacks } from "@/components/labels";
 import {
   CreateUpdateLabelInline,

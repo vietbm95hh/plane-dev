@@ -8,10 +8,10 @@ import { useState } from "react";
 import { useParams } from "next/navigation";
 // services
 // ui
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 // helpers
-import { renderFormattedPayloadDate } from "@plane/utils";
+import { renderFormattedPayloadDate } from "@gtinx-plane/utils";
 import { UserService } from "@/services/user.service";
 
 const userService = new UserService();

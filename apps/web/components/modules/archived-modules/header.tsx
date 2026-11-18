@@ -9,11 +9,11 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { ExpandableSearch } from "@makeplane/propel/components/expandable-search";
 // icons
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // plane helpers
 // types
-import type { TModuleFilters } from "@plane/types";
-import { calculateTotalFilters } from "@plane/utils";
+import type { TModuleFilters } from "@gtinx-plane/types";
+import { calculateTotalFilters } from "@gtinx-plane/utils";
 // components
 import { ArchiveTabsList } from "@/components/archives";
 import { ModuleOrderByDropdown } from "@/components/modules";

@@ -8,8 +8,8 @@ import { useCallback, useRef } from "react";
 import { observer } from "mobx-react";
 // plane imports
 import { Avatar } from "@makeplane/propel/components/avatar";
-import type { EditorRefApi } from "@plane/editor";
-import { useTranslation } from "@plane/i18n";
+import type { EditorRefApi } from "@gtinx-plane/editor";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import {
   Dialog,
@@ -22,11 +22,11 @@ import {
   DialogToolbar,
 } from "@makeplane/propel/components/dialog";
 import { ChevronLeftOutline, ChevronRightOutline, CopyOutline } from "@makeplane/propel/icons";
-import { setToast } from "@plane/blocks/toast";
+import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { TDescriptionVersion } from "@plane/types";
-import { Loader } from "@plane/blocks/skeleton";
-import { calculateTimeAgo, cn, getFileURL } from "@plane/utils";
+import type { TDescriptionVersion } from "@gtinx-plane/types";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
+import { calculateTimeAgo, cn, getFileURL } from "@gtinx-plane/utils";
 // components
 import { RichTextEditor } from "@/components/editor/rich-text";
 // hooks

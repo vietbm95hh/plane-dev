@@ -11,14 +11,14 @@ import { useTheme } from "next-themes";
 import type { SubmitHandler } from "react-hook-form";
 import { useForm } from "react-hook-form";
 // plane imports
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { Combobox, ComboboxList, ComboboxSearch } from "@makeplane/propel/components/combobox";
 import { Dialog, DialogActions, DialogContent, DialogMain, DialogTitle } from "@makeplane/propel/components/dialog";
-import { setToast } from "@plane/blocks/toast";
-import type { ISearchIssueResponse, IUser } from "@plane/types";
-import { EIssuesStoreType } from "@plane/types";
-import { Loader } from "@plane/blocks/skeleton";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { ISearchIssueResponse, IUser } from "@gtinx-plane/types";
+import { EIssuesStoreType } from "@gtinx-plane/types";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
 // assets
 import darkIssuesAsset from "@/app/assets/empty-state/search/issues-dark.webp?url";
 import lightIssuesAsset from "@/app/assets/empty-state/search/issues-light.webp?url";

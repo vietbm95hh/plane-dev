@@ -9,15 +9,15 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { AddOutline, CircleDashedOutline } from "@makeplane/propel/icons";
 // types
-import { setToast } from "@plane/blocks/toast";
-import type { TIssue, ISearchIssueResponse, TIssueGroupByOptions } from "@plane/types";
-import { useTranslation } from "@plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { TIssue, ISearchIssueResponse, TIssueGroupByOptions } from "@gtinx-plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
 // ui
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
 // components
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { ExistingIssuesListModal } from "@/components/core/modals/existing-issues-list-modal";
 import { MultipleSelectGroupAction } from "@/components/core/multiple-select";
 import { CreateUpdateIssueModal } from "@/components/issues/issue-modal/modal";

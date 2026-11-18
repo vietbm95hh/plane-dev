@@ -5,13 +5,13 @@
  */
 
 import { observer } from "mobx-react";
-import { ISSUE_PRIORITIES } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { PriorityIcon } from "@plane/blocks/icons";
+import { ISSUE_PRIORITIES } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { PriorityIcon } from "@gtinx-plane/blocks/icons";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { CloseOutline } from "@makeplane/propel/icons";
-import type { TIssuePriorities } from "@plane/types";
+import type { TIssuePriorities } from "@gtinx-plane/types";
 // hooks
 import { useProjectInbox } from "@/hooks/store/use-project-inbox";
 import { APPLIED_FILTER_GROUP_CLASSNAME, RemovableChip } from "@/components/common/removable-chip";

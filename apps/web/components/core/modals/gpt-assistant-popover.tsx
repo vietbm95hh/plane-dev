@@ -11,12 +11,12 @@ import { WarningCircleOutline } from "@makeplane/propel/icons";
 // plane imports
 import { Input, InputGroup } from "@makeplane/propel/components/input";
 import { Popover, PopoverBody, PopoverContent, PopoverTrigger } from "@makeplane/propel/components/popover";
-import type { EditorRefApi } from "@plane/editor";
+import type { EditorRefApi } from "@gtinx-plane/editor";
 import { Button } from "@makeplane/propel/components/button";
-import { setToast } from "@plane/blocks/toast";
-import { toSideAndAlign } from "@plane/blocks/common";
-import type { TPopoverMenuPlacement } from "@plane/blocks/common";
-import { cn } from "@plane/utils";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { toSideAndAlign } from "@gtinx-plane/blocks/common";
+import type { TPopoverMenuPlacement } from "@gtinx-plane/blocks/common";
+import { cn } from "@gtinx-plane/utils";
 
 // components
 import { RichTextEditor } from "@/components/editor/rich-text";

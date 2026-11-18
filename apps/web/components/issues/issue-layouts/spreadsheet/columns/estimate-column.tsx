@@ -6,7 +6,7 @@
 
 import { observer } from "mobx-react";
 // types
-import type { TIssue } from "@plane/types";
+import type { TIssue } from "@gtinx-plane/types";
 // components
 import { EstimateSelect } from "@/components/dropdowns/estimate/estimate-select";
 

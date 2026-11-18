@@ -12,11 +12,11 @@ import { Banner } from "@makeplane/propel/components/banner";
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { ArchiveOutline } from "@makeplane/propel/icons";
-import type { EditorRefApi } from "@plane/editor";
-import { useTranslation } from "@plane/i18n";
-import type { TNameDescriptionLoader } from "@plane/types";
-import { EIssueServiceType } from "@plane/types";
-import { cn } from "@plane/utils";
+import type { EditorRefApi } from "@gtinx-plane/editor";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TNameDescriptionLoader } from "@gtinx-plane/types";
+import { EIssueServiceType } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import useKeypress from "@/hooks/use-keypress";

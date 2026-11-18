@@ -10,8 +10,8 @@ import { useParams } from "next/navigation";
 import useSWR from "swr";
 // plane imports
 import { Collapsible } from "@makeplane/propel/components/collapsible";
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateCompact } from "@plane/blocks/empty-state";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
 // components
 import { CountChip } from "@/components/common/count-chip";
 import { MembersSettingsLoader } from "@/components/ui/loader/settings/members";

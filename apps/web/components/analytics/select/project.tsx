@@ -7,10 +7,10 @@
 import { useMemo } from "react";
 import { observer } from "mobx-react";
 // plane package imports
-import { Select } from "@plane/blocks/select";
-import { Logo } from "@plane/blocks/emoji-icon-picker";
+import { Select } from "@gtinx-plane/blocks/select";
+import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 import { ProjectsOutline } from "@makeplane/propel/icons";
-import type { TLogoProps } from "@plane/types";
+import type { TLogoProps } from "@gtinx-plane/types";
 // hooks
 import { useProject } from "@/hooks/store/use-project";
 

@@ -8,11 +8,11 @@ import { useCallback, useState } from "react";
 import { debounce } from "lodash-es";
 import { observer } from "mobx-react";
 import { CloseOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // plane types
-import type { TSticky } from "@plane/types";
+import type { TSticky } from "@gtinx-plane/types";
 // plane utils
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useSticky } from "@/hooks/use-stickies";
 // components

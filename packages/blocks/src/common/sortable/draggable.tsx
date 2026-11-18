@@ -10,7 +10,7 @@ import { attachClosestEdge, extractClosestEdge } from "@atlaskit/pragmatic-drag-
 import { isEqual } from "lodash-es";
 import React, { useEffect, useEffectEvent, useRef, useState } from "react";
 import { DropIndicator } from "../drop-indicator";
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type Props = {
   children: React.ReactNode;

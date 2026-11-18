@@ -5,9 +5,9 @@
  */
 
 // plane imports
-import { API_BASE_URL } from "@plane/constants";
+import { API_BASE_URL } from "@gtinx-plane/constants";
 // local services
-import type { TFileEntityInfo, TFileSignedURLResponse } from "@plane/types";
+import type { TFileEntityInfo, TFileSignedURLResponse } from "@gtinx-plane/types";
 import { FileUploadService } from "./file-upload.service";
 // helpers
 import { FileService } from "./file.service";

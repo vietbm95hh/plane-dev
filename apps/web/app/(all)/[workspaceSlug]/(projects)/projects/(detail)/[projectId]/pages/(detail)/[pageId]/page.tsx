@@ -10,8 +10,8 @@ import Link from "next/link";
 import useSWR from "swr";
 // plane types
 import { Button } from "@makeplane/propel/elements/button";
-import type { TSearchEntityRequestPayload, TWebhookConnectionQueryParams } from "@plane/types";
-import { EFileAssetType } from "@plane/types";
+import type { TSearchEntityRequestPayload, TWebhookConnectionQueryParams } from "@gtinx-plane/types";
+import { EFileAssetType } from "@gtinx-plane/types";
 // plane ui
 // plane utils
 // components

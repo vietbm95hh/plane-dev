@@ -11,13 +11,13 @@ import { useParams } from "next/navigation";
 import useSWR from "swr";
 import { ProjectsOutline, UserOutline } from "@makeplane/propel/icons";
 import { Avatar } from "@makeplane/propel/components/avatar";
-import { useTranslation } from "@plane/i18n";
-import { Logo } from "@plane/blocks/emoji-icon-picker";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 // plane package imports
-import type { AnalyticsTableDataMap, WorkItemInsightColumns } from "@plane/types";
+import type { AnalyticsTableDataMap, WorkItemInsightColumns } from "@gtinx-plane/types";
 // plane web components
 
-import { getFileURL } from "@plane/utils";
+import { getFileURL } from "@gtinx-plane/utils";
 // hooks
 import { useAnalytics } from "@/hooks/store/use-analytics";
 import { useProject } from "@/hooks/store/use-project";

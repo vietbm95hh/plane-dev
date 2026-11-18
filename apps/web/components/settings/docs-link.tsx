@@ -6,7 +6,7 @@
 
 // plane imports
 import { AnchorButton } from "@makeplane/propel/components/anchor-button";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 
 type Props = {
   href: string;

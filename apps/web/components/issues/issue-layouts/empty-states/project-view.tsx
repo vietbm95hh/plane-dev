@@ -6,9 +6,9 @@
 
 import { observer } from "mobx-react";
 // components
-import { EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
-import { EIssuesStoreType } from "@plane/types";
+import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
+import { EIssuesStoreType } from "@gtinx-plane/types";
 // hooks
 import { useCommandPalette } from "@/hooks/store/use-command-palette";
 import { useUserPermissions } from "@/hooks/store/user";

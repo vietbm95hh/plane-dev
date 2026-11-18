@@ -9,10 +9,10 @@ import { observer } from "mobx-react";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { FilterOutline, SelectedFilterOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
-import { cn } from "@plane/utils";
-import type { IFilterInstance } from "@plane/shared-state";
-import type { TExternalFilter, TFilterProperty } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { cn } from "@gtinx-plane/utils";
+import type { IFilterInstance } from "@gtinx-plane/shared-state";
+import type { TExternalFilter, TFilterProperty } from "@gtinx-plane/types";
 // components
 import { AddFilterButton } from "@/components/rich-filters/add-filters/button";
 

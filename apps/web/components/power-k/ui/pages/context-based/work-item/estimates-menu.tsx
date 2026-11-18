@@ -8,11 +8,11 @@ import { Command } from "cmdk";
 import { observer } from "mobx-react";
 import { EstimateOutline } from "@makeplane/propel/icons";
 // plane types
-import { useTranslation } from "@plane/i18n";
-import { EEstimateSystem } from "@plane/types";
-import type { TIssue } from "@plane/types";
-import { Spinner } from "@plane/blocks/spinner";
-import { convertMinutesToHoursMinutesString } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EEstimateSystem } from "@gtinx-plane/types";
+import type { TIssue } from "@gtinx-plane/types";
+import { Spinner } from "@gtinx-plane/blocks/spinner";
+import { convertMinutesToHoursMinutesString } from "@gtinx-plane/utils";
 // hooks
 import { useEstimate, useProjectEstimates } from "@/hooks/store/estimates";
 // local imports

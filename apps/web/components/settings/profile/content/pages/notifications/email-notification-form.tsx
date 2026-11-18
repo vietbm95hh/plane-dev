@@ -8,9 +8,9 @@ import { useEffect } from "react";
 import { observer } from "mobx-react";
 import { Controller, useForm } from "react-hook-form";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
-import type { IUserEmailNotificationSettings } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IUserEmailNotificationSettings } from "@gtinx-plane/types";
 import { Switch } from "@makeplane/propel/components/switch";
 // components
 import { SettingsControlItem } from "@/components/settings/control-item";

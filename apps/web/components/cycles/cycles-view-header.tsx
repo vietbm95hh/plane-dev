@@ -9,9 +9,9 @@ import { observer } from "mobx-react";
 import { FilterOutline } from "@makeplane/propel/icons";
 // plane imports
 import { ExpandableSearch } from "@makeplane/propel/components/expandable-search";
-import { useTranslation } from "@plane/i18n";
-import type { TCycleFilters } from "@plane/types";
-import { calculateTotalFilters } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TCycleFilters } from "@gtinx-plane/types";
+import { calculateTotalFilters } from "@gtinx-plane/utils";
 // components
 import { FiltersDropdown } from "@/components/issues/issue-layouts/filters";
 // hooks

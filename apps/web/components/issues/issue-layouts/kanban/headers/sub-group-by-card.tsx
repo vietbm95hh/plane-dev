@@ -8,7 +8,7 @@ import React from "react";
 import { observer } from "mobx-react";
 import { ChevronDownOutline, ChevronUpOutline, CircleOutline } from "@makeplane/propel/icons";
 // Plane
-import type { TIssueGroupByOptions, TIssueKanbanFilters } from "@plane/types";
+import type { TIssueGroupByOptions, TIssueKanbanFilters } from "@gtinx-plane/types";
 
 interface IHeaderSubGroupByCard {
   icon?: React.ReactNode;

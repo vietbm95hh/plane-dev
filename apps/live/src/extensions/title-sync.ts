@@ -17,8 +17,8 @@ import {
   createRealtimeEvent,
   extractTextFromHTML,
   generateTitleProsemirrorJson,
-} from "@plane/editor/server";
-import { logger } from "@plane/logger";
+} from "@gtinx-plane/editor/server";
+import { logger } from "@gtinx-plane/logger";
 import { AppError } from "@/lib/errors";
 import { REDIS_TRANSACTION_ORIGIN } from "@/lib/yjs/redis-origin";
 // helpers

@@ -9,15 +9,15 @@ import { observer } from "mobx-react";
 import { Controller, useForm } from "react-hook-form";
 import { ImageOutline } from "@makeplane/propel/icons";
 // plane imports
-import { E_PASSWORD_STRENGTH } from "@plane/constants";
+import { E_PASSWORD_STRENGTH } from "@gtinx-plane/constants";
 import { Avatar } from "@makeplane/propel/components/avatar";
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { InputField } from "@makeplane/propel/components/input-field";
-import { setToast } from "@plane/blocks/toast";
-import type { IUser } from "@plane/types";
-import { EOnboardingSteps } from "@plane/types";
-import { getFileURL, getPasswordStrength, validatePersonName } from "@plane/utils";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IUser } from "@gtinx-plane/types";
+import { EOnboardingSteps } from "@gtinx-plane/types";
+import { getFileURL, getPasswordStrength, validatePersonName } from "@gtinx-plane/utils";
 // components
 import { UserImageUploadModal } from "@/components/core/modals/user-image-upload-modal";
 // hooks

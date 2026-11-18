@@ -8,9 +8,9 @@ import { Icon as PropelIcon } from "@makeplane/propel/components/icon";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
 import { Button as ButtonChrome } from "@makeplane/propel/elements/button";
 import { ChevronDownOutline } from "@makeplane/propel/icons";
-import { ISSUE_LAYOUTS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { EIssueLayoutTypes } from "@plane/types";
+import { ISSUE_LAYOUTS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { EIssueLayoutTypes } from "@gtinx-plane/types";
 import { IssueLayoutIcon } from "../../layout-icon";
 
 export function MobileLayoutSelection({

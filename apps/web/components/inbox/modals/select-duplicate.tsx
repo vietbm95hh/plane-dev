@@ -8,12 +8,12 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { useTheme } from "next-themes";
 // plane imports
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Combobox, ComboboxItem, ComboboxList, ComboboxSearch } from "@makeplane/propel/components/combobox";
 import { Dialog, DialogContent, DialogMain } from "@makeplane/propel/components/dialog";
-import { setToast } from "@plane/blocks/toast";
-import type { ISearchIssueResponse } from "@plane/types";
-import { Loader } from "@plane/blocks/skeleton";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { ISearchIssueResponse } from "@gtinx-plane/types";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
 // assets
 import darkIssuesAsset from "@/app/assets/empty-state/search/issues-dark.webp?url";
 import lightIssuesAsset from "@/app/assets/empty-state/search/issues-light.webp?url";

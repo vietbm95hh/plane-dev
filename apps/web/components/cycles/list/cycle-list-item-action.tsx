@@ -17,19 +17,19 @@ import {
   WorkItemsOutline,
 } from "@makeplane/propel/icons";
 // plane imports
-import { EUserPermissions, EUserPermissionsLevel, IS_FAVORITE_MENU_OPEN } from "@plane/constants";
-import { useLocalStorage } from "@plane/hooks";
-import { useTranslation } from "@plane/i18n";
+import { EUserPermissions, EUserPermissionsLevel, IS_FAVORITE_MENU_OPEN } from "@gtinx-plane/constants";
+import { useLocalStorage } from "@gtinx-plane/hooks";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Avatar } from "@makeplane/propel/components/avatar";
 import { Icon } from "@makeplane/propel/components/icon";
 import { Pill } from "@makeplane/propel/components/pill";
 import { AvatarGroup } from "@makeplane/propel/components/avatar-group";
-import { setPromiseToast } from "@plane/blocks/toast";
+import { setPromiseToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { ICycle, TCycleGroups } from "@plane/types";
-import { FavoriteStar } from "@plane/blocks/common";
-import { DateRangeSelect } from "@plane/blocks/property-select";
-import { getDate, getFileURL, generateQueryParams } from "@plane/utils";
+import type { ICycle, TCycleGroups } from "@gtinx-plane/types";
+import { FavoriteStar } from "@gtinx-plane/blocks/common";
+import { DateRangeSelect } from "@gtinx-plane/blocks/property-select";
+import { getDate, getFileURL, generateQueryParams } from "@gtinx-plane/utils";
 // components
 import { ButtonAvatars } from "@/components/dropdowns/member/avatar";
 import { MergedDateDisplay } from "@/components/dropdowns/merged-date";

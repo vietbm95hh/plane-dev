@@ -7,8 +7,8 @@
 import React, { useState } from "react";
 import { observer } from "mobx-react";
 import { HelpOutline, PagesOutline, UserAltOutline } from "@makeplane/propel/icons";
-import { TALK_TO_SALES_URL } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { TALK_TO_SALES_URL } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 // ui
 import { Icon } from "@makeplane/propel/components/icon";
 import { Menu, MenuContent, MenuFooter, MenuItem, MenuSeparator, MenuTrigger } from "@makeplane/propel/components/menu";

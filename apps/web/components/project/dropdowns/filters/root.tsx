@@ -7,8 +7,8 @@
 import { observer } from "mobx-react";
 // plane imports
 import { MenuCheckboxItem, MenuSeparator } from "@makeplane/propel/components/menu";
-import { PROJECT_CREATED_AT_FILTER_OPTIONS } from "@plane/constants";
-import type { TProjectDisplayFilters, TProjectFilters } from "@plane/types";
+import { PROJECT_CREATED_AT_FILTER_OPTIONS } from "@gtinx-plane/constants";
+import type { TProjectDisplayFilters, TProjectFilters } from "@gtinx-plane/types";
 // components
 import { DateFilterSubmenu, isCustomDateFilterValue } from "@/components/common/filters/date-filter-submenu";
 import { MemberFilterSubmenu } from "@/components/common/filters/member-filter-submenu";

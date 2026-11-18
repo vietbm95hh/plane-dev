@@ -6,13 +6,13 @@
 
 import React from "react";
 import { observer } from "mobx-react";
-import { MODULE_STATUS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { TModuleStatus } from "@plane/blocks/icons";
-import { ModuleStatusIcon } from "@plane/blocks/icons";
-import { Select } from "@plane/blocks/select";
-import type { SelectVariant } from "@plane/blocks/select";
-import type { IModule } from "@plane/types";
+import { MODULE_STATUS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TModuleStatus } from "@gtinx-plane/blocks/icons";
+import { ModuleStatusIcon } from "@gtinx-plane/blocks/icons";
+import { Select } from "@gtinx-plane/blocks/select";
+import type { SelectVariant } from "@gtinx-plane/blocks/select";
+import type { IModule } from "@gtinx-plane/types";
 
 type ModuleStatusOption = (typeof MODULE_STATUS)[number];
 

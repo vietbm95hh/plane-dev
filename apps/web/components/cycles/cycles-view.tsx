@@ -6,8 +6,8 @@
 
 import { observer } from "mobx-react";
 // components
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateCompact } from "@plane/blocks/empty-state";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
 // components
 import { CyclesList } from "@/components/cycles/list";
 import { CycleModuleListLayoutLoader } from "@/components/ui/loader/cycle-module-list-loader";

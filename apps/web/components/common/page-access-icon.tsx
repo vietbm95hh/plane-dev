@@ -5,8 +5,8 @@
  */
 
 import { ArchiveOutline, GlobeOutline, LockOutline } from "@makeplane/propel/icons";
-import { EPageAccess } from "@plane/constants";
-import type { TPage } from "@plane/types";
+import { EPageAccess } from "@gtinx-plane/constants";
+import type { TPage } from "@gtinx-plane/types";
 
 export function PageAccessIcon(page: TPage) {
   return (

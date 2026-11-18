@@ -8,8 +8,8 @@ import { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { HideOutline, ShowOutline } from "@makeplane/propel/icons";
 // plane internal packages
-import type { EAdminAuthErrorCodes, TAdminAuthErrorInfo } from "@plane/constants";
-import { API_BASE_URL } from "@plane/constants";
+import type { EAdminAuthErrorCodes, TAdminAuthErrorInfo } from "@gtinx-plane/constants";
+import { API_BASE_URL } from "@gtinx-plane/constants";
 import { Button } from "@makeplane/propel/components/button";
 import { InputField } from "@makeplane/propel/components/input-field";
 import { Icon } from "@makeplane/propel/components/icon";

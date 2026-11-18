@@ -5,7 +5,7 @@
  */
 
 import { observer } from "mobx-react";
-import { Logo } from "@plane/blocks/emoji-icon-picker";
+import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 // components
 import { FilterSubmenu } from "@/components/common/filters/filter-submenu";
 // hooks

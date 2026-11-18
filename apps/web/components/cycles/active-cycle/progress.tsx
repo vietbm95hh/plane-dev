@@ -7,12 +7,12 @@
 import { observer } from "mobx-react";
 import { useTheme } from "next-themes";
 // plane imports
-import { PROGRESS_STATE_GROUPS_DETAILS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { TWorkItemFilterCondition } from "@plane/shared-state";
-import type { ICycle } from "@plane/types";
-import { SegmentedProgress } from "@plane/blocks/progress";
-import { Loader } from "@plane/blocks/skeleton";
+import { PROGRESS_STATE_GROUPS_DETAILS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TWorkItemFilterCondition } from "@gtinx-plane/shared-state";
+import type { ICycle } from "@gtinx-plane/types";
+import { SegmentedProgress } from "@gtinx-plane/blocks/progress";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
 // assets
 import darkProgressAsset from "@/app/assets/empty-state/active-cycle/progress-dark.webp?url";
 import lightProgressAsset from "@/app/assets/empty-state/active-cycle/progress-light.webp?url";

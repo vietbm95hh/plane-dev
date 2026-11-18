@@ -5,8 +5,8 @@
  */
 
 import { observer } from "mobx-react";
-import type { IBaseLayoutsListItem, IBaseLayoutsListProps } from "@plane/types";
-import { cn } from "@plane/utils";
+import type { IBaseLayoutsListItem, IBaseLayoutsListProps } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
 import { useLayoutState } from "../hooks/use-layout-state";
 import { BaseListGroup } from "./group";
 

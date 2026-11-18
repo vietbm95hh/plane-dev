@@ -1,4 +1,4 @@
-# @plane/decorators
+# @gtinx-plane/decorators
 
 A lightweight TypeScript decorator library for building Express.js controllers with a clean, declarative syntax.
 
@@ -8,7 +8,7 @@ A lightweight TypeScript decorator library for building Express.js controllers w
 - Decorators for HTTP methods (GET, POST, PUT, PATCH, DELETE)
 - WebSocket support (with `express-ws`)
 - Middleware support
-- Built with tsdown to `dist/` (`pnpm --filter=@plane/decorators build`)
+- Built with tsdown to `dist/` (`pnpm --filter=@gtinx-plane/decorators build`)
 
 ## Installation
 
@@ -17,7 +17,7 @@ This package is part of the Plane workspace and can be used by adding it to your
 ```json
 {
   "dependencies": {
-    "@plane/decorators": "workspace:*"
+    "@gtinx-plane/decorators": "workspace:*"
   }
 }
 ```
@@ -29,7 +29,7 @@ The decorators use legacy TypeScript decorators and `reflect-metadata`, so the c
 ### Basic REST Controller
 
 ```typescript
-import { Controller, Get, Post, registerController } from "@plane/decorators";
+import { Controller, Get, Post, registerController } from "@gtinx-plane/decorators";
 import { Router, type Request, type Response } from "express";
 
 @Controller("/api/users")
@@ -56,7 +56,7 @@ registerController(router, UserController);
 import express, { Router, type Request } from "express";
 import expressWs from "express-ws";
 import type { WebSocket as WS } from "ws";
-import { Controller, WebSocket, registerController } from "@plane/decorators";
+import { Controller, WebSocket, registerController } from "@gtinx-plane/decorators";
 
 @Controller("/ws/chat")
 class ChatController {

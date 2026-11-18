@@ -5,7 +5,7 @@
  */
 
 import React from "react";
-import { AccentureLogo, DolbyLogo, SonyLogo, ZerodhaLogo } from "@plane/blocks/icons";
+import { AccentureLogo, DolbyLogo, SonyLogo, ZerodhaLogo } from "@gtinx-plane/blocks/icons";
 
 const BRAND_LOGOS: {
   id: string;

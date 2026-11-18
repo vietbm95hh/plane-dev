@@ -19,15 +19,15 @@ import {
   StartDateOutline,
 } from "@makeplane/propel/icons";
 // plane imports
-import { LabelPropertyIcon, PriorityIcon, StateGroupIcon } from "@plane/blocks/icons";
-import { DateSelect } from "@plane/blocks/property-select";
-import type { WorkItemPropertyEntry } from "@plane/blocks/work-item-properties";
-import { getWorkItemPropertyHidePriority, PropertiesOverflowRow } from "@plane/blocks/work-item-properties";
-import { ISSUE_PRIORITIES } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { LabelPropertyIcon, PriorityIcon, StateGroupIcon } from "@gtinx-plane/blocks/icons";
+import { DateSelect } from "@gtinx-plane/blocks/property-select";
+import type { WorkItemPropertyEntry } from "@gtinx-plane/blocks/work-item-properties";
+import { getWorkItemPropertyHidePriority, PropertiesOverflowRow } from "@gtinx-plane/blocks/work-item-properties";
+import { ISSUE_PRIORITIES } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 // types
-import type { TIssuePriorities, TWorkspaceDraftIssue } from "@plane/types";
-import { getDate, getIssueDueDateClassName, renderFormattedDate, renderFormattedPayloadDate } from "@plane/utils";
+import type { TIssuePriorities, TWorkspaceDraftIssue } from "@gtinx-plane/types";
+import { getDate, getIssueDueDateClassName, renderFormattedDate, renderFormattedPayloadDate } from "@gtinx-plane/utils";
 // components
 import { CycleSelect } from "@/components/dropdowns/cycle/cycle-select";
 import { EstimateSelect } from "@/components/dropdowns/estimate/estimate-select";

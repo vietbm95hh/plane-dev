@@ -10,9 +10,9 @@ import { AddOutline } from "@makeplane/propel/icons";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // plane imports
-import type { TIssueServiceType } from "@plane/types";
+import type { TIssueServiceType } from "@gtinx-plane/types";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 

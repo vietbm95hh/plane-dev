@@ -6,8 +6,8 @@
 
 import { observer } from "mobx-react";
 import { MenuCheckboxItem, MenuSeparator } from "@makeplane/propel/components/menu";
-import type { TViewFilterProps, TViewFilters } from "@plane/types";
-import { EViewAccess } from "@plane/types";
+import type { TViewFilterProps, TViewFilters } from "@gtinx-plane/types";
+import { EViewAccess } from "@gtinx-plane/types";
 // components
 import { FilterCreatedDate } from "@/components/common/filters/created-at";
 import { FilterCreatedBy } from "@/components/common/filters/created-by";

@@ -25,7 +25,7 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { InputField } from "@makeplane/propel/components/input-field";
 import { CloseOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 
 /** One value the user has to type before the destructive action unlocks. */
 export type TTypeToConfirmField = {

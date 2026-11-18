@@ -14,10 +14,10 @@ import { SettingsOutline, TickOutline, UserPlusOutline } from "@makeplane/propel
 import { Button } from "@makeplane/propel/elements/button";
 import { WorkspaceAvatar } from "@makeplane/propel/components/workspace-avatar";
 // plane imports
-import { EUserPermissions } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { IWorkspace } from "@plane/types";
-import { cn, getFileURL, getUserRole } from "@plane/utils";
+import { EUserPermissions } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IWorkspace } from "@gtinx-plane/types";
+import { cn, getFileURL, getUserRole } from "@gtinx-plane/utils";
 
 type TProps = {
   workspace: IWorkspace;

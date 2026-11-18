@@ -16,11 +16,11 @@ import {
   RestoreOutline,
 } from "@makeplane/propel/icons";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
-import type { EIssuesStoreType, TIssue } from "@plane/types";
-import type { TContextMenuItem } from "@plane/blocks/context-menu";
-import { copyUrlToClipboard, generateWorkItemLink } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { EIssuesStoreType, TIssue } from "@gtinx-plane/types";
+import type { TContextMenuItem } from "@gtinx-plane/blocks/context-menu";
+import { copyUrlToClipboard, generateWorkItemLink } from "@gtinx-plane/utils";
 import { createCopyMenuWithDuplication } from "./copy-menu-helper";
 
 /**

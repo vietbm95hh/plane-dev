@@ -9,15 +9,15 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { GlobeOutline, LockOutline } from "@makeplane/propel/icons";
 // plane imports
-import { EUserPermissions, EUserPermissionsLevel, IS_FAVORITE_MENU_OPEN } from "@plane/constants";
-import { useLocalStorage } from "@plane/hooks";
+import { EUserPermissions, EUserPermissionsLevel, IS_FAVORITE_MENU_OPEN } from "@gtinx-plane/constants";
+import { useLocalStorage } from "@gtinx-plane/hooks";
 import { Badge } from "@makeplane/propel/components/badge";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { useTranslation } from "@plane/i18n";
-import type { IProjectView } from "@plane/types";
-import { EViewAccess } from "@plane/types";
-import { FavoriteStar } from "@plane/blocks/common";
-import { getPublishViewLink } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IProjectView } from "@gtinx-plane/types";
+import { EViewAccess } from "@gtinx-plane/types";
+import { FavoriteStar } from "@gtinx-plane/blocks/common";
+import { getPublishViewLink } from "@gtinx-plane/utils";
 // hooks
 import { useMember } from "@/hooks/store/use-member";
 import { useProjectView } from "@/hooks/store/use-project-view";

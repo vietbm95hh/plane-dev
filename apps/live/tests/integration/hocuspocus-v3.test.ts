@@ -11,7 +11,7 @@ import RedisClient from "ioredis";
 import { WebSocketServer } from "ws";
 import * as Y from "yjs";
 import { afterAll, beforeAll, describe, expect, it, vi } from "vitest";
-import type { TDocumentPayload } from "@plane/types";
+import type { TDocumentPayload } from "@gtinx-plane/types";
 import { Database } from "@/extensions/database";
 import { Redis } from "@/extensions/redis";
 import { TitleSyncExtension } from "@/extensions/title-sync";

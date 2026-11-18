@@ -7,9 +7,9 @@
 import React from "react";
 import { observer } from "mobx-react";
 // plane imports
-import type { TIssue, TIssueServiceType } from "@plane/types";
-import { EIssueServiceType } from "@plane/types";
-import type { TIssueRelationTypes } from "@plane/types";
+import type { TIssue, TIssueServiceType } from "@gtinx-plane/types";
+import { EIssueServiceType } from "@gtinx-plane/types";
+import type { TIssueRelationTypes } from "@gtinx-plane/types";
 // local imports
 import { RelationIssueListItem } from "./issue-list-item";
 

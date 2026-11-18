@@ -19,18 +19,18 @@ import {
 } from "@makeplane/propel/icons";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
-import { MODULE_STATUS, EUserPermissions, EUserPermissionsLevel, EEstimateSystem } from "@plane/constants";
+import { MODULE_STATUS, EUserPermissions, EUserPermissionsLevel, EEstimateSystem } from "@gtinx-plane/constants";
 // plane types
-import { useTranslation } from "@plane/i18n";
-import { ModuleStatusIcon } from "@plane/blocks/icons";
-import { setToast } from "@plane/blocks/toast";
-import type { ILinkDetails, IModule, ModuleLink } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { ModuleStatusIcon } from "@gtinx-plane/blocks/icons";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { ILinkDetails, IModule, ModuleLink } from "@gtinx-plane/types";
 // plane ui
-import { DateRangeSelect } from "@plane/blocks/property-select";
-import { Loader } from "@plane/blocks/skeleton";
+import { DateRangeSelect } from "@gtinx-plane/blocks/property-select";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
 // components
 // helpers
-import { getDate, renderFormattedPayloadDate } from "@plane/utils";
+import { getDate, renderFormattedPayloadDate } from "@gtinx-plane/utils";
 import { SidebarPropertyListItem } from "@/components/common/layout/sidebar/property-list-item";
 import { MemberSelect } from "@/components/dropdowns/member/member-select";
 import { CreateUpdateModuleLinkModal, ModuleAnalyticsProgress, ModuleLinksList } from "@/components/modules";

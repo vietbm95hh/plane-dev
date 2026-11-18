@@ -6,7 +6,7 @@
 
 import { useRouter } from "next/navigation";
 // plane imports
-import { ConfirmDialog } from "@plane/blocks/dialog";
+import { ConfirmDialog } from "@gtinx-plane/blocks/dialog";
 
 type Props = {
   isOpen: boolean;

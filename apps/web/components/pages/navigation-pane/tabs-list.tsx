@@ -6,7 +6,7 @@
 
 // plane imports
 import { Tab, TabsList } from "@makeplane/propel/components/tabs";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // plane web components
 import { ORDERED_PAGE_NAVIGATION_TABS_LIST } from "@/components/pages/navigation-pane/tab-panels";
 

@@ -13,11 +13,11 @@ import { Avatar } from "@makeplane/propel/components/avatar";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
-import { ActivityCommentCard, ActivityCommentHeader, ActivityTimelineTimestamp } from "@plane/blocks/activity";
-import type { EditorRefApi } from "@plane/editor";
-import { useTranslation } from "@plane/i18n";
-import type { TIssuePublicComment } from "@plane/types";
-import { calculateTimeAgo, getFileURL, renderFormattedDate, renderFormattedTime } from "@plane/utils";
+import { ActivityCommentCard, ActivityCommentHeader, ActivityTimelineTimestamp } from "@gtinx-plane/blocks/activity";
+import type { EditorRefApi } from "@gtinx-plane/editor";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TIssuePublicComment } from "@gtinx-plane/types";
+import { calculateTimeAgo, getFileURL, renderFormattedDate, renderFormattedTime } from "@gtinx-plane/utils";
 // components
 import { LiteTextEditor } from "@/components/editor/lite-text-editor";
 import { CommentReactions } from "@/components/issues/peek-overview/comment/comment-reactions";

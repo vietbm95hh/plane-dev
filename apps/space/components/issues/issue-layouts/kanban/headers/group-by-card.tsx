@@ -7,7 +7,7 @@
 import { observer } from "mobx-react";
 import { CircleOutline } from "@makeplane/propel/icons";
 // types
-import type { TIssueGroupByOptions } from "@plane/types";
+import type { TIssueGroupByOptions } from "@gtinx-plane/types";
 
 interface IHeaderGroupByCard {
   groupBy: TIssueGroupByOptions | undefined;

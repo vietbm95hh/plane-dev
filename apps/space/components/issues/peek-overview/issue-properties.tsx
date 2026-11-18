@@ -10,8 +10,8 @@ import { DueDateOutline, LabelsOutline, LinkOutline, PriorityOutline, StateOutli
 // plane imports
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
-import { setToast } from "@plane/blocks/toast";
-import { useTranslation } from "@plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { useTranslation } from "@gtinx-plane/i18n";
 // components
 import { IssueBlockDate } from "@/components/issues/issue-layouts/properties/due-date";
 import { IssueBlockLabels } from "@/components/issues/issue-layouts/properties/labels";

@@ -22,11 +22,11 @@ import { SelectField } from "@makeplane/propel/components/select-field";
 import { Switch } from "@makeplane/propel/components/switch";
 import { TextAreaField } from "@makeplane/propel/components/text-area-field";
 import { CalendarOutline } from "@makeplane/propel/icons";
-import { DateSelect } from "@plane/blocks/property-select";
-import { setToast } from "@plane/blocks/toast";
-import { useTranslation } from "@plane/i18n";
-import type { IApiToken } from "@plane/types";
-import { renderFormattedDate, renderFormattedTime } from "@plane/utils";
+import { DateSelect } from "@gtinx-plane/blocks/property-select";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IApiToken } from "@gtinx-plane/types";
+import { renderFormattedDate, renderFormattedTime } from "@gtinx-plane/utils";
 // hooks
 import { useUserProfile } from "@/hooks/store/user";
 // helpers

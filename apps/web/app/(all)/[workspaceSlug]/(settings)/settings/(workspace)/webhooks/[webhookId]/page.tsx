@@ -7,9 +7,9 @@
 import { useState } from "react";
 import { observer } from "mobx-react";
 import useSWR from "swr";
-import { EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { setToast } from "@plane/blocks/toast";
-import type { IWebhook } from "@plane/types";
+import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IWebhook } from "@gtinx-plane/types";
 // ui
 // components
 import { LogoSpinner } from "@/components/common/logo-spinner";

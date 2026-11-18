@@ -13,9 +13,9 @@ import {
   MenuSubmenuContent,
   MenuSubmenuTrigger,
 } from "@makeplane/propel/components/menu";
-import { ISSUE_ORDER_BY_OPTIONS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { TIssueOrderByOptions } from "@plane/types";
+import { ISSUE_ORDER_BY_OPTIONS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TIssueOrderByOptions } from "@gtinx-plane/types";
 // local imports
 import { DisplayFilterCurrentValue } from "./current-value";
 

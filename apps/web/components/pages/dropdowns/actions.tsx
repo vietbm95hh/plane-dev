@@ -22,14 +22,14 @@ import {
   UnlockedOutline,
 } from "@makeplane/propel/icons";
 // constants
-import { EPageAccess } from "@plane/constants";
+import { EPageAccess } from "@gtinx-plane/constants";
 // plane ui
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
-import type { TContextMenuItem } from "@plane/blocks/context-menu";
-import { ContextMenu, getRenderableItems, resolveItemVariant } from "@plane/blocks/context-menu";
+import type { TContextMenuItem } from "@gtinx-plane/blocks/context-menu";
+import { ContextMenu, getRenderableItems, resolveItemVariant } from "@gtinx-plane/blocks/context-menu";
 // components
 import { DeletePageModal } from "@/components/pages/modals/delete-page-modal";
 // hooks

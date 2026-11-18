@@ -7,8 +7,8 @@
 import React from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import type { IFilterInstance } from "@plane/shared-state";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IFilterInstance } from "@gtinx-plane/shared-state";
 import type {
   SingleOrArray,
   TExternalFilter,
@@ -16,9 +16,9 @@ import type {
   TFilterValue,
   TFilterConditionNodeForDisplay,
   TAllAvailableOperatorsForDisplay,
-} from "@plane/types";
-import { Select } from "@plane/blocks/select";
-import { getOperatorForPayload } from "@plane/utils";
+} from "@gtinx-plane/types";
+import { Select } from "@gtinx-plane/blocks/select";
+import { getOperatorForPayload } from "@gtinx-plane/utils";
 // local imports
 import { FilterValueInput } from "../filter-value-input/root";
 import { FilterItemCloseButton } from "./close-button";

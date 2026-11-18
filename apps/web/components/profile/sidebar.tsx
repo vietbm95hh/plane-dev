@@ -8,9 +8,9 @@ import { useEffect, useRef } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane imports
-import { useOutsideClickDetector } from "@plane/hooks";
-import { useTranslation } from "@plane/i18n";
-import { Logo } from "@plane/blocks/emoji-icon-picker";
+import { useOutsideClickDetector } from "@gtinx-plane/hooks";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 import { Collapsible } from "@makeplane/propel/components/collapsible";
 import { Avatar } from "@makeplane/propel/components/avatar";
 import { Badge } from "@makeplane/propel/components/badge";
@@ -19,9 +19,9 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { ScrollArea } from "@makeplane/propel/components/scroll-area";
 import { EditOutline } from "@makeplane/propel/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { IUserProfileProjectSegregation } from "@plane/types";
-import { Loader } from "@plane/blocks/skeleton";
-import { cn, renderFormattedDate, getFileURL } from "@plane/utils";
+import type { IUserProfileProjectSegregation } from "@gtinx-plane/types";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
+import { cn, renderFormattedDate, getFileURL } from "@gtinx-plane/utils";
 // components
 import { CoverImage } from "@/components/common/cover-image";
 // hooks

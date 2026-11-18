@@ -11,9 +11,9 @@ import {
   TickCircleOutline,
   WarningTriangleOutline,
 } from "@makeplane/propel/icons";
-import type { TInboxIssueStatus } from "@plane/types";
-import { EInboxIssueStatus } from "@plane/types";
-import { cn } from "@plane/utils";
+import type { TInboxIssueStatus } from "@gtinx-plane/types";
+import { EInboxIssueStatus } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
 
 export const ICON_PROPERTIES = {
   [EInboxIssueStatus.PENDING]: {

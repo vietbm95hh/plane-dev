@@ -10,9 +10,9 @@ import { observer } from "mobx-react";
 import { useTheme } from "next-themes";
 import { Combobox, ComboboxItem, ComboboxList, ComboboxSearch } from "@makeplane/propel/components/combobox";
 // plane ui
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
-import { Logo } from "@plane/blocks/emoji-icon-picker";
+import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 import { CloseOutline } from "@makeplane/propel/icons";
 import { Dialog, DialogActions, DialogContent, DialogMain, DialogTitle } from "@makeplane/propel/components/dialog";
 // assets

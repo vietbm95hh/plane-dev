@@ -6,11 +6,11 @@
 
 import { SortAscendingOutline, SortDescendingOutline } from "@makeplane/propel/icons";
 // plane imports
-import { VIEW_SORT_BY_OPTIONS, VIEW_SORTING_KEY_OPTIONS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { VIEW_SORT_BY_OPTIONS, VIEW_SORTING_KEY_OPTIONS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button as ButtonElement } from "@makeplane/propel/elements/button";
 import { Menu, MenuContent, MenuItem, MenuSeparator, MenuTrigger } from "@makeplane/propel/components/menu";
-import type { TViewFiltersSortBy, TViewFiltersSortKey } from "@plane/types";
+import type { TViewFiltersSortBy, TViewFiltersSortKey } from "@gtinx-plane/types";
 
 type Props = {
   onChange: (value: { key?: TViewFiltersSortKey; order?: TViewFiltersSortBy }) => void;

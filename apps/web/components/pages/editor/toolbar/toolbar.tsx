@@ -5,7 +5,7 @@
  */
 
 import React, { useEffect, useState, useCallback } from "react";
-import type { EditorRefApi } from "@plane/editor";
+import type { EditorRefApi } from "@gtinx-plane/editor";
 // plane imports
 import { Icon } from "@makeplane/propel/components/icon";
 import { Menu, MenuContent, MenuItem } from "@makeplane/propel/components/menu";
@@ -19,8 +19,8 @@ import {
 } from "@makeplane/propel/components/toolbar";
 import { Tooltip, TooltipProvider } from "@makeplane/propel/components/tooltip";
 // constants
-import type { ToolbarMenuItem } from "@plane/editor";
-import { TOOLBAR_ITEMS, TYPOGRAPHY_ITEMS } from "@plane/editor";
+import type { ToolbarMenuItem } from "@gtinx-plane/editor";
+import { TOOLBAR_ITEMS, TYPOGRAPHY_ITEMS } from "@gtinx-plane/editor";
 // local imports
 import { ColorDropdown } from "./color-dropdown";
 

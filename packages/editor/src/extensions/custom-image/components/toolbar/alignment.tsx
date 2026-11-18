@@ -8,7 +8,7 @@ import { useEffect, useId, useRef, useState } from "react";
 // plane imports
 import { Icon } from "@makeplane/propel/components/icon";
 import { Toolbar, ToolbarButton, ToolbarMenuTriggerButton } from "@makeplane/propel/elements/toolbar";
-import { useOutsideClickDetector } from "@plane/hooks";
+import { useOutsideClickDetector } from "@gtinx-plane/hooks";
 import { ChevronDownOutline } from "@makeplane/propel/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 // local imports

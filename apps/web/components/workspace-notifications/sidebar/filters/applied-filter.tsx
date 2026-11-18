@@ -6,12 +6,12 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { ENotificationFilterType, FILTER_TYPE_OPTIONS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { ENotificationFilterType, FILTER_TYPE_OPTIONS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Icon } from "@makeplane/propel/components/icon";
 import { Pill } from "@makeplane/propel/components/pill";
 import { CloseOutline } from "@makeplane/propel/icons";
-import { Header, EHeaderVariant } from "@plane/blocks/layout";
+import { Header, EHeaderVariant } from "@gtinx-plane/blocks/layout";
 // hooks
 import { useWorkspaceNotifications } from "@/hooks/store/notifications";
 

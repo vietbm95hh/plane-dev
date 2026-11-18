@@ -17,8 +17,8 @@ import {
   MenuTrigger,
 } from "@makeplane/propel/components/menu";
 import { ChevronDownOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
-import { EUserProjectRoles, EUserWorkspaceRoles } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EUserProjectRoles, EUserWorkspaceRoles } from "@gtinx-plane/types";
 
 interface IRoleOption {
   value: string;

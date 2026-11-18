@@ -7,9 +7,9 @@
 import { ArrowNarrowLeftOutline } from "@makeplane/propel/icons";
 import { observer } from "mobx-react";
 // plane imports
-import { ROLE_DETAILS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { Logo } from "@plane/blocks/emoji-icon-picker";
+import { ROLE_DETAILS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Icon } from "@makeplane/propel/components/icon";
 // hooks

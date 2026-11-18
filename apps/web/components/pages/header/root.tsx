@@ -8,10 +8,10 @@ import { useCallback } from "react";
 import { observer } from "mobx-react";
 import { FilterOutline } from "@makeplane/propel/icons";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import type { TPageFilterProps, TPageNavigationTabs } from "@plane/types";
-import { Header, EHeaderVariant } from "@plane/blocks/layout";
-import { calculateTotalFilters } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TPageFilterProps, TPageNavigationTabs } from "@gtinx-plane/types";
+import { Header, EHeaderVariant } from "@gtinx-plane/blocks/layout";
+import { calculateTotalFilters } from "@gtinx-plane/utils";
 // components
 import { FiltersDropdown } from "@/components/issues/issue-layouts/filters";
 // hooks

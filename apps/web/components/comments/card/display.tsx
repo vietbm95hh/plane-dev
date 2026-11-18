@@ -10,19 +10,19 @@ import { observer } from "mobx-react";
 import { usePathname } from "next/navigation";
 // plane imports
 import { Avatar } from "@makeplane/propel/components/avatar";
-import { ActivityCommentCard, ActivityCommentHeader, ActivityTimelineTimestamp } from "@plane/blocks/activity";
-import type { EditorRefApi } from "@plane/editor";
-import { useHashScroll } from "@plane/hooks";
+import { ActivityCommentCard, ActivityCommentHeader, ActivityTimelineTimestamp } from "@gtinx-plane/blocks/activity";
+import type { EditorRefApi } from "@gtinx-plane/editor";
+import { useHashScroll } from "@gtinx-plane/hooks";
 import { GlobeOutline, LockOutline } from "@makeplane/propel/icons";
-import { EIssueCommentAccessSpecifier } from "@plane/types";
-import type { TCommentsOperations, TIssueComment } from "@plane/types";
-import { calculateTimeAgo, getFileURL, renderFormattedDate, renderFormattedTime } from "@plane/utils";
+import { EIssueCommentAccessSpecifier } from "@gtinx-plane/types";
+import type { TCommentsOperations, TIssueComment } from "@gtinx-plane/types";
+import { calculateTimeAgo, getFileURL, renderFormattedDate, renderFormattedTime } from "@gtinx-plane/utils";
 // components
 import { LiteTextEditor } from "@/components/editor/lite-text";
 // local imports
 import { CommentReactions } from "../comment-reaction";
 import { CommentCardEditForm } from "./edit-form";
-import { EmojiReactionButton, EmojiReactionPicker } from "@plane/blocks/emoji-reaction";
+import { EmojiReactionButton, EmojiReactionPicker } from "@gtinx-plane/blocks/emoji-reaction";
 import { useMember } from "@/hooks/store/use-member";
 
 export type TCommentCardDisplayProps = {

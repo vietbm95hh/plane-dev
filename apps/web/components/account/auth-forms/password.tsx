@@ -13,11 +13,11 @@ import { CloseCircleOutline, HideOutline, InfoOutline, ShowOutline } from "@make
 import { Banner } from "@makeplane/propel/components/banner";
 import { Icon } from "@makeplane/propel/components/icon";
 import { InputField } from "@makeplane/propel/components/input-field";
-import { API_BASE_URL, E_PASSWORD_STRENGTH } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { API_BASE_URL, E_PASSWORD_STRENGTH } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
-import { PasswordStrengthIndicator } from "@plane/blocks/auth";
-import { getPasswordStrength } from "@plane/utils";
+import { PasswordStrengthIndicator } from "@gtinx-plane/blocks/auth";
+import { getPasswordStrength } from "@gtinx-plane/utils";
 // helpers
 import { EAuthModes, EAuthSteps } from "@/helpers/authentication.helper";
 // services

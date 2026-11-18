@@ -6,9 +6,9 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { WORKSPACE_SETTINGS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { Breadcrumbs } from "@plane/blocks/breadcrumb";
+import { WORKSPACE_SETTINGS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { Breadcrumbs } from "@gtinx-plane/blocks/breadcrumb";
 // components
 import { BreadcrumbLink } from "@/components/common/breadcrumb-link";
 import { SettingsPageHeader } from "@/components/settings/page-header";

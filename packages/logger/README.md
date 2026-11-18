@@ -18,7 +18,7 @@ Add this package as a dependency in package.json
 ```json
 {
   "dependencies": {
-    "@plane/logger": "workspace:*"
+    "@gtinx-plane/logger": "workspace:*"
   }
 }
 ```
@@ -26,7 +26,7 @@ Add this package as a dependency in package.json
 ### Importing the Logger
 
 ```typescript
-import { logger, loggerMiddleware } from "@plane/logger";
+import { logger, loggerMiddleware } from "@gtinx-plane/logger";
 ```
 
 ### Usage

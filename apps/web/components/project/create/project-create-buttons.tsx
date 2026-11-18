@@ -6,14 +6,14 @@
 
 import { useFormContext } from "react-hook-form";
 // plane imports
-import { ETabIndices } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { ETabIndices } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { DialogActions } from "@makeplane/propel/components/dialog";
-import type { IProject } from "@plane/types";
+import type { IProject } from "@gtinx-plane/types";
 // ui
 // helpers
-import { getTabIndex } from "@plane/utils";
+import { getTabIndex } from "@gtinx-plane/utils";
 
 type Props = {
   handleClose: () => void;

@@ -6,7 +6,7 @@
 
 import { observer } from "mobx-react";
 // constants
-import { DATE_AFTER_FILTER_OPTIONS } from "@plane/constants";
+import { DATE_AFTER_FILTER_OPTIONS } from "@gtinx-plane/constants";
 // components
 import { DateFilterSubmenu, isCustomDateFilterValue } from "@/components/common/filters/date-filter-submenu";
 

@@ -15,10 +15,10 @@ import {
   SortDescendingOutline,
 } from "@makeplane/propel/icons";
 // constants
-import type { IProjectMemberDisplayProperties, TMemberOrderByOptions } from "@plane/constants";
-import { MEMBER_PROPERTY_DETAILS } from "@plane/constants";
+import type { IProjectMemberDisplayProperties, TMemberOrderByOptions } from "@gtinx-plane/constants";
+import { MEMBER_PROPERTY_DETAILS } from "@gtinx-plane/constants";
 // i18n
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // types
 import type { IMemberFilters } from "@/store/member/utils";
 

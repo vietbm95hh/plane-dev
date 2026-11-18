@@ -9,11 +9,11 @@ import { observer } from "mobx-react";
 import { usePathname } from "next/navigation";
 // Plane imports
 import useSWR from "swr";
-import { EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { setPromiseToast, setToast } from "@plane/blocks/toast";
-import type { IWorkItemPeekOverview, TIssue } from "@plane/types";
-import { EIssueServiceType, EIssuesStoreType } from "@plane/types";
+import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setPromiseToast, setToast } from "@gtinx-plane/blocks/toast";
+import type { IWorkItemPeekOverview, TIssue } from "@gtinx-plane/types";
+import { EIssueServiceType, EIssuesStoreType } from "@gtinx-plane/types";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import { useIssues } from "@/hooks/store/use-issues";

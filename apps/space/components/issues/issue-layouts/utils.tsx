@@ -6,8 +6,8 @@
 
 import { isNil } from "lodash-es";
 // types
-import { EIconSize, ISSUE_PRIORITIES } from "@plane/constants";
-import { CycleGroupIcon, PriorityIcon, StateGroupIcon } from "@plane/blocks/icons";
+import { EIconSize, ISSUE_PRIORITIES } from "@gtinx-plane/constants";
+import { CycleGroupIcon, PriorityIcon, StateGroupIcon } from "@gtinx-plane/blocks/icons";
 import { CyclesOutline, ModuleOutline } from "@makeplane/propel/icons";
 import type {
   GroupByColumnTypes,
@@ -15,7 +15,7 @@ import type {
   TCycleGroups,
   IIssueDisplayProperties,
   TGroupedIssues,
-} from "@plane/types";
+} from "@gtinx-plane/types";
 // ui
 import { Avatar } from "@makeplane/propel/components/avatar";
 // components

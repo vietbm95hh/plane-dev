@@ -6,9 +6,9 @@
 
 // plane imports
 import { SelectField } from "@makeplane/propel/components/select-field";
-import type { I_THEME_OPTION } from "@plane/constants";
-import { THEME_OPTIONS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import type { I_THEME_OPTION } from "@gtinx-plane/constants";
+import { THEME_OPTIONS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 
 type Props = {
   value: I_THEME_OPTION | null;

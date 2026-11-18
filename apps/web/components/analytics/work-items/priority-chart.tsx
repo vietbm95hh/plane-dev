@@ -12,14 +12,14 @@ import { useTheme } from "next-themes";
 import useSWR from "swr";
 // plane package imports
 import { ExportOutline } from "@makeplane/propel/icons";
-import type { ChartXAxisDateGrouping } from "@plane/constants";
-import { ANALYTICS_X_AXIS_VALUES, ANALYTICS_Y_AXIS_VALUES, CHART_COLOR_PALETTES, EChartModels } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import type { ChartXAxisDateGrouping } from "@gtinx-plane/constants";
+import { ANALYTICS_X_AXIS_VALUES, ANALYTICS_Y_AXIS_VALUES, CHART_COLOR_PALETTES, EChartModels } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
-import { BarChart } from "@plane/blocks/charts/bar-chart";
-import { EmptyStateCompact } from "@plane/blocks/empty-state";
-import type { TBarItem, TChart, TChartDatum, ChartXAxisProperty, ChartYAxisMetric } from "@plane/types";
+import { BarChart } from "@gtinx-plane/blocks/charts/bar-chart";
+import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
+import type { TBarItem, TChart, TChartDatum, ChartXAxisProperty, ChartYAxisMetric } from "@gtinx-plane/types";
 // plane web components
 import { generateExtendedColors, parseChartData } from "@/components/chart/utils";
 // hooks

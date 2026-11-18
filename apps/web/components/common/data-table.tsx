@@ -9,7 +9,7 @@ import type { ReactNode } from "react";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@makeplane/propel/components/table";
 import type { TableRowProps, TableVariant } from "@makeplane/propel/components/table";
 import { TableHead as TableHeadElement } from "@makeplane/propel/elements/table";
-import { Loader } from "@plane/blocks/skeleton";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
 
 export type DataTableColumn<T> = {
   key: string;
@@ -51,7 +51,7 @@ export type DataTableProps<T> = {
 };
 
 /**
- * The `columns` / `data` / `keyExtractor` table of the legacy `@plane/blocks/tables` `Table`, rendered with
+ * The `columns` / `data` / `keyExtractor` table of the legacy `@gtinx-plane/blocks/tables` `Table`, rendered with
  * propel's table parts. Chrome (dividers, header fill, cell padding, the rounded scroll frame) is
  * propel's; there is no className axis. Headers are `TableHead label` unless a column brings its
  * own `thRender`, and every cell is `TableCell padding="cell"` unless the column opts into

@@ -9,11 +9,11 @@ import { useCallback, useMemo } from "react";
 import { sortBy } from "lodash-es";
 import { observer } from "mobx-react";
 // plane imports
-import { ProjectSelect as ProjectSelectBlock } from "@plane/blocks/property-select";
-import type { ProjectOption } from "@plane/blocks/property-select";
-import type { SelectPaginationParams, SelectTooltip, SelectTooltipOverride, SelectVariant } from "@plane/blocks/select";
-import { useTranslation } from "@plane/i18n";
-import type { TPaginatedResponse, TProject } from "@plane/types";
+import { ProjectSelect as ProjectSelectBlock } from "@gtinx-plane/blocks/property-select";
+import type { ProjectOption } from "@gtinx-plane/blocks/property-select";
+import type { SelectPaginationParams, SelectTooltip, SelectTooltipOverride, SelectVariant } from "@gtinx-plane/blocks/select";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TPaginatedResponse, TProject } from "@gtinx-plane/types";
 // hooks
 import { useProject } from "@/hooks/store/use-project";
 

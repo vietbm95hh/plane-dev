@@ -16,8 +16,8 @@ import {
   SuggestionMenuItemTitle,
 } from "@makeplane/propel/elements/suggestion-menu";
 // plane imports
-import { useOutsideClickDetector } from "@plane/hooks";
-import { cn } from "@plane/utils";
+import { useOutsideClickDetector } from "@gtinx-plane/hooks";
+import { cn } from "@gtinx-plane/utils";
 
 export type EmojiItem = {
   name: string;

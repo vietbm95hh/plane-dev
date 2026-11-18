@@ -6,10 +6,10 @@
 
 import React, { useState } from "react";
 // types
-import { useTranslation } from "@plane/i18n";
-import type { TIssue } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TIssue } from "@gtinx-plane/types";
 // ui
-import { ConfirmDialog } from "@plane/blocks/dialog";
+import { ConfirmDialog } from "@gtinx-plane/blocks/dialog";
 // hooks
 import { useProject } from "@/hooks/store/use-project";
 

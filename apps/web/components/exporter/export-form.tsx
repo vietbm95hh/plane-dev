@@ -14,8 +14,8 @@ import {
   EUserPermissionsLevel,
   EXPORTERS_LIST,
   // ISSUE_DISPLAY_FILTERS_BY_PAGE,
-} from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+} from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import {
   Dialog,
@@ -27,10 +27,10 @@ import {
   DialogMain,
   DialogTitle,
 } from "@makeplane/propel/components/dialog";
-import { setToast } from "@plane/blocks/toast";
+import { setToast } from "@gtinx-plane/blocks/toast";
 // import { Tooltip } from "@makeplane/propel/components/tooltip";
-// import { EIssuesStoreType } from "@plane/types";
-import type { TWorkItemFilterExpression } from "@plane/types";
+// import { EIssuesStoreType } from "@gtinx-plane/types";
+import type { TWorkItemFilterExpression } from "@gtinx-plane/types";
 import { Select, SelectContent, SelectItem, SelectList, SelectTrigger } from "@makeplane/propel/components/select";
 // import { WorkspaceLevelWorkItemFiltersHOC } from "@/components/work-item-filters/filters-hoc/workspace-level";
 // import { WorkItemFiltersRow } from "@/components/work-item-filters/filters-row";

@@ -20,9 +20,9 @@ import {
   DialogTitle,
 } from "@makeplane/propel/components/dialog";
 import { IconButton } from "@makeplane/propel/components/icon-button";
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
-import { EIssuesStoreType } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { EIssuesStoreType } from "@gtinx-plane/types";
 import { useCycle } from "@/hooks/store/use-cycle";
 import { useIssues } from "@/hooks/store/use-issues";
 

@@ -9,9 +9,9 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { CloseOutline } from "@makeplane/propel/icons";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import type { TPageFilterProps } from "@plane/types";
-import { replaceUnderscoreIfSnakeCase } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TPageFilterProps } from "@gtinx-plane/types";
+import { replaceUnderscoreIfSnakeCase } from "@gtinx-plane/utils";
 // components
 import { AppliedDateFilters } from "@/components/common/applied-filters/date";
 import { AppliedMembersFilters } from "@/components/common/applied-filters/members";

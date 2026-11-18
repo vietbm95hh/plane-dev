@@ -5,8 +5,8 @@
  */
 
 import React from "react";
-import { E_PASSWORD_STRENGTH } from "@plane/constants";
-import { cn, getPasswordStrength, getPasswordCriteria } from "@plane/utils";
+import { E_PASSWORD_STRENGTH } from "@gtinx-plane/constants";
+import { cn, getPasswordStrength, getPasswordCriteria } from "@gtinx-plane/utils";
 import { getStrengthInfo, getFragmentColor } from "./helper";
 import { TickCircleOutline } from "@makeplane/propel/icons";
 

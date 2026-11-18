@@ -6,13 +6,13 @@
 
 import React, { useState } from "react";
 // plane constants
-import type { EIssueCommentAccessSpecifier } from "@plane/constants";
+import type { EIssueCommentAccessSpecifier } from "@gtinx-plane/constants";
 // plane imports
-import { LiteTextEditorWithRef } from "@plane/editor";
-import type { EditorRefApi, ILiteTextEditorProps, TFileHandler } from "@plane/editor";
-import { useTranslation } from "@plane/i18n";
-import type { MakeOptional } from "@plane/types";
-import { cn, isCommentEmpty } from "@plane/utils";
+import { LiteTextEditorWithRef } from "@gtinx-plane/editor";
+import type { EditorRefApi, ILiteTextEditorProps, TFileHandler } from "@gtinx-plane/editor";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { MakeOptional } from "@gtinx-plane/types";
+import { cn, isCommentEmpty } from "@gtinx-plane/utils";
 // components
 import { EditorMentionsRoot } from "@/components/editor/embeds/mentions";
 import { IssueCommentToolbar } from "@/components/editor/lite-text/toolbar";

@@ -5,8 +5,8 @@
  */
 
 import { observer } from "mobx-react";
-import { WEB_BASE_URL } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { WEB_BASE_URL } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 // plane internal packages
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
@@ -21,7 +21,7 @@ import {
   NewTabOutline,
   PagesOutline,
 } from "@makeplane/propel/icons";
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { ensureTrailingSlash } from "@/app/compat/next/helper";
 // hooks
 import { useInstance, useTheme } from "@/hooks/store";

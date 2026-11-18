@@ -9,11 +9,11 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
 import { MoreHorizontalOutline } from "@makeplane/propel/icons";
-import type { TContextMenuItem } from "@plane/blocks/context-menu";
-import { getRenderableItems, resolveItemVariant } from "@plane/blocks/context-menu";
-import { setToast } from "@plane/blocks/toast";
-import { useTranslation } from "@plane/i18n";
-import { copyUrlToClipboard } from "@plane/utils";
+import type { TContextMenuItem } from "@gtinx-plane/blocks/context-menu";
+import { getRenderableItems, resolveItemVariant } from "@gtinx-plane/blocks/context-menu";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { copyUrlToClipboard } from "@gtinx-plane/utils";
 import { useLayoutMenuItems } from "@/components/common/quick-actions-helper";
 
 type Props = {

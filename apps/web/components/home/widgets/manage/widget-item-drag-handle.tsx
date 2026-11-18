@@ -7,9 +7,9 @@
 import React from "react";
 import { observer } from "mobx-react";
 // ui
-import { DragHandle } from "@plane/blocks/common";
+import { DragHandle } from "@gtinx-plane/blocks/common";
 // helper
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type Props = {
   sort_order: number | null;

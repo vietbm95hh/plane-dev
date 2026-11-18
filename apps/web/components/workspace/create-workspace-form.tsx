@@ -10,14 +10,14 @@ import { observer } from "mobx-react";
 import { Controller, useForm } from "react-hook-form";
 import { Field } from "@makeplane/propel/components/field";
 import { Input, InputGroup } from "@makeplane/propel/components/input";
-import { ORGANIZATION_SIZE, RESTRICTED_URLS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { ORGANIZATION_SIZE, RESTRICTED_URLS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
-import { setToast } from "@plane/blocks/toast";
-import type { IWorkspace } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IWorkspace } from "@gtinx-plane/types";
 // ui
-import { Select } from "@plane/blocks/select";
-import { validateWorkspaceName, validateSlug } from "@plane/utils";
+import { Select } from "@gtinx-plane/blocks/select";
+import { validateWorkspaceName, validateSlug } from "@gtinx-plane/utils";
 // hooks
 import { useWorkspace } from "@/hooks/store/use-workspace";
 import { useAppRouter } from "@/hooks/use-app-router";

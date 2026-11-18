@@ -14,10 +14,10 @@ import {
   SUBSCRIPTION_REDIRECTION_URLS,
   SUBSCRIPTION_WEBPAGE_URLS,
   TALK_TO_SALES_URL,
-} from "@plane/constants";
-import { EProductSubscriptionEnum } from "@plane/types";
+} from "@gtinx-plane/constants";
+import { EProductSubscriptionEnum } from "@gtinx-plane/types";
 import { Dialog, DialogBody, DialogContent, DialogMain } from "@makeplane/propel/components/dialog";
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { FreePlanCard, PlanUpgradeCard } from "@/components/license";
 import type { TCheckoutParams } from "@/components/license/modal/card/checkout-button";

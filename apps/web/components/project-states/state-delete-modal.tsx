@@ -8,9 +8,9 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // Plane imports
-import { ConfirmDialog } from "@plane/blocks/dialog";
-import { setToast } from "@plane/blocks/toast";
-import type { IState } from "@plane/types";
+import { ConfirmDialog } from "@gtinx-plane/blocks/dialog";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IState } from "@gtinx-plane/types";
 // hooks
 import { useProjectState } from "@/hooks/store/use-project-state";
 

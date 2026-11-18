@@ -6,7 +6,7 @@
 
 import { observer } from "mobx-react";
 import { LeftSidePaneOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // hooks
 import { useAppTheme } from "@/hooks/store/use-app-theme";
 import { IconButton } from "@makeplane/propel/components/icon-button";

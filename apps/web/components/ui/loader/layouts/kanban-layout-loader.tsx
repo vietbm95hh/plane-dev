@@ -7,9 +7,9 @@
 import { forwardRef } from "react";
 import { range } from "lodash-es";
 // plane ui
-import { ContentWrapper } from "@plane/blocks/layout";
+import { ContentWrapper } from "@gtinx-plane/blocks/layout";
 // plane utils
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 export const KanbanIssueBlockLoader = forwardRef(function KanbanIssueBlockLoader(
   { cardHeight = 100, shouldAnimate = true }: { cardHeight?: number; shouldAnimate?: boolean },

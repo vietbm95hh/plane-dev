@@ -9,11 +9,11 @@ import { Button } from "@makeplane/propel/components/button";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 
 // components
-import type { TSupportedFilterTypeForUpdate } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import type { TSupportedFilterTypeForUpdate } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { ChevronLeftOutline, ChevronRightOutline } from "@makeplane/propel/icons";
-import type { TSupportedFilterForUpdate } from "@plane/types";
-import { Row } from "@plane/blocks/layout";
+import type { TSupportedFilterForUpdate } from "@gtinx-plane/types";
+import { Row } from "@gtinx-plane/blocks/layout";
 // icons
 import { useCalendarView } from "@/hooks/store/use-calendar-view";
 import type { ICycleIssuesFilter } from "@/store/issue/cycle";

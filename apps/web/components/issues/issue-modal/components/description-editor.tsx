@@ -10,14 +10,14 @@ import type { Control } from "react-hook-form";
 import { Controller } from "react-hook-form";
 import { AiStar1Outline } from "@makeplane/propel/icons";
 // plane imports
-import { ETabIndices } from "@plane/constants";
-import type { EditorRefApi } from "@plane/editor";
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
-import type { TIssue } from "@plane/types";
-import { EFileAssetType } from "@plane/types";
-import { Loader } from "@plane/blocks/skeleton";
-import { getDescriptionPlaceholderI18n, getTabIndex } from "@plane/utils";
+import { ETabIndices } from "@gtinx-plane/constants";
+import type { EditorRefApi } from "@gtinx-plane/editor";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { TIssue } from "@gtinx-plane/types";
+import { EFileAssetType } from "@gtinx-plane/types";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
+import { getDescriptionPlaceholderI18n, getTabIndex } from "@gtinx-plane/utils";
 // components
 import { GptAssistantPopover } from "@/components/core/modals/gpt-assistant-popover";
 import { RichTextEditor } from "@/components/editor/rich-text";

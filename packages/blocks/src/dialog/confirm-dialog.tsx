@@ -22,7 +22,7 @@ import type { AlertDialogIconVariant } from "@makeplane/propel/components/alert-
 import type { ButtonVariant } from "@makeplane/propel/components/button";
 import { Button } from "@makeplane/propel/components/button";
 import { AlertDialogIcon as AlertDialogIconSlot } from "@makeplane/propel/elements/alert-dialog";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 
 /**
  * The intents the confirmation dialog ships with. `danger` is destructive, `primary` is

@@ -6,12 +6,12 @@
 
 import React from "react";
 import { observer } from "mobx-react";
-import { Logo } from "@plane/blocks/emoji-icon-picker";
+import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 import { ChevronRightOutline } from "@makeplane/propel/icons";
 // icons
-import { Row } from "@plane/blocks/layout";
+import { Row } from "@gtinx-plane/blocks/layout";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { useProject } from "@/hooks/store/use-project";
 
 type Props = {

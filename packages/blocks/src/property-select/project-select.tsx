@@ -7,8 +7,8 @@
 import type { ReactNode } from "react";
 import { Logo } from "../emoji-icon-picker/logo";
 import { ChevronDownOutline, ProjectsOutline } from "@makeplane/propel/icons";
-import { cn } from "@plane/utils";
-import type { TLogoProps, TPaginatedResponse } from "@plane/types";
+import { cn } from "@gtinx-plane/utils";
+import type { TLogoProps, TPaginatedResponse } from "@gtinx-plane/types";
 import { Select } from "../select/select";
 import { splitSelectVariant } from "../select/utils";
 import type { SelectPaginationParams, SelectTooltip, SelectVariant } from "../select/types";

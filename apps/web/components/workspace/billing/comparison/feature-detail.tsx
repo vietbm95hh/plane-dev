@@ -5,7 +5,7 @@
  */
 
 import { DeactivatedOutline, MinusOutline, TickCircleOutline } from "@makeplane/propel/icons";
-import type { EProductSubscriptionEnum } from "@plane/types";
+import type { EProductSubscriptionEnum } from "@gtinx-plane/types";
 // plane imports
 // constants
 import type { TPlanFeatureData } from "@/components/workspace/billing/comparison/plans";

@@ -8,10 +8,10 @@ import { uniq, get, set } from "lodash-es";
 import { action, computed, makeObservable, observable, runInAction } from "mobx";
 import { computedFn } from "mobx-utils";
 // plane imports
-import type { TIssueRelationIdMap, TIssueRelationMap, TIssueRelation, TIssue, TIssueRelationTypes } from "@plane/types";
+import type { TIssueRelationIdMap, TIssueRelationMap, TIssueRelation, TIssue, TIssueRelationTypes } from "@gtinx-plane/types";
 // components
 import type { TRelationObject } from "@/components/issues/issue-detail-widgets/relations";
-import { REVERSE_RELATIONS } from "@plane/constants";
+import { REVERSE_RELATIONS } from "@gtinx-plane/constants";
 // services
 import { IssueRelationService } from "@/services/issue";
 // types

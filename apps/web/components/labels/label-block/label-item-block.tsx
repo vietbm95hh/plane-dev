@@ -12,15 +12,15 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
 import { CloseOutline, MoreHorizontalOutline } from "@makeplane/propel/icons";
-import { useOutsideClickDetector } from "@plane/hooks";
-import { useTranslation } from "@plane/i18n";
-import type { ISvgIcons } from "@plane/blocks/icons";
+import { useOutsideClickDetector } from "@gtinx-plane/hooks";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { ISvgIcons } from "@gtinx-plane/blocks/icons";
 // types
-import type { IIssueLabel } from "@plane/types";
+import type { IIssueLabel } from "@gtinx-plane/types";
 // ui
-import { DragHandle } from "@plane/blocks/common";
+import { DragHandle } from "@gtinx-plane/blocks/common";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { LabelName } from "./label-name";
 

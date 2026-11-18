@@ -17,19 +17,19 @@ import {
   EUserPermissionsLevel,
   IS_FAVORITE_MENU_OPEN,
   PROGRESS_STATE_GROUPS_DETAILS,
-} from "@plane/constants";
-import { useLocalStorage } from "@plane/hooks";
+} from "@gtinx-plane/constants";
+import { useLocalStorage } from "@gtinx-plane/hooks";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
-import { useTranslation } from "@plane/i18n";
-import { setPromiseToast, setToast } from "@plane/blocks/toast";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setPromiseToast, setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { IModule } from "@plane/types";
-import { Card } from "@plane/blocks/card";
-import { FavoriteStar } from "@plane/blocks/common";
-import { SegmentedProgress } from "@plane/blocks/progress";
-import { DateRangeSelect } from "@plane/blocks/property-select";
-import { getDate, renderFormattedPayloadDate, generateQueryParams } from "@plane/utils";
+import type { IModule } from "@gtinx-plane/types";
+import { Card } from "@gtinx-plane/blocks/card";
+import { FavoriteStar } from "@gtinx-plane/blocks/common";
+import { SegmentedProgress } from "@gtinx-plane/blocks/progress";
+import { DateRangeSelect } from "@gtinx-plane/blocks/property-select";
+import { getDate, renderFormattedPayloadDate, generateQueryParams } from "@gtinx-plane/utils";
 // components
 import { handleTriggerKeyDown } from "@/components/common/trigger-guard";
 import { ButtonAvatars } from "@/components/dropdowns/member/avatar";

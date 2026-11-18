@@ -8,9 +8,9 @@ import { useCallback } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane constants
-import { EIssueFilterType, ISSUE_LAYOUTS, ISSUE_DISPLAY_FILTERS_BY_PAGE } from "@plane/constants";
+import { EIssueFilterType, ISSUE_LAYOUTS, ISSUE_DISPLAY_FILTERS_BY_PAGE } from "@gtinx-plane/constants";
 // plane i18n
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // icons
 import { ChevronDownOutline } from "@makeplane/propel/icons";
 // types
@@ -19,8 +19,8 @@ import type {
   IIssueDisplayProperties,
   TIssueLayouts,
   EIssueLayoutTypes,
-} from "@plane/types";
-import { EIssuesStoreType } from "@plane/types";
+} from "@gtinx-plane/types";
+import { EIssuesStoreType } from "@gtinx-plane/types";
 // ui
 import { Icon } from "@makeplane/propel/components/icon";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";

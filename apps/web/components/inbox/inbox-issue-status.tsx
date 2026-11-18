@@ -9,11 +9,11 @@ import { Badge } from "@makeplane/propel/components/badge";
 import type { BadgeVariant } from "@makeplane/propel/components/badge";
 import { Icon } from "@makeplane/propel/components/icon";
 // constants
-import { INBOX_STATUS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { TInboxIssueStatus } from "@plane/types";
-import { EInboxIssueStatus } from "@plane/types";
-import { findHowManyDaysLeft } from "@plane/utils";
+import { INBOX_STATUS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TInboxIssueStatus } from "@gtinx-plane/types";
+import { EInboxIssueStatus } from "@gtinx-plane/types";
+import { findHowManyDaysLeft } from "@gtinx-plane/utils";
 // store
 import type { IInboxIssueStore } from "@/store/inbox/inbox-issue.store";
 import { ICON_PROPERTIES } from "./inbox-status-icon";

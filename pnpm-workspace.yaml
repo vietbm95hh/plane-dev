@@ -201,7 +201,7 @@ overrides:
   react-is: "catalog:"
   "@types/react": "catalog:"
   "@types/react-dom": "catalog:"
-  # @makeplane/propel and @plane/blocks must share one Base UI copy: two copies mean
+  # @makeplane/propel and @gtinx-plane/blocks must share one Base UI copy: two copies mean
   # two React contexts, so a blocks part rendered inside a propel root cannot see it.
   "@base-ui/react": "catalog:"
   # EXACT pin, bump with the @tiptap/* catalog. @tiptap/react's optional menu deps use ^

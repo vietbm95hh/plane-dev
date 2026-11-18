@@ -7,9 +7,9 @@
 import { Command } from "cmdk";
 import { observer } from "mobx-react";
 // plane imports
-import { ISSUE_PRIORITIES } from "@plane/constants";
-import { PriorityIcon } from "@plane/blocks/icons";
-import type { TIssue, TIssuePriorities } from "@plane/types";
+import { ISSUE_PRIORITIES } from "@gtinx-plane/constants";
+import { PriorityIcon } from "@gtinx-plane/blocks/icons";
+import type { TIssue, TIssuePriorities } from "@gtinx-plane/types";
 // local imports
 import { PowerKModalCommandItem } from "../../../modal/command-item";
 

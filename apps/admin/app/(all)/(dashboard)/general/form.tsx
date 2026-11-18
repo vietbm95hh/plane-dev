@@ -11,10 +11,10 @@ import { UsageOutline } from "@makeplane/propel/icons";
 import { Button } from "@makeplane/propel/components/button";
 import { InputField } from "@makeplane/propel/components/input-field";
 import { Switch } from "@makeplane/propel/components/switch";
-import type { IInstance, IInstanceAdmin } from "@plane/types";
+import type { IInstance, IInstanceAdmin } from "@gtinx-plane/types";
 // components
 import { ControllerInput } from "@/components/common/controller-input";
-import { setToast } from "@plane/blocks/toast";
+import { setToast } from "@gtinx-plane/blocks/toast";
 // hooks
 import { useInstance } from "@/hooks/store";
 

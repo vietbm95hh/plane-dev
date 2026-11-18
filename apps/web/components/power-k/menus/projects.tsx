@@ -6,9 +6,9 @@
 
 import React from "react";
 // components
-import { Logo } from "@plane/blocks/emoji-icon-picker";
+import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 // plane imports
-import type { TPartialProject } from "@plane/types";
+import type { TPartialProject } from "@gtinx-plane/types";
 // local imports
 import { PowerKMenuBuilder } from "./builder";
 

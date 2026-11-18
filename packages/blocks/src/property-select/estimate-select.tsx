@@ -7,7 +7,7 @@
 import { useMemo } from "react";
 // plane imports
 import { EstimateOutline } from "@makeplane/propel/icons";
-import type { TPaginatedResponse } from "@plane/types";
+import type { TPaginatedResponse } from "@gtinx-plane/types";
 // local imports
 import type { SelectPaginationParams, SelectTooltip, SelectVariant } from "../select/types";
 import { Select } from "../select/select";

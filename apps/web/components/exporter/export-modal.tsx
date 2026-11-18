@@ -9,10 +9,10 @@ import { intersection } from "lodash-es";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // types
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
-import { setToast } from "@plane/blocks/toast";
-import type { IUser, IImporterService } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IUser, IImporterService } from "@gtinx-plane/types";
 // ui
 import { Checkbox } from "@makeplane/propel/components/checkbox";
 import {

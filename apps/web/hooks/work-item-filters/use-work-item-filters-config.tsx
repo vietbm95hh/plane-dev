@@ -21,9 +21,9 @@ import {
 } from "@makeplane/propel/icons";
 // plane imports
 import { Avatar } from "@makeplane/propel/components/avatar";
-import { Logo } from "@plane/blocks/emoji-icon-picker";
-import { CycleGroupIcon, PriorityIcon, StateGroupIcon } from "@plane/blocks/icons";
-import { useTranslation } from "@plane/i18n";
+import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
+import { CycleGroupIcon, PriorityIcon, StateGroupIcon } from "@gtinx-plane/blocks/icons";
+import { useTranslation } from "@gtinx-plane/i18n";
 import type {
   ICycle,
   IState,
@@ -33,7 +33,7 @@ import type {
   IModule,
   IProject,
   TWorkItemFilterProperty,
-} from "@plane/types";
+} from "@gtinx-plane/types";
 
 import {
   getAssigneeFilterConfig,
@@ -53,7 +53,7 @@ import {
   getTargetDateFilterConfig,
   getUpdatedAtFilterConfig,
   isLoaderReady,
-} from "@plane/utils";
+} from "@gtinx-plane/utils";
 // store hooks
 import { useCycle } from "@/hooks/store/use-cycle";
 import { useLabel } from "@/hooks/store/use-label";

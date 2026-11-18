@@ -6,13 +6,13 @@
 
 import React from "react";
 // types
-import { CycleGroupIcon } from "@plane/blocks/icons";
+import { CycleGroupIcon } from "@gtinx-plane/blocks/icons";
 import { ChevronDownOutline } from "@makeplane/propel/icons";
-import type { TCycleGroups } from "@plane/types";
+import type { TCycleGroups } from "@gtinx-plane/types";
 // icons
-import { Row } from "@plane/blocks/layout";
+import { Row } from "@gtinx-plane/blocks/layout";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type Props = {
   type: TCycleGroups;

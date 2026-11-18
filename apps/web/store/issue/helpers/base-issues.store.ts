@@ -8,7 +8,7 @@ import { isEqual, concat, get, indexOf, isEmpty, orderBy, pull, set, uniq, updat
 import { action, computed, makeObservable, observable, runInAction } from "mobx";
 import { computedFn } from "mobx-utils";
 // plane constants
-import { ALL_ISSUES, ISSUE_PRIORITIES } from "@plane/constants";
+import { ALL_ISSUES, ISSUE_PRIORITIES } from "@gtinx-plane/constants";
 // types
 import type {
   TIssue,
@@ -25,10 +25,10 @@ import type {
   TPaginationData,
   TBulkOperationsPayload,
   IBlockUpdateDependencyData,
-} from "@plane/types";
-import { EIssueServiceType, EIssueLayoutTypes } from "@plane/types";
+} from "@gtinx-plane/types";
+import { EIssueServiceType, EIssueLayoutTypes } from "@gtinx-plane/types";
 // helpers
-import { convertToISODateString } from "@plane/utils";
+import { convertToISODateString } from "@gtinx-plane/utils";
 // plane web imports
 // services
 import { CycleService } from "@/services/cycle.service";

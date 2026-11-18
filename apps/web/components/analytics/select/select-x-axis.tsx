@@ -6,8 +6,8 @@
 
 import { useMemo } from "react";
 // plane package imports
-import { Select } from "@plane/blocks/select";
-import type { ChartXAxisProperty } from "@plane/types";
+import { Select } from "@gtinx-plane/blocks/select";
+import type { ChartXAxisProperty } from "@gtinx-plane/types";
 
 /** `null` is a real selectable value here (`allowNoValue`), so it needs an id the Select can key on. */
 const NO_VALUE_ID = "__no_value__";

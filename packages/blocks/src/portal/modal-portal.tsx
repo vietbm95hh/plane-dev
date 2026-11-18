@@ -6,8 +6,8 @@
 
 import { useMemo, useRef } from "react";
 import type { ReactNode } from "react";
-import { useDialogDismissal } from "@plane/hooks";
-import { cn } from "@plane/utils";
+import { useDialogDismissal } from "@gtinx-plane/hooks";
+import { cn } from "@gtinx-plane/utils";
 import { PORTAL_WIDTH_CLASSES, PORTAL_POSITION_CLASSES, DEFAULT_PORTAL_ID, MODAL_Z_INDEX } from "./constants";
 import type { PortalWidth, PortalPosition } from "./constants";
 import { PortalWrapper } from "./portal-wrapper";

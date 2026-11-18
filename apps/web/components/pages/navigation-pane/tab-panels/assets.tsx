@@ -10,10 +10,10 @@ import { useParams } from "next/navigation";
 import { DownloadOutline } from "@makeplane/propel/icons";
 import { ScrollArea } from "@makeplane/propel/components/scroll-area";
 // plane imports
-import { CORE_EXTENSIONS } from "@plane/editor";
-import type { TEditorAsset } from "@plane/editor";
-import { useTranslation } from "@plane/i18n";
-import { getEditorAssetDownloadSrc, getEditorAssetSrc } from "@plane/utils";
+import { CORE_EXTENSIONS } from "@gtinx-plane/editor";
+import type { TEditorAsset } from "@gtinx-plane/editor";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { getEditorAssetDownloadSrc, getEditorAssetSrc } from "@gtinx-plane/utils";
 // store
 import type { TPageInstance } from "@/store/pages/base-page";
 // local import

@@ -14,12 +14,12 @@ import {
   SortDescendingOutline,
 } from "@makeplane/propel/icons";
 // constants
-import { SPREADSHEET_PROPERTY_DETAILS } from "@plane/constants";
+import { SPREADSHEET_PROPERTY_DETAILS } from "@gtinx-plane/constants";
 // i18n
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // types
-import type { IIssueDisplayFilterOptions, IIssueDisplayProperties, TIssueOrderByOptions } from "@plane/types";
-import { Row } from "@plane/blocks/layout";
+import type { IIssueDisplayFilterOptions, IIssueDisplayProperties, TIssueOrderByOptions } from "@gtinx-plane/types";
+import { Row } from "@gtinx-plane/blocks/layout";
 import useLocalStorage from "@/hooks/use-local-storage";
 import { SpreadSheetPropertyIcon } from "../../utils";
 

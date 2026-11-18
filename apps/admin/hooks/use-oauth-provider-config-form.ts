@@ -8,8 +8,8 @@ import type { BaseSyntheticEvent } from "react";
 import { useForm } from "react-hook-form";
 import type { DefaultValues, UseFormReturn } from "react-hook-form";
 // plane internal packages
-import { setToast } from "@plane/blocks/toast";
-import type { IFormattedInstanceConfiguration } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IFormattedInstanceConfiguration } from "@gtinx-plane/types";
 // hooks
 import { useInstance } from "@/hooks/store";
 

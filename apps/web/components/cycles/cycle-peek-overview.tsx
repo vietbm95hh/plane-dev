@@ -9,9 +9,9 @@ import { observer } from "mobx-react";
 import { usePathname, useSearchParams } from "next/navigation";
 // plane imports
 import { Drawer, DrawerPanel } from "@makeplane/propel/components/drawer";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // hooks
-import { generateQueryParams } from "@plane/utils";
+import { generateQueryParams } from "@gtinx-plane/utils";
 import { useCycle } from "@/hooks/store/use-cycle";
 import { useAppRouter } from "@/hooks/use-app-router";
 // components

@@ -7,7 +7,7 @@
 import { useState } from "react";
 // types
 import { Button } from "@makeplane/propel/components/button";
-import type { IProject } from "@plane/types";
+import type { IProject } from "@gtinx-plane/types";
 // ui
 import {
   Dialog,

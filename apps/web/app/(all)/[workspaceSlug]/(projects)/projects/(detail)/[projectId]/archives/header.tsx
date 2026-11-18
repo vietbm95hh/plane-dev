@@ -8,10 +8,10 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { ArchiveOutline, CyclesOutline, ModuleOutline, WorkItemsOutline } from "@makeplane/propel/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { EIssuesStoreType } from "@plane/types";
+import { EIssuesStoreType } from "@gtinx-plane/types";
 // ui
-import { Breadcrumbs } from "@plane/blocks/breadcrumb";
-import { Header } from "@plane/blocks/layout";
+import { Breadcrumbs } from "@gtinx-plane/blocks/breadcrumb";
+import { Header } from "@gtinx-plane/blocks/layout";
 // components
 import { BreadcrumbLink } from "@/components/common/breadcrumb-link";
 // hooks

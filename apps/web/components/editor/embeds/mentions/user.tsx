@@ -9,9 +9,9 @@ import { useParams } from "next/navigation";
 import { Link } from "react-router";
 // plane imports
 import { Avatar } from "@makeplane/propel/components/avatar";
-import { ROLE } from "@plane/constants";
+import { ROLE } from "@gtinx-plane/constants";
 import { Popover, PopoverContent, PopoverTrigger } from "@makeplane/propel/components/popover";
-import { cn, getFileURL } from "@plane/utils";
+import { cn, getFileURL } from "@gtinx-plane/utils";
 // hooks
 import { useMember } from "@/hooks/store/use-member";
 import { useUser } from "@/hooks/store/user";

@@ -10,9 +10,9 @@ import type { ReactNode } from "react";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { CopyOutline } from "@makeplane/propel/icons";
-import { setToast } from "@plane/blocks/toast";
-import { useTranslation } from "@plane/i18n";
-import { copyTextToClipboard } from "@plane/utils";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { copyTextToClipboard } from "@gtinx-plane/utils";
 
 type Props = {
   label: string;

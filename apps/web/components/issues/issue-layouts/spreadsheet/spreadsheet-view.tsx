@@ -7,10 +7,10 @@
 import React, { useRef } from "react";
 import { observer } from "mobx-react";
 // plane constants
-import { SPREADSHEET_SELECT_GROUP, SPREADSHEET_PROPERTY_LIST } from "@plane/constants";
+import { SPREADSHEET_SELECT_GROUP, SPREADSHEET_PROPERTY_LIST } from "@gtinx-plane/constants";
 // types
-import type { TIssue, IIssueDisplayFilterOptions, IIssueDisplayProperties } from "@plane/types";
-import { EIssueLayoutTypes } from "@plane/types";
+import type { TIssue, IIssueDisplayFilterOptions, IIssueDisplayProperties } from "@gtinx-plane/types";
+import { EIssueLayoutTypes } from "@gtinx-plane/types";
 // components
 import { MultipleSelectGroup } from "@/components/core/multiple-select";
 import { IssueBulkOperationsRoot } from "@/components/issues/bulk-operations";

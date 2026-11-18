@@ -12,12 +12,12 @@ import { NewTabArrowOutline } from "@makeplane/propel/icons";
 import { Combobox, ComboboxItem, ComboboxList } from "@makeplane/propel/components/combobox";
 import { Dialog, DialogContent, DialogTitle } from "@makeplane/propel/components/dialog";
 // i18n
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // types
-import type { ISearchIssueResponse } from "@plane/types";
+import type { ISearchIssueResponse } from "@gtinx-plane/types";
 // ui
-import { Loader } from "@plane/blocks/skeleton";
-import { generateWorkItemLink, getTabIndex } from "@plane/utils";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
+import { generateWorkItemLink, getTabIndex } from "@gtinx-plane/utils";
 // components
 import { SelectionDialogList, SelectionDialogSearch } from "@/components/common/selection-dialog-layout";
 import { IssueSearchModalEmptyState } from "@/components/core/modals/issue-search-modal-empty-state";

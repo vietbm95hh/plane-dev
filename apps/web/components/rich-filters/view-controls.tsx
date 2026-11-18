@@ -12,7 +12,7 @@ import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/comp
 // Element tier on purpose: the menu trigger is the native button, so only its styling is borrowed.
 import { Button as ButtonElement, ButtonLabel } from "@makeplane/propel/elements/button";
 import { ChevronDownOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // local imports
 import { ElementTransition } from "./transition-components";
 

@@ -4,9 +4,9 @@
  * See the LICENSE file for details.
  */
 
-import { API_BASE_URL } from "@plane/constants";
+import { API_BASE_URL } from "@gtinx-plane/constants";
 // types
-import type { IEmailCheckData, IEmailCheckResponse } from "@plane/types";
+import type { IEmailCheckData, IEmailCheckResponse } from "@gtinx-plane/types";
 // services
 import { APIService } from "../api.service";
 

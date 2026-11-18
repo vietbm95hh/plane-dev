@@ -8,14 +8,14 @@ import React from "react";
 import { observer } from "mobx-react";
 import type { Control } from "react-hook-form";
 import { Controller } from "react-hook-form";
-import { ETabIndices } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { ETabIndices } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { CloseOutline } from "@makeplane/propel/icons";
 // plane imports
 // types
-import type { ISearchIssueResponse, TIssue } from "@plane/types";
+import type { ISearchIssueResponse, TIssue } from "@gtinx-plane/types";
 // helpers
-import { getTabIndex } from "@plane/utils";
+import { getTabIndex } from "@gtinx-plane/utils";
 // hooks
 import { usePlatformOS } from "@/hooks/use-platform-os";
 // components

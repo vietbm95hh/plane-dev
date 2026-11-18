@@ -10,7 +10,7 @@ import { Combobox as BaseCombobox } from "@base-ui/react/combobox";
 import { act, cleanup, render, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
-import type { TPaginatedResponse } from "@plane/types";
+import type { TPaginatedResponse } from "@gtinx-plane/types";
 import { Select } from "./select";
 import { SelectTriggerChrome } from "./trigger-chrome";
 import type { SelectPaginationParams } from "./types";

@@ -8,8 +8,8 @@ import { Command } from "cmdk";
 import { observer } from "mobx-react";
 // plane types
 import { useParams } from "next/navigation";
-import type { TIssue } from "@plane/types";
-import { Spinner } from "@plane/blocks/spinner";
+import type { TIssue } from "@gtinx-plane/types";
+import { Spinner } from "@gtinx-plane/blocks/spinner";
 // hooks
 import { useProjectState } from "@/hooks/store/use-project-state";
 // local imports

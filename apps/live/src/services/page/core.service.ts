@@ -4,8 +4,8 @@
  * See the LICENSE file for details.
  */
 
-import { logger } from "@plane/logger";
-import type { TDocumentPayload, TPage } from "@plane/types";
+import { logger } from "@gtinx-plane/logger";
+import type { TDocumentPayload, TPage } from "@gtinx-plane/types";
 // services
 import { AppError } from "@/lib/errors";
 import { APIService } from "../api.service";

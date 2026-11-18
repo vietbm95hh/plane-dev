@@ -9,9 +9,9 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import useSWR from "swr";
 // plane package imports
-import { useTranslation } from "@plane/i18n";
-import { Loader } from "@plane/blocks/skeleton";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
+import { cn } from "@gtinx-plane/utils";
 // plane web hooks
 import { useAnalytics } from "@/hooks/store/use-analytics";
 import { useProject } from "@/hooks/store/use-project";

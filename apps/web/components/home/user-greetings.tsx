@@ -5,8 +5,8 @@
  */
 
 // plane types
-import { useTranslation } from "@plane/i18n";
-import type { IUser } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IUser } from "@gtinx-plane/types";
 // plane ui
 // hooks
 import { useCurrentTime } from "@/hooks/use-current-time";

@@ -10,16 +10,16 @@ import { Controller, useForm } from "react-hook-form";
 // constants
 import { Field } from "@makeplane/propel/components/field";
 import { Input, InputGroup } from "@makeplane/propel/components/input";
-import { ORGANIZATION_SIZE, RESTRICTED_URLS } from "@plane/constants";
+import { ORGANIZATION_SIZE, RESTRICTED_URLS } from "@gtinx-plane/constants";
 // types
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/elements/button";
-import { setToast } from "@plane/blocks/toast";
-import type { IUser, IWorkspace, TOnboardingSteps } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IUser, IWorkspace, TOnboardingSteps } from "@gtinx-plane/types";
 // ui
-import { Select } from "@plane/blocks/select";
-import { Spinner } from "@plane/blocks/spinner";
-import { validateWorkspaceName, validateSlug } from "@plane/utils";
+import { Select } from "@gtinx-plane/blocks/select";
+import { Spinner } from "@gtinx-plane/blocks/spinner";
+import { validateWorkspaceName, validateSlug } from "@gtinx-plane/utils";
 // hooks
 import { useWorkspace } from "@/hooks/store/use-workspace";
 import { useUserProfile, useUserSettings } from "@/hooks/store/user";

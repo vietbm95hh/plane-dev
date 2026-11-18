@@ -6,7 +6,7 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { Header, EHeaderVariant } from "@plane/blocks/layout";
+import { Header, EHeaderVariant } from "@gtinx-plane/blocks/layout";
 // hooks
 import { useProjectInbox } from "@/hooks/store/use-project-inbox";
 // local imports

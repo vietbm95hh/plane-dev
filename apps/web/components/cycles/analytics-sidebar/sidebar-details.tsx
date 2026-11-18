@@ -9,14 +9,14 @@ import { isEmpty } from "lodash-es";
 import { observer } from "mobx-react";
 import { MembersOutline, LeadOutline, WorkItemsOutline } from "@makeplane/propel/icons";
 // plane types
-import { EEstimateSystem } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { EEstimateSystem } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Avatar } from "@makeplane/propel/components/avatar";
 import { AvatarGroup } from "@makeplane/propel/components/avatar-group";
 import { TextArea } from "@makeplane/propel/components/text-area";
-import type { ICycle } from "@plane/types";
+import type { ICycle } from "@gtinx-plane/types";
 // helpers
-import { getFileURL } from "@plane/utils";
+import { getFileURL } from "@gtinx-plane/utils";
 // components
 import { SidebarPropertyListItem } from "@/components/common/layout/sidebar/property-list-item";
 import { DescriptionOverflow } from "@/components/issues/issue-detail/description-overflow";

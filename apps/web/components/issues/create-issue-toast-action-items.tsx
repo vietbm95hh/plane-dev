@@ -5,9 +5,9 @@
  */
 
 import { useCallback } from "react";
-import { useTranslation } from "@plane/i18n";
-import type { ToastActionItem } from "@plane/blocks/toast";
-import { copyTextToClipboard, copyUrlToClipboard, generateWorkItemLink } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { ToastActionItem } from "@gtinx-plane/blocks/toast";
+import { copyTextToClipboard, copyUrlToClipboard, generateWorkItemLink } from "@gtinx-plane/utils";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import { useProject } from "@/hooks/store/use-project";

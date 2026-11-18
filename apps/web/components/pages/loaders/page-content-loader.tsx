@@ -5,8 +5,8 @@
  */
 
 // plane imports
-import { Loader } from "@plane/blocks/skeleton";
-import { cn } from "@plane/utils";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
+import { cn } from "@gtinx-plane/utils";
 
 type Props = {
   className?: string;

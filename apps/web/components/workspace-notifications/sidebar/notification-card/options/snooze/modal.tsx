@@ -7,7 +7,7 @@
 import { useParams } from "next/navigation";
 import { useForm, Controller } from "react-hook-form";
 // plane imports
-import { allTimeIn30MinutesInterval12HoursFormat } from "@plane/constants";
+import { allTimeIn30MinutesInterval12HoursFormat } from "@gtinx-plane/constants";
 import { Button } from "@makeplane/propel/components/button";
 import {
   Dialog,
@@ -25,11 +25,11 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Tab, Tabs, TabsList } from "@makeplane/propel/components/tabs";
 import { CloseOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
-import { DateSelect } from "@plane/blocks/property-select";
-import { Select } from "@plane/blocks/select";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { DateSelect } from "@gtinx-plane/blocks/property-select";
+import { Select } from "@gtinx-plane/blocks/select";
 // components
-import { getDate } from "@plane/utils";
+import { getDate } from "@gtinx-plane/utils";
 // hooks
 import { useUserProfile } from "@/hooks/store/user";
 

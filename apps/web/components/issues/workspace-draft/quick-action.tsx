@@ -5,14 +5,14 @@
  */
 
 import { observer } from "mobx-react";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // ui
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
 import { MoreHorizontalOutline } from "@makeplane/propel/icons";
-import type { TContextMenuItem } from "@plane/blocks/context-menu";
-import { ContextMenu, getRenderableItems, resolveItemVariant } from "@plane/blocks/context-menu";
+import type { TContextMenuItem } from "@gtinx-plane/blocks/context-menu";
+import { ContextMenu, getRenderableItems, resolveItemVariant } from "@gtinx-plane/blocks/context-menu";
 
 export interface Props {
   parentRef: React.RefObject<HTMLElement | null>;

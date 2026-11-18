@@ -4,12 +4,12 @@
  * See the LICENSE file for details.
  */
 
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { CopyOutline } from "@makeplane/propel/icons";
-import { setToast } from "@plane/blocks/toast";
+import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { IApiToken } from "@plane/types";
+import type { IApiToken } from "@gtinx-plane/types";
 import {
   DialogActions,
   DialogBody,
@@ -20,7 +20,7 @@ import {
   DialogMain,
   DialogTitle,
 } from "@makeplane/propel/components/dialog";
-import { renderFormattedDate, renderFormattedTime, copyTextToClipboard } from "@plane/utils";
+import { renderFormattedDate, renderFormattedTime, copyTextToClipboard } from "@gtinx-plane/utils";
 // hooks
 import { usePlatformOS } from "@/hooks/use-platform-os";
 

@@ -12,9 +12,9 @@ import type {
   EInboxIssueSource,
   TIssue,
   TInboxDuplicateIssueDetails,
-} from "@plane/types";
-import { EInboxIssueStatus } from "@plane/types";
-import { renderFormattedPayloadDate } from "@plane/utils";
+} from "@gtinx-plane/types";
+import { EInboxIssueStatus } from "@gtinx-plane/types";
+import { renderFormattedPayloadDate } from "@gtinx-plane/utils";
 // helpers
 // services
 import { InboxIssueService } from "@/services/inbox";

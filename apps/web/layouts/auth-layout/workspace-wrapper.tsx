@@ -11,11 +11,11 @@ import { useParams } from "next/navigation";
 import useSWR from "swr";
 // ui
 import { LogOutOutline } from "@makeplane/propel/icons";
-import { EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
+import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
 import { Button } from "@makeplane/propel/components/button";
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
-import { PlaneLogo } from "@plane/blocks/icons";
-import { setToast } from "@plane/blocks/toast";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
+import { PlaneLogo } from "@gtinx-plane/blocks/icons";
+import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 // components
 import { LogoSpinner } from "@/components/common/logo-spinner";
@@ -29,7 +29,7 @@ import {
   WORKSPACE_STATES,
   WORKSPACE_SIDEBAR_PREFERENCES,
   WORKSPACE_PROJECT_NAVIGATION_PREFERENCES,
-} from "@plane/constants";
+} from "@gtinx-plane/constants";
 // hooks
 import { useFavorite } from "@/hooks/store/use-favorite";
 import { useMember } from "@/hooks/store/use-member";

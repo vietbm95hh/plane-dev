@@ -7,10 +7,10 @@
 import { observer } from "mobx-react";
 // plane imports
 import { Tabs, TabsList, Tab, TabsPanel } from "@makeplane/propel/components/tabs";
-import { useTranslation } from "@plane/i18n";
-import type { TWorkItemFilterCondition } from "@plane/shared-state";
-import type { TCycleDistribution, TCycleEstimateDistribution, TCyclePlotType } from "@plane/types";
-import { toFilterArray } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TWorkItemFilterCondition } from "@gtinx-plane/shared-state";
+import type { TCycleDistribution, TCycleEstimateDistribution, TCyclePlotType } from "@gtinx-plane/types";
+import { toFilterArray } from "@gtinx-plane/utils";
 // components
 import type { TAssigneeData } from "@/components/core/sidebar/progress-stats/assignee";
 import { AssigneeStatComponent } from "@/components/core/sidebar/progress-stats/assignee";

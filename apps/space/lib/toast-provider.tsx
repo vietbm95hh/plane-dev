@@ -5,10 +5,10 @@
  */
 
 // plane imports
-import { PlaneToastProvider } from "@plane/blocks/toast";
+import { PlaneToastProvider } from "@gtinx-plane/blocks/toast";
 
 /**
- * The toast viewport comes from `@plane/blocks/toast`, which mounts Propel's `ToastProvider` and
+ * The toast viewport comes from `@gtinx-plane/blocks/toast`, which mounts Propel's `ToastProvider` and
  * binds it to the shared toast manager. It reads the theme off the CSS variables, so there is no
  * `theme` prop. It calls `useTranslation`, so this must stay inside `TranslationProvider` (see
  * `app/providers.tsx`).

@@ -8,16 +8,16 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import useSWR from "swr";
 // ui
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Avatar } from "@makeplane/propel/components/avatar";
-import { EmptyStateCompact } from "@plane/blocks/empty-state";
-import { Card } from "@plane/blocks/card";
-import { Loader } from "@plane/blocks/skeleton";
-import { calculateTimeAgo, getFileURL } from "@plane/utils";
+import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
+import { Card } from "@gtinx-plane/blocks/card";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
+import { calculateTimeAgo, getFileURL } from "@gtinx-plane/utils";
 // components
 import { ActivityMessage, IssueLink } from "@/components/core/activity";
 // constants
-import { USER_PROFILE_ACTIVITY } from "@plane/constants";
+import { USER_PROFILE_ACTIVITY } from "@gtinx-plane/constants";
 // helpers
 // hooks
 import { useUser } from "@/hooks/store/user";

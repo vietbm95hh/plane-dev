@@ -8,11 +8,11 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 
 // ui
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { AddWorkItemOutline, SubscribeOutline, UserOutline } from "@makeplane/propel/icons";
-import type { IUserProfileData } from "@plane/types";
-import { Card } from "@plane/blocks/card";
-import { Loader } from "@plane/blocks/skeleton";
+import type { IUserProfileData } from "@gtinx-plane/types";
+import { Card } from "@gtinx-plane/blocks/card";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
 // types
 
 type Props = {

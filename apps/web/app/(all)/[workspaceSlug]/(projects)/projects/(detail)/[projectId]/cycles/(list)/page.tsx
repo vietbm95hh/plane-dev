@@ -8,14 +8,14 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 // plane imports
 import { useTheme } from "next-themes";
-import { EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
-import type { TCycleFilters } from "@plane/types";
-import { EUserProjectRoles } from "@plane/types";
+import { EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
+import type { TCycleFilters } from "@gtinx-plane/types";
+import { EUserProjectRoles } from "@gtinx-plane/types";
 // components
-import { Header, EHeaderVariant } from "@plane/blocks/layout";
-import { calculateTotalFilters } from "@plane/utils";
+import { Header, EHeaderVariant } from "@gtinx-plane/blocks/layout";
+import { calculateTotalFilters } from "@gtinx-plane/utils";
 // assets
 import darkEmptyState from "@/app/assets/empty-state/disabled-feature/cycles-dark.webp?url";
 import lightEmptyState from "@/app/assets/empty-state/disabled-feature/cycles-light.webp?url";

@@ -4,10 +4,10 @@
  * See the LICENSE file for details.
  */
 
-import { ISSUE_PRIORITIES } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { ISSUE_PRIORITIES } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { PriorityIcon } from "../icons/priority-icon";
-import type { TIssuePriorities } from "@plane/types";
+import type { TIssuePriorities } from "@gtinx-plane/types";
 import { Select } from "../select/select";
 import type { SelectTooltip, SelectVariant } from "../select/types";
 

@@ -1,5 +1,5 @@
 {
-  "name": "@plane/codemods",
+  "name": "@gtinx-plane/codemods",
   "version": "1.5.0",
   "private": true,
   "scripts": {

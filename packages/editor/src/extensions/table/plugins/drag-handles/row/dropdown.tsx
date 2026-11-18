@@ -17,7 +17,7 @@ import {
 import { Icon } from "@makeplane/propel/components/icon";
 import { MenuItemContent, MenuItemTitle, MenuItemTrailing, MenuSeparator } from "@makeplane/propel/elements/menu";
 // extensions
-import type { ISvgIcons } from "@plane/blocks/icons";
+import type { ISvgIcons } from "@gtinx-plane/blocks/icons";
 import { FloatingMenuItem } from "@/components/menus/floating-menu/root";
 import { findTable, getSelectedRows } from "@/extensions/table/table/utilities/helpers";
 // local imports

@@ -7,8 +7,8 @@
 import { useState } from "react";
 import { observer } from "mobx-react";
 // ui
-import { ConfirmDialog, TypeToConfirmDialog } from "@plane/blocks/dialog";
-import { useTranslation } from "@plane/i18n";
+import { ConfirmDialog, TypeToConfirmDialog } from "@gtinx-plane/blocks/dialog";
+import { useTranslation } from "@gtinx-plane/i18n";
 // hooks
 import { useUser } from "@/hooks/store/user";
 import { useWorkspace } from "@/hooks/store/use-workspace";

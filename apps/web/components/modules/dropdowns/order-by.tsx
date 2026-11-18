@@ -4,12 +4,12 @@
  * See the LICENSE file for details.
  */
 
-import { MODULE_ORDER_BY_OPTIONS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { MODULE_ORDER_BY_OPTIONS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button as ButtonElement } from "@makeplane/propel/elements/button";
 import { Menu, MenuContent, MenuItem, MenuSeparator, MenuTrigger } from "@makeplane/propel/components/menu";
 import { ChevronDownOutline, SortDescendingOutline, SortAscendingOutline } from "@makeplane/propel/icons";
-import type { TModuleOrderByOptions } from "@plane/types";
+import type { TModuleOrderByOptions } from "@gtinx-plane/types";
 
 type Props = {
   onChange: (value: TModuleOrderByOptions) => void;

@@ -7,8 +7,8 @@
 import { useState } from "react";
 import { useParams } from "next/navigation";
 // ui
-import { ConfirmDialog } from "@plane/blocks/dialog";
-import { setToast } from "@plane/blocks/toast";
+import { ConfirmDialog } from "@gtinx-plane/blocks/dialog";
+import { setToast } from "@gtinx-plane/blocks/toast";
 // hooks
 import { useWebhook } from "@/hooks/store/use-webhook";
 import { useAppRouter } from "@/hooks/use-app-router";

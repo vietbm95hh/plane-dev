@@ -7,9 +7,9 @@
 import React from "react";
 import { observer } from "mobx-react";
 // plane imports
-import { EntityDetailWidgetSection } from "@plane/blocks/entity-detail";
-import { useTranslation } from "@plane/i18n";
-import type { TIssueServiceType } from "@plane/types";
+import { EntityDetailWidgetSection } from "@gtinx-plane/blocks/entity-detail";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TIssueServiceType } from "@gtinx-plane/types";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 // components

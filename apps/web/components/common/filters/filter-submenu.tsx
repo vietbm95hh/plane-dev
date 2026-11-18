@@ -14,7 +14,7 @@ import {
   MenuSubmenuContent,
   MenuSubmenuTrigger,
 } from "@makeplane/propel/components/menu";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 
 export type TFilterSubmenuOption<V extends string | number = string> = {
   value: V;

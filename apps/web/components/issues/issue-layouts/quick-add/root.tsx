@@ -11,11 +11,11 @@ import { useParams } from "next/navigation";
 import type { UseFormRegister } from "react-hook-form";
 import { useForm } from "react-hook-form";
 // plane imports
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { AddOutline } from "@makeplane/propel/icons";
-import { setPromiseToast } from "@plane/blocks/toast";
-import type { IProject, TIssue, EIssueLayoutTypes } from "@plane/types";
-import { cn, createIssuePayload } from "@plane/utils";
+import { setPromiseToast } from "@gtinx-plane/blocks/toast";
+import type { IProject, TIssue, EIssueLayoutTypes } from "@gtinx-plane/types";
+import { cn, createIssuePayload } from "@gtinx-plane/utils";
 // local imports
 import { QuickAddIssueFormRoot } from "./form";
 import { useCreateIssueToastActions } from "../../create-issue-toast-action-items";

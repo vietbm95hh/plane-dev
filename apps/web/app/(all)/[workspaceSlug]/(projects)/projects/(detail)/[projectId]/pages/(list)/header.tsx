@@ -8,15 +8,15 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import { useParams, useRouter, useSearchParams } from "next/navigation";
 // constants
-import { EPageAccess } from "@plane/constants";
+import { EPageAccess } from "@gtinx-plane/constants";
 // plane types
 import { Button } from "@makeplane/propel/components/button";
 import { PagesOutline } from "@makeplane/propel/icons";
-import { setToast } from "@plane/blocks/toast";
-import type { TPage } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { TPage } from "@gtinx-plane/types";
 // plane ui
-import { Breadcrumbs } from "@plane/blocks/breadcrumb";
-import { Header } from "@plane/blocks/layout";
+import { Breadcrumbs } from "@gtinx-plane/blocks/breadcrumb";
+import { Header } from "@gtinx-plane/blocks/layout";
 // helpers
 import { BreadcrumbLink } from "@/components/common/breadcrumb-link";
 // hooks

@@ -6,11 +6,11 @@
 
 import { observer } from "mobx-react";
 import Link from "next/link";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // ui
 import { Button } from "@makeplane/propel/components/button";
 import { DialogActions, DialogBody, DialogInfo, DialogMain } from "@makeplane/propel/components/dialog";
-import { Logo } from "@plane/blocks/emoji-icon-picker";
+import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 // components
 // hooks
 import { useProject } from "@/hooks/store/use-project";

@@ -4,10 +4,10 @@
  * See the LICENSE file for details.
  */
 
-import { setToast } from "@plane/blocks/toast";
+import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { TIdentifierTextProps, TIdentifierTextVariant, TIssueIdentifierSize } from "@plane/types";
-import { cn } from "@plane/utils";
+import type { TIdentifierTextProps, TIdentifierTextVariant, TIssueIdentifierSize } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
 
 const SIZE_MAP: Record<TIssueIdentifierSize, string> = {
   xs: "text-caption-md-medium",

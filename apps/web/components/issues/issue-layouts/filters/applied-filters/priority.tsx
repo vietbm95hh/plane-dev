@@ -7,8 +7,8 @@
 import { observer } from "mobx-react";
 
 // icons
-import { PriorityIcon } from "@plane/blocks/icons";
-import type { TIssuePriorities } from "@plane/types";
+import { PriorityIcon } from "@gtinx-plane/blocks/icons";
+import type { TIssuePriorities } from "@gtinx-plane/types";
 import { RemovableChip } from "@/components/common/removable-chip";
 // types
 

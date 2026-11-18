@@ -6,10 +6,10 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
-import type { IProject } from "@plane/types";
+import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IProject } from "@gtinx-plane/types";
 import { NotAuthorizedView } from "@/components/auth-screens/not-authorized-view";
 import { AutoArchiveAutomation, AutoCloseAutomation } from "@/components/automation";
 import { PageHead } from "@/components/core/page-title";

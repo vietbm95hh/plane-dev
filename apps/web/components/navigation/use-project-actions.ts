@@ -5,8 +5,8 @@
  */
 
 import { useCallback, useState } from "react";
-import { setToast } from "@plane/blocks/toast";
-import { copyUrlToClipboard } from "@plane/utils";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { copyUrlToClipboard } from "@gtinx-plane/utils";
 import type { TNavigationItem } from "@/components/navigation/tab-navigation-root";
 
 type UseProjectActionsProps = {

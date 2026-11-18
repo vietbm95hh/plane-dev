@@ -9,15 +9,15 @@ import { combine } from "@atlaskit/pragmatic-drag-and-drop/combine";
 import { dropTargetForElements } from "@atlaskit/pragmatic-drag-and-drop/element/adapter";
 import { differenceInCalendarDays } from "date-fns/differenceInCalendarDays";
 import { observer } from "mobx-react";
-import { setToast } from "@plane/blocks/toast";
-import type { TGroupedIssues, TIssue, TIssueMap, TPaginationData, ICalendarDate } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { TGroupedIssues, TIssue, TIssueMap, TPaginationData, ICalendarDate } from "@gtinx-plane/types";
 // types
 // ui
 // components
-import { cn, renderFormattedPayloadDate } from "@plane/utils";
+import { cn, renderFormattedPayloadDate } from "@gtinx-plane/utils";
 import { highlightIssueOnDrop } from "@/components/issues/issue-layouts/utils";
 // helpers
-import { MONTHS_LIST } from "@plane/constants";
+import { MONTHS_LIST } from "@gtinx-plane/constants";
 // helpers
 // types
 import type { ICycleIssuesFilter } from "@/store/issue/cycle";

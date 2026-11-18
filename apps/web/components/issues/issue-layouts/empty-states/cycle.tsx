@@ -9,12 +9,12 @@ import { isEmpty } from "lodash-es";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // plane imports
-import { EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
-import { setToast } from "@plane/blocks/toast";
-import type { ISearchIssueResponse } from "@plane/types";
-import { EIssuesStoreType, EUserProjectRoles } from "@plane/types";
+import { EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { ISearchIssueResponse } from "@gtinx-plane/types";
+import { EIssuesStoreType, EUserProjectRoles } from "@gtinx-plane/types";
 // components
 import { ExistingIssuesListModal } from "@/components/core/modals/existing-issues-list-modal";
 import { useCommandPalette } from "@/hooks/store/use-command-palette";

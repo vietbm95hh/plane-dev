@@ -9,14 +9,14 @@ import { usePathname } from "next/navigation";
 import { Outlet } from "react-router";
 import useSWR from "swr";
 // components
-import { PROFILE_VIEWER_TAB, PROFILE_ADMINS_TAB, EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
+import { PROFILE_VIEWER_TAB, PROFILE_ADMINS_TAB, EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
 import { AppHeader } from "@/components/core/app-header";
 import { ContentWrapper } from "@/components/core/content-wrapper";
 import { ProfileSidebar } from "@/components/profile/sidebar";
 // constants
-import { USER_PROFILE_PROJECT_SEGREGATION } from "@plane/constants";
+import { USER_PROFILE_PROJECT_SEGREGATION } from "@gtinx-plane/constants";
 // hooks
 import { useUserPermissions } from "@/hooks/store/user";
 import useSize from "@/hooks/use-window-size";

@@ -5,13 +5,13 @@
  */
 
 import type { ReactNode } from "react";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { Popover, PopoverBody, PopoverContent, PopoverTrigger } from "@makeplane/propel/components/popover";
 import type { PopoverContentProps } from "@makeplane/propel/components/popover";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { IconElement } from "../types/icon";
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import type { SelectVariant } from "../select/types";
 import { SelectTriggerChrome } from "../select/trigger-chrome";
 import { splitSelectVariant } from "../select/utils";

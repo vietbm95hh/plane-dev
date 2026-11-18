@@ -5,7 +5,7 @@
  */
 
 import { IntakeStateGroupIcon } from "../icons/state/intake-state-group-icon";
-import type { TPaginatedResponse, TIntakeStateGroups } from "@plane/types";
+import type { TPaginatedResponse, TIntakeStateGroups } from "@gtinx-plane/types";
 import { Select } from "../select/select";
 import type { SelectPaginationParams, SelectVariant } from "../select/types";
 

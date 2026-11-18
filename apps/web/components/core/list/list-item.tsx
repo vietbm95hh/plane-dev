@@ -7,9 +7,9 @@
 import React from "react";
 // ui
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { ControlLink, Row } from "@plane/blocks/layout";
+import { ControlLink, Row } from "@gtinx-plane/blocks/layout";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useAppRouter } from "@/hooks/use-app-router";
 

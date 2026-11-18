@@ -27,10 +27,10 @@ import {
 } from "@makeplane/propel/icons";
 // plane types
 import { Avatar } from "@makeplane/propel/components/avatar";
-import { EIconSize, ISSUE_PRIORITIES, STATE_GROUPS } from "@plane/constants";
-import { Logo } from "@plane/blocks/emoji-icon-picker";
-import type { ISvgIcons } from "@plane/blocks/icons";
-import { CycleGroupIcon, PriorityIcon, StateGroupIcon } from "@plane/blocks/icons";
+import { EIconSize, ISSUE_PRIORITIES, STATE_GROUPS } from "@gtinx-plane/constants";
+import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
+import type { ISvgIcons } from "@gtinx-plane/blocks/icons";
+import { CycleGroupIcon, PriorityIcon, StateGroupIcon } from "@gtinx-plane/blocks/icons";
 import type {
   GroupByColumnTypes,
   IGroupByColumn,
@@ -45,17 +45,17 @@ import type {
   IIssueDisplayFilterOptions,
   TGetColumns,
   TSpreadsheetColumn,
-} from "@plane/types";
-import { EIssuesStoreType } from "@plane/types";
+} from "@gtinx-plane/types";
+import { EIssuesStoreType } from "@gtinx-plane/types";
 // plane ui
 
-import { renderFormattedDate, getFileURL } from "@plane/utils";
+import { renderFormattedDate, getFileURL } from "@gtinx-plane/utils";
 // store
 import { store } from "@/lib/store-context";
 import { ISSUE_FILTER_DEFAULT_DATA } from "@/store/issue/helpers/base-issues.store";
 import { DEFAULT_DISPLAY_PROPERTIES } from "@/store/issue/issue-details/sub_issues_filter.store";
 // constants
-import { ISSUE_GROUP_BY_OPTIONS } from "@plane/constants";
+import { ISSUE_GROUP_BY_OPTIONS } from "@gtinx-plane/constants";
 // components
 import {
   SpreadsheetAssigneeColumn,

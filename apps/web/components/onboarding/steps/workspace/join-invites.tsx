@@ -6,11 +6,11 @@
 
 import { useState } from "react";
 // plane imports
-import { ROLE } from "@plane/constants";
+import { ROLE } from "@gtinx-plane/constants";
 import { Button } from "@makeplane/propel/components/button";
-import type { IWorkspaceMemberInvitation } from "@plane/types";
+import type { IWorkspaceMemberInvitation } from "@gtinx-plane/types";
 import { Checkbox } from "@makeplane/propel/components/checkbox";
-import { cn, truncateText } from "@plane/utils";
+import { cn, truncateText } from "@gtinx-plane/utils";
 // constants
 import { WorkspaceLogo } from "@/components/workspace/logo";
 // hooks

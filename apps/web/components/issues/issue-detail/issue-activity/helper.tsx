@@ -5,11 +5,11 @@
  */
 
 import { useMemo } from "react";
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
-import { EFileAssetType } from "@plane/types";
-import type { TCommentsOperations } from "@plane/types";
-import { copyUrlToClipboard, formatTextList, generateWorkItemLink } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { EFileAssetType } from "@gtinx-plane/types";
+import type { TCommentsOperations } from "@gtinx-plane/types";
+import { copyUrlToClipboard, formatTextList, generateWorkItemLink } from "@gtinx-plane/utils";
 import { useEditorAsset } from "@/hooks/store/use-editor-asset";
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import { useMember } from "@/hooks/store/use-member";

@@ -7,14 +7,14 @@
 import { useState } from "react";
 import { mutate } from "swr";
 // types
-import { useTranslation } from "@plane/i18n";
-import { setToast } from "@plane/blocks/toast";
-import { APITokenService } from "@plane/services";
-import type { IApiToken } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { APITokenService } from "@gtinx-plane/services";
+import type { IApiToken } from "@gtinx-plane/types";
 // ui
-import { ConfirmDialog } from "@plane/blocks/dialog";
+import { ConfirmDialog } from "@gtinx-plane/blocks/dialog";
 // fetch-keys
-import { API_TOKENS_LIST } from "@plane/constants";
+import { API_TOKENS_LIST } from "@gtinx-plane/constants";
 
 type Props = {
   isOpen: boolean;

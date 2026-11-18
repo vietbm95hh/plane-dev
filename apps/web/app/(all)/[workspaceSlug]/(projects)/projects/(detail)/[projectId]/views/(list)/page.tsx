@@ -8,12 +8,12 @@ import { useCallback } from "react";
 import { observer } from "mobx-react";
 import { useTheme } from "next-themes";
 // plane imports
-import { EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { EViewAccess, TViewFilterProps } from "@plane/types";
-import { EUserProjectRoles } from "@plane/types";
-import { Header, EHeaderVariant } from "@plane/blocks/layout";
-import { calculateTotalFilters } from "@plane/utils";
+import { EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { EViewAccess, TViewFilterProps } from "@gtinx-plane/types";
+import { EUserProjectRoles } from "@gtinx-plane/types";
+import { Header, EHeaderVariant } from "@gtinx-plane/blocks/layout";
+import { calculateTotalFilters } from "@gtinx-plane/utils";
 // assets
 import darkViewsAsset from "@/app/assets/empty-state/disabled-feature/views-dark.webp?url";
 import lightViewsAsset from "@/app/assets/empty-state/disabled-feature/views-light.webp?url";

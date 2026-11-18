@@ -6,7 +6,7 @@
 
 import { UpgradeOutline } from "@makeplane/propel/icons";
 // helpers
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type TProIcon = {
   className?: string;

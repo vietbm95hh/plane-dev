@@ -8,9 +8,9 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 // ui
 import { useParams } from "next/navigation";
-import { setToast } from "@plane/blocks/toast";
-import { ConfirmDialog } from "@plane/blocks/dialog";
-import { getPageName } from "@plane/utils";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { ConfirmDialog } from "@gtinx-plane/blocks/dialog";
+import { getPageName } from "@gtinx-plane/utils";
 // constants
 // plane web hooks
 import { useAppRouter } from "@/hooks/use-app-router";

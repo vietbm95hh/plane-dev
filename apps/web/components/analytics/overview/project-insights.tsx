@@ -9,10 +9,10 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import useSWR from "swr";
 // plane package imports
-import { useTranslation } from "@plane/i18n";
-import { EmptyStateCompact } from "@plane/blocks/empty-state";
-import type { TChartData } from "@plane/types";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
+import type { TChartData } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useAnalytics } from "@/hooks/store/use-analytics";
 // services
@@ -23,7 +23,7 @@ import { ANALYTICS_CHART_HEIGHT_CLASSNAME } from "../constants";
 import { ProjectInsightsLoader } from "../loaders";
 
 const RadarChart = lazy(function RadarChart() {
-  return import("@plane/blocks/charts/radar-chart").then((mod) => ({
+  return import("@gtinx-plane/blocks/charts/radar-chart").then((mod) => ({
     default: mod.RadarChart,
   }));
 });

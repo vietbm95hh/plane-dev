@@ -8,9 +8,9 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // ui
-import { EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { EIssuesStoreType } from "@plane/types";
-import { useTranslation } from "@plane/i18n";
+import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { EIssuesStoreType } from "@gtinx-plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import {
@@ -23,8 +23,8 @@ import {
   MenuTrigger,
 } from "@makeplane/propel/components/menu";
 import { MoreHorizontalOutline } from "@makeplane/propel/icons";
-import { toSideAndAlign } from "@plane/blocks/common";
-import { ContextMenu, getRenderableItems, resolveItemVariant } from "@plane/blocks/context-menu";
+import { toSideAndAlign } from "@gtinx-plane/blocks/common";
+import { ContextMenu, getRenderableItems, resolveItemVariant } from "@gtinx-plane/blocks/context-menu";
 // hooks
 import { useIssues } from "@/hooks/store/use-issues";
 import { useUserPermissions } from "@/hooks/store/user";

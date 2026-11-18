@@ -7,10 +7,10 @@
 import { useEffect } from "react";
 import { observer } from "mobx-react";
 import { Controller, useForm } from "react-hook-form";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // plane types
 import { Button } from "@makeplane/propel/components/button";
-import type { TIssueLinkEditableFields, TIssueServiceType } from "@plane/types";
+import type { TIssueLinkEditableFields, TIssueServiceType } from "@gtinx-plane/types";
 import {
   Dialog,
   DialogActions,

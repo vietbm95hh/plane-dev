@@ -5,9 +5,9 @@
  */
 
 import { observer } from "mobx-react";
-import { EIconSize } from "@plane/constants";
-import { StateGroupIcon } from "@plane/blocks/icons";
-import type { IState } from "@plane/types";
+import { EIconSize } from "@gtinx-plane/constants";
+import { StateGroupIcon } from "@gtinx-plane/blocks/icons";
+import type { IState } from "@gtinx-plane/types";
 // components
 import { FilterSubmenu } from "@/components/common/filters/filter-submenu";
 

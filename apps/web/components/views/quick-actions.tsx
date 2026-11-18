@@ -8,17 +8,17 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import { MoreHorizontalOutline } from "@makeplane/propel/icons";
 // types
-import { EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
-import { setToast } from "@plane/blocks/toast";
-import type { IProjectView } from "@plane/types";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IProjectView } from "@gtinx-plane/types";
 // ui
-import type { TContextMenuItem } from "@plane/blocks/context-menu";
-import { ContextMenu, getRenderableItems, resolveItemVariant } from "@plane/blocks/context-menu";
-import { copyUrlToClipboard } from "@plane/utils";
+import type { TContextMenuItem } from "@gtinx-plane/blocks/context-menu";
+import { ContextMenu, getRenderableItems, resolveItemVariant } from "@gtinx-plane/blocks/context-menu";
+import { copyUrlToClipboard } from "@gtinx-plane/utils";
 // helpers
 import { useViewMenuItems } from "@/components/common/quick-actions-helper";
 // hooks

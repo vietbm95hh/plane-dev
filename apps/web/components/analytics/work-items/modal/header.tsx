@@ -8,8 +8,8 @@ import { observer } from "mobx-react";
 // plane package imports
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { ArrowCollapseOutline, CloseOutline, FullScreenOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
-import type { ICycle, IModule } from "@plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { ICycle, IModule } from "@gtinx-plane/types";
 // icons
 
 type Props = {

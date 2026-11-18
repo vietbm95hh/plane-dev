@@ -9,10 +9,10 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // icons
 import { AddOutline, ArrowCollapseOutline, ArrowExpandOutline, CircleOutline } from "@makeplane/propel/icons";
-import { setToast } from "@plane/blocks/toast";
-import type { TIssue, ISearchIssueResponse, TIssueKanbanFilters, TIssueGroupByOptions } from "@plane/types";
-import { useTranslation } from "@plane/i18n";
-import { cn } from "@plane/utils";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { TIssue, ISearchIssueResponse, TIssueKanbanFilters, TIssueGroupByOptions } from "@gtinx-plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { cn } from "@gtinx-plane/utils";
 // ui
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";

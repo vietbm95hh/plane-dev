@@ -6,8 +6,8 @@
 
 import React from "react";
 // plane imports
-import type { SingleOrArray, IFilterOption, TFilterValue } from "@plane/types";
-import { cn, toFilterArray } from "@plane/utils";
+import type { SingleOrArray, IFilterOption, TFilterValue } from "@gtinx-plane/types";
+import { cn, toFilterArray } from "@gtinx-plane/utils";
 import { EMPTY_FILTER_PLACEHOLDER_TEXT } from "../../shared";
 
 type TSelectedOptionsDisplayProps<V extends TFilterValue> = {

@@ -10,10 +10,10 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { MoreHorizontalOutline } from "@makeplane/propel/icons";
 // plane imports
-import { ARCHIVABLE_STATE_GROUPS, EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import type { TIssue } from "@plane/types";
-import { EIssuesStoreType } from "@plane/types";
-import { useTranslation } from "@plane/i18n";
+import { ARCHIVABLE_STATE_GROUPS, EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import type { TIssue } from "@gtinx-plane/types";
+import { EIssuesStoreType } from "@gtinx-plane/types";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import {
@@ -25,8 +25,8 @@ import {
   MenuSubmenuTrigger,
   MenuTrigger,
 } from "@makeplane/propel/components/menu";
-import { toSideAndAlign } from "@plane/blocks/common";
-import { ContextMenu, getRenderableItems, resolveItemVariant } from "@plane/blocks/context-menu";
+import { toSideAndAlign } from "@gtinx-plane/blocks/common";
+import { ContextMenu, getRenderableItems, resolveItemVariant } from "@gtinx-plane/blocks/context-menu";
 // hooks
 import { useIssues } from "@/hooks/store/use-issues";
 import { useProject } from "@/hooks/store/use-project";

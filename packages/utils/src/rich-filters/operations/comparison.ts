@@ -12,8 +12,8 @@ import type {
   TFilterGroupNode,
   TFilterProperty,
   TFilterValue,
-} from "@plane/types";
-import { FILTER_NODE_TYPE } from "@plane/types";
+} from "@gtinx-plane/types";
+import { FILTER_NODE_TYPE } from "@gtinx-plane/types";
 // local imports
 import { isConditionNode, isGroupNode } from "../types/core";
 import { processGroupNode } from "../types/shared";

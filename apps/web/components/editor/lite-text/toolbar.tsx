@@ -7,11 +7,11 @@
 import React, { useEffect, useState, useCallback } from "react";
 import type { IconGlyph } from "@makeplane/propel/components/icon";
 
-import { EIssueCommentAccessSpecifier } from "@plane/constants";
+import { EIssueCommentAccessSpecifier } from "@gtinx-plane/constants";
 // editor
-import type { EditorRefApi } from "@plane/editor";
+import type { EditorRefApi } from "@gtinx-plane/editor";
 // i18n
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // ui
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
@@ -23,11 +23,11 @@ import {
   ToolbarToggle,
 } from "@makeplane/propel/components/toolbar";
 import { GlobeOutline, LockOutline } from "@makeplane/propel/icons";
-import type { ISvgIcons } from "@plane/blocks/icons";
+import type { ISvgIcons } from "@gtinx-plane/blocks/icons";
 import { Tooltip, TooltipProvider } from "@makeplane/propel/components/tooltip";
 // constants
-import type { ToolbarMenuItem } from "@plane/editor";
-import { TOOLBAR_ITEMS } from "@plane/editor";
+import type { ToolbarMenuItem } from "@gtinx-plane/editor";
+import { TOOLBAR_ITEMS } from "@gtinx-plane/editor";
 // helpers
 
 type Props = {

@@ -6,11 +6,11 @@
 
 import type { IconGlyph } from "@makeplane/propel/components/icon";
 // plane ui
-import { useTranslation } from "@plane/i18n";
-import type { ISvgIcons } from "@plane/blocks/icons";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { ISvgIcons } from "@gtinx-plane/blocks/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 // plane utils
-import { cn } from "@plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type Props = {
   onChange: (value: number) => void;

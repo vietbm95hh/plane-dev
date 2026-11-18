@@ -9,8 +9,8 @@ import { observer } from "mobx-react";
 // plane imports
 import { List } from "@makeplane/propel/components/list";
 import { WorkspaceAvatar } from "@makeplane/propel/components/workspace-avatar";
-import { useTranslation } from "@plane/i18n";
-import { getFileURL } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { getFileURL } from "@gtinx-plane/utils";
 // components
 import { SettingsSidebarItem } from "@/components/settings/sidebar/item";
 import { SettingsSidebarSectionHeading } from "@/components/settings/sidebar/section-heading";

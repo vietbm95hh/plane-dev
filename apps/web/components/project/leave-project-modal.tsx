@@ -7,10 +7,10 @@
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 // Plane imports
-import { TypeToConfirmDialog } from "@plane/blocks/dialog";
-import { setToast } from "@plane/blocks/toast";
-import { useTranslation } from "@plane/i18n";
-import type { IProject } from "@plane/types";
+import { TypeToConfirmDialog } from "@gtinx-plane/blocks/dialog";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { IProject } from "@gtinx-plane/types";
 // hooks
 import { useUserPermissions } from "@/hooks/store/user";
 import { useAppRouter } from "@/hooks/use-app-router";

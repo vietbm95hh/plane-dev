@@ -6,9 +6,9 @@
 
 import { observer } from "mobx-react";
 // ui
-import { GANTT_TIMELINE_TYPE } from "@plane/types";
-import type { IBlockUpdateData } from "@plane/types";
-import { Loader } from "@plane/blocks/skeleton";
+import { GANTT_TIMELINE_TYPE } from "@gtinx-plane/types";
+import type { IBlockUpdateData } from "@gtinx-plane/types";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
 // components
 // hooks
 import { useTimeLineChart } from "@/hooks/use-timeline-chart";

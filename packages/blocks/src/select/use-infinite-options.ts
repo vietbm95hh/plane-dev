@@ -6,7 +6,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { debounce } from "lodash-es";
-import type { TPaginatedResponse } from "@plane/types";
+import type { TPaginatedResponse } from "@gtinx-plane/types";
 import { SELECT_SEARCH_DEBOUNCE_MS } from "./select.constants";
 import type { SelectPaginationParams } from "./types";
 import { appendUnique } from "./utils";

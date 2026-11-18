@@ -8,7 +8,7 @@ import React from "react";
 import { Link } from "react-router";
 import { DefaultTabOutline, MoreHorizontalOutline, PinOutline } from "@makeplane/propel/icons";
 // plane imports
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 import {
   Menu,
   MenuContent,

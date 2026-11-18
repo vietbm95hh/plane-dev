@@ -8,11 +8,11 @@ import { observer } from "mobx-react";
 // plane imports
 import { CircularProgress } from "@makeplane/propel/components/circular-progress";
 import { Popover, PopoverContent, PopoverTrigger } from "@makeplane/propel/components/popover";
-import { SegmentedProgress } from "@plane/blocks/progress";
-import { STATE_GROUPS } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { TIssueServiceType, TStateGroups } from "@plane/types";
-import { EIssueServiceType } from "@plane/types";
+import { SegmentedProgress } from "@gtinx-plane/blocks/progress";
+import { STATE_GROUPS } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TIssueServiceType, TStateGroups } from "@gtinx-plane/types";
+import { EIssueServiceType } from "@gtinx-plane/types";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 

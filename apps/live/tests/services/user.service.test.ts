@@ -8,7 +8,7 @@ import { describe, expect, it, vi } from "vitest";
 
 const PAGE_ID = "11111111-1111-4111-8111-111111111111";
 
-vi.mock("@plane/logger", () => ({ logger: { info: vi.fn(), error: vi.fn(), warn: vi.fn(), debug: vi.fn() } }));
+vi.mock("@gtinx-plane/logger", () => ({ logger: { info: vi.fn(), error: vi.fn(), warn: vi.fn(), debug: vi.fn() } }));
 
 // the real APIService pulls in unbuilt workspace packages; only its `get` matters here
 vi.mock("@/services/api.service", () => ({

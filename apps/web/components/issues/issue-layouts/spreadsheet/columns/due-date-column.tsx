@@ -7,11 +7,11 @@
 import React from "react";
 import { observer } from "mobx-react";
 import { DueDateOutline } from "@makeplane/propel/icons";
-import { DateSelect } from "@plane/blocks/property-select";
-import { useTranslation } from "@plane/i18n";
+import { DateSelect } from "@gtinx-plane/blocks/property-select";
+import { useTranslation } from "@gtinx-plane/i18n";
 // types
-import type { TIssue } from "@plane/types";
-import { cn, getDate, renderFormattedPayloadDate, getIssueDueDateClassName } from "@plane/utils";
+import type { TIssue } from "@gtinx-plane/types";
+import { cn, getDate, renderFormattedPayloadDate, getIssueDueDateClassName } from "@gtinx-plane/utils";
 // hooks
 import { useProjectState } from "@/hooks/store/use-project-state";
 import { useUserProfile } from "@/hooks/store/user";

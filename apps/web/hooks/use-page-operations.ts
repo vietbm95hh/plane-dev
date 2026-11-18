@@ -6,10 +6,10 @@
 
 import { useMemo } from "react";
 // plane imports
-import { IS_FAVORITE_MENU_OPEN } from "@plane/constants";
-import { setToast } from "@plane/blocks/toast";
-import { EPageAccess } from "@plane/types";
-import { copyUrlToClipboard } from "@plane/utils";
+import { IS_FAVORITE_MENU_OPEN } from "@gtinx-plane/constants";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import { EPageAccess } from "@gtinx-plane/types";
+import { copyUrlToClipboard } from "@gtinx-plane/utils";
 // hooks
 import { useCollaborativePageActions } from "@/hooks/use-collaborative-page-actions";
 // store types

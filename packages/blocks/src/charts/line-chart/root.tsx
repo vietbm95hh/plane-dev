@@ -16,8 +16,8 @@ import {
   YAxis,
 } from "recharts";
 // plane imports
-import { AXIS_LABEL_CLASSNAME } from "@plane/constants";
-import type { TLineChartProps } from "@plane/types";
+import { AXIS_LABEL_CLASSNAME } from "@gtinx-plane/constants";
+import type { TLineChartProps } from "@gtinx-plane/types";
 // local components
 import { getLegendProps } from "../components/legend";
 import { CustomXAxisTick, CustomYAxisTick } from "../components/tick";

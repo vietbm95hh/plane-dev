@@ -10,7 +10,7 @@ import { useParams } from "next/navigation";
 import { WarningTriangleOutline } from "@makeplane/propel/icons";
 // types
 import { Button } from "@makeplane/propel/components/button";
-import type { IUserLite } from "@plane/types";
+import type { IUserLite } from "@gtinx-plane/types";
 // ui
 import {
   Dialog,

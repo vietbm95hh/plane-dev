@@ -8,11 +8,11 @@ import { useEffect } from "react";
 import { observer } from "mobx-react";
 import useSWR from "swr";
 // plane imports
-import { useTranslation } from "@plane/i18n";
-import type { TIssue } from "@plane/types";
-import { EIssueServiceType } from "@plane/types";
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
-import { Loader } from "@plane/blocks/skeleton";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TIssue } from "@gtinx-plane/types";
+import { EIssueServiceType } from "@gtinx-plane/types";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
+import { Loader } from "@gtinx-plane/blocks/skeleton";
 // components
 import { PageHead } from "@/components/core/page-title";
 // hooks

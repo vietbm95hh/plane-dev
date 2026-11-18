@@ -12,12 +12,12 @@ import {
   EMPTY_OPERATOR_LABEL,
   OPERATOR_LABEL_I18N_KEYS_MAP,
   OPERATOR_LABELS_MAP,
-} from "@plane/constants";
+} from "@gtinx-plane/constants";
 import type {
   TAllAvailableOperatorsForDisplay,
   TFilterValue,
   TAllAvailableDateFilterOperatorsForDisplay,
-} from "@plane/types";
+} from "@gtinx-plane/types";
 
 // -------- OPERATOR LABEL UTILITIES --------
 

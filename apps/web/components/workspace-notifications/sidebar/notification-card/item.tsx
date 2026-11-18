@@ -9,8 +9,8 @@ import { observer } from "mobx-react";
 import { ClockOutline } from "@makeplane/propel/icons";
 // plane imports
 import { Avatar } from "@makeplane/propel/components/avatar";
-import { Row } from "@plane/blocks/layout";
-import { cn, calculateTimeAgo, renderFormattedDate, renderFormattedTime, getFileURL } from "@plane/utils";
+import { Row } from "@gtinx-plane/blocks/layout";
+import { cn, calculateTimeAgo, renderFormattedDate, renderFormattedTime, getFileURL } from "@gtinx-plane/utils";
 // hooks
 import { useWorkspaceNotifications } from "@/hooks/store/notifications";
 import { useNotification } from "@/hooks/store/notifications/use-notification";

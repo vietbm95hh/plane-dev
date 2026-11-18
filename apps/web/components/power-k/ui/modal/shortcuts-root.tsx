@@ -22,7 +22,7 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Input, InputGroup } from "@makeplane/propel/components/input";
 import { CloseOutline, SearchOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
+import { useTranslation } from "@gtinx-plane/i18n";
 // hooks
 import { usePowerK } from "@/hooks/store/use-power-k";
 // local imports

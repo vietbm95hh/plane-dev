@@ -5,8 +5,8 @@
  */
 
 // plane imports
-import type { IUserLite, TFilterProperty } from "@plane/types";
-import { EQUALITY_OPERATOR } from "@plane/types";
+import type { IUserLite, TFilterProperty } from "@gtinx-plane/types";
+import { EQUALITY_OPERATOR } from "@gtinx-plane/types";
 // local imports
 import type { TCreateFilterConfig } from "../shared";
 import { createFilterConfig, createOperatorConfigEntry } from "../shared";

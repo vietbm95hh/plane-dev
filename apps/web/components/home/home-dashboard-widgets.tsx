@@ -7,9 +7,9 @@
 import { observer } from "mobx-react";
 import { useParams, usePathname } from "next/navigation";
 // plane imports
-import { EmptyStateCompact } from "@plane/blocks/empty-state";
-import { useTranslation } from "@plane/i18n";
-import type { THomeWidgetKeys, THomeWidgetProps } from "@plane/types";
+import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { THomeWidgetKeys, THomeWidgetProps } from "@gtinx-plane/types";
 // hooks
 import { useHome } from "@/hooks/store/use-home";
 import { useProject } from "@/hooks/store/use-project";

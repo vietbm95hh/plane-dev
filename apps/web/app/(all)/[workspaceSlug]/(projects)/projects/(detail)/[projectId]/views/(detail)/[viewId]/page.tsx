@@ -7,7 +7,7 @@
 import { observer } from "mobx-react";
 import useSWR from "swr";
 // plane imports
-import { EmptyStateDetailed } from "@plane/blocks/empty-state";
+import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
 // components
 import { PageHead } from "@/components/core/page-title";
 import { ProjectViewLayoutRoot } from "@/components/issues/issue-layouts/roots/project-view-layout-root";

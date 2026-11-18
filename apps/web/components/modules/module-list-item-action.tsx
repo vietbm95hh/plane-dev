@@ -9,15 +9,15 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { CalendarOutline, LeadOutline } from "@makeplane/propel/icons";
 // Plane imports
-import { MODULE_STATUS, EUserPermissions, EUserPermissionsLevel, IS_FAVORITE_MENU_OPEN } from "@plane/constants";
-import { useLocalStorage } from "@plane/hooks";
-import { useTranslation } from "@plane/i18n";
-import { setPromiseToast, setToast } from "@plane/blocks/toast";
+import { MODULE_STATUS, EUserPermissions, EUserPermissionsLevel, IS_FAVORITE_MENU_OPEN } from "@gtinx-plane/constants";
+import { useLocalStorage } from "@gtinx-plane/hooks";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { setPromiseToast, setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import type { IModule } from "@plane/types";
-import { FavoriteStar } from "@plane/blocks/common";
-import { DateRangeSelect } from "@plane/blocks/property-select";
-import { renderFormattedPayloadDate, getDate } from "@plane/utils";
+import type { IModule } from "@gtinx-plane/types";
+import { FavoriteStar } from "@gtinx-plane/blocks/common";
+import { DateRangeSelect } from "@gtinx-plane/blocks/property-select";
+import { renderFormattedPayloadDate, getDate } from "@gtinx-plane/utils";
 // components
 import { ModuleQuickActions } from "@/components/modules";
 import { ModuleStatusDropdown } from "@/components/modules/module-status-dropdown";

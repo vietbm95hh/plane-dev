@@ -8,10 +8,10 @@ import { useState } from "react";
 import { observer } from "mobx-react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 // plane imports
-import { EntityDetailVotes, EntityDetailVotesModal } from "@plane/blocks/entity-detail";
-import type { TEntityDetailVoteType, TEntityDetailVoter } from "@plane/blocks/entity-detail";
-import { useTranslation } from "@plane/i18n";
-import { getFileURL } from "@plane/utils";
+import { EntityDetailVotes, EntityDetailVotesModal } from "@gtinx-plane/blocks/entity-detail";
+import type { TEntityDetailVoteType, TEntityDetailVoter } from "@gtinx-plane/blocks/entity-detail";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { getFileURL } from "@gtinx-plane/utils";
 // helpers
 import { queryParamGenerator } from "@/helpers/query-param-generator";
 // hooks

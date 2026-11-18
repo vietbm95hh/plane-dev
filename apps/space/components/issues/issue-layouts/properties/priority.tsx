@@ -5,11 +5,11 @@
  */
 
 // plane imports
-import { PrioritySelect } from "@plane/blocks/property-select";
-import type { SelectVariant } from "@plane/blocks/select";
-import { useTranslation } from "@plane/i18n";
-import type { TIssuePriorities } from "@plane/types";
-import { cn } from "@plane/utils";
+import { PrioritySelect } from "@gtinx-plane/blocks/property-select";
+import type { SelectVariant } from "@gtinx-plane/blocks/select";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TIssuePriorities } from "@gtinx-plane/types";
+import { cn } from "@gtinx-plane/utils";
 // helpers
 import { READ_ONLY_SELECT_CLASSNAME } from "@/helpers/select.helper";
 

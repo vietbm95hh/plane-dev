@@ -12,8 +12,8 @@ import { Tabs, TabsList, TabsPanel } from "@makeplane/propel/components/tabs";
 import { Tab as TabElement } from "@makeplane/propel/elements/tabs";
 import { TickCircleOutline } from "@makeplane/propel/icons";
 // helpers
-import type { EProductSubscriptionEnum, TBillingFrequency, TSubscriptionPrice } from "@plane/types";
-import { cn, getBaseSubscriptionName, getSubscriptionName } from "@plane/utils";
+import type { EProductSubscriptionEnum, TBillingFrequency, TSubscriptionPrice } from "@gtinx-plane/types";
+import { cn, getBaseSubscriptionName, getSubscriptionName } from "@gtinx-plane/utils";
 
 export type TBasePaidPlanCardProps = {
   planVariant: EProductSubscriptionEnum;

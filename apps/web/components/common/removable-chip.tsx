@@ -11,8 +11,8 @@ import { IconButton } from "@makeplane/propel/components/icon-button";
 import { ComboboxChip } from "@makeplane/propel/elements/combobox";
 import type { ComboboxChipSize } from "@makeplane/propel/elements/combobox";
 import { CloseOutline } from "@makeplane/propel/icons";
-import { useTranslation } from "@plane/i18n";
-import { cn } from "@plane/utils";
+import { useTranslation } from "@gtinx-plane/i18n";
+import { cn } from "@gtinx-plane/utils";
 
 export type TRemovableChipVariant = "outline" | "soft";
 

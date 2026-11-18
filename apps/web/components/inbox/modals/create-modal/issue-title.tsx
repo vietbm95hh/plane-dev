@@ -7,12 +7,12 @@
 import { observer } from "mobx-react";
 // plane imports
 import { Input, InputGroup } from "@makeplane/propel/components/input";
-import { ETabIndices } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
-import type { TIssue } from "@plane/types";
+import { ETabIndices } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
+import type { TIssue } from "@gtinx-plane/types";
 
 // helpers
-import { getTabIndex } from "@plane/utils";
+import { getTabIndex } from "@gtinx-plane/utils";
 // hooks
 import { usePlatformOS } from "@/hooks/use-platform-os";
 

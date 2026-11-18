@@ -8,10 +8,10 @@ import { useCallback, useMemo, useState } from "react";
 import { isEqual, cloneDeep } from "lodash-es";
 import { observer } from "mobx-react";
 // plane imports
-import { EUserPermissionsLevel } from "@plane/constants";
-import { setToast } from "@plane/blocks/toast";
-import type { IProjectView, TWorkItemFilterExpression } from "@plane/types";
-import { EUserProjectRoles, EViewAccess } from "@plane/types";
+import { EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { setToast } from "@gtinx-plane/blocks/toast";
+import type { IProjectView, TWorkItemFilterExpression } from "@gtinx-plane/types";
+import { EUserProjectRoles, EViewAccess } from "@gtinx-plane/types";
 // components
 import { removeNillKeys } from "@/components/issues/issue-layouts/utils";
 import { CreateUpdateProjectViewModal } from "@/components/views/modal";

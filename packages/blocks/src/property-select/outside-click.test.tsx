@@ -7,7 +7,7 @@
 import { useRef } from "react";
 import { fireEvent, render, screen, within } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
-import { useOutsideClickDetector } from "@plane/hooks";
+import { useOutsideClickDetector } from "@gtinx-plane/hooks";
 import { ContextMenu } from "../context-menu/context-menu";
 import { DateSelect } from "./date-select";
 

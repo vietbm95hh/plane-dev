@@ -13,16 +13,16 @@ import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
 import { DragDropOutline, PinOutline, UnpinOutline } from "@makeplane/propel/icons";
 // plane imports
-import type { IWorkspaceSidebarNavigationItem } from "@plane/constants";
-import { EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import type { IWorkspaceSidebarNavigationItem } from "@gtinx-plane/constants";
+import { EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { ListItem, ListItemLabel } from "@makeplane/propel/components/list";
 import { ListItemLink } from "@makeplane/propel/elements/list";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { DropIndicator } from "@plane/blocks/common";
-import { cn } from "@plane/utils";
+import { DropIndicator } from "@gtinx-plane/blocks/common";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { UpgradeBadge } from "@/components/workspace/upgrade-badge";
 // hooks

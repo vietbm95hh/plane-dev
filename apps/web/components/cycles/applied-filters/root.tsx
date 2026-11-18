@@ -6,14 +6,14 @@
 
 import { observer } from "mobx-react";
 // plane imports
-import { EUserPermissions, EUserPermissionsLevel } from "@plane/constants";
-import { useTranslation } from "@plane/i18n";
+import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
+import { useTranslation } from "@gtinx-plane/i18n";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Pill } from "@makeplane/propel/components/pill";
 import { CloseOutline } from "@makeplane/propel/icons";
-import type { TCycleFilters } from "@plane/types";
-import { replaceUnderscoreIfSnakeCase } from "@plane/utils";
+import type { TCycleFilters } from "@gtinx-plane/types";
+import { replaceUnderscoreIfSnakeCase } from "@gtinx-plane/utils";
 // hooks
 import { useUserPermissions } from "@/hooks/store/user";
 // local imports
