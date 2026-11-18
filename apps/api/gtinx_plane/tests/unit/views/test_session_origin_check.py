@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # See the LICENSE file for details.
 
-"""Cookie-authenticated writes must come from the request's own origin or a configured Plane origin."""
+"""Cookie-authenticated writes must come from the request's own origin or a configured gtinx-plane origin."""
 
 import pytest
 from django.test import RequestFactory, override_settings

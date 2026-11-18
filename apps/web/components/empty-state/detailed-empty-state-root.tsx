@@ -10,7 +10,7 @@ import { observer } from "mobx-react";
 import { Button } from "@makeplane/propel/components/button";
 import { Icon } from "@makeplane/propel/components/icon";
 // utils
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type EmptyStateSize = "sm" | "base" | "lg";
 

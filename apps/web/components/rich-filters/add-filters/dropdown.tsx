@@ -20,7 +20,7 @@ import { setToast } from "@gtinx-plane/blocks/toast";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { IFilterInstance } from "@gtinx-plane/shared-state";
 import type { TExternalFilter, TFilterProperty, TSupportedOperators } from "@gtinx-plane/types";
-import { cn, getOperatorForPayload } from "@gtinx-gtinx_plane/utils";
+import { cn, getOperatorForPayload } from "@gtinx-plane/utils";
 
 export type TAddFilterDropdownProps<P extends TFilterProperty, E extends TExternalFilter> = {
   customButton?: React.ReactNode;

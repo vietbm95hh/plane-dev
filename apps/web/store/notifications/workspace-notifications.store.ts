@@ -19,7 +19,7 @@ import type {
   TUnreadNotificationsCount,
 } from "@gtinx-plane/types";
 // helpers
-import { convertToEpoch } from "@gtinx-gtinx_plane/utils";
+import { convertToEpoch } from "@gtinx-plane/utils";
 // services
 import workspaceNotificationService from "@/services/workspace-notification.service";
 // store

@@ -15,7 +15,7 @@ import type { IEmailCheckData } from "@gtinx-plane/types";
 // ui
 import { Input } from "@makeplane/propel/components/input";
 // helpers
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { checkEmailValidity } from "@/helpers/string.helper";
 
 type TAuthEmailForm = {

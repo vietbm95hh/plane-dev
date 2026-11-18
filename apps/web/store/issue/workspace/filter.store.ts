@@ -22,7 +22,7 @@ import type {
   TSupportedFilterForUpdate,
 } from "@gtinx-plane/types";
 import { EIssuesStoreType, EIssueLayoutTypes, STATIC_VIEW_TYPES } from "@gtinx-plane/types";
-import { handleIssueQueryParamsByLayout } from "@gtinx-gtinx_plane/utils";
+import { handleIssueQueryParamsByLayout } from "@gtinx-plane/utils";
 // services
 import { WorkspaceService } from "@/services/workspace.service";
 // local imports

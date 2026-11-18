@@ -14,7 +14,7 @@ import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/comp
 import { EEstimateSystem, estimateCount } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { TEstimatePointsObject, TEstimateSystemKeys, TEstimateTypeErrorObject } from "@gtinx-plane/types";
-import { convertMinutesToHoursMinutesString } from "@gtinx-gtinx_plane/utils";
+import { convertMinutesToHoursMinutesString } from "@gtinx-plane/utils";
 // local imports
 import { EstimatePointUpdate } from "./update";
 

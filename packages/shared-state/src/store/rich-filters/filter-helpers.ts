@@ -21,7 +21,7 @@ import type {
   TFilterConditionPayload,
 } from "@gtinx-plane/types";
 import { LOGICAL_OPERATOR } from "@gtinx-plane/types";
-import { addAndCondition, createConditionNode, updateNodeInExpression } from "@gtinx-gtinx_plane/utils";
+import { addAndCondition, createConditionNode, updateNodeInExpression } from "@gtinx-plane/utils";
 // local imports
 import type { IFilterInstance } from "./filter";
 

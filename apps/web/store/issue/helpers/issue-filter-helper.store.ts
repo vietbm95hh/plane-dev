@@ -27,7 +27,7 @@ import type {
 } from "@gtinx-plane/types";
 import { EIssueLayoutTypes } from "@gtinx-plane/types";
 // helpers
-import { getComputedDisplayFilters, getComputedDisplayProperties } from "@gtinx-gtinx_plane/utils";
+import { getComputedDisplayFilters, getComputedDisplayProperties } from "@gtinx-plane/utils";
 // lib
 import { storage } from "@/lib/local-storage";
 

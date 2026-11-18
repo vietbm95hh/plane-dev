@@ -12,7 +12,7 @@ import { LiteTextEditorWithRef } from "@gtinx-plane/editor";
 import type { EditorRefApi, ILiteTextEditorProps, TFileHandler } from "@gtinx-plane/editor";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { MakeOptional } from "@gtinx-plane/types";
-import { cn, isCommentEmpty } from "@gtinx-gtinx_plane/utils";
+import { cn, isCommentEmpty } from "@gtinx-plane/utils";
 // components
 import { EditorMentionsRoot } from "@/components/editor/embeds/mentions";
 import { IssueCommentToolbar } from "@/components/editor/lite-text/toolbar";

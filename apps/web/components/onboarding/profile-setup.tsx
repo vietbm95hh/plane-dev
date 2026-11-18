@@ -20,7 +20,7 @@ import type { IUser, TUserProfile, TOnboardingSteps } from "@gtinx-plane/types";
 import { PasswordStrengthIndicator } from "@gtinx-plane/blocks/auth";
 import { Spinner } from "@gtinx-plane/blocks/spinner";
 // components
-import { cn, getFileURL, getPasswordStrength, validatePersonName } from "@gtinx-gtinx_plane/utils";
+import { cn, getFileURL, getPasswordStrength, validatePersonName } from "@gtinx-plane/utils";
 import { UserImageUploadModal } from "@/components/core/modals/user-image-upload-modal";
 // hooks
 import { useUser, useUserProfile } from "@/hooks/store/user";

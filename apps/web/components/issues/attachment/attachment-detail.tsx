@@ -13,7 +13,7 @@ import Link from "next/link";
 import { CloseOutline, WarningCircleOutline } from "@makeplane/propel/icons";
 // ui
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { convertBytesToSize, getFileExtension, getFileName, getFileURL, renderFormattedDate } from "@gtinx-gtinx_plane/utils";
+import { convertBytesToSize, getFileExtension, getFileName, getFileURL, renderFormattedDate } from "@gtinx-plane/utils";
 // icons
 //
 import { getFileIcon } from "@/components/icons";

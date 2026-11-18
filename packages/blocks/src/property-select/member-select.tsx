@@ -14,7 +14,7 @@ import type { TPaginatedResponse } from "@gtinx-plane/types";
 import { Select } from "../select/select";
 import type { SelectPaginationParams, SelectTooltip, SelectTriggerSize, SelectVariant } from "../select/types";
 import { splitSelectVariant } from "../select/utils";
-import { cn, getAvatarName } from "@gtinx-gtinx_plane/utils";
+import { cn, getAvatarName } from "@gtinx-plane/utils";
 
 /** Minimal member shape the dropdown needs — the client maps its richer record down to this. */
 export type MemberOption = {

@@ -6,7 +6,7 @@
 
 // plane imports
 import type { IMarking } from "@gtinx-plane/editor";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 export type THeadingComponentProps = {
   marking: IMarking;

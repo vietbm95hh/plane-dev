@@ -13,7 +13,7 @@ import { INBOX_STATUS } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { TInboxIssueStatus } from "@gtinx-plane/types";
 import { EInboxIssueStatus } from "@gtinx-plane/types";
-import { findHowManyDaysLeft } from "@gtinx-gtinx_plane/utils";
+import { findHowManyDaysLeft } from "@gtinx-plane/utils";
 // store
 import type { IInboxIssueStore } from "@/store/inbox/inbox-issue.store";
 import { ICON_PROPERTIES } from "./inbox-status-icon";

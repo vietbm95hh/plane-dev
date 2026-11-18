@@ -7,7 +7,7 @@
 import { observer } from "mobx-react";
 import { Input } from "@makeplane/propel/components/input";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import type { TQuickAddIssueForm } from "../root";
 
 export const GanttQuickAddIssueForm = observer(function GanttQuickAddIssueForm(props: TQuickAddIssueForm) {

@@ -16,7 +16,7 @@ import type { EditorRefApi } from "@gtinx-plane/editor";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { TNameDescriptionLoader } from "@gtinx-plane/types";
 import { EIssueServiceType } from "@gtinx-plane/types";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import useKeypress from "@/hooks/use-keypress";

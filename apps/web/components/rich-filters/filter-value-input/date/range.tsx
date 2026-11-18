@@ -10,7 +10,7 @@ import { observer } from "mobx-react";
 import { DateRangeSelect } from "@gtinx-plane/blocks/property-select";
 import type { DateRangeValue } from "@gtinx-plane/blocks/property-select";
 import type { TDateRangeFilterFieldConfig, TFilterConditionNodeForDisplay, TFilterProperty } from "@gtinx-plane/types";
-import { cn, isValidDate, renderFormattedPayloadDate, toFilterArray } from "@gtinx-gtinx_plane/utils";
+import { cn, isValidDate, renderFormattedPayloadDate, toFilterArray } from "@gtinx-plane/utils";
 // hooks
 import { useUserProfile } from "@/hooks/store/user";
 // local imports

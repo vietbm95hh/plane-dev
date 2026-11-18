@@ -1,0 +1,30 @@
+[Unit]
+Description=gtinx-plane - Space (public pages, React Router SSR)
+Documentation=file:///opt/gtinx-plane/deployments/systemd/README.md
+After=network-online.target gtinx-plane-api.service
+Wants=network-online.target gtinx-plane-api.service
+
+[Service]
+Type=simple
+User=gtinx
+Group=gtinx
+WorkingDirectory=/opt/gtinx-plane/apps/space
+Environment=NODE_ENV=production
+Environment=PORT=3202
+Environment=HOST=127.0.0.1
+ExecStart=/opt/gtinx-plane/apps/space/node_modules/.bin/react-router-serve ./build/server/index.js
+Restart=always
+RestartSec=5
+KillSignal=SIGTERM
+TimeoutStopSec=30
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=gtinx-plane-space
+
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=full
+ProtectHome=yes
+
+[Install]
+WantedBy=multi-user.target

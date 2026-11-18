@@ -8,7 +8,7 @@ import { NodeViewWrapper } from "@tiptap/react";
 import type { NodeViewProps } from "@tiptap/react";
 import { useEffect, useRef, useState } from "react";
 // plane imports
-import { isValidAssetId } from "@gtinx-gtinx_plane/utils";
+import { isValidAssetId } from "@gtinx-plane/utils";
 // local imports
 import type { CustomImageExtensionType, TCustomImageAttributes } from "../types";
 import { ECustomImageAttributeNames, ECustomImageStatus } from "../types";

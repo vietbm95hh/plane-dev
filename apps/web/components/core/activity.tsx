@@ -31,7 +31,7 @@ import {
 import { BlockedIcon, BlockerIcon } from "@gtinx-plane/blocks/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { IIssueActivity } from "@gtinx-plane/types";
-import { renderFormattedDate, generateWorkItemLink, capitalizeFirstLetter } from "@gtinx-gtinx_plane/utils";
+import { renderFormattedDate, generateWorkItemLink, capitalizeFirstLetter } from "@gtinx-plane/utils";
 // helpers
 import { useLabel } from "@/hooks/store/use-label";
 import { usePlatformOS } from "@/hooks/use-platform-os";

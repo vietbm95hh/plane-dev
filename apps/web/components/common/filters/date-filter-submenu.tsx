@@ -12,7 +12,7 @@ import {
   MenuSubmenuContent,
   MenuSubmenuTrigger,
 } from "@makeplane/propel/components/menu";
-import { isInDateFormat } from "@gtinx-gtinx_plane/utils";
+import { isInDateFormat } from "@gtinx-plane/utils";
 // local imports
 import { useDateFilterModal } from "./date-filter-modal-context";
 import { FilterSubmenuCount } from "./filter-submenu";

@@ -13,7 +13,7 @@ import { Button } from "@makeplane/propel/components/button";
 import { ExpandableSearch } from "@makeplane/propel/components/expandable-search";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { IWorkspaceBulkInviteFormData } from "@gtinx-plane/types";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { NotAuthorizedView } from "@/components/auth-screens/not-authorized-view";
 import { CountChip } from "@/components/common/count-chip";

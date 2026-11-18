@@ -11,7 +11,7 @@ import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { DragHandle } from "@gtinx-plane/blocks/common";
 import { useTranslation } from "@gtinx-plane/i18n";
 // helper
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { usePlatformOS } from "@/hooks/use-platform-os";
 

@@ -10,7 +10,7 @@ import { AnchorButton } from "@makeplane/propel/components/anchor-button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { DownloadOutline } from "@makeplane/propel/icons";
 import type { IExportData } from "@gtinx-plane/types";
-import { getDate, getFileURL, renderFormattedDate } from "@gtinx-gtinx_plane/utils";
+import { getDate, getFileURL, renderFormattedDate } from "@gtinx-plane/utils";
 
 type RowData = IExportData;
 const checkExpiry = (inputDateString: string) => {

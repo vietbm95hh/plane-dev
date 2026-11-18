@@ -12,7 +12,7 @@ import { CloseOutline } from "@makeplane/propel/icons";
 import type { TModuleDisplayFilters, TModuleFilters } from "@gtinx-plane/types";
 // components
 import { Header, EHeaderVariant } from "@gtinx-plane/blocks/layout";
-import { replaceUnderscoreIfSnakeCase } from "@gtinx-gtinx_plane/utils";
+import { replaceUnderscoreIfSnakeCase } from "@gtinx-plane/utils";
 import { AppliedDateFilters, AppliedMembersFilters, AppliedStatusFilters } from "@/components/modules";
 import { APPLIED_FILTER_GROUP_CLASSNAME, RemovableChip } from "@/components/common/removable-chip";
 // helpers

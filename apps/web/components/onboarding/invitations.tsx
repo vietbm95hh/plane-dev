@@ -14,7 +14,7 @@ import type { IWorkspaceMemberInvitation } from "@gtinx-plane/types";
 // ui
 import { Checkbox } from "@makeplane/propel/components/checkbox";
 import { Spinner } from "@gtinx-plane/blocks/spinner";
-import { truncateText } from "@gtinx-gtinx_plane/utils";
+import { truncateText } from "@gtinx-plane/utils";
 // constants
 // helpers
 import { WorkspaceLogo } from "@/components/workspace/logo";

@@ -7,7 +7,7 @@
 // plane imports
 import type { TBuildFilterExpressionParams, TExternalFilter, TFilterProperty, TFilterValue } from "@gtinx-plane/types";
 import { LOGICAL_OPERATOR } from "@gtinx-plane/types";
-import { getOperatorForPayload } from "@gtinx-gtinx_plane/utils";
+import { getOperatorForPayload } from "@gtinx-plane/utils";
 // local imports
 import { FilterInstance } from "../store/rich-filters/filter";
 

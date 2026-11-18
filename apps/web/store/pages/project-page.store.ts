@@ -12,7 +12,7 @@ import { EUserPermissions } from "@gtinx-plane/constants";
 import type { TPage, TPageFilters, TPageNavigationTabs } from "@gtinx-plane/types";
 import { EUserProjectRoles } from "@gtinx-plane/types";
 // helpers
-import { filterPagesByPageType, getPageName, orderPages, shouldFilterPage } from "@gtinx-gtinx_plane/utils";
+import { filterPagesByPageType, getPageName, orderPages, shouldFilterPage } from "@gtinx-plane/utils";
 // plane web constants
 // plane web store
 // services

@@ -6,9 +6,9 @@
 
 import { pull, find, concat, set, update } from "lodash-es";
 import { action, makeObservable, observable, runInAction } from "mobx";
-// Plane Imports
+// gtinx-plane Imports
 import type { TIssueReaction, TIssueReactionMap, TIssueReactionIdMap, TIssueServiceType } from "@gtinx-plane/types";
-import { groupReactions } from "@gtinx-gtinx_plane/utils";
+import { groupReactions } from "@gtinx-plane/utils";
 // services
 import { IssueReactionService } from "@/services/issue";
 // types

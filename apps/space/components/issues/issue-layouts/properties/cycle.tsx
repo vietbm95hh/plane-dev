@@ -11,7 +11,7 @@ import type { CycleOption } from "@gtinx-plane/blocks/property-select";
 import type { SelectVariant } from "@gtinx-plane/blocks/select";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { TCycleGroups } from "@gtinx-plane/types";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // helpers
 import { READ_ONLY_SELECT_CLASSNAME, toSinglePage } from "@/helpers/select.helper";
 // hooks

@@ -9,7 +9,7 @@ import React from "react";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { ControlLink, Row } from "@gtinx-plane/blocks/layout";
 // helpers
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useAppRouter } from "@/hooks/use-app-router";
 

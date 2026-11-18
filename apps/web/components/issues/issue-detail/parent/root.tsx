@@ -18,7 +18,7 @@ import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuGroup, MenuItem, MenuLabel, MenuTrigger } from "@makeplane/propel/components/menu";
 // helpers
-import { generateWorkItemLink } from "@gtinx-gtinx_plane/utils";
+import { generateWorkItemLink } from "@gtinx-plane/utils";
 // hooks
 import { useIssues } from "@/hooks/store/use-issues";
 import { useProject } from "@/hooks/store/use-project";

@@ -9,7 +9,7 @@ import { observer } from "mobx-react";
 // plane imports
 import { DateSelect } from "@gtinx-plane/blocks/property-select";
 import type { TDateFilterFieldConfig, TFilterConditionNodeForDisplay, TFilterProperty } from "@gtinx-plane/types";
-import { cn, getDate, renderFormattedPayloadDate } from "@gtinx-gtinx_plane/utils";
+import { cn, getDate, renderFormattedPayloadDate } from "@gtinx-plane/utils";
 // hooks
 import { useUserProfile } from "@/hooks/store/user";
 // local imports

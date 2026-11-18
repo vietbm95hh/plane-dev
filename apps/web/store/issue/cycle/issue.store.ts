@@ -18,7 +18,7 @@ import type {
   TBulkOperationsPayload,
 } from "@gtinx-plane/types";
 // helpers
-import { getDistributionPathsPostUpdate } from "@gtinx-gtinx_plane/utils";
+import { getDistributionPathsPostUpdate } from "@gtinx-plane/utils";
 //local
 import { storage } from "@/lib/local-storage";
 import type { IBaseIssuesStore } from "../helpers/base-issues.store";

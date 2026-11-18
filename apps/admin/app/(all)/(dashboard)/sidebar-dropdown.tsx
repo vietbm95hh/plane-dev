@@ -23,7 +23,7 @@ import { LogOutOutline, PaletteOutline, UserCogOutline } from "@makeplane/propel
 // plane internal packages
 import { API_BASE_URL } from "@gtinx-plane/constants";
 import { AuthService } from "@gtinx-plane/services";
-import { getFileURL } from "@gtinx-gtinx_plane/utils";
+import { getFileURL } from "@gtinx-plane/utils";
 // hooks
 import { useTheme, useUser } from "@/hooks/store";
 

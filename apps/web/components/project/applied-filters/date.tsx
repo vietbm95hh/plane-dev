@@ -7,7 +7,7 @@
 import { observer } from "mobx-react";
 import { PROJECT_CREATED_AT_FILTER_OPTIONS } from "@gtinx-plane/constants";
 // helpers
-import { renderFormattedDate, capitalizeFirstLetter } from "@gtinx-gtinx_plane/utils";
+import { renderFormattedDate, capitalizeFirstLetter } from "@gtinx-plane/utils";
 import { RemovableChip } from "@/components/common/removable-chip";
 // constants
 

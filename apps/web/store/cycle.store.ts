@@ -17,8 +17,8 @@ import type {
   TCycleDistribution,
   TCycleEstimateType,
 } from "@gtinx-plane/types";
-import type { DistributionUpdates } from "@gtinx-gtinx_plane/utils";
-import { orderCycles, shouldFilterCycle, getDate, updateDistribution } from "@gtinx-gtinx_plane/utils";
+import type { DistributionUpdates } from "@gtinx-plane/utils";
+import { orderCycles, shouldFilterCycle, getDate, updateDistribution } from "@gtinx-plane/utils";
 // helpers
 // services
 import { CycleService } from "@/services/cycle.service";

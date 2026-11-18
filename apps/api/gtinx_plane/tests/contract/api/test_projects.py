@@ -265,7 +265,7 @@ class TestProjectListCreateAPIEndpoint:
 class TestProjectListExpand:
     """Contract tests for ``?expand=`` on GET /api/v1/workspaces/{slug}/projects/.
 
-    Regression for https://github.com/makeplane/plane/issues/4639. ``updated_by``
+    Regression for https://github.com/gtinx-plane/gtinx-plane/issues/4639. ``updated_by``
     originally came back as a bare UUID because it was missing from the expansion
     mapper. Adding it was not enough: ``BaseModel.save`` leaves ``updated_by`` NULL
     until a record is first updated, and expanding a null relation emitted ``{}``

@@ -15,7 +15,7 @@ import { ArchiveOutline, MoreHorizontalOutline, SettingsOutline } from "@makepla
 import { EUserPermissionsLevel } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
 import { EUserWorkspaceRoles } from "@gtinx-plane/types";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // store hooks
 import { useUserPermissions } from "@/hooks/store/user";
 

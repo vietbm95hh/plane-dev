@@ -21,7 +21,7 @@ import { EditOutline } from "@makeplane/propel/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { IUserProfileProjectSegregation } from "@gtinx-plane/types";
 import { Loader } from "@gtinx-plane/blocks/skeleton";
-import { cn, renderFormattedDate, getFileURL } from "@gtinx-gtinx_plane/utils";
+import { cn, renderFormattedDate, getFileURL } from "@gtinx-plane/utils";
 // components
 import { CoverImage } from "@/components/common/cover-image";
 // hooks

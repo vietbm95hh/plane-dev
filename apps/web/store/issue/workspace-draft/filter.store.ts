@@ -7,7 +7,7 @@
 import { isEmpty, set } from "lodash-es";
 import { action, computed, makeObservable, observable, runInAction } from "mobx";
 import { computedFn } from "mobx-utils";
-// Plane Imports
+// gtinx-plane Imports
 import type { TSupportedFilterTypeForUpdate } from "@gtinx-plane/constants";
 import { EIssueFilterType } from "@gtinx-plane/constants";
 import type {
@@ -21,7 +21,7 @@ import type {
   TSupportedFilterForUpdate,
 } from "@gtinx-plane/types";
 import { EIssuesStoreType } from "@gtinx-plane/types";
-import { handleIssueQueryParamsByLayout } from "@gtinx-gtinx_plane/utils";
+import { handleIssueQueryParamsByLayout } from "@gtinx-plane/utils";
 // services
 import { IssueFiltersService } from "@/services/issue_filter.service";
 // helpers

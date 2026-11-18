@@ -13,7 +13,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
 import type { TModuleFilters } from "@gtinx-plane/types";
 // components
-import { calculateTotalFilters } from "@gtinx-gtinx_plane/utils";
+import { calculateTotalFilters } from "@gtinx-plane/utils";
 import { ArchivedModulesView, ModuleAppliedFiltersList } from "@/components/modules";
 import { CycleModuleListLayoutLoader } from "@/components/ui/loader/cycle-module-list-loader";
 // helpers

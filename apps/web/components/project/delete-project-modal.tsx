@@ -5,7 +5,7 @@
  */
 
 import { useParams } from "next/navigation";
-// Plane imports
+// gtinx-plane imports
 import { TypeToConfirmDialog } from "@gtinx-plane/blocks/dialog";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { useTranslation } from "@gtinx-plane/i18n";

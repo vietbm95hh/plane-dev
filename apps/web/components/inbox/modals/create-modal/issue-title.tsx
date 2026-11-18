@@ -12,7 +12,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import type { TIssue } from "@gtinx-plane/types";
 
 // helpers
-import { getTabIndex } from "@gtinx-gtinx_plane/utils";
+import { getTabIndex } from "@gtinx-plane/utils";
 // hooks
 import { usePlatformOS } from "@/hooks/use-platform-os";
 

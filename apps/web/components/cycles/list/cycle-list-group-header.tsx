@@ -12,7 +12,7 @@ import type { TCycleGroups } from "@gtinx-plane/types";
 // icons
 import { Row } from "@gtinx-plane/blocks/layout";
 // helpers
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type Props = {
   type: TCycleGroups;

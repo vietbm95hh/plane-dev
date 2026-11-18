@@ -8,7 +8,7 @@ import { useCallback, useMemo } from "react";
 import { observer } from "mobx-react";
 // types
 import type { IIssueDisplayProperties, TGroupedIssues } from "@gtinx-plane/types";
-import { getComputedDisplayProperties } from "@gtinx-gtinx_plane/utils";
+import { getComputedDisplayProperties } from "@gtinx-plane/utils";
 // constants
 // components
 import { IssueLayoutHOC } from "@/components/issues/issue-layouts/issue-layout-HOC";

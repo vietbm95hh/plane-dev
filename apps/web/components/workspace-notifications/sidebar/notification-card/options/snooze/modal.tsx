@@ -29,7 +29,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { DateSelect } from "@gtinx-plane/blocks/property-select";
 import { Select } from "@gtinx-plane/blocks/select";
 // components
-import { getDate } from "@gtinx-gtinx_plane/utils";
+import { getDate } from "@gtinx-plane/utils";
 // hooks
 import { useUserProfile } from "@/hooks/store/user";
 

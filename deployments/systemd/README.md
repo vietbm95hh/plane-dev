@@ -1,6 +1,6 @@
-# Chạy Plane bằng systemd (không dùng Docker)
+# Chạy gtinx-plane bằng systemd (không dùng Docker)
 
-Bộ file này chạy **đầy đủ** Plane Community trên một máy Linux, dùng `systemd` thay cho
+Bộ file này chạy **đầy đủ** gtinx-plane Community trên một máy Linux, dùng `systemd` thay cho
 `docker compose`. Các file Docker trong repo **vẫn được giữ nguyên** — bạn có thể dùng
 lại bất cứ lúc nào; hai cách chạy không ảnh hưởng nhau.
 
@@ -8,15 +8,15 @@ lại bất cứ lúc nào; hai cách chạy không ảnh hưởng nhau.
 
 | Unit | Thành phần | Cổng (localhost) | Ghi chú |
 |---|---|---|---|
-| `plane-migrate.service` | Django migrate (`oneshot`) | – | chạy trước api/worker/beat |
-| `plane-api.service` | Django API + gunicorn/uvicorn | `8000` | `apps/api` |
-| `plane-worker.service` | Celery worker | – | `apps/api` |
-| `plane-beat.service` | Celery beat | – | `apps/api` |
-| `plane-live.service` | Hocuspocus realtime | `3100` | `apps/live/dist` |
-| `plane-space.service` | Space (React Router SSR) | `3202` | `apps/space/build` |
-| `plane-web.service` | Web SPA (Caddy static) | `3200` | `apps/web/build/client` |
-| `plane-admin.service` | Admin god-mode (Caddy static) | `3201` | `apps/admin/build/client` |
-| `plane-proxy.service` | Caddy reverse proxy + TLS | `80/443` | `deployments/systemd/caddy/proxy.Caddyfile` |
+| `gtinx-plane-migrate.service` | Django migrate (`oneshot`) | – | chạy trước api/worker/beat |
+| `gtinx-plane-api.service` | Django API + gunicorn/uvicorn | `8000` | `apps/api` |
+| `gtinx-plane-worker.service` | Celery worker | – | `apps/api` |
+| `gtinx-plane-beat.service` | Celery beat | – | `apps/api` |
+| `gtinx-plane-live.service` | Hocuspocus realtime | `3100` | `apps/live/dist` |
+| `gtinx-plane-space.service` | Space (React Router SSR) | `3202` | `apps/space/build` |
+| `gtinx-plane-web.service` | Web SPA (Caddy static) | `3200` | `apps/web/build/client` |
+| `gtinx-plane-admin.service` | Admin god-mode (Caddy static) | `3201` | `apps/admin/build/client` |
+| `gtinx-plane-proxy.service` | Caddy reverse proxy + TLS | `80/443` | `deployments/systemd/caddy/proxy.Caddyfile` |
 
 `apps/proxy/Caddyfile.ce` dùng tên container (`web:3000`, `api:8000`…). Trên host, các service
 dùng chung network namespace nên **mỗi service phải một cổng riêng**; vì vậy bản Caddyfile
@@ -47,11 +47,11 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 Tạo database/Redis/RabbitMQ (ví dụ):
 
 ```bash
-sudo -u postgres psql -c "CREATE USER plane WITH PASSWORD 'plane';"
-sudo -u postgres psql -c "CREATE DATABASE plane OWNER plane;"
-sudo rabbitmqctl add_user plane plane
-sudo rabbitmqctl add_vhost plane
-sudo rabbitmqctl set_permissions -p plane plane ".*" ".*" ".*"
+sudo -u postgres psql -c "CREATE USER gtinx_plane WITH PASSWORD 'plane';"
+sudo -u postgres psql -c "CREATE DATABASE gtinx_plane OWNER gtinx_plane;"
+sudo rabbitmqctl add_user gtinx_plane plane
+sudo rabbitmqctl add_vhost gtinx_plane
+sudo rabbitmqctl set_permissions -p gtinx_plane gtinx_plane ".*" ".*" ".*"
 ```
 
 ## Cài đặt
@@ -59,23 +59,23 @@ sudo rabbitmqctl set_permissions -p plane plane ".*" ".*" ".*"
 ### 1. Đưa code lên máy chủ
 
 ```bash
-sudo mkdir -p /opt/plane
-sudo rsync -a --exclude node_modules --exclude .git ./ /opt/plane/
-sudo useradd --system --home-dir /opt/plane --shell /usr/sbin/nologin plane
-sudo chown -R plane:plane /opt/plane
+sudo mkdir -p /opt/gtinx-plane
+sudo rsync -a --exclude node_modules --exclude .git ./ /opt/gtinx-plane/
+sudo useradd --system --home-dir /opt/gtinx-plane --shell /usr/sbin/nologin gtinx
+sudo chown -R gtinx:gtinx /opt/gtinx-plane
 ```
 
 ### 2. Backend (Python, dùng `uv`)
 
 ```bash
-sudo -u plane bash -lc '
-  cd /opt/plane/apps/api
+sudo -u gtinx bash -lc '
+  cd /opt/gtinx-plane/apps/api
   uv sync --locked --no-default-groups --group production
-  cp .env.example .env   # sau đó sửa theo /etc/gtinx_plane/api.env
+  cp .env.example .env   # sau đó sửa theo /etc/gtinx-plane/api.env
 '
 ```
 
-`uv sync` tạo virtualenv tại `/opt/plane/apps/api/.venv`; unit file đã trỏ `PATH` vào đó.
+`uv sync` tạo virtualenv tại `/opt/gtinx-plane/apps/api/.venv`; unit file đã trỏ `PATH` vào đó.
 
 ### 3. Build frontend + live
 
@@ -83,8 +83,8 @@ Các biến `VITE_*` là **build-time** (nhúng vào bundle), phải export trư
 Để trống các `VITE_*_BASE_URL` để FE gọi API **same-origin** qua proxy (khuyến nghị).
 
 ```bash
-sudo -u plane bash -lc '
-  cd /opt/plane
+sudo -u gtinx bash -lc '
+  cd /opt/gtinx-plane
   export VITE_API_BASE_URL=""
   export VITE_WEB_BASE_URL=""
   export VITE_ADMIN_BASE_URL=""
@@ -106,12 +106,12 @@ Kết quả: `apps/web/build/client`, `apps/admin/build/client`, `apps/space/bui
 sudo bash ./deployments/systemd/install.sh
 ```
 
-Script tạo user `plane`, copy unit vào `/etc/systemd/system/`, Caddyfile vào `/etc/plane/caddy/`,
-và các file env mẫu vào `/etc/plane/`. Sau đó sửa:
+Script tạo user `plane`, copy unit vào `/etc/systemd/system/`, Caddyfile vào `/etc/gtinx-plane/caddy/`,
+và các file env mẫu vào `/etc/gtinx-plane/`. Sau đó sửa:
 
-- `/etc/gtinx_plane/api.env` — `SECRET_KEY`, `DATABASE_URL`, `REDIS_URL`, `RABBITMQ_*`, `AWS_*`, `WEB_URL`
-- `/etc/plane/live.env` — `LIVE_SERVER_SECRET_KEY` (**phải trùng** với api.env), `REDIS_URL`
-- `/etc/plane/proxy.env` — `SITE_ADDRESS` (`:80`, hoặc `plane.example.com` để bật HTTPS tự động)
+- `/etc/gtinx-plane/api.env` — `SECRET_KEY`, `DATABASE_URL`, `REDIS_URL`, `RABBITMQ_*`, `AWS_*`, `WEB_URL`
+- `/etc/gtinx-plane/live.env` — `LIVE_SERVER_SECRET_KEY` (**phải trùng** với api.env), `REDIS_URL`
+- `/etc/gtinx-plane/proxy.env` — `SITE_ADDRESS` (`:80`, hoặc `plane.example.com` để bật HTTPS tự động)
 
 Sinh secret:
 
@@ -120,20 +120,20 @@ python3 -c "from django.utils.crypto import get_random_secret_key; print(get_ran
 ```
 
 Nếu dùng MinIO trên cùng máy: đặt `USE_MINIO=1` và bỏ comment 2 dòng `reverse_proxy /uploads` trong
-`/etc/plane/caddy/proxy.Caddyfile`.
+`/etc/gtinx-plane/caddy/proxy.Caddyfile`.
 
 ### 5. Khởi động
 
 ```bash
 sudo systemctl daemon-reload
-sudo systemctl enable --now plane-migrate plane-api plane-worker plane-beat \
-  plane-live plane-space plane-web plane-admin plane-proxy
+sudo systemctl enable --now gtinx-plane-migrate gtinx-plane-api gtinx-plane-worker gtinx-plane-beat \
+  gtinx-plane-live gtinx-plane-space gtinx-plane-web gtinx-plane-admin gtinx-plane-proxy
 ```
 
 Kiểm tra:
 
 ```bash
-systemctl status plane-api plane-worker plane-beat plane-live plane-space plane-web plane-admin plane-proxy
+systemctl status gtinx-plane-api gtinx-plane-worker gtinx-plane-beat gtinx-plane-live gtinx-plane-space gtinx-plane-web gtinx-plane-admin gtinx-plane-proxy
 curl -fsS http://127.0.0.1:8000/api/instances/   # API
 curl -fsS http://127.0.0.1:3200/ >/dev/null      # web
 curl -fsS http://127.0.0.1:3202/spaces/ >/dev/null
@@ -145,39 +145,39 @@ Mở `http://<IP hoặc domain>` để dùng, `/god-mode/` cho admin.
 ## Vận hành
 
 ```bash
-journalctl -u plane-api -f          # log API
-journalctl -u plane-worker -f       # log Celery
-journalctl -u plane-proxy -n 200    # log Caddy (TLS, 502…)
-systemctl restart plane-api plane-worker plane-beat
+journalctl -u gtinx-plane-api -f          # log API
+journalctl -u gtinx-plane-worker -f       # log Celery
+journalctl -u gtinx-plane-proxy -n 200    # log Caddy (TLS, 502…)
+systemctl restart gtinx-plane-api gtinx-plane-worker gtinx-plane-beat
 ```
 
 Nâng cấp:
 
 ```bash
-sudo systemctl stop plane-proxy plane-web plane-admin plane-space plane-live \
-  plane-api plane-worker plane-beat
-sudo -u plane bash -lc 'cd /opt/plane && git pull && pnpm install --frozen-lockfile && pnpm turbo run build --filter=web --filter=admin --filter=space --filter=live'
-sudo -u plane bash -lc 'cd /opt/plane/apps/api && uv sync --locked --no-default-groups --group production'
-sudo systemctl restart plane-migrate && sudo systemctl restart plane-api plane-worker plane-beat \
-  plane-live plane-space plane-web plane-admin plane-proxy
+sudo systemctl stop gtinx-plane-proxy gtinx-plane-web gtinx-plane-admin gtinx-plane-space gtinx-plane-live \
+  gtinx-plane-api gtinx-plane-worker gtinx-plane-beat
+sudo -u gtinx bash -lc 'cd /opt/gtinx-plane && git pull && pnpm install --frozen-lockfile && pnpm turbo run build --filter=web --filter=admin --filter=space --filter=live'
+sudo -u gtinx bash -lc 'cd /opt/gtinx-plane/apps/api && uv sync --locked --no-default-groups --group production'
+sudo systemctl restart gtinx-plane-migrate && sudo systemctl restart gtinx-plane-api gtinx-plane-worker gtinx-plane-beat \
+  gtinx-plane-live gtinx-plane-space gtinx-plane-web gtinx-plane-admin gtinx-plane-proxy
 ```
 
 ## Xử lý sự cố
 
 | Triệu chứng | Nguyên nhân thường gặp |
 |---|---|
-| `plane-api` exit ngay, log `GUNICORN_WORKERS` | thiếu biến trong `/etc/gtinx_plane/api.env` |
-| API 500 `no such table` | `plane-migrate` chưa chạy xong — `systemctl status plane-migrate` |
+| `gtinx-plane-api` exit ngay, log `GUNICORN_WORKERS` | thiếu biến trong `/etc/gtinx-plane/api.env` |
+| API 500 `no such table` | `gtinx-plane-migrate` chưa chạy xong — `systemctl status gtinx-plane-migrate` |
 | Web 404 toàn bộ | chưa build web, hoặc `root` trong `web.Caddyfile` sai đường dẫn |
 | `/god-mode/` trắng trang | build admin thiếu `VITE_ADMIN_BASE_PATH=/god-mode` |
 | 502 ở `/api/*` | API không listen trên `8000` (`ss -lntp \| grep 8000`) |
 | Upload lỗi | `AWS_S3_*`/`USE_MINIO` sai, hoặc block `/uploads` trong proxy bị comment |
-| WebSocket `/live` lỗi | `plane-live` không chạy, hoặc `LIVE_SERVER_SECRET_KEY` lệch giữa api/live |
+| WebSocket `/live` lỗi | `gtinx-plane-live` không chạy, hoặc `LIVE_SERVER_SECRET_KEY` lệch giữa api/live |
 
 ## Bảo mật
 
-- `/etc/plane/*.env` đã là `0640 root:plane`, không lộ secret cho user khác.
+- `/etc/gtinx-plane/*.env` đã là `0640 root:plane`, không lộ secret cho user khác.
 - Các unit có `NoNewPrivileges`, `ProtectSystem`, `PrivateTmp`; nếu bạn đặt upload/log ngoài
-  `/opt/plane`, thêm đường dẫn đó vào `ReadWritePaths=`.
-- `plane-*.service` chạy bằng user `plane`, chỉ `plane-proxy` được bind cổng < 1024
+  `/opt/gtinx-plane`, thêm đường dẫn đó vào `ReadWritePaths=`.
+- `plane-*.service` chạy bằng user `plane`, chỉ `gtinx-plane-proxy` được bind cổng < 1024
   qua `AmbientCapabilities=CAP_NET_BIND_SERVICE`.

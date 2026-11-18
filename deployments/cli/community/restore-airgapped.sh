@@ -120,7 +120,7 @@ function restoreData() {
     fi
 
     if [[ "$dockerServiceStatus" == running* ]]; then
-        echo "Plane Airgapped is running. Please STOP the Plane Airgapped before restoring data."
+        echo "gtinx-plane Airgapped is running. Please STOP the gtinx-plane Airgapped before restoring data."
         exit 1
     fi
 

@@ -26,7 +26,7 @@ import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { TDescriptionVersion } from "@gtinx-plane/types";
 import { Loader } from "@gtinx-plane/blocks/skeleton";
-import { calculateTimeAgo, cn, getFileURL } from "@gtinx-gtinx_plane/utils";
+import { calculateTimeAgo, cn, getFileURL } from "@gtinx-plane/utils";
 // components
 import { RichTextEditor } from "@/components/editor/rich-text";
 // hooks

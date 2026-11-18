@@ -13,7 +13,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { EIssuesStoreType, IBlockUpdateData, TIssue } from "@gtinx-plane/types";
 import { EIssueLayoutTypes, GANTT_TIMELINE_TYPE } from "@gtinx-plane/types";
-import { renderFormattedPayloadDate } from "@gtinx-gtinx_plane/utils";
+import { renderFormattedPayloadDate } from "@gtinx-plane/utils";
 // components
 import { TimeLineTypeContext } from "@/components/gantt-chart/contexts";
 import { GanttChartRoot } from "@/components/gantt-chart/root";

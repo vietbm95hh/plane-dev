@@ -9,7 +9,7 @@ import React from "react";
 import { LiteTextEditorWithRef } from "@gtinx-plane/editor";
 import type { EditorRefApi, ILiteTextEditorProps, TFileHandler } from "@gtinx-plane/editor";
 import type { MakeOptional } from "@gtinx-plane/types";
-import { cn, isCommentEmpty } from "@gtinx-gtinx_plane/utils";
+import { cn, isCommentEmpty } from "@gtinx-plane/utils";
 // helpers
 import { getEditorFileHandlers } from "@/helpers/editor.helper";
 // hooks

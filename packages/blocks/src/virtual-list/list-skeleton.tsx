@@ -4,7 +4,7 @@
  * See the LICENSE file for details.
  */
 
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { Skeleton } from "../skeleton/root";
 
 type VirtualListSkeletonProps = {

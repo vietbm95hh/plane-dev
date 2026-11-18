@@ -17,7 +17,7 @@ import { Spinner } from "@gtinx-plane/blocks/spinner";
 // components
 // constants
 // helpers
-import { getDate, toFilterArray } from "@gtinx-gtinx_plane/utils";
+import { getDate, toFilterArray } from "@gtinx-plane/utils";
 import { createFilterUpdateHandler } from "@/components/core/sidebar/progress-stats/shared";
 import { ModuleProgressStats } from "@/components/modules";
 // hooks

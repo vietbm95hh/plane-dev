@@ -14,7 +14,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import type { IIssueDisplayFilterOptions, IIssueDisplayProperties, IWorkspaceView, IIssueFilters } from "@gtinx-plane/types";
 import { EViewAccess, EIssueLayoutTypes, EIssuesStoreType } from "@gtinx-plane/types";
-import { getComputedDisplayFilters, getComputedDisplayProperties } from "@gtinx-gtinx_plane/utils";
+import { getComputedDisplayFilters, getComputedDisplayProperties } from "@gtinx-plane/utils";
 // components
 import { DisplayFiltersSelection, FiltersDropdown } from "@/components/issues/issue-layouts/filters";
 import { WorkspaceLevelWorkItemFiltersHOC } from "@/components/work-item-filters/filters-hoc/workspace-level";

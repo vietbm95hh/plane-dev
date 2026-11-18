@@ -10,7 +10,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 // components
 import type { IBlockUpdateData } from "@gtinx-plane/types";
 import { Row, ERowVariant } from "@gtinx-plane/blocks/layout";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { MultipleSelectGroupAction } from "@/components/core/multiple-select";
 // helpers
 // hooks

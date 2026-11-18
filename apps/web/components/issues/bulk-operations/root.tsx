@@ -10,7 +10,7 @@ import { Banner } from "@makeplane/propel/components/banner";
 import { Button } from "@makeplane/propel/components/button";
 import { MARKETING_PLANE_ONE_PAGE_LINK } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useMultipleSelectStore } from "@/hooks/store/use-multiple-select-store";
 import type { TSelectionHelper } from "@/hooks/use-multiple-select";

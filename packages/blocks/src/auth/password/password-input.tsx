@@ -8,7 +8,7 @@ import { useState } from "react";
 import { InputField } from "@makeplane/propel/components/input-field";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { ShowOutline, HideOutline } from "@makeplane/propel/icons";
 
 type TPasswordInputProps = {

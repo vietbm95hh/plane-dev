@@ -18,7 +18,7 @@ import type { IIssueDisplayProperties, TIssue } from "@gtinx-plane/types";
 import { EIssueServiceType } from "@gtinx-plane/types";
 // ui
 import { ControlLink, Row } from "@gtinx-plane/blocks/layout";
-import { cn, generateWorkItemLink } from "@gtinx-gtinx_plane/utils";
+import { cn, generateWorkItemLink } from "@gtinx-plane/utils";
 // components
 import { MultipleSelectEntityAction } from "@/components/core/multiple-select";
 import RenderIfVisible from "@/components/core/render-if-visible-HOC";

@@ -11,7 +11,7 @@ import useSWR from "swr";
 import { ENotificationLoader, ENotificationQueryParamType } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
 import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { LogoSpinner } from "@/components/common/logo-spinner";
 // hooks

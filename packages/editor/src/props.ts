@@ -6,7 +6,7 @@
 
 import type { EditorProps } from "@tiptap/pm/view";
 // plane utils
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // helpers
 import { processAssetDuplication } from "@/helpers/paste-asset";
 

@@ -8,7 +8,7 @@ import type { Extensions } from "@tiptap/core";
 import type { MutableRefObject } from "react";
 import { forwardRef, useMemo } from "react";
 // plane imports
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { PageRenderer } from "@/components/editors";
 // constants

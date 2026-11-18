@@ -18,7 +18,7 @@ import {
   UserOutline,
 } from "@makeplane/propel/icons";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { calculateTimeAgo, cn, renderFormattedDate } from "@gtinx-gtinx_plane/utils";
+import { calculateTimeAgo, cn, renderFormattedDate } from "@gtinx-plane/utils";
 // components
 import { SidebarPropertyListItem } from "@/components/common/layout/sidebar/property-list-item";
 import { EstimateSelect } from "@/components/dropdowns/estimate/estimate-select";
@@ -70,7 +70,7 @@ export const IssueDetailSidebarSections = observer(function IssueDetailSidebarSe
 
   const projectDetails = getProjectById(issue.project_id);
   const createdByDetails = getUserDetails(issue.created_by);
-  const createdByName = createdByDetails?.display_name?.includes("-intake") ? "Plane" : createdByDetails?.display_name;
+  const createdByName = createdByDetails?.display_name?.includes("-intake") ? "gtinx-plane" : createdByDetails?.display_name;
   const hasProjectStructureProperties = !!projectDetails?.cycle_view || !!projectDetails?.module_view;
 
   const auditRows = [

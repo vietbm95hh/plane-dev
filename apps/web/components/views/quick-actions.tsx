@@ -18,7 +18,7 @@ import type { IProjectView } from "@gtinx-plane/types";
 // ui
 import type { TContextMenuItem } from "@gtinx-plane/blocks/context-menu";
 import { ContextMenu, getRenderableItems, resolveItemVariant } from "@gtinx-plane/blocks/context-menu";
-import { copyUrlToClipboard } from "@gtinx-gtinx_plane/utils";
+import { copyUrlToClipboard } from "@gtinx-plane/utils";
 // helpers
 import { useViewMenuItems } from "@/components/common/quick-actions-helper";
 // hooks

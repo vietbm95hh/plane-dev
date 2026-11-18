@@ -12,7 +12,7 @@ import { PreferencesOutline } from "@makeplane/propel/icons";
 import { useTranslation } from "@gtinx-plane/i18n";
 // plane imports
 import type { IIssueDisplayFilterOptions, ILayoutDisplayFiltersOptions, IIssueDisplayProperties } from "@gtinx-plane/types";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // components
 import {
   FilterDisplayProperties,

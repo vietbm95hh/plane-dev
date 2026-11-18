@@ -11,7 +11,7 @@ import type { TNetworkChoice } from "@gtinx-plane/constants";
 import { NETWORK_CHOICES, ETabIndices } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { IProject } from "@gtinx-plane/types";
-import { getTabIndex } from "@gtinx-gtinx_plane/utils";
+import { getTabIndex } from "@gtinx-plane/utils";
 // components
 import { MemberSelect } from "@/components/dropdowns/member/member-select";
 import { ProjectNetworkIcon } from "@/components/project/project-network-icon";

@@ -17,7 +17,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import type { ISearchIssueResponse } from "@gtinx-plane/types";
 // ui
 import { Loader } from "@gtinx-plane/blocks/skeleton";
-import { generateWorkItemLink, getTabIndex } from "@gtinx-gtinx_plane/utils";
+import { generateWorkItemLink, getTabIndex } from "@gtinx-plane/utils";
 // components
 import { SelectionDialogList, SelectionDialogSearch } from "@/components/common/selection-dialog-layout";
 import { IssueSearchModalEmptyState } from "@/components/core/modals/issue-search-modal-empty-state";

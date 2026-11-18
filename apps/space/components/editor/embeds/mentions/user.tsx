@@ -6,7 +6,7 @@
 
 import { observer } from "mobx-react";
 // helpers
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useMember } from "@/hooks/store/use-member";
 import { useUser } from "@/hooks/store/use-user";

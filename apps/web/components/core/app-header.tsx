@@ -9,7 +9,7 @@ import { observer } from "mobx-react";
 // plane imports
 import { Row } from "@gtinx-plane/blocks/layout";
 // components
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { ExtendedAppHeader } from "@/components/common/extended-app-header";
 
 export interface AppHeaderProps {

@@ -6,7 +6,7 @@
 
 import { observer } from "mobx-react";
 // utils
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type EmptyStateSize = "sm" | "lg";
 

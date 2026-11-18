@@ -29,7 +29,7 @@ import { Card } from "@gtinx-plane/blocks/card";
 import { FavoriteStar } from "@gtinx-plane/blocks/common";
 import { SegmentedProgress } from "@gtinx-plane/blocks/progress";
 import { DateRangeSelect } from "@gtinx-plane/blocks/property-select";
-import { getDate, renderFormattedPayloadDate, generateQueryParams } from "@gtinx-gtinx_plane/utils";
+import { getDate, renderFormattedPayloadDate, generateQueryParams } from "@gtinx-plane/utils";
 // components
 import { handleTriggerKeyDown } from "@/components/common/trigger-guard";
 import { ButtonAvatars } from "@/components/dropdowns/member/avatar";

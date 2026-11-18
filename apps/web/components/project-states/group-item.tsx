@@ -16,7 +16,7 @@ import { StateGroupIcon } from "@gtinx-plane/blocks/icons";
 import { EIconSize } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { IState, TStateGroups, TStateOperationsCallbacks } from "@gtinx-plane/types";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { StateList, StateCreate } from "@/components/project-states";
 

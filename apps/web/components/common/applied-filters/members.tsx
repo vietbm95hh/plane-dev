@@ -8,7 +8,7 @@ import { observer } from "mobx-react";
 // plane ui
 import { Avatar } from "@makeplane/propel/components/avatar";
 // helpers
-import { getFileURL } from "@gtinx-gtinx_plane/utils";
+import { getFileURL } from "@gtinx-plane/utils";
 // types
 import { useMember } from "@/hooks/store/use-member";
 import { RemovableChip } from "@/components/common/removable-chip";

@@ -10,7 +10,7 @@ import { Tabs, TabsList, Tab, TabsPanel } from "@makeplane/propel/components/tab
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { TWorkItemFilterCondition } from "@gtinx-plane/shared-state";
 import type { TCycleDistribution, TCycleEstimateDistribution, TCyclePlotType } from "@gtinx-plane/types";
-import { toFilterArray } from "@gtinx-gtinx_plane/utils";
+import { toFilterArray } from "@gtinx-plane/utils";
 // components
 import type { TAssigneeData } from "@/components/core/sidebar/progress-stats/assignee";
 import { AssigneeStatComponent } from "@/components/core/sidebar/progress-stats/assignee";

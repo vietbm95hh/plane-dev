@@ -13,7 +13,7 @@ import { TickOutline } from "@makeplane/propel/icons";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { TUserProfile } from "@gtinx-plane/types";
 import { EOnboardingSteps } from "@gtinx-plane/types";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useUserProfile } from "@/hooks/store/user";
 // local imports
@@ -83,7 +83,7 @@ export const UseCaseSetupStep = observer(function UseCaseSetupStep({ handleStepC
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-10">
       {/* Header */}
-      <CommonOnboardingHeader title="What brings you to Plane?" description="Tell us your goals and team size." />
+      <CommonOnboardingHeader title="What brings you to gtinx-plane?" description="Tell us your goals and team size." />
 
       {/* Use Case Selection */}
       <fieldset className="flex min-w-0 flex-col gap-3">

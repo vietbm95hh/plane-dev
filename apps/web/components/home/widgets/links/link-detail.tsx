@@ -13,7 +13,7 @@ import { setToast } from "@gtinx-plane/blocks/toast";
 import type { TContextMenuItem } from "@gtinx-plane/blocks/context-menu";
 import { LinkItemBlock } from "./link-item-block";
 // plane utils
-import { copyTextToClipboard } from "@gtinx-gtinx_plane/utils";
+import { copyTextToClipboard } from "@gtinx-plane/utils";
 // hooks
 import { useHome } from "@/hooks/store/use-home";
 // types

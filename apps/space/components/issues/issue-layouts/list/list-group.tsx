@@ -17,7 +17,7 @@ import type {
   TLoader,
 } from "@gtinx-plane/types";
 // plane utils
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useIntersectionObserver } from "@/hooks/use-intersection-observer";
 //

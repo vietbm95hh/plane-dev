@@ -18,7 +18,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { PasswordStrengthIndicator } from "@gtinx-plane/blocks/auth";
-import { getPasswordStrength } from "@gtinx-gtinx_plane/utils";
+import { getPasswordStrength } from "@gtinx-plane/utils";
 // components
 import { ProfileSettingsHeading } from "@/components/settings/profile/heading";
 // helpers

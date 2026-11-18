@@ -17,7 +17,7 @@ import { IconButton } from "@makeplane/propel/elements/icon-button";
 import { GOD_MODE_URL } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
 import { setToast } from "@gtinx-plane/blocks/toast";
-import { getFileURL } from "@gtinx-gtinx_plane/utils";
+import { getFileURL } from "@gtinx-plane/utils";
 // components
 import { CoverImage } from "@/components/common/cover-image";
 // hooks

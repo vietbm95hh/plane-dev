@@ -11,7 +11,7 @@ import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Github } from "@makeplane/propel/icons";
 import { useTranslation } from "@gtinx-plane/i18n";
 
-const GITHUB_REPO_URL = "https://github.com/makeplane/plane";
+const GITHUB_REPO_URL = "https://github.com/gtinx-plane/gtinx-plane";
 
 export function StarUsOnGitHubLink() {
   // plane hooks

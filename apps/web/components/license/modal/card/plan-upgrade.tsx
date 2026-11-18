@@ -8,7 +8,7 @@ import { observer } from "mobx-react";
 // plane imports
 import { TALK_TO_SALES_URL } from "@gtinx-plane/constants";
 import type { EProductSubscriptionEnum, IPaymentProduct, TSubscriptionPrice } from "@gtinx-plane/types";
-import { calculateYearlyDiscount, getSubscriptionName, getSubscriptionPriceDetails } from "@gtinx-gtinx_plane/utils";
+import { calculateYearlyDiscount, getSubscriptionName, getSubscriptionPriceDetails } from "@gtinx-plane/utils";
 // components
 import { BasePaidPlanCard, TalkToSalesCard } from "@/components/license";
 // local components

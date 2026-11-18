@@ -4,7 +4,7 @@
 
 """Regression tests for the ``expand`` query parameter.
 
-See https://github.com/makeplane/plane/issues/4639 -- ``?expand=updated_by``
+See https://github.com/gtinx-plane/gtinx-plane/issues/4639 -- ``?expand=updated_by``
 returned the bare UUID instead of a user object, and once the key was added to
 the mapper it returned an empty object for the (very common) case of a record
 that has never been updated.

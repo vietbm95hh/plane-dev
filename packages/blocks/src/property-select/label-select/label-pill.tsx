@@ -6,7 +6,7 @@
 
 import { Pill, PillLabel } from "@makeplane/propel/elements/pill";
 import { Swatch } from "@makeplane/propel/elements/swatch";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 /** Widest a label pill grows before its name truncates — Propel's pill cap. */
 export const LABEL_PILL_MAX_WIDTH_PX = 224;

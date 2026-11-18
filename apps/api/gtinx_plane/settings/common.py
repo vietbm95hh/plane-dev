@@ -359,7 +359,7 @@ if USE_MINIO and AWS_SECRET_ACCESS_KEY == "secret-key":
     _logger.critical(
         "SECURITY: AWS_SECRET_ACCESS_KEY is set to the placeholder value from the env templates "
         "while USE_MINIO is on. Set unique object-storage credentials (the latest CLI setup.sh "
-        "generates them on install and upgrade) and restart MinIO and Plane."
+        "generates them on install and upgrade) and restart MinIO and gtinx-plane."
     )
 AWS_STORAGE_BUCKET_NAME = os.environ.get("AWS_S3_BUCKET_NAME", "uploads")
 AWS_REGION = os.environ.get("AWS_REGION", "")
@@ -426,7 +426,7 @@ DATA_UPLOAD_MAX_MEMORY_SIZE = int(os.environ.get("FILE_SIZE_LIMIT", 5242880))
 
 def _cookies_secure(web_url, cors_allowed_origins, app_base_url=None):
     """
-    Cookies are Secure when Plane is served over https, or when every configured
+    Cookies are Secure when gtinx-plane is served over https, or when every configured
     CORS origin is https. Plain-http installs keep non-Secure cookies.
 
     The serving URL is WEB_URL, falling back to APP_BASE_URL when WEB_URL is

@@ -16,7 +16,7 @@ import type { IFilterInstance } from "@gtinx-plane/shared-state";
 import type { TExternalFilter, TFilterProperty } from "@gtinx-plane/types";
 import { EHeaderVariant, Header } from "@gtinx-plane/blocks/layout";
 import { Loader } from "@gtinx-plane/blocks/skeleton";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // local imports
 import type { TAddFilterButtonProps } from "./add-filters/button";
 import { AddFilterButton } from "./add-filters/button";

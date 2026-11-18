@@ -8,7 +8,7 @@ import { useTheme } from "next-themes";
 // plane imports
 import type { TBillingFrequency } from "@gtinx-plane/types";
 import { EProductSubscriptionEnum } from "@gtinx-plane/types";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 import ScribbleBlack from "@/app/assets/scribble/scribble-black.svg?url";
 import ScribbleWhite from "@/app/assets/scribble/scribble-white.svg?url";

@@ -12,21 +12,21 @@ SPECTACULAR_SETTINGS = {
     # ========================================================================
     # Basic API Information
     # ========================================================================
-    "TITLE": "The Plane REST API",
+    "TITLE": "The gtinx-plane REST API",
     "DESCRIPTION": (
-        "The Plane REST API\n\n"
+        "The gtinx-plane REST API\n\n"
         "Visit our quick start guide and full API documentation at "
         "[developers.plane.so](https://developers.plane.so/api-reference/introduction)."
     ),
     "CONTACT": {
-        "name": "Plane",
+        "name": "gtinx-plane",
         "url": "https://plane.so",
         "email": "support@plane.so",
     },
     "VERSION": "0.0.1",
     "LICENSE": {
         "name": "GNU AGPLv3",
-        "url": "https://github.com/makeplane/plane/blob/preview/LICENSE.txt",
+        "url": "https://github.com/gtinx-plane/gtinx-plane/blob/preview/LICENSE.txt",
     },
     # ========================================================================
     # Schema Generation Settings

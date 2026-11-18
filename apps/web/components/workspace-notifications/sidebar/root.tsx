@@ -13,7 +13,7 @@ import { Tab, Tabs, TabsList, TabsPanel } from "@makeplane/propel/components/tab
 import type { TNotificationTab } from "@gtinx-plane/constants";
 import { NOTIFICATION_TABS } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn, getNumberCount } from "@gtinx-gtinx_plane/utils";
+import { cn, getNumberCount } from "@gtinx-plane/utils";
 // hooks
 import { useWorkspaceNotifications } from "@/hooks/store/notifications";
 import { useWorkspace } from "@/hooks/store/use-workspace";

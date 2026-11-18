@@ -10,7 +10,7 @@ import { useParams, usePathname } from "next/navigation";
 // plane imports
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { TProjectAppliedDisplayFilterKeys, TProjectFilters } from "@gtinx-plane/types";
-import { calculateTotalFilters } from "@gtinx-gtinx_plane/utils";
+import { calculateTotalFilters } from "@gtinx-plane/utils";
 // components
 import { PageHead } from "@/components/core/page-title";
 // hooks

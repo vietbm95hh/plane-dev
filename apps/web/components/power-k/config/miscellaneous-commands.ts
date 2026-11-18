@@ -9,7 +9,7 @@ import { LeftSidePaneOutline, LinkOutline, SearchOutline } from "@makeplane/prop
 import { useTranslation } from "@gtinx-plane/i18n";
 // plane imports
 import { setToast } from "@gtinx-plane/blocks/toast";
-import { copyTextToClipboard } from "@gtinx-gtinx_plane/utils";
+import { copyTextToClipboard } from "@gtinx-plane/utils";
 // components
 import type { TPowerKCommandConfig } from "@/components/power-k/core/types";
 // hooks

@@ -17,7 +17,7 @@ import {
 } from "@gtinx-plane/constants";
 import { EProductSubscriptionEnum } from "@gtinx-plane/types";
 import { Dialog, DialogBody, DialogContent, DialogMain } from "@makeplane/propel/components/dialog";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { FreePlanCard, PlanUpgradeCard } from "@/components/license";
 import type { TCheckoutParams } from "@/components/license/modal/card/checkout-button";

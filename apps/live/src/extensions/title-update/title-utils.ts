@@ -4,7 +4,7 @@
  * See the LICENSE file for details.
  */
 
-import { sanitizeHTML } from "@gtinx-gtinx_plane/utils";
+import { sanitizeHTML } from "@gtinx-plane/utils";
 
 /**
  * Utility function to extract text from HTML content

@@ -12,7 +12,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Icon } from "@makeplane/propel/components/icon";
 import { WorkspaceAvatar } from "@makeplane/propel/components/workspace-avatar";
-import { getFileURL } from "@gtinx-gtinx_plane/utils";
+import { getFileURL } from "@gtinx-plane/utils";
 // hooks
 import { useUserPermissions } from "@/hooks/store/user";
 import { useAppRouter } from "@/hooks/use-app-router";

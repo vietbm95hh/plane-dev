@@ -26,7 +26,7 @@ import type {
   TIssueOrderByOptions,
 } from "@gtinx-plane/types";
 import { EIssueLayoutTypes } from "@gtinx-plane/types";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import type { GroupDropLocation } from "@/components/issues/issue-layouts/utils";
 // components
 import {

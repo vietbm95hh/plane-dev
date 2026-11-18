@@ -10,7 +10,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { TIssue, TIssueServiceType } from "@gtinx-plane/types";
 import { EIssueServiceType } from "@gtinx-plane/types";
-import { copyUrlToClipboard } from "@gtinx-gtinx_plane/utils";
+import { copyUrlToClipboard } from "@gtinx-plane/utils";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 

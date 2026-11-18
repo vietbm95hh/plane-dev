@@ -5,7 +5,7 @@
  */
 
 import { observer } from "mobx-react";
-// Plane Imports
+// gtinx-plane Imports
 import { useTranslation } from "@gtinx-plane/i18n";
 import { TypeToConfirmDialog } from "@gtinx-plane/blocks/dialog";
 import { setToast } from "@gtinx-plane/blocks/toast";

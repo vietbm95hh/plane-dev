@@ -7,7 +7,7 @@
 import { cloneElement } from "react";
 import type { ComponentProps, CSSProperties, ReactElement } from "react";
 import { ComboboxItem, ComboboxPopup } from "@makeplane/propel/elements/combobox";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 /**
  * Propel's `elements` take no `className`; a caller's classes ride on the element they render as.

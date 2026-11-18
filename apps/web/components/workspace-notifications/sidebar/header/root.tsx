@@ -51,7 +51,7 @@ export const NotificationSidebarHeader = observer(function NotificationSidebarHe
 
   // Return to the page the inbox was opened from. React Router stores its history index in
   // `history.state.idx`; at 0 there is no earlier in-app entry (direct visit, reload, or a redirect that
-  // replaced the first entry), so fall back to the workspace home instead of leaving Plane.
+  // replaced the first entry), so fall back to the workspace home instead of leaving gtinx-plane.
   const handleBack = () => {
     const historyIndex = (window.history.state as { idx?: number } | null)?.idx ?? 0;
     if (historyIndex > 0) void navigate(-1);

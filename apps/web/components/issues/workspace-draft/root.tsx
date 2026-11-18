@@ -13,7 +13,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
 import { EUserWorkspaceRoles } from "@gtinx-plane/types";
 // components
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useCommandPalette } from "@/hooks/store/use-command-palette";
 import { useProject } from "@/hooks/store/use-project";

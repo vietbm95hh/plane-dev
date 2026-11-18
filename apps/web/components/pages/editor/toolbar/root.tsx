@@ -10,7 +10,7 @@ import { IconButton } from "@makeplane/propel/components/icon-button";
 import { RightSidePaneOutline } from "@makeplane/propel/icons";
 // plane imports
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { PageToolbar } from "@/components/pages/editor/toolbar";
 // hooks

@@ -7,7 +7,7 @@
 import React from "react";
 import { Radio, RadioIndicator } from "@makeplane/propel/elements/radio";
 // helpers
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type RadioInputProps = {
   name?: string;

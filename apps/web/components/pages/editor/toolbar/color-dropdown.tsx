@@ -14,7 +14,7 @@ import { ToolbarMenuTriggerButton, ToolbarMenuTriggerLabel } from "@makeplane/pr
 import { COLORS_LIST } from "@gtinx-plane/editor";
 import type { TEditorCommands } from "@gtinx-plane/editor";
 // helpers
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type Props = {
   handleColorSelect: (

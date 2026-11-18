@@ -7,7 +7,7 @@
 import { autoUpdate, computePosition, flip, shift } from "@floating-ui/dom";
 import { useCallback, useEffect, useRef, useState } from "react";
 // plane utils
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // types
 import type { TAIHandler } from "@/types";
 

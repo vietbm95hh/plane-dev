@@ -8,7 +8,7 @@
 import { MAX_FILE_SIZE } from "@gtinx-plane/constants";
 import type { TFileHandler } from "@gtinx-plane/editor";
 import { SitesFileService } from "@gtinx-plane/services";
-import { getFileURL, isValidAssetId } from "@gtinx-gtinx_plane/utils";
+import { getFileURL, isValidAssetId } from "@gtinx-plane/utils";
 // services
 const sitesFileService = new SitesFileService();
 

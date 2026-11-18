@@ -6,7 +6,7 @@
 
 // helpers
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type TUpgradeBadge = {
   className?: string;

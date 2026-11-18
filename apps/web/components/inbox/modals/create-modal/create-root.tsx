@@ -26,7 +26,7 @@ import { Button } from "@makeplane/propel/components/button";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { TIssue } from "@gtinx-plane/types";
 import { Switch } from "@makeplane/propel/components/switch";
-import { renderFormattedPayloadDate, getTabIndex } from "@gtinx-gtinx_plane/utils";
+import { renderFormattedPayloadDate, getTabIndex } from "@gtinx-plane/utils";
 // hooks
 import { useProjectInbox } from "@/hooks/store/use-project-inbox";
 import { useWorkspace } from "@/hooks/store/use-workspace";

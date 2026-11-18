@@ -7,7 +7,7 @@
 import React, { useMemo } from "react";
 // plane imports
 import type { TBottomSectionConfig, TContentVisibility, TTopSectionConfig } from "@gtinx-plane/types";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 const LAYOUT = {
   PADDING: 2,

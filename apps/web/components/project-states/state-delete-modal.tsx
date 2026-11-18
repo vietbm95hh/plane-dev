@@ -7,7 +7,7 @@
 import { useState } from "react";
 import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
-// Plane imports
+// gtinx-plane imports
 import { ConfirmDialog } from "@gtinx-plane/blocks/dialog";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { IState } from "@gtinx-plane/types";

@@ -9,7 +9,7 @@ import useSWR from "swr";
 import { WorkspaceAvatar } from "@makeplane/propel/components/workspace-avatar";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { IWorkspaceMemberInvitation } from "@gtinx-plane/types";
-import { getFileURL } from "@gtinx-gtinx_plane/utils";
+import { getFileURL } from "@gtinx-plane/utils";
 // components
 import { LogoSpinner } from "@/components/common/logo-spinner";
 // helpers
@@ -29,29 +29,29 @@ const Titles = {
   [EAuthModes.SIGN_IN]: {
     [EAuthSteps.EMAIL]: {
       header: "Work in all dimensions.",
-      subHeader: "Welcome back to Plane.",
+      subHeader: "Welcome back to gtinx-plane.",
     },
     [EAuthSteps.PASSWORD]: {
       header: "Work in all dimensions.",
-      subHeader: "Welcome back to Plane.",
+      subHeader: "Welcome back to gtinx-plane.",
     },
     [EAuthSteps.UNIQUE_CODE]: {
       header: "Work in all dimensions.",
-      subHeader: "Welcome back to Plane.",
+      subHeader: "Welcome back to gtinx-plane.",
     },
   },
   [EAuthModes.SIGN_UP]: {
     [EAuthSteps.EMAIL]: {
       header: "Work in all dimensions.",
-      subHeader: "Create your Plane account.",
+      subHeader: "Create your gtinx-plane account.",
     },
     [EAuthSteps.PASSWORD]: {
       header: "Work in all dimensions.",
-      subHeader: "Create your Plane account.",
+      subHeader: "Create your gtinx-plane account.",
     },
     [EAuthSteps.UNIQUE_CODE]: {
       header: "Work in all dimensions.",
-      subHeader: "Create your Plane account.",
+      subHeader: "Create your gtinx-plane account.",
     },
   },
 };

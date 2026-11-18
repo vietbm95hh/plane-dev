@@ -7,7 +7,7 @@
 import { observer } from "mobx-react";
 // plane imports
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn, getFileURL } from "@gtinx-gtinx_plane/utils";
+import { cn, getFileURL } from "@gtinx-plane/utils";
 
 type Props = {
   logo: string | null | undefined;

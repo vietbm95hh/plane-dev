@@ -6,7 +6,7 @@
 
 import { ArrowDownOutline, TopArrowOutline } from "@makeplane/propel/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 export type TEntityDetailVoteType = "upvotes" | "downvotes";
 

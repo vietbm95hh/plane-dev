@@ -13,7 +13,7 @@ import { ScrollArea } from "@makeplane/propel/components/scroll-area";
 import { CORE_EXTENSIONS } from "@gtinx-plane/editor";
 import type { TEditorAsset } from "@gtinx-plane/editor";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { getEditorAssetDownloadSrc, getEditorAssetSrc } from "@gtinx-gtinx_plane/utils";
+import { getEditorAssetDownloadSrc, getEditorAssetSrc } from "@gtinx-plane/utils";
 // store
 import type { TPageInstance } from "@/store/pages/base-page";
 // local import

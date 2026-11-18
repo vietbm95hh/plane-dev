@@ -10,7 +10,7 @@ import { useParams } from "next/navigation";
 import type { TDisplayConfig } from "@gtinx-plane/editor";
 import type { JSONContent, TPageVersion } from "@gtinx-plane/types";
 import { Loader } from "@gtinx-plane/blocks/skeleton";
-import { isJSONContentEmpty } from "@gtinx-gtinx_plane/utils";
+import { isJSONContentEmpty } from "@gtinx-plane/utils";
 // components
 import { DocumentEditor } from "@/components/editor/document/editor";
 // hooks

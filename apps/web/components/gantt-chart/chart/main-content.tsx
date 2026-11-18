@@ -15,7 +15,7 @@ import type {
   IGanttBlock,
   TGanttViews,
 } from "@gtinx-plane/types";
-import { cn, getDate } from "@gtinx-gtinx_plane/utils";
+import { cn, getDate } from "@gtinx-plane/utils";
 // components
 import { MultipleSelectGroup } from "@/components/core/multiple-select";
 import { GanttChartSidebar, MonthChartView, QuarterChartView, WeekChartView } from "@/components/gantt-chart";

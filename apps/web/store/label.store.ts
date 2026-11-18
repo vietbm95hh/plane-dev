@@ -10,7 +10,7 @@ import { computedFn } from "mobx-utils";
 // types
 import type { IIssueLabel, IIssueLabelTree } from "@gtinx-plane/types";
 // helpers
-import { buildTree } from "@gtinx-gtinx_plane/utils";
+import { buildTree } from "@gtinx-plane/utils";
 // services
 import { IssueLabelService } from "@/services/issue";
 // store

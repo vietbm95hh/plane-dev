@@ -26,7 +26,7 @@ import {
   getDateOperatorLabelI18nKey,
   isDateFilterOperator,
   getOperatorForPayload,
-} from "@gtinx-gtinx_plane/utils";
+} from "@gtinx-plane/utils";
 
 type TOperatorOptionForDisplay = {
   value: TAllAvailableOperatorsForDisplay;

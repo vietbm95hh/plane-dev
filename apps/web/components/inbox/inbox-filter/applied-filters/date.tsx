@@ -11,7 +11,7 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { CloseOutline } from "@makeplane/propel/icons";
 import type { TInboxIssueFilterDateKeys } from "@gtinx-plane/types";
-import { renderFormattedDate } from "@gtinx-gtinx_plane/utils";
+import { renderFormattedDate } from "@gtinx-plane/utils";
 import { useProjectInbox } from "@/hooks/store/use-project-inbox";
 import { APPLIED_FILTER_GROUP_CLASSNAME, RemovableChip } from "@/components/common/removable-chip";
 

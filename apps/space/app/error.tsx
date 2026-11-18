@@ -18,7 +18,7 @@ function ErrorPage() {
         <div className="space-y-2">
           <h3 className="text-h6-semibold">Yikes! That doesn{"'"}t look good.</h3>
           <p className="mx-auto text-body-xs-regular text-secondary md:w-1/2">
-            That crashed Plane, pun intended. No worries, though. Our engineers have been notified. If you have more
+            That crashed gtinx-plane, pun intended. No worries, though. Our engineers have been notified. If you have more
             details, please write to{" "}
             <a href="mailto:support@plane.so" className="text-accent-primary">
               support@plane.so

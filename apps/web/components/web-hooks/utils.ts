@@ -6,7 +6,7 @@
 
 // helpers
 import type { IWebhook, IWorkspace } from "@gtinx-plane/types";
-import { renderFormattedPayloadDate } from "@gtinx-gtinx_plane/utils";
+import { renderFormattedPayloadDate } from "@gtinx-plane/utils";
 // types
 
 export const getCurrentHookAsCSV = (

@@ -37,7 +37,7 @@ import type { IProject, IUserLite } from "@gtinx-plane/types";
 import type { TContextMenuItem } from "@gtinx-plane/blocks/context-menu";
 import { ContextMenu, getRenderableItems, resolveItemVariant } from "@gtinx-plane/blocks/context-menu";
 import { FavoriteStar } from "@gtinx-plane/blocks/common";
-import { copyUrlToClipboard, cn, getFileURL } from "@gtinx-gtinx_plane/utils";
+import { copyUrlToClipboard, cn, getFileURL } from "@gtinx-plane/utils";
 // components
 // hooks
 import { useMember } from "@/hooks/store/use-member";

@@ -14,7 +14,7 @@ import type {
   TInboxDuplicateIssueDetails,
 } from "@gtinx-plane/types";
 import { EInboxIssueStatus } from "@gtinx-plane/types";
-import { renderFormattedPayloadDate } from "@gtinx-gtinx_plane/utils";
+import { renderFormattedPayloadDate } from "@gtinx-plane/utils";
 // helpers
 // services
 import { InboxIssueService } from "@/services/inbox";

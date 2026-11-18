@@ -10,7 +10,7 @@ import { useParams } from "next/navigation";
 import useSWR from "swr";
 // plane utils
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useSticky } from "@/hooks/use-stickies";
 // components

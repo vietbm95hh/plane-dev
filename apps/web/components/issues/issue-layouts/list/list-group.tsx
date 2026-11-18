@@ -24,7 +24,7 @@ import type {
 } from "@gtinx-plane/types";
 import { EIssueLayoutTypes } from "@gtinx-plane/types";
 import { Row } from "@gtinx-plane/blocks/layout";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { ListLoaderItemRow } from "@/components/ui/loader/layouts/list-layout-loader";
 import { useWorkFlowFDragNDrop } from "@/components/workflow";

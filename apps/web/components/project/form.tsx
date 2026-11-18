@@ -21,7 +21,7 @@ import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { EFileAssetType } from "@gtinx-plane/types";
 import type { IProject, IWorkspace } from "@gtinx-plane/types";
 import { Select } from "@gtinx-plane/blocks/select";
-import { renderFormattedDate } from "@gtinx-gtinx_plane/utils";
+import { renderFormattedDate } from "@gtinx-plane/utils";
 import { CoverImage } from "@/components/common/cover-image";
 import { ImagePickerPopover } from "@/components/core/image-picker-popover";
 import { TimezoneSelect } from "@/components/global";

@@ -20,7 +20,7 @@ import type {
 } from "@gtinx-plane/types";
 // constants
 import { ContentWrapper } from "@gtinx-plane/blocks/layout";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // components
 import RenderIfVisible from "@/components/core/render-if-visible-HOC";
 import { KanbanColumnLoader } from "@/components/ui/loader/layouts/kanban-layout-loader";

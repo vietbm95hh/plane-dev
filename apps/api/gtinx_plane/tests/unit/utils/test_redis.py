@@ -11,7 +11,7 @@ from redis import Connection, SSLConnection
 from gtinx_plane.settings.common import _redis_ssl_kwargs
 from gtinx_plane.settings.redis import redis_instance
 
-CA_BUNDLE = "/etc/plane/redis-ca.pem"
+CA_BUNDLE = "/etc/gtinx-plane/redis-ca.pem"
 
 
 @pytest.fixture

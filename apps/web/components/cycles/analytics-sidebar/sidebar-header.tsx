@@ -7,7 +7,7 @@
 import { useEffect } from "react";
 import { observer } from "mobx-react";
 import { Controller, useForm } from "react-hook-form";
-// Plane Imports
+// gtinx-plane Imports
 import { CYCLE_STATUS, EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
 import { Badge } from "@makeplane/propel/components/badge";
@@ -15,7 +15,7 @@ import type { BadgeProps } from "@makeplane/propel/components/badge";
 import { DateRangeSelect } from "@gtinx-plane/blocks/property-select";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { ICycle } from "@gtinx-plane/types";
-import { getDate, renderFormattedPayloadDate } from "@gtinx-gtinx_plane/utils";
+import { getDate, renderFormattedPayloadDate } from "@gtinx-plane/utils";
 // hooks
 import { useCycle } from "@/hooks/store/use-cycle";
 import { useUserPermissions, useUserProfile } from "@/hooks/store/user";

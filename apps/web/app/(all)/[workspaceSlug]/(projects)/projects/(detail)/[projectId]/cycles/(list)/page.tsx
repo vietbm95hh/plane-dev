@@ -15,7 +15,7 @@ import type { TCycleFilters } from "@gtinx-plane/types";
 import { EUserProjectRoles } from "@gtinx-plane/types";
 // components
 import { Header, EHeaderVariant } from "@gtinx-plane/blocks/layout";
-import { calculateTotalFilters } from "@gtinx-gtinx_plane/utils";
+import { calculateTotalFilters } from "@gtinx-plane/utils";
 // assets
 import darkEmptyState from "@/app/assets/empty-state/disabled-feature/cycles-dark.webp?url";
 import lightEmptyState from "@/app/assets/empty-state/disabled-feature/cycles-light.webp?url";

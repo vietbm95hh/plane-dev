@@ -27,7 +27,7 @@ import { GlobeOutline, LockOutline, PagesOutline } from "@makeplane/propel/icons
 import type { ISvgIcons } from "@gtinx-plane/blocks/icons";
 import type { TPage } from "@gtinx-plane/types";
 
-import { getTabIndex } from "@gtinx-gtinx_plane/utils";
+import { getTabIndex } from "@gtinx-plane/utils";
 // components
 import { AccessField } from "@/components/common/access-field";
 // hooks

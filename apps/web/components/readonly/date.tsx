@@ -8,7 +8,7 @@ import { observer } from "mobx-react";
 // plane imports
 import { useTranslation } from "@gtinx-plane/i18n";
 import { CalendarOutline } from "@makeplane/propel/icons";
-import { cn, renderFormattedDate, getDate } from "@gtinx-gtinx_plane/utils";
+import { cn, renderFormattedDate, getDate } from "@gtinx-plane/utils";
 
 export type TReadonlyDateProps = {
   className?: string;

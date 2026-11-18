@@ -17,7 +17,7 @@ import { IconButton } from "@makeplane/propel/components/icon-button";
 import { CloseOutline } from "@makeplane/propel/icons";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { TPageVersion } from "@gtinx-plane/types";
-import { cn, getFileURL, renderFormattedDate, renderFormattedTime } from "@gtinx-gtinx_plane/utils";
+import { cn, getFileURL, renderFormattedDate, renderFormattedTime } from "@gtinx-plane/utils";
 // components
 import type { TPageRootHandlers } from "@/components/pages/editor/page-root";
 // hooks

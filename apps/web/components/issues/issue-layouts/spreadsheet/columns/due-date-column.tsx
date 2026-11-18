@@ -11,7 +11,7 @@ import { DateSelect } from "@gtinx-plane/blocks/property-select";
 import { useTranslation } from "@gtinx-plane/i18n";
 // types
 import type { TIssue } from "@gtinx-plane/types";
-import { cn, getDate, renderFormattedPayloadDate, getIssueDueDateClassName } from "@gtinx-gtinx_plane/utils";
+import { cn, getDate, renderFormattedPayloadDate, getIssueDueDateClassName } from "@gtinx-plane/utils";
 // hooks
 import { useProjectState } from "@/hooks/store/use-project-state";
 import { useUserProfile } from "@/hooks/store/user";

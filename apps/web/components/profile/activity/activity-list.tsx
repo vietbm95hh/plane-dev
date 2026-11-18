@@ -11,7 +11,7 @@ import { ChatOutline, HistoryOutline } from "@makeplane/propel/icons";
 import { Avatar } from "@makeplane/propel/components/avatar";
 // plane imports
 import type { IUserActivityResponse } from "@gtinx-plane/types";
-import { calculateTimeAgo, getFileURL } from "@gtinx-gtinx_plane/utils";
+import { calculateTimeAgo, getFileURL } from "@gtinx-plane/utils";
 // components
 import { ActivityIcon, ActivityMessage, IssueLink } from "@/components/core/activity";
 import { RichTextEditor } from "@/components/editor/rich-text";
@@ -135,7 +135,7 @@ export const ActivityList = observer(function ActivityList(props: Props) {
                         <div className="min-w-0 flex-1 border-b border-subtle py-4">
                           <div className="text-body-xs-regular break-words text-secondary">
                             {activityItem.field === "archived_at" && activityItem.new_value !== "restore" ? (
-                              <span className="font-medium text-primary">Plane</span>
+                              <span className="font-medium text-primary">gtinx-plane</span>
                             ) : activityItem.actor_detail.is_bot ? (
                               <span className="font-medium text-primary">
                                 {activityItem.actor_detail.first_name} Bot

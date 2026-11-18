@@ -1,0 +1,33 @@
+[Unit]
+Description=gtinx-plane - Celery worker
+Documentation=file:///opt/gtinx-plane/deployments/systemd/README.md
+After=network-online.target gtinx-plane-migrate.service
+Wants=network-online.target
+Requires=gtinx-plane-migrate.service
+
+[Service]
+Type=simple
+User=gtinx
+Group=gtinx
+WorkingDirectory=/opt/gtinx-plane/apps/api
+Environment=PATH=/opt/gtinx-plane/apps/api/.venv/bin:/usr/local/bin:/usr/bin:/bin
+Environment=PYTHONUNBUFFERED=1
+Environment=PYTHONDONTWRITEBYTECODE=1
+EnvironmentFile=/etc/gtinx-plane/api.env
+ExecStart=/bin/bash /opt/gtinx-plane/apps/api/bin/docker-entrypoint-worker.sh
+Restart=always
+RestartSec=5
+KillSignal=SIGTERM
+TimeoutStopSec=60
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=gtinx-plane-worker
+
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=full
+ProtectHome=yes
+ReadWritePaths=/opt/gtinx-plane/apps/api/gtinx_plane/logs
+
+[Install]
+WantedBy=multi-user.target

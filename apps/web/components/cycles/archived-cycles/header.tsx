@@ -14,7 +14,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 // plane helpers
 // types
 import type { TCycleFilters } from "@gtinx-plane/types";
-import { calculateTotalFilters } from "@gtinx-gtinx_plane/utils";
+import { calculateTotalFilters } from "@gtinx-plane/utils";
 // components
 import { ArchiveTabsList } from "@/components/archives";
 import { FiltersDropdown } from "@/components/issues/issue-layouts/filters";

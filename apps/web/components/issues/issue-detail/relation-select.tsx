@@ -9,11 +9,11 @@ import { observer } from "mobx-react";
 import Link from "next/link";
 
 import { CloseOutline, EditOutline } from "@makeplane/propel/icons";
-// Plane
+// gtinx-plane
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { ISearchIssueResponse } from "@gtinx-plane/types";
-import { cn, generateWorkItemLink } from "@gtinx-gtinx_plane/utils";
+import { cn, generateWorkItemLink } from "@gtinx-plane/utils";
 // components
 import { ExistingIssuesListModal } from "@/components/core/modals/existing-issues-list-modal";
 // hooks
@@ -21,7 +21,7 @@ import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import { useIssues } from "@/hooks/store/use-issues";
 import { useProject } from "@/hooks/store/use-project";
 import { usePlatformOS } from "@/hooks/use-platform-os";
-// Plane web imports
+// gtinx-plane web imports
 import { useTimeLineRelationOptions } from "@/components/relations";
 import type { TIssueRelationTypes } from "@gtinx-plane/types";
 import type { TRelationObject } from "../issue-detail-widgets/relations";

@@ -10,7 +10,7 @@ import { Controller, useForm } from "react-hook-form";
 // plane imports
 import type { EditorRefApi } from "@gtinx-plane/editor";
 import type { TSticky } from "@gtinx-plane/types";
-import { cn, isCommentEmpty } from "@gtinx-gtinx_plane/utils";
+import { cn, isCommentEmpty } from "@gtinx-plane/utils";
 import { StickyEditor } from "@/components/editor/sticky-editor";
 // hooks
 import { useWorkspace } from "@/hooks/store/use-workspace";

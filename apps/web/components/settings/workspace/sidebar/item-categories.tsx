@@ -16,7 +16,7 @@ import {
   WORKSPACE_SETTINGS_CATEGORY_LABELS,
 } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { joinUrlPath } from "@gtinx-gtinx_plane/utils";
+import { joinUrlPath } from "@gtinx-plane/utils";
 // components
 import { SettingsSidebarItem } from "@/components/settings/sidebar/item";
 import { SettingsSidebarSectionHeading } from "@/components/settings/sidebar/section-heading";

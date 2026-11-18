@@ -23,7 +23,7 @@ import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { TNameDescriptionLoader } from "@gtinx-plane/types";
 import { EIssuesStoreType } from "@gtinx-plane/types";
 import { Select } from "@gtinx-plane/blocks/select";
-import { copyUrlToClipboard, generateWorkItemLink } from "@gtinx-gtinx_plane/utils";
+import { copyUrlToClipboard, generateWorkItemLink } from "@gtinx-plane/utils";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import { useIssues } from "@/hooks/store/use-issues";

@@ -29,7 +29,7 @@ import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { ICycle, TCycleGroups } from "@gtinx-plane/types";
 import { FavoriteStar } from "@gtinx-plane/blocks/common";
 import { DateRangeSelect } from "@gtinx-plane/blocks/property-select";
-import { getDate, getFileURL, generateQueryParams } from "@gtinx-gtinx_plane/utils";
+import { getDate, getFileURL, generateQueryParams } from "@gtinx-plane/utils";
 // components
 import { ButtonAvatars } from "@/components/dropdowns/member/avatar";
 import { MergedDateDisplay } from "@/components/dropdowns/merged-date";

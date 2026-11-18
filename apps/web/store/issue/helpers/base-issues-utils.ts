@@ -15,7 +15,7 @@ import type {
   TIssueGroupByOptions,
   TIssueOrderByOptions,
 } from "@gtinx-plane/types";
-import { checkDateCriteria, convertToISODateString, parseDateFilter } from "@gtinx-gtinx_plane/utils";
+import { checkDateCriteria, convertToISODateString, parseDateFilter } from "@gtinx-plane/utils";
 import { store } from "@/lib/store-context";
 import { EIssueGroupedAction, ISSUE_GROUP_BY_KEY } from "./base-issues.store";
 

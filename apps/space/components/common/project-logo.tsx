@@ -7,7 +7,7 @@
 // types
 import type { TLogoProps } from "@gtinx-plane/types";
 // helpers
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type Props = {
   className?: string;

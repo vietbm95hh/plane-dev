@@ -11,7 +11,7 @@ import { LinkOutline, StarOffOutline, StarOutline } from "@makeplane/propel/icon
 import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
 import { setToast } from "@gtinx-plane/blocks/toast";
-import { copyTextToClipboard } from "@gtinx-gtinx_plane/utils";
+import { copyTextToClipboard } from "@gtinx-plane/utils";
 // components
 import type { TPowerKCommandConfig } from "@/components/power-k/core/types";
 // hooks

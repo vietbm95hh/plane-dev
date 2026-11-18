@@ -15,7 +15,7 @@ import { EIssueServiceType } from "@gtinx-plane/types";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
-import { convertBytesToSize, getFileExtension, getFileName, getFileURL, renderFormattedDate } from "@gtinx-gtinx_plane/utils";
+import { convertBytesToSize, getFileExtension, getFileName, getFileURL, renderFormattedDate } from "@gtinx-plane/utils";
 // components
 //
 import { ButtonAvatars } from "@/components/dropdowns/member/avatar";

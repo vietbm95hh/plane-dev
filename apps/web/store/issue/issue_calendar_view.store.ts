@@ -10,7 +10,7 @@ import { observable, action, makeObservable, runInAction, computed, reaction } f
 import { computedFn } from "mobx-utils";
 import type { ICalendarPayload, ICalendarWeek } from "@gtinx-plane/types";
 import { EStartOfTheWeek } from "@gtinx-plane/types";
-import { generateCalendarData, getWeekNumberOfDate } from "@gtinx-gtinx_plane/utils";
+import { generateCalendarData, getWeekNumberOfDate } from "@gtinx-plane/utils";
 // types
 import type { IIssueRootStore } from "./root.store";
 

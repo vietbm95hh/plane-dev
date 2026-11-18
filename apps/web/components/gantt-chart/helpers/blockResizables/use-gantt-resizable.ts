@@ -5,7 +5,7 @@
  */
 
 import { useRef, useState } from "react";
-// Plane
+// gtinx-plane
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { IBlockUpdateDependencyData, IGanttBlock } from "@gtinx-plane/types";
 // hooks

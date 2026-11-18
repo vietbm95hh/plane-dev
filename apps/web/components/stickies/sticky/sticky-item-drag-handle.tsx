@@ -8,7 +8,7 @@ import { observer } from "mobx-react";
 // ui
 import { DragHandle } from "@gtinx-plane/blocks/common";
 // helper
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type Props = {
   isDragging: boolean;

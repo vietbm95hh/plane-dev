@@ -6,7 +6,7 @@
 
 import * as React from "react";
 import { ERowVariant, Row } from "../row/row";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import type { THeaderVariant } from "./helper";
 import { EHeaderVariant, getHeaderStyle } from "./helper";
 

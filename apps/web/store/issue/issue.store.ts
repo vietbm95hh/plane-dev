@@ -10,7 +10,7 @@ import { computedFn } from "mobx-utils";
 // types
 import type { TIssue } from "@gtinx-plane/types";
 // helpers
-import { getCurrentDateTimeInISO } from "@gtinx-gtinx_plane/utils";
+import { getCurrentDateTimeInISO } from "@gtinx-plane/utils";
 import { rootStore } from "@/lib/store-context";
 // services
 import { IssueService } from "@/services/issue";

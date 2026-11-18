@@ -10,7 +10,7 @@ import { Avatar } from "@makeplane/propel/components/avatar";
 import { AvatarGroup } from "@makeplane/propel/components/avatar-group";
 import type { AvatarGroupSize } from "@makeplane/propel/components/avatar-group";
 import { MembersOutline } from "@makeplane/propel/icons";
-import { cn, getFileURL } from "@gtinx-gtinx_plane/utils";
+import { cn, getFileURL } from "@gtinx-plane/utils";
 // hooks
 import { useMember } from "@/hooks/store/use-member";
 

@@ -17,7 +17,7 @@ import { AnchorButton } from "@makeplane/propel/components/anchor-button";
 import { InputField } from "@makeplane/propel/components/input-field";
 import { setToast } from "@gtinx-plane/blocks/toast";
 
-import { checkEmailValidity } from "@gtinx-gtinx_plane/utils";
+import { checkEmailValidity } from "@gtinx-plane/utils";
 // hooks
 import useTimer from "@/hooks/use-timer";
 // services

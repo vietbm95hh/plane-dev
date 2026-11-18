@@ -2,7 +2,7 @@
   "name": "@gtinx-plane/editor",
   "version": "1.5.0",
   "private": true,
-  "description": "Core Editor that powers Plane",
+  "description": "Core Editor that powers gtinx-plane",
   "keywords": [
     "editor",
     "markdown",
@@ -43,7 +43,7 @@
     "@gtinx-plane/constants": "workspace:*",
     "@gtinx-plane/hooks": "workspace:*",
     "@gtinx-plane/types": "workspace:*",
-    "@gtinx-gtinx_plane/utils": "workspace:*",
+    "@gtinx-plane/utils": "workspace:*",
     "@tiptap/core": "catalog:",
     "@tiptap/extension-blockquote": "catalog:",
     "@tiptap/extension-collaboration": "catalog:",

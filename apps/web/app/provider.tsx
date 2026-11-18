@@ -6,7 +6,7 @@
 
 import { lazy, Suspense } from "react";
 import { SWRConfig } from "swr";
-// Plane Imports
+// gtinx-plane Imports
 import { WEB_SWR_CONFIG } from "@gtinx-plane/constants";
 import { TranslationProvider } from "@gtinx-plane/i18n";
 import { PlaneToastProvider } from "@gtinx-plane/blocks/toast";

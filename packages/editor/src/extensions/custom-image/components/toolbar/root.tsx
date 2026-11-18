@@ -8,7 +8,7 @@ import type { Editor } from "@tiptap/core";
 import { useState } from "react";
 // plane imports
 import { Toolbar } from "@makeplane/propel/elements/toolbar";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // local imports
 import type { TCustomImageAlignment } from "../../types";
 import { ImageAlignmentAction } from "./alignment";

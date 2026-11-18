@@ -10,7 +10,7 @@ import { observer } from "mobx-react";
 import type { TIssue } from "@gtinx-plane/types";
 // helpers
 import { Row } from "@gtinx-plane/blocks/layout";
-import { renderFormattedDate } from "@gtinx-gtinx_plane/utils";
+import { renderFormattedDate } from "@gtinx-plane/utils";
 
 type Props = {
   issue: TIssue;

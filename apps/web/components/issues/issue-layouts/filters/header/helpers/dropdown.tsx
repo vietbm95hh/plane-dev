@@ -16,7 +16,7 @@ import { FilterOutline, SelectedFilterOutline } from "@makeplane/propel/icons";
 import type { TPopoverMenuPlacement } from "@gtinx-plane/blocks/common";
 import { toSideAndAlign } from "@gtinx-plane/blocks/common";
 import type { IconElement } from "@gtinx-plane/blocks/types";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { DateFilterModalHost } from "@/components/common/filters/date-filter-modal-host";
 

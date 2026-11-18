@@ -7,7 +7,7 @@
 // plane package imports
 import React from "react";
 import { TrendDownOutline, TrendUpOutline } from "@makeplane/propel/icons";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // plane web components
 
 type Props = {

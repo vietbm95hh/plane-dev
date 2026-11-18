@@ -7,7 +7,7 @@ Unit regression tests for IssueLinkViewSet.partial_update.
 
 Verifies that crawl_work_item_link_title is only scheduled when the URL
 actually changes, preventing overwriting custom link metadata and unnecessary crawls.
-See: https://github.com/makeplane/plane/issues/9674
+See: https://github.com/gtinx-plane/gtinx-plane/issues/9674
 """
 
 import uuid
@@ -51,7 +51,7 @@ class TestIssueLinkPartialUpdate:
         self, mock_get_link, mock_serializer_cls, mock_crawl, mock_activity, mock_base_host
     ):
         """Updating link title or metadata without changing url must NOT trigger crawler."""
-        initial_url = "https://github.com/makeplane/plane"
+        initial_url = "https://github.com/gtinx-plane/gtinx-plane"
         mock_instance = MagicMock()
         mock_instance.id = self.link_id
         mock_instance.url = initial_url
@@ -95,8 +95,8 @@ class TestIssueLinkPartialUpdate:
         self, mock_get_link, mock_serializer_cls, mock_crawl, mock_activity, mock_base_host
     ):
         """Updating url to a new value MUST trigger crawl_work_item_link_title."""
-        initial_url = "https://github.com/makeplane/plane"
-        new_url = "https://github.com/makeplane/plane/pull/123"
+        initial_url = "https://github.com/gtinx-plane/gtinx-plane"
+        new_url = "https://github.com/gtinx-plane/gtinx-plane/pull/123"
 
         mock_instance = MagicMock()
         mock_instance.id = self.link_id
@@ -157,7 +157,7 @@ class TestIssueLinkDetailPatch:
     def test_patch_does_not_recrawl_when_url_unchanged(
         self, mock_get_link, mock_serializer_cls, mock_crawl, mock_activity
     ):
-        initial_url = "https://github.com/makeplane/plane"
+        initial_url = "https://github.com/gtinx-plane/gtinx-plane"
         mock_instance = MagicMock()
         mock_instance.id = self.link_id
         mock_instance.url = initial_url
@@ -187,8 +187,8 @@ class TestIssueLinkDetailPatch:
     def test_patch_triggers_crawl_when_url_changed(
         self, mock_get_link, mock_serializer_cls, mock_crawl, mock_activity
     ):
-        initial_url = "https://github.com/makeplane/plane"
-        new_url = "https://github.com/makeplane/plane/pull/123"
+        initial_url = "https://github.com/gtinx-plane/gtinx-plane"
+        new_url = "https://github.com/gtinx-plane/gtinx-plane/pull/123"
         mock_instance = MagicMock()
         mock_instance.id = self.link_id
         mock_instance.url = initial_url

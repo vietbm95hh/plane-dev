@@ -10,7 +10,7 @@ import { observer } from "mobx-react";
 // hooks
 import type { IGanttBlock } from "@gtinx-plane/types";
 // helpers
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { LeftResizable } from "./blockResizables/left-resizable";
 import { RightResizable } from "./blockResizables/right-resizable";

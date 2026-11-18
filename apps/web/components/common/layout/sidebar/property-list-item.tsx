@@ -6,7 +6,7 @@
 
 import type { ReactNode } from "react";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type TSidebarPropertyListItemProps = {
   icon: React.FC<{ className?: string }>;

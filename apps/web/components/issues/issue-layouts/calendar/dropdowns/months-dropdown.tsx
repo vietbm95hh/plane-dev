@@ -13,7 +13,7 @@ import { ChevronLeftOutline, ChevronRightOutline } from "@makeplane/propel/icons
 //hooks
 // icons
 // constants
-import { getDate } from "@gtinx-gtinx_plane/utils";
+import { getDate } from "@gtinx-plane/utils";
 import { MONTHS_LIST } from "@gtinx-plane/constants";
 import { useCalendarView } from "@/hooks/store/use-calendar-view";
 import type { ICycleIssuesFilter } from "@/store/issue/cycle";

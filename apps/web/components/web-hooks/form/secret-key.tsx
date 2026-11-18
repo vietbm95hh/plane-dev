@@ -17,7 +17,7 @@ import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Input, InputGroup } from "@makeplane/propel/components/input";
 import type { IWebhook } from "@gtinx-plane/types";
 // ui
-import { csvDownload, copyTextToClipboard } from "@gtinx-gtinx_plane/utils";
+import { csvDownload, copyTextToClipboard } from "@gtinx-plane/utils";
 // hooks
 import { useWebhook } from "@/hooks/store/use-webhook";
 import { useWorkspace } from "@/hooks/store/use-workspace";

@@ -6,7 +6,7 @@
 
 import type { ReactNode, MutableRefObject } from "react";
 import React, { useState, useRef, useEffect } from "react";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { runIdleTask } from "@/lib/idle-task";
 
 type Props = {

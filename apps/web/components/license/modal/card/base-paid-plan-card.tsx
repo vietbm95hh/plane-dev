@@ -13,7 +13,7 @@ import { Tab as TabElement } from "@makeplane/propel/elements/tabs";
 import { TickCircleOutline } from "@makeplane/propel/icons";
 // helpers
 import type { EProductSubscriptionEnum, TBillingFrequency, TSubscriptionPrice } from "@gtinx-plane/types";
-import { cn, getBaseSubscriptionName, getSubscriptionName } from "@gtinx-gtinx_plane/utils";
+import { cn, getBaseSubscriptionName, getSubscriptionName } from "@gtinx-plane/utils";
 
 export type TBasePaidPlanCardProps = {
   planVariant: EProductSubscriptionEnum;
@@ -39,7 +39,7 @@ export const BasePaidPlanCard = observer(function BasePaidPlanCard(props: TBaseP
   // states
   const [selectedPlan, setSelectedPlan] = useState<TBillingFrequency>("month");
   const basePlan = getBaseSubscriptionName(planVariant);
-  // Plane details
+  // gtinx-plane details
   const planeName = getSubscriptionName(planVariant);
 
   return (
@@ -70,7 +70,7 @@ export const BasePaidPlanCard = observer(function BasePaidPlanCard(props: TBaseP
         {prices.map((price: TSubscriptionPrice) => (
           <TabsPanel key={price.key} value={price.recurring}>
             <div className="pt-3 text-center">
-              <div className="text-h4-medium">Plane {planeName}</div>
+              <div className="text-h4-medium">gtinx-plane {planeName}</div>
               {renderActionButton(price)}
             </div>
             <div className="px-2 pt-6 pb-2">

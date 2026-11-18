@@ -9,7 +9,7 @@ import { debounce } from "lodash-es";
 import { observer } from "mobx-react";
 // types
 import type { IIssueDisplayProperties } from "@gtinx-plane/types";
-import { getComputedDisplayProperties } from "@gtinx-gtinx_plane/utils";
+import { getComputedDisplayProperties } from "@gtinx-plane/utils";
 // components
 import { IssueLayoutHOC } from "@/components/issues/issue-layouts/issue-layout-HOC";
 // hooks

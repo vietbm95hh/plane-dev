@@ -12,7 +12,7 @@ import { Controller } from "react-hook-form";
 import { ETabIndices } from "@gtinx-plane/constants";
 // types
 import type { TIssue } from "@gtinx-plane/types";
-import { getTabIndex } from "@gtinx-gtinx_plane/utils";
+import { getTabIndex } from "@gtinx-plane/utils";
 // components
 import { ProjectSelect } from "@/components/dropdowns/project/project-select";
 // hooks

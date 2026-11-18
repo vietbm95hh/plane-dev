@@ -22,7 +22,7 @@ import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { TIssue, TIssueServiceType, TSubIssueOperations } from "@gtinx-plane/types";
 import { EIssueServiceType, EIssuesStoreType } from "@gtinx-plane/types";
 import { ControlLink } from "@gtinx-plane/blocks/layout";
-import { cn, generateWorkItemLink } from "@gtinx-gtinx_plane/utils";
+import { cn, generateWorkItemLink } from "@gtinx-plane/utils";
 // helpers
 import { useSubIssueOperations } from "@/components/issues/issue-detail-widgets/sub-issues/helper";
 import { WithDisplayPropertiesHOC } from "@/components/issues/issue-layouts/properties/with-display-properties-HOC";

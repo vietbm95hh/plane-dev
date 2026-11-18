@@ -10,7 +10,7 @@ import { observer } from "mobx-react";
 import { useTranslation } from "@gtinx-plane/i18n";
 import { StateGroupIcon } from "@gtinx-plane/blocks/icons";
 import { Loader } from "@gtinx-plane/blocks/skeleton";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useProjectState } from "@/hooks/store/use-project-state";
 

@@ -11,7 +11,7 @@ import { useFilter } from "@makeplane/propel/components/combobox";
 import { ComboboxField } from "@makeplane/propel/components/combobox-field";
 import type { ComboboxTriggerWidth, FieldSize } from "@makeplane/propel/components/combobox-field";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import useTimezone from "@/hooks/use-timezone";
 

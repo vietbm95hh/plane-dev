@@ -8,7 +8,7 @@ import React from "react";
 import { Treemap, ResponsiveContainer, Tooltip } from "recharts";
 // plane imports
 import type { TreeMapChartProps } from "@gtinx-plane/types";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // local imports
 import { CustomTreeMapContent } from "./map-content";
 import { TreeMapTooltip } from "./tooltip";

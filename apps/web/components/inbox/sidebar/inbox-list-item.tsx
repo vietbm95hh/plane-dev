@@ -14,7 +14,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { PriorityIcon } from "@gtinx-plane/blocks/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { Row } from "@gtinx-plane/blocks/layout";
-import { cn, renderFormattedDate } from "@gtinx-gtinx_plane/utils";
+import { cn, renderFormattedDate } from "@gtinx-plane/utils";
 // components
 import { ButtonAvatars } from "@/components/dropdowns/member/avatar";
 // hooks
@@ -132,7 +132,7 @@ export const InboxIssueListItem = observer(function InboxIssueListItem(props: In
             </div>
             {/* created by */}
             {createdByDetails && createdByDetails.email?.includes("intake@plane.so") ? (
-              <Avatar alt="Plane" fallback="P" size="xs" />
+              <Avatar alt="gtinx-plane" fallback="P" size="xs" />
             ) : createdByDetails ? (
               <ButtonAvatars showTooltip={false} userIds={createdByDetails?.id} />
             ) : null}

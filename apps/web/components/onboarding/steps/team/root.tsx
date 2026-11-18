@@ -27,7 +27,7 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { EOnboardingSteps } from "@gtinx-plane/types";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useWorkspace } from "@/hooks/store/use-workspace";
 // services
@@ -308,7 +308,7 @@ export const InviteTeamStep = observer(function InviteTeamStep(props: Props) {
     >
       <CommonOnboardingHeader
         title="Invite your teammates"
-        description="Work in plane happens best with your team. Invite them now to use Plane to its potential."
+        description="Work in plane happens best with your team. Invite them now to use gtinx-plane to its potential."
       />
       <div className="flex w-full flex-col gap-6">
         <div className="flex flex-col gap-3">

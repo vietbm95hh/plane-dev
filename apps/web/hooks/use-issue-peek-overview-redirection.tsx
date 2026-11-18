@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 import type { TIssue } from "@gtinx-plane/types";
 import { EIssueServiceType } from "@gtinx-plane/types";
 // helpers
-import { generateWorkItemLink } from "@gtinx-gtinx_plane/utils";
+import { generateWorkItemLink } from "@gtinx-plane/utils";
 // hooks
 import { useIssueDetail } from "./store/use-issue-detail";
 import { useProject } from "./store/use-project";

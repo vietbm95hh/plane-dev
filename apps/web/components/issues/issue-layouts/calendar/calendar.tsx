@@ -22,7 +22,7 @@ import type {
 import { EIssuesStoreType, EIssueLayoutTypes } from "@gtinx-plane/types";
 // ui
 import { Spinner } from "@gtinx-plane/blocks/spinner";
-import { renderFormattedPayloadDate, cn } from "@gtinx-gtinx_plane/utils";
+import { renderFormattedPayloadDate, cn } from "@gtinx-plane/utils";
 // constants
 import { MONTHS_LIST } from "@gtinx-plane/constants";
 // helpers

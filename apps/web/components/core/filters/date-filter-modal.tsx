@@ -20,7 +20,7 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { CloseOutline } from "@makeplane/propel/icons";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { renderFormattedPayloadDate, renderFormattedDate, getDate } from "@gtinx-gtinx_plane/utils";
+import { renderFormattedPayloadDate, renderFormattedDate, getDate } from "@gtinx-plane/utils";
 import { DateFilterSelect } from "./date-filter-select";
 type Props = {
   title: string;

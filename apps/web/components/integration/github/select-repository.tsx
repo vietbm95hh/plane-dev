@@ -11,7 +11,7 @@ import { Button } from "@makeplane/propel/components/button";
 import { Select } from "@gtinx-plane/blocks/select";
 import type { IGithubRepository, IWorkspaceIntegration } from "@gtinx-plane/types";
 // helpers
-import { truncateText } from "@gtinx-gtinx_plane/utils";
+import { truncateText } from "@gtinx-plane/utils";
 import { ProjectService } from "@/services/project";
 // types
 

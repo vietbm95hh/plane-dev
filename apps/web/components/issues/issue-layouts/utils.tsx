@@ -49,7 +49,7 @@ import type {
 import { EIssuesStoreType } from "@gtinx-plane/types";
 // plane ui
 
-import { renderFormattedDate, getFileURL } from "@gtinx-gtinx_plane/utils";
+import { renderFormattedDate, getFileURL } from "@gtinx-plane/utils";
 // store
 import { store } from "@/lib/store-context";
 import { ISSUE_FILTER_DEFAULT_DATA } from "@/store/issue/helpers/base-issues.store";

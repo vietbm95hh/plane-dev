@@ -11,7 +11,7 @@ import { Avatar } from "@makeplane/propel/components/avatar";
 import { Icon } from "@makeplane/propel/components/icon";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { FavoriteStar } from "@gtinx-plane/blocks/common";
-import { renderFormattedDate, getFileURL } from "@gtinx-gtinx_plane/utils";
+import { renderFormattedDate, getFileURL } from "@gtinx-plane/utils";
 // hooks
 import { useMember } from "@/hooks/store/use-member";
 import { usePageOperations } from "@/hooks/use-page-operations";

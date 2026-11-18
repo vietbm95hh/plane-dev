@@ -8,7 +8,7 @@ import { observer } from "mobx-react";
 // ui
 import { MenuLinkItem } from "@makeplane/propel/components/menu";
 // helpers
-import { generateWorkItemLink } from "@gtinx-gtinx_plane/utils";
+import { generateWorkItemLink } from "@gtinx-plane/utils";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import { useProject } from "@/hooks/store/use-project";

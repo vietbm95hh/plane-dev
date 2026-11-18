@@ -11,7 +11,7 @@ import { computedFn } from "mobx-utils";
 import type { IProjectView, TViewFilters } from "@gtinx-plane/types";
 // constants
 // helpers
-import { getValidatedViewFilters, getViewName, orderViews, shouldFilterView } from "@gtinx-gtinx_plane/utils";
+import { getValidatedViewFilters, getViewName, orderViews, shouldFilterView } from "@gtinx-plane/utils";
 // services
 import { ViewService } from "@/services/view.service";
 // store

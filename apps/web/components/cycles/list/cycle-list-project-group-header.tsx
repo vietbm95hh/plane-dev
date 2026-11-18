@@ -11,7 +11,7 @@ import { ChevronRightOutline } from "@makeplane/propel/icons";
 // icons
 import { Row } from "@gtinx-plane/blocks/layout";
 // helpers
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { useProject } from "@/hooks/store/use-project";
 
 type Props = {

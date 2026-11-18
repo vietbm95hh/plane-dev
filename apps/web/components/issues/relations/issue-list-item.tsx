@@ -17,7 +17,7 @@ import type { TIssueRelationTypes } from "@gtinx-plane/types";
 import type { TIssue, TIssueServiceType } from "@gtinx-plane/types";
 import { EIssueServiceType } from "@gtinx-plane/types";
 import { ControlLink } from "@gtinx-plane/blocks/layout";
-import { generateWorkItemLink } from "@gtinx-gtinx_plane/utils";
+import { generateWorkItemLink } from "@gtinx-plane/utils";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import { useProject } from "@/hooks/store/use-project";

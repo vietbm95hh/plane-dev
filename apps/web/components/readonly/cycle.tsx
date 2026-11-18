@@ -9,7 +9,7 @@ import { observer } from "mobx-react";
 // plane imports
 import { useTranslation } from "@gtinx-plane/i18n";
 import { CyclesOutline } from "@makeplane/propel/icons";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useCycle } from "@/hooks/store/use-cycle";
 

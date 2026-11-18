@@ -10,7 +10,7 @@ import { DueDateOutline, StartDateOutline } from "@makeplane/propel/icons";
 import { DateSelect } from "@gtinx-plane/blocks/property-select";
 import type { SelectVariant } from "@gtinx-plane/blocks/select";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn, getDate, getIssueDueDateClassName } from "@gtinx-gtinx_plane/utils";
+import { cn, getDate, getIssueDueDateClassName } from "@gtinx-plane/utils";
 // hooks
 import { useStates } from "@/hooks/store/use-state";
 

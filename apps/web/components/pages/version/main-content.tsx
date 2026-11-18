@@ -16,7 +16,7 @@ import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { TPageVersion } from "@gtinx-plane/types";
-import { renderFormattedDate, renderFormattedTime } from "@gtinx-gtinx_plane/utils";
+import { renderFormattedDate, renderFormattedTime } from "@gtinx-plane/utils";
 // helpers
 import type { EPageStoreType } from "@/hooks/store";
 // local imports

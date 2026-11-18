@@ -31,7 +31,7 @@ import type { IUser, IWorkspace } from "@gtinx-plane/types";
 // ui
 import { Select, SelectDropdownPlacementContext } from "@gtinx-plane/blocks/select";
 import { Spinner } from "@gtinx-plane/blocks/spinner";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // services
 import { WorkspaceService } from "@/services/workspace.service";
 // components
@@ -306,7 +306,7 @@ export function InviteMembers(props: Props) {
           <div className="mx-auto w-4/5 space-y-1 py-4 text-center">
             <h3 className="text-h3-bold text-primary">Invite your teammates</h3>
             <p className="font-medium text-placeholder">
-              Work in plane happens best with your team. Invite them now to use Plane to its potential.
+              Work in plane happens best with your team. Invite them now to use gtinx-plane to its potential.
             </p>
           </div>
           <form

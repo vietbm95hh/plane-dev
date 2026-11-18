@@ -7,7 +7,7 @@
 import { CalendarOutline, DueDateOutline, StartDateOutline } from "@makeplane/propel/icons";
 // plane imports
 import type { TStateGroups } from "@gtinx-plane/types";
-import { cn, getIssueDueDateClassName, renderFormattedDate } from "@gtinx-gtinx_plane/utils";
+import { cn, getIssueDueDateClassName, renderFormattedDate } from "@gtinx-plane/utils";
 
 type Props = {
   startDate: string | null;

@@ -6,8 +6,8 @@
 
 import type { Node as ProseMirrorNode } from "@tiptap/pm/model";
 // plane imports
-import type { ADDITIONAL_EXTENSIONS } from "@gtinx-gtinx_plane/utils";
-import { CORE_EXTENSIONS } from "@gtinx-gtinx_plane/utils";
+import type { ADDITIONAL_EXTENSIONS } from "@gtinx-plane/utils";
+import { CORE_EXTENSIONS } from "@gtinx-plane/utils";
 // extensions
 import { getImageBlockId } from "@/extensions/custom-image/utils";
 // plane editor imports

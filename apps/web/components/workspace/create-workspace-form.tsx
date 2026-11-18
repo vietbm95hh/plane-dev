@@ -17,7 +17,7 @@ import { setToast } from "@gtinx-plane/blocks/toast";
 import type { IWorkspace } from "@gtinx-plane/types";
 // ui
 import { Select } from "@gtinx-plane/blocks/select";
-import { validateWorkspaceName, validateSlug } from "@gtinx-gtinx_plane/utils";
+import { validateWorkspaceName, validateSlug } from "@gtinx-plane/utils";
 // hooks
 import { useWorkspace } from "@/hooks/store/use-workspace";
 import { useAppRouter } from "@/hooks/use-app-router";

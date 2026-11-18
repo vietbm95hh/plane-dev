@@ -7,7 +7,7 @@
 import { useEffect, useState } from "react";
 import { observer } from "mobx-react";
 import { Controller, useForm } from "react-hook-form";
-// Plane Imports
+// gtinx-plane Imports
 import { FieldLabel } from "@makeplane/propel/elements/field";
 import { Icon } from "@makeplane/propel/components/icon";
 import { InputField } from "@makeplane/propel/components/input-field";
@@ -20,7 +20,7 @@ import { EditOutline } from "@makeplane/propel/icons";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { IWorkspace } from "@gtinx-plane/types";
 import { Select, SelectContent, SelectItem, SelectList, SelectTrigger } from "@makeplane/propel/components/select";
-import { cn, copyUrlToClipboard, getFileURL, validateWorkspaceName } from "@gtinx-gtinx_plane/utils";
+import { cn, copyUrlToClipboard, getFileURL, validateWorkspaceName } from "@gtinx-plane/utils";
 // components
 import { WorkspaceImageUploadModal } from "@/components/core/modals/workspace-image-upload-modal";
 import { TimezoneSelect } from "@/components/global/timezone-select";

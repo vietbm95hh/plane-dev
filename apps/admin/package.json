@@ -2,7 +2,7 @@
   "name": "admin",
   "version": "1.5.0",
   "private": true,
-  "description": "Admin UI for Plane",
+  "description": "Admin UI for gtinx-plane",
   "license": "AGPL-3.0",
   "type": "module",
   "scripts": {
@@ -29,7 +29,7 @@
     "@gtinx-plane/i18n": "workspace:*",
     "@gtinx-plane/services": "workspace:*",
     "@gtinx-plane/types": "workspace:*",
-    "@gtinx-gtinx_plane/utils": "workspace:*",
+    "@gtinx-plane/utils": "workspace:*",
     "@react-router/node": "catalog:",
     "isbot": "catalog:",
     "lodash-es": "catalog:",

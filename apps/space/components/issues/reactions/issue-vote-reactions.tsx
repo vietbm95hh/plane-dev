@@ -11,7 +11,7 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { EntityDetailVotes, EntityDetailVotesModal } from "@gtinx-plane/blocks/entity-detail";
 import type { TEntityDetailVoteType, TEntityDetailVoter } from "@gtinx-plane/blocks/entity-detail";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { getFileURL } from "@gtinx-gtinx_plane/utils";
+import { getFileURL } from "@gtinx-plane/utils";
 // helpers
 import { queryParamGenerator } from "@/helpers/query-param-generator";
 // hooks

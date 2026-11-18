@@ -18,7 +18,7 @@ import type {
   TAllAvailableOperatorsForDisplay,
 } from "@gtinx-plane/types";
 import { Select } from "@gtinx-plane/blocks/select";
-import { getOperatorForPayload } from "@gtinx-gtinx_plane/utils";
+import { getOperatorForPayload } from "@gtinx-plane/utils";
 // local imports
 import { FilterValueInput } from "../filter-value-input/root";
 import { FilterItemCloseButton } from "./close-button";

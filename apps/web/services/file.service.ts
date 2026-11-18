@@ -9,7 +9,7 @@ import type { AxiosRequestConfig } from "axios";
 import { API_BASE_URL } from "@gtinx-plane/constants";
 import { getFileMetaDataForUpload, generateFileUploadPayload } from "@gtinx-plane/services";
 import type { EFileAssetType, TFileEntityInfo, TFileSignedURLResponse } from "@gtinx-plane/types";
-import { getAssetIdFromUrl } from "@gtinx-gtinx_plane/utils";
+import { getAssetIdFromUrl } from "@gtinx-plane/utils";
 // helpers
 // services
 import { APIService } from "@/services/api.service";

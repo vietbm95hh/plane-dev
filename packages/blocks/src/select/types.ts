@@ -350,7 +350,7 @@ export type SelectTriggerProps<T> = {
   /**
    * The single source of chrome. `pill-{size}` composes Propel's `Pill` / `IconPill` elements;
    * `icon-{size}` is prepend-only (no label children) with transparent chrome — for compact attribute rows;
-   * `table-cell` keeps Plane's row geometry; `breadcrumb` uses Propel's breadcrumb element;
+   * `table-cell` keeps gtinx-plane's row geometry; `breadcrumb` uses Propel's breadcrumb element;
    * `select-{size}` / `select-ghost-{size}` use Propel's `ComboboxTrigger` and render `SelectContent`.
    * Unrecognised values fall
    * back to `pill-sm` in `splitSelectVariant`.

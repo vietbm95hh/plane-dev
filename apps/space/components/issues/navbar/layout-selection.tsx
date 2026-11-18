@@ -11,7 +11,7 @@ import { SITES_ISSUE_LAYOUTS } from "@gtinx-plane/constants";
 // plane i18n
 import { useTranslation } from "@gtinx-plane/i18n";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // helpers
 import { queryParamGenerator } from "@/helpers/query-param-generator";
 // hooks

@@ -18,7 +18,7 @@ import type {
   TInboxIssueSortingOrderByQueryParam,
 } from "@gtinx-plane/types";
 import { EInboxIssueCurrentTab, EInboxIssueStatus } from "@gtinx-plane/types";
-import { getCustomDates } from "@gtinx-gtinx_plane/utils";
+import { getCustomDates } from "@gtinx-plane/utils";
 // helpers
 // services
 import { InboxIssueService } from "@/services/inbox";

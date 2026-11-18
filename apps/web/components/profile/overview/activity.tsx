@@ -13,7 +13,7 @@ import { Avatar } from "@makeplane/propel/components/avatar";
 import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
 import { Card } from "@gtinx-plane/blocks/card";
 import { Loader } from "@gtinx-plane/blocks/skeleton";
-import { calculateTimeAgo, getFileURL } from "@gtinx-gtinx_plane/utils";
+import { calculateTimeAgo, getFileURL } from "@gtinx-plane/utils";
 // components
 import { ActivityMessage, IssueLink } from "@/components/core/activity";
 // constants

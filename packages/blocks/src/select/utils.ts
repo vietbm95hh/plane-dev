@@ -6,7 +6,7 @@
 
 import { cva } from "class-variance-authority";
 import { getPillButtonClassName } from "../pill-button/helper";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import type { SelectChromeSize, SelectTriggerSize, SelectTriggerVariant } from "./types";
 
 const VARIANTS: SelectTriggerVariant[] = [

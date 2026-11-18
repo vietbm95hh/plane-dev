@@ -10,7 +10,7 @@ import { useParams } from "next/navigation";
 import { CloseOutline, EditOutline } from "@makeplane/propel/icons";
 // types
 import type { IIssueLabel } from "@gtinx-plane/types";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useLabel } from "@/hooks/store/use-label";
 // components

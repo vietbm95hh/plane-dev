@@ -20,7 +20,7 @@ import type { IIssueLabel } from "@gtinx-plane/types";
 // ui
 import { DragHandle } from "@gtinx-plane/blocks/common";
 // helpers
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { LabelName } from "./label-name";
 

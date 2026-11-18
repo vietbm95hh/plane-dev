@@ -21,7 +21,7 @@ import {
   NewTabOutline,
   PagesOutline,
 } from "@makeplane/propel/icons";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { ensureTrailingSlash } from "@/app/compat/next/helper";
 // hooks
 import { useInstance, useTheme } from "@/hooks/store";
@@ -40,7 +40,7 @@ const helpOptions = [
   },
   {
     name: "Report a bug",
-    href: "https://github.com/makeplane/plane/issues/new/choose",
+    href: "https://github.com/gtinx-plane/gtinx-plane/issues/new/choose",
     Icon: Github,
   },
 ];
@@ -64,14 +64,14 @@ export const AdminSidebarHelpSection = observer(function AdminSidebarHelpSection
       })}
     >
       {isSidebarCollapsed ? (
-        <Tooltip label="Redirect to Plane" side="right">
+        <Tooltip label="Redirect to gtinx-plane" side="right">
           <IconButton
             variant="secondary"
             size="md"
-            aria-label="Redirect to Plane"
+            aria-label="Redirect to gtinx-plane"
             showTooltip={false}
             nativeButton={false}
-            render={<a href={redirectionLink} aria-label="Redirect to Plane" />}
+            render={<a href={redirectionLink} aria-label="Redirect to gtinx-plane" />}
             icon={<Icon icon={NewTabOutline} />}
           />
         </Tooltip>
@@ -81,9 +81,9 @@ export const AdminSidebarHelpSection = observer(function AdminSidebarHelpSection
           size="sm"
           stretch="auto"
           nativeButton={false}
-          render={<a href={redirectionLink} aria-label="Redirect to Plane" />}
+          render={<a href={redirectionLink} aria-label="Redirect to gtinx-plane" />}
           icon={<Icon icon={NewTabOutline} />}
-          label="Redirect to Plane"
+          label="Redirect to gtinx-plane"
         />
       )}
       <div className={cn("flex items-center gap-1", isSidebarCollapsed ? "flex-col" : "ml-auto")}>

@@ -7,7 +7,7 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "@gtinx-plane/i18n";
 import { Dialog, DialogContent } from "@makeplane/propel/components/dialog";
-import { getAssetIdFromUrl, checkURLValidity } from "@gtinx-gtinx_plane/utils";
+import { getAssetIdFromUrl, checkURLValidity } from "@gtinx-plane/utils";
 // plane ui
 // helpers
 // plane web components

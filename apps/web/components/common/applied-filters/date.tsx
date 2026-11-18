@@ -8,7 +8,7 @@ import { observer } from "mobx-react";
 // icons
 import { DATE_BEFORE_FILTER_OPTIONS } from "@gtinx-plane/constants";
 // plane constants
-import { renderFormattedDate, capitalizeFirstLetter } from "@gtinx-gtinx_plane/utils";
+import { renderFormattedDate, capitalizeFirstLetter } from "@gtinx-plane/utils";
 import { RemovableChip } from "@/components/common/removable-chip";
 // helpers
 type Props = {

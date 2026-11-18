@@ -11,7 +11,7 @@ import { Popover, PopoverBody, PopoverContent, PopoverTrigger } from "@makeplane
 import type { PopoverContentProps } from "@makeplane/propel/components/popover";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { IconElement } from "../types/icon";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import type { SelectVariant } from "../select/types";
 import { SelectTriggerChrome } from "../select/trigger-chrome";
 import { splitSelectVariant } from "../select/utils";

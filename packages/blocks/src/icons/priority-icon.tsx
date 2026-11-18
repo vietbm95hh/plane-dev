@@ -5,7 +5,7 @@
  */
 
 import * as React from "react";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { PriorityUrgent, PriorityNone, PriorityHigh, PriorityLow, PriorityMedium } from "@makeplane/propel/icons";
 
 export type IssuePriority = "urgent" | "high" | "medium" | "low" | "none";

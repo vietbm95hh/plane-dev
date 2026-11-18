@@ -7,7 +7,7 @@
 import { Suspense } from "react";
 // local imports
 import { EmptyStateActionButton } from "./action-button";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import type { Align } from "../utils/placement";
 import { getDetailedAsset } from "./assets/asset-registry";
 import type { CompactAssetType, DetailedAssetType } from "./assets/asset-types";

@@ -13,7 +13,7 @@ import { CloseOutline } from "@makeplane/propel/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { TProjectAppliedDisplayFilterKeys, TProjectFilters } from "@gtinx-plane/types";
 import { EHeaderVariant, Header } from "@gtinx-plane/blocks/layout";
-import { replaceUnderscoreIfSnakeCase } from "@gtinx-gtinx_plane/utils";
+import { replaceUnderscoreIfSnakeCase } from "@gtinx-plane/utils";
 // local imports
 import { AppliedAccessFilters } from "./access";
 import { AppliedDateFilters } from "./date";

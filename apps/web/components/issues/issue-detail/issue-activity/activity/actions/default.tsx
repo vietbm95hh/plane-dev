@@ -9,7 +9,7 @@ import { observer } from "mobx-react";
 import { WorkItemsOutline } from "@makeplane/propel/icons";
 import { EInboxIssueSource } from "@gtinx-plane/types";
 // hooks
-import { capitalizeFirstLetter } from "@gtinx-gtinx_plane/utils";
+import { capitalizeFirstLetter } from "@gtinx-plane/utils";
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 // local imports
 import { IssueActivityBlockComponent } from "./";

@@ -20,7 +20,7 @@ import type {
   TIssueOrderByOptions,
 } from "@gtinx-plane/types";
 import { ERowVariant, Row } from "@gtinx-plane/blocks/layout";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useIssueStoreType } from "@/hooks/use-issue-layout-store";
 // plane web imports

@@ -17,7 +17,7 @@ import { setToast } from "@gtinx-plane/blocks/toast";
 import type { TIssue } from "@gtinx-plane/types";
 import { EFileAssetType } from "@gtinx-plane/types";
 import { Loader } from "@gtinx-plane/blocks/skeleton";
-import { getDescriptionPlaceholderI18n, getTabIndex } from "@gtinx-gtinx_plane/utils";
+import { getDescriptionPlaceholderI18n, getTabIndex } from "@gtinx-plane/utils";
 // components
 import { GptAssistantPopover } from "@/components/core/modals/gpt-assistant-popover";
 import { RichTextEditor } from "@/components/editor/rich-text";

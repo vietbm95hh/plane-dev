@@ -20,7 +20,7 @@ import {
   DialogMain,
   DialogTitle,
 } from "@makeplane/propel/components/dialog";
-import { renderFormattedDate, renderFormattedTime, copyTextToClipboard } from "@gtinx-gtinx_plane/utils";
+import { renderFormattedDate, renderFormattedTime, copyTextToClipboard } from "@gtinx-plane/utils";
 // hooks
 import { usePlatformOS } from "@/hooks/use-platform-os";
 

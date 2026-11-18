@@ -20,7 +20,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { EIssuesStoreType, TIssue } from "@gtinx-plane/types";
 import type { TContextMenuItem } from "@gtinx-plane/blocks/context-menu";
-import { copyUrlToClipboard, generateWorkItemLink } from "@gtinx-gtinx_plane/utils";
+import { copyUrlToClipboard, generateWorkItemLink } from "@gtinx-plane/utils";
 import { createCopyMenuWithDuplication } from "./copy-menu-helper";
 
 /**

@@ -2,7 +2,7 @@
   "name": "@gtinx-plane/blocks",
   "version": "1.5.0",
   "private": true,
-  "description": "Composite components and Plane-specific building blocks, built on top of @makeplane/propel primitives",
+  "description": "Composite components and gtinx-plane-specific building blocks, built on top of @makeplane/propel primitives",
   "license": "AGPL-3.0",
   "type": "module",
   "sideEffects": [
@@ -64,7 +64,7 @@
     "@gtinx-plane/hooks": "workspace:*",
     "@gtinx-plane/i18n": "workspace:*",
     "@gtinx-plane/types": "workspace:*",
-    "@gtinx-gtinx_plane/utils": "workspace:*",
+    "@gtinx-plane/utils": "workspace:*",
     "@tanstack/react-virtual": "catalog:",
     "class-variance-authority": "catalog:",
     "clsx": "catalog:",

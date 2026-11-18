@@ -6,7 +6,7 @@
 
 import type { ReactNode } from "react";
 import { ChatOutline } from "@makeplane/propel/icons";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { ActivityTimelineConnector, ActivityTimelineIcon } from "./timeline";
 
 export type ActivityCommentHeaderProps = {

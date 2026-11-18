@@ -12,7 +12,7 @@ import { DragDropOutline } from "@makeplane/propel/icons";
 import { StateGroupIcon } from "@gtinx-plane/blocks/icons";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { IState, TStateOperationsCallbacks } from "@gtinx-plane/types";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // local imports
 import { useProjectState } from "@/hooks/store/use-project-state";
 import { StateQuickActions } from "./options";

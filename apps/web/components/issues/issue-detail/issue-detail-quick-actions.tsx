@@ -14,7 +14,7 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { EIssuesStoreType } from "@gtinx-plane/types";
-import { generateWorkItemLink, copyTextToClipboard } from "@gtinx-gtinx_plane/utils";
+import { generateWorkItemLink, copyTextToClipboard } from "@gtinx-plane/utils";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import { useIssues } from "@/hooks/store/use-issues";

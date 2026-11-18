@@ -14,7 +14,7 @@ import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/comp
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { IApiToken } from "@gtinx-plane/types";
-import { cn, renderFormattedDate } from "@gtinx-gtinx_plane/utils";
+import { cn, renderFormattedDate } from "@gtinx-plane/utils";
 // components
 import { DeleteApiTokenModal } from "@/components/api-token/delete-token-modal";
 import type { DataTableColumn } from "@/components/common/data-table";

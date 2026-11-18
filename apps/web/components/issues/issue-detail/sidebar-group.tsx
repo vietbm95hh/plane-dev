@@ -8,7 +8,7 @@ import { useId, useState } from "react";
 import type { ReactNode } from "react";
 // plane imports
 import { TriangleFilled } from "@makeplane/propel/icons";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type Props = {
   label: string;

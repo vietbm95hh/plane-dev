@@ -8,7 +8,7 @@
 import React from "react";
 import type { IAnalyticsResponseFields } from "@gtinx-plane/types";
 import { Loader } from "@gtinx-plane/blocks/skeleton";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 export type InsightCardProps = {
   data?: IAnalyticsResponseFields;

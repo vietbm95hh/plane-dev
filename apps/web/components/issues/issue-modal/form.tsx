@@ -34,7 +34,7 @@ import {
   getUpdateFormDataForReset,
   getChangedIssuefields,
   getTabIndex,
-} from "@gtinx-gtinx_plane/utils";
+} from "@gtinx-plane/utils";
 // components
 import {
   IssueDefaultProperties,

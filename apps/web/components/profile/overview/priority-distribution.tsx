@@ -11,7 +11,7 @@ import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
 import type { IUserProfileData } from "@gtinx-plane/types";
 import { Card } from "@gtinx-plane/blocks/card";
 import { Loader } from "@gtinx-plane/blocks/skeleton";
-import { capitalizeFirstLetter } from "@gtinx-gtinx_plane/utils";
+import { capitalizeFirstLetter } from "@gtinx-plane/utils";
 
 type Props = {
   userProfile: IUserProfileData | undefined;

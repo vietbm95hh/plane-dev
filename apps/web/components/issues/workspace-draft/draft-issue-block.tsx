@@ -14,7 +14,7 @@ import type { TWorkspaceDraftIssue } from "@gtinx-plane/types";
 import { EIssuesStoreType } from "@gtinx-plane/types";
 import type { TContextMenuItem } from "@gtinx-plane/blocks/context-menu";
 import { Row } from "@gtinx-plane/blocks/layout";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useAppTheme } from "@/hooks/store/use-app-theme";
 import { useProject } from "@/hooks/store/use-project";

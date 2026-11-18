@@ -11,7 +11,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
 import { ContentWrapper } from "@gtinx-plane/blocks/layout";
 // components
-import { calculateTotalFilters } from "@gtinx-gtinx_plane/utils";
+import { calculateTotalFilters } from "@gtinx-plane/utils";
 import { ProjectsLoader } from "@/components/ui/loader/projects-loader";
 // hooks
 import { useCommandPalette } from "@/hooks/store/use-command-palette";

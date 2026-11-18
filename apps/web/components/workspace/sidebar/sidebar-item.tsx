@@ -12,7 +12,7 @@ import { useParams, usePathname } from "next/navigation";
 import type { IWorkspaceSidebarNavigationItem } from "@gtinx-plane/constants";
 import { EUserPermissionsLevel } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { joinUrlPath } from "@gtinx-gtinx_plane/utils";
+import { joinUrlPath } from "@gtinx-plane/utils";
 // components
 import { ListItem, ListItemLabel } from "@makeplane/propel/components/list";
 import { ListItemLink } from "@makeplane/propel/elements/list";

@@ -7,7 +7,7 @@
 import type { TNetworkChoiceIconKey } from "@gtinx-plane/constants";
 // plane imports
 import { GlobeOutline, LockOutline } from "@makeplane/propel/icons";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type Props = {
   iconKey: TNetworkChoiceIconKey;

@@ -25,7 +25,7 @@
   "dependencies": {
     "@gtinx-plane/constants": "workspace:*",
     "@gtinx-plane/types": "workspace:*",
-    "@gtinx-gtinx_plane/utils": "workspace:*",
+    "@gtinx-plane/utils": "workspace:*",
     "lodash-es": "catalog:",
     "mobx": "catalog:",
     "mobx-utils": "catalog:",

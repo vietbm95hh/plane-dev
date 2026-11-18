@@ -44,7 +44,7 @@ After installation, you can verify the installation by opening a terminal (Comma
 
 ---
 
-## Installing Plane
+## Installing gtinx-plane
 
 Installing plane is a very easy and minimal step process.
 
@@ -66,7 +66,7 @@ cd plane-selfhost
 #### For _Docker Compose_ based setup
 
 ```
-curl -fsSL -o setup.sh https://github.com/makeplane/plane/releases/latest/download/setup.sh
+curl -fsSL -o setup.sh https://github.com/gtinx-plane/gtinx-plane/releases/latest/download/setup.sh
 
 chmod +x setup.sh
 ```
@@ -74,7 +74,7 @@ chmod +x setup.sh
 #### For _Docker Swarm_ based setup
 
 ```
-curl -fsSL -o setup.sh https://github.com/makeplane/plane/releases/latest/download/swarm.sh
+curl -fsSL -o setup.sh https://github.com/gtinx-plane/gtinx-plane/releases/latest/download/swarm.sh
 
 chmod +x setup.sh
 ```
@@ -167,7 +167,7 @@ There are many other settings you can play with. We suggest you also set up emai
 
 Some endpoints are rate-limited per client IP. Two settings in `plane.env` control how that IP is determined:
 
-- **Plane directly on the internet behind the bundled proxy:** set `TRUSTED_PROXIES=private_ranges` (or your load balancer's ranges) and `NUM_PROXIES=1`.
+- **gtinx-plane directly on the internet behind the bundled proxy:** set `TRUSTED_PROXIES=private_ranges` (or your load balancer's ranges) and `NUM_PROXIES=1`.
 - **Behind an additional load balancer or CDN:** add its ranges to `TRUSTED_PROXIES` (space-separated, e.g. `TRUSTED_PROXIES=private_ranges 203.0.113.0/24`) and raise `NUM_PROXIES` by one per extra hop (e.g. `NUM_PROXIES=2`).
 - **Leaving `NUM_PROXIES` empty and `TRUSTED_PROXIES` at its default (`0.0.0.0/0`)** keeps the current behaviour.
 
@@ -202,7 +202,7 @@ Be patient as it might take sometime based on download speed and system configur
 
 This is the confirmation that all images were downloaded and the services are up & running.
 
-You have successfully self hosted `Plane` instance. Access the application by going to IP or domain you have configured it (e.g `https://plane.example.com:8080` or `http://[IP-ADDRESS]:8080`)
+You have successfully self hosted `gtinx-plane` instance. Access the application by going to IP or domain you have configured it (e.g `https://plane.example.com:8080` or `http://[IP-ADDRESS]:8080`)
 
 ---
 
@@ -297,9 +297,9 @@ If all goes well, you will see the confirmation from docker cli
 
 ---
 
-### Upgrading Plane Version
+### Upgrading gtinx-plane Version
 
-It is always advised to keep Plane up to date with the latest release.
+It is always advised to keep gtinx-plane up to date with the latest release.
 
 > Download the latest `setup.sh` (see [Downloading Latest Release](#downloading-latest-release)) before upgrading. The upgrade runs your local copy of the script, and newer versions generate or rotate the object-storage (MinIO) credentials in `plane.env`.
 
@@ -507,12 +507,12 @@ Backup completed successfully. Backup files are stored in /....../plane-app/back
 
 When you want to restore the previously backed-up data, follow the instructions below.
 
-1. Make sure that Plane-CE is installed, started, and then stopped. This ensures that the Docker volumes are created. The restore script needs `jq` installed to check that Plane is stopped.
+1. Make sure that gtinx-plane-CE is installed, started, and then stopped. This ensures that the Docker volumes are created. The restore script needs `jq` installed to check that gtinx-plane is stopped.
 
 1. Download the restore script using the command below. We suggest downloading it in the same folder as `setup.sh`.
 
    ```bash
-   curl -fsSL -o restore.sh https://github.com/makeplane/plane/releases/latest/download/restore.sh
+   curl -fsSL -o restore.sh https://github.com/gtinx-plane/gtinx-plane/releases/latest/download/restore.sh
    chmod +x restore.sh
    ```
 
@@ -555,24 +555,24 @@ When you want to restore the previously backed-up data, follow the instructions 
    Restore completed successfully.
    ```
 
-1. Start the Plane instance using `./setup.sh start`.
+1. Start the gtinx-plane instance using `./setup.sh start`.
 
 ---
 
 ### Restore for Commercial Air-Gapped (Docker Compose)
 
-When you want to restore the previously backed-up data on Plane Commercial Air-Gapped version, follow the instructions below.
+When you want to restore the previously backed-up data on gtinx-plane Commercial Air-Gapped version, follow the instructions below.
 
 1. Download the restore script using the command below
 
    ```bash
-   curl -fsSL -o restore-airgapped.sh https://github.com/makeplane/plane/releases/latest/download/restore-airgapped.sh
+   curl -fsSL -o restore-airgapped.sh https://github.com/gtinx-plane/gtinx-plane/releases/latest/download/restore-airgapped.sh
    chmod +x restore-airgapped.sh
    ```
 
 1. Copy the backup folder and the `restore-airgapped.sh` to `Commercial Airgapped Edition` server
 
-1. Make sure that Plane Commercial (Airgapped) is extracted and ready to get started. In case it is running, you would need to stop that.
+1. Make sure that gtinx-plane Commercial (Airgapped) is extracted and ready to get started. In case it is running, you would need to stop that.
 
 1. Execute the command below to restore your data.
 
@@ -582,7 +582,7 @@ When you want to restore the previously backed-up data on Plane Commercial Air-G
 
    The script asks for the install path of the Air-Gapped edition (default `$HOME/planeairgapped`); that folder must contain its `docker-compose.yml`.
 
-1. After restoration, you are ready to start Plane Commercial (Airgapped) will all your previously saved data.
+1. After restoration, you are ready to start gtinx-plane Commercial (Airgapped) will all your previously saved data.
 
 ---
 

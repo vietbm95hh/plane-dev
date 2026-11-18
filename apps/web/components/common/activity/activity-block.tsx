@@ -11,7 +11,7 @@ import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { TWorkspaceBaseActivity } from "@gtinx-plane/types";
 // ui
 // helpers
-import { cn, renderFormattedTime, renderFormattedDate, calculateTimeAgo } from "@gtinx-gtinx_plane/utils";
+import { cn, renderFormattedTime, renderFormattedDate, calculateTimeAgo } from "@gtinx-plane/utils";
 // hooks
 import { usePlatformOS } from "@/hooks/use-platform-os";
 // local components

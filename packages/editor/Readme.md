@@ -2,7 +2,7 @@
 
 ## Description
 
-The `@gtinx-plane/editor` package is Plane's rich text editor, built on [Tiptap](https://tiptap.dev/). It ships ready-to-use React editors that the apps import directly (for example `apps/web` and `apps/space`), plus helpers, constants and types for building on top of them.
+The `@gtinx-plane/editor` package is gtinx-plane's rich text editor, built on [Tiptap](https://tiptap.dev/). It ships ready-to-use React editors that the apps import directly (for example `apps/web` and `apps/space`), plus helpers, constants and types for building on top of them.
 
 ## Entry points
 

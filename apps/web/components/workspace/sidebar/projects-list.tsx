@@ -21,7 +21,7 @@ import { ListItemButton } from "@makeplane/propel/elements/list";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { Loader } from "@gtinx-plane/blocks/skeleton";
-import { copyUrlToClipboard, cn, orderJoinedProjects } from "@gtinx-gtinx_plane/utils";
+import { copyUrlToClipboard, cn, orderJoinedProjects } from "@gtinx-plane/utils";
 // components
 import { CreateProjectModal } from "@/components/project/create-project-modal";
 // hooks

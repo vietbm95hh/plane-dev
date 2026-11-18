@@ -9,7 +9,7 @@ import { forwardRef } from "react";
 import { DocumentEditorWithRef } from "@gtinx-plane/editor";
 import type { IEditorPropsExtended, EditorRefApi, IDocumentEditorProps, TFileHandler } from "@gtinx-plane/editor";
 import type { MakeOptional, TSearchEntityRequestPayload, TSearchResponse } from "@gtinx-plane/types";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // hooks
 import { useEditorConfig, useEditorMention } from "@/hooks/editor";
 import { useMember } from "@/hooks/store/use-member";

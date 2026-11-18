@@ -17,7 +17,7 @@ import { InputField } from "@makeplane/propel/components/input-field";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { IUser } from "@gtinx-plane/types";
 import { EOnboardingSteps } from "@gtinx-plane/types";
-import { getFileURL, getPasswordStrength, validatePersonName } from "@gtinx-gtinx_plane/utils";
+import { getFileURL, getPasswordStrength, validatePersonName } from "@gtinx-plane/utils";
 // components
 import { UserImageUploadModal } from "@/components/core/modals/user-image-upload-modal";
 // hooks
@@ -150,7 +150,7 @@ export const ProfileSetupStep = observer(function ProfileSetupStep({ handleStepC
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-10">
       {/* Header */}
-      <CommonOnboardingHeader title="Create your profile." description="This is how you will appear in Plane." />
+      <CommonOnboardingHeader title="Create your profile." description="This is how you will appear in gtinx-plane." />
 
       {/* Profile Picture Section */}
       <Controller

@@ -15,7 +15,7 @@ import { BreadcrumbIcon, BreadcrumbLabel } from "../breadcrumb/breadcrumbs";
 import { ChevronDownOutline } from "@makeplane/propel/icons";
 import { PROPEL_PILL_SIZE } from "../pill-button/helper";
 import type { IconElement } from "../types/icon";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { SelectContent } from "./select-content";
 import type { SelectTriggerSize, SelectVariant } from "./types";
 import { getTriggerChromeClassName, splitSelectVariant } from "./utils";
@@ -170,7 +170,7 @@ function PillTriggerChrome({
  *
  * Propel owns field, pill and breadcrumb styling. `width="fit"` removes the field's default
  * 288px floor; CE's full-width layout can then fit narrow property columns. Table cells and bare
- * icons keep their Plane-specific geometry. Existing CE size names and className stay supported.
+ * icons keep their gtinx-plane-specific geometry. Existing CE size names and className stay supported.
  */
 export function SelectTriggerChrome({
   variant,

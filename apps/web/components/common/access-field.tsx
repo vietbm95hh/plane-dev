@@ -10,7 +10,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import type { ISvgIcons } from "@gtinx-plane/blocks/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 // plane utils
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 
 type Props = {
   onChange: (value: number) => void;

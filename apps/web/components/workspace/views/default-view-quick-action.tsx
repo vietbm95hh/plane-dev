@@ -17,7 +17,7 @@ import { getRenderableItems, resolveItemVariant } from "@gtinx-plane/blocks/cont
 import { setToast } from "@gtinx-plane/blocks/toast";
 // ui
 import type { TStaticViewTypes } from "@gtinx-plane/types";
-import { copyUrlToClipboard } from "@gtinx-gtinx_plane/utils";
+import { copyUrlToClipboard } from "@gtinx-plane/utils";
 
 type Props = {
   workspaceSlug: string;

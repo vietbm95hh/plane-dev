@@ -19,7 +19,7 @@ import type { IUser, IWorkspace, TOnboardingSteps } from "@gtinx-plane/types";
 // ui
 import { Select } from "@gtinx-plane/blocks/select";
 import { Spinner } from "@gtinx-plane/blocks/spinner";
-import { validateWorkspaceName, validateSlug } from "@gtinx-gtinx_plane/utils";
+import { validateWorkspaceName, validateSlug } from "@gtinx-plane/utils";
 // hooks
 import { useWorkspace } from "@/hooks/store/use-workspace";
 import { useUserProfile, useUserSettings } from "@/hooks/store/user";

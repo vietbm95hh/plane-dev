@@ -17,7 +17,7 @@ import { API_BASE_URL, E_PASSWORD_STRENGTH } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { PasswordStrengthIndicator } from "@gtinx-plane/blocks/auth";
-import { getPasswordStrength } from "@gtinx-gtinx_plane/utils";
+import { getPasswordStrength } from "@gtinx-plane/utils";
 // helpers
 import { EAuthModes, EAuthSteps } from "@/helpers/authentication.helper";
 // services

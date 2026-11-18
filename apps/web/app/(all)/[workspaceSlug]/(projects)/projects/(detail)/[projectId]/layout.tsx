@@ -8,7 +8,7 @@ import { observer } from "mobx-react";
 import { Outlet } from "react-router";
 // plane imports
 import { Header, Row } from "@gtinx-plane/blocks/layout";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 // components
 import { TabNavigationRoot } from "@/components/navigation/tab-navigation-root";
 import { AppSidebarToggleButton } from "@/components/sidebar/sidebar-toggle-button";

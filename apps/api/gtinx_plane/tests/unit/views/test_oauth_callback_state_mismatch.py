@@ -12,8 +12,8 @@ shadowed the imported ``base_host()`` helper, so every later
 ``TypeError: 'str' object is not callable`` and no OAuth login on the affected
 views could complete.
 
-See: https://github.com/makeplane/plane/issues/9159
-See: https://github.com/makeplane/plane/issues/9164
+See: https://github.com/gtinx-plane/gtinx-plane/issues/9159
+See: https://github.com/gtinx-plane/gtinx-plane/issues/9164
 """
 
 import pytest

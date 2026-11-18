@@ -11,7 +11,7 @@ import { PieChart } from "@gtinx-plane/blocks/charts/pie-chart";
 import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
 import type { IUserProfileData, IUserStateDistribution } from "@gtinx-plane/types";
 import { Card } from "@gtinx-plane/blocks/card";
-import { capitalizeFirstLetter } from "@gtinx-gtinx_plane/utils";
+import { capitalizeFirstLetter } from "@gtinx-plane/utils";
 
 type Props = {
   stateDistribution: IUserStateDistribution[];

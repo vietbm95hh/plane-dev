@@ -23,7 +23,7 @@ class TestCorsSettings:
         base_urls = [
             "https://plane.example.com/",
             "http://localhost:3001/god-mode/",
-            "https://Plane.example.com/spaces/",
+            "https://gtinx-plane.example.com/spaces/",
             None,
             "",
             "not a url",

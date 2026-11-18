@@ -19,7 +19,7 @@ import {
 import { Button } from "@makeplane/propel/components/button";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { TUserProfile } from "@gtinx-plane/types";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { EOnboardingSteps } from "@gtinx-plane/types";
 // hooks
 import { useUserProfile } from "@/hooks/store/user";
@@ -97,7 +97,7 @@ export const RoleSetupStep = observer(function RoleSetupStep({ handleStepChange 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-10">
       {/* Header */}
-      <CommonOnboardingHeader title="What's your role?" description="Let's set up Plane for how you work." />
+      <CommonOnboardingHeader title="What's your role?" description="Let's set up gtinx-plane for how you work." />
       {/* Role Selection */}
       <fieldset className="flex min-w-0 flex-col gap-3">
         <legend className="mb-3 text-body-sm-semibold text-placeholder">Select one</legend>

@@ -1,4 +1,4 @@
-# Plane admin (god-mode, static SPA) - served by a dedicated Caddy instance.
+# gtinx-plane admin (god-mode, static SPA) - served by a dedicated Caddy instance.
 # Mirrors apps/admin/caddy/Caddyfile, minus the rate_limit plugin so stock Caddy works.
 {
 	servers {
@@ -7,7 +7,7 @@
 }
 
 :3201 {
-	root * /opt/plane/apps/admin/build/client
+	root * /opt/gtinx-plane/apps/admin/build/client
 
 	header {
 		X-Frame-Options "DENY"

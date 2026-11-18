@@ -13,7 +13,7 @@ import { DialogActions } from "@makeplane/propel/components/dialog";
 import type { IProject } from "@gtinx-plane/types";
 // ui
 // helpers
-import { getTabIndex } from "@gtinx-gtinx_plane/utils";
+import { getTabIndex } from "@gtinx-plane/utils";
 
 type Props = {
   handleClose: () => void;

@@ -24,7 +24,7 @@ import {
 import { UserOutline } from "@makeplane/propel/icons";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { EFileAssetType } from "@gtinx-plane/types";
-import { getAssetIdFromUrl, getFileURL, checkURLValidity } from "@gtinx-gtinx_plane/utils";
+import { getAssetIdFromUrl, getFileURL, checkURLValidity } from "@gtinx-plane/utils";
 // services
 import { FileService } from "@/services/file.service";
 const fileService = new FileService();

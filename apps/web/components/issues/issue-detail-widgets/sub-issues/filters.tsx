@@ -9,7 +9,7 @@ import { observer } from "mobx-react";
 import { FilterOutline } from "@makeplane/propel/icons";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { IIssueFilterOptions, IState } from "@gtinx-plane/types";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import {
   FilterAssignees,
   FilterDueDate,

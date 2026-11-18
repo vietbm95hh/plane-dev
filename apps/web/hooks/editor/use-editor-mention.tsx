@@ -11,7 +11,7 @@ import type { TMentionSection, TMentionSuggestion } from "@gtinx-plane/editor";
 // plane types
 import type { TSearchEntities, TSearchEntityRequestPayload, TSearchResponse, TUserSearchResponse } from "@gtinx-plane/types";
 // helpers
-import { getFileURL } from "@gtinx-gtinx_plane/utils";
+import { getFileURL } from "@gtinx-plane/utils";
 // plane web hooks
 import { useAdditionalEditorMention } from "@/hooks/use-additional-editor-mention";
 

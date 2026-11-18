@@ -12,7 +12,7 @@ import { Combobox as BaseCombobox } from "@base-ui/react/combobox";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { CloseOutline } from "@makeplane/propel/icons";
-import { cn } from "@gtinx-gtinx_plane/utils";
+import { cn } from "@gtinx-plane/utils";
 import { useSelectContext } from "./context";
 import { useSelectEngine } from "./engine-context";
 import { SelectTriggerChrome } from "./trigger-chrome";
@@ -20,7 +20,7 @@ import type { SelectTriggerProps } from "./types";
 import { splitSelectVariant } from "./utils";
 
 /**
- * `search-input`'s chips frame. Plane-owned rather than propel's `ComboboxChips`, which hard-codes
+ * `search-input`'s chips frame. gtinx-plane-owned rather than propel's `ComboboxChips`, which hard-codes
  * `min-w-72` (288px) with no width axis — see the Ruling 28 note in `trigger-chrome.tsx`.
  */
 const CHIPS_FRAME_CLASSNAME =

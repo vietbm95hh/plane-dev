@@ -1,13 +1,13 @@
-# Plane Community All-In-One (AIO) Docker Image
+# gtinx-plane Community All-In-One (AIO) Docker Image
 
-The Plane Community All-In-One Docker image packages all Plane services into a single container for easy deployment and testing. This image includes web interface, API server, background workers, live server, and more.
+The gtinx-plane Community All-In-One Docker image packages all gtinx-plane services into a single container for easy deployment and testing. This image includes web interface, API server, background workers, live server, and more.
 
 ## What's Included
 
 The AIO image contains the following services:
 
 - **Proxy** (Port 80, 443): Caddy reverse proxy, the only exposed entry point
-- **Web App**: Main Plane web interface, static files served by the proxy at `/`
+- **Web App**: Main gtinx-plane web interface, static files served by the proxy at `/`
 - **Admin**: Instance admin (God mode), static files served by the proxy at `/god-mode`
 - **Space** (internal port 3002): Public project spaces at `/spaces`
 - **API Server** (internal port 3004): Backend API at `/api` and `/auth`
@@ -147,7 +147,7 @@ IMAGE_NAME=myplane-aio ./build.sh --release=v1.5.0
 
 Available build options:
 
-- `--release`: Plane version to build (required)
+- `--release`: gtinx-plane version to build (required)
 - `--image-name`: Custom image name (default: `makeplane/plane-aio-community`, or the `IMAGE_NAME` env var)
 
 ## Troubleshooting
@@ -192,4 +192,4 @@ At startup the container writes the variables above into `/app/plane.env` and th
 
 ## Support
 
-For issues and support, see the [AIO self-hosting docs](https://developers.plane.so/self-hosting/methods/docker-aio), ask on the [Forum](https://forum.plane.so), or open a [GitHub issue](https://github.com/makeplane/plane/issues).
+For issues and support, see the [AIO self-hosting docs](https://developers.plane.so/self-hosting/methods/docker-aio), ask on the [Forum](https://forum.plane.so), or open a [GitHub issue](https://github.com/gtinx-plane/gtinx-plane/issues).

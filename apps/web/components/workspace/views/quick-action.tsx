@@ -16,7 +16,7 @@ import { MoreHorizontalOutline } from "@makeplane/propel/icons";
 import { getRenderableItems, resolveItemVariant } from "@gtinx-plane/blocks/context-menu";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { IWorkspaceView } from "@gtinx-plane/types";
-import { copyUrlToClipboard } from "@gtinx-gtinx_plane/utils";
+import { copyUrlToClipboard } from "@gtinx-plane/utils";
 // helpers
 import { useViewMenuItems } from "@/components/common/quick-actions-helper";
 // hooks
