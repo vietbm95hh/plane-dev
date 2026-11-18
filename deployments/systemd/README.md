@@ -71,7 +71,6 @@ sudo chown -R gtinx:gtinx /opt/gtinx-plane
 sudo -u gtinx bash -lc '
   cd /opt/gtinx-plane/apps/api
   uv sync --locked --no-default-groups --group production
-  cp .env.example .env   # sau đó sửa theo /etc/gtinx-plane/api.env
 '
 ```
 
