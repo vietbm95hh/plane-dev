@@ -1,0 +1,25 @@
+[Unit]
+Description=gtinx-plane - database migrations (oneshot)
+Documentation=file:///opt/gtinx-plane/deployments/systemd/README.md
+After=network-online.target
+Wants=network-online.target
+Before=gtinx-plane-api.service gtinx-plane-worker.service gtinx-plane-beat.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+User=gtinx
+Group=gtinx
+WorkingDirectory=/opt/gtinx-plane/apps/api
+EnvironmentFile=/etc/gtinx-plane/api.env
+Environment=PATH=/opt/gtinx-plane/apps/api/.venv/bin:/usr/local/bin:/usr/bin:/bin
+Environment=PYTHONUNBUFFERED=1
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/bin/bash /opt/gtinx-plane/apps/api/bin/docker-entrypoint-migrator.sh
+TimeoutStartSec=900
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=gtinx-plane-migrate
+
+[Install]
+WantedBy=multi-user.target

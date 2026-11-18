@@ -1,0 +1,4 @@
+*.sh text eol=lf
+
+# systemd units, Caddy configs and env files must keep LF when cloned on Linux
+deployments/systemd/** text eol=lf

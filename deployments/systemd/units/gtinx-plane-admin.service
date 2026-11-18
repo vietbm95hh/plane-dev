@@ -1,0 +1,29 @@
+[Unit]
+Description=gtinx-plane - Admin (god-mode) static frontend
+Documentation=file:///opt/gtinx-plane/deployments/systemd/README.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=gtinx
+Group=gtinx
+Environment=XDG_CONFIG_HOME=/var/lib/gtinx-plane/caddy
+ExecStart=/usr/bin/caddy run --config /etc/gtinx-plane/caddy/admin.Caddyfile --adapter caddyfile
+Restart=always
+RestartSec=5
+KillSignal=SIGTERM
+TimeoutStopSec=15
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=gtinx-plane-admin
+
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=/var/lib/gtinx-plane/caddy
+AmbientCapabilities=CAP_NET_BIND_SERVICE
+
+[Install]
+WantedBy=multi-user.target

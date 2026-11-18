@@ -1,0 +1,32 @@
+[Unit]
+Description=gtinx-plane - Reverse proxy (Caddy, TLS termination)
+Documentation=file:///opt/gtinx-plane/deployments/systemd/README.md
+After=network-online.target gtinx-plane-api.service gtinx-plane-web.service gtinx-plane-admin.service gtinx-plane-space.service gtinx-plane-live.service
+Wants=network-online.target
+Requires=gtinx-plane-api.service
+
+[Service]
+Type=simple
+User=gtinx
+Group=gtinx
+Environment=XDG_CONFIG_HOME=/var/lib/gtinx-plane/caddy
+EnvironmentFile=/etc/gtinx-plane/proxy.env
+ExecStart=/usr/bin/caddy run --config /etc/gtinx-plane/caddy/proxy.Caddyfile --adapter caddyfile
+ExecReload=/usr/bin/caddy reload --config /etc/gtinx-plane/caddy/proxy.Caddyfile --adapter caddyfile
+Restart=always
+RestartSec=5
+KillSignal=SIGTERM
+TimeoutStopSec=30
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=gtinx-plane-proxy
+
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=/var/lib/gtinx-plane/caddy
+AmbientCapabilities=CAP_NET_BIND_SERVICE
+
+[Install]
+WantedBy=multi-user.target

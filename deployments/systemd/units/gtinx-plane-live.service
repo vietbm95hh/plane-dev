@@ -1,0 +1,31 @@
+[Unit]
+Description=gtinx-plane - Live collaboration server (Hocuspocus)
+Documentation=file:///opt/gtinx-plane/deployments/systemd/README.md
+After=network-online.target gtinx-plane-api.service
+Wants=network-online.target gtinx-plane-api.service
+
+[Service]
+Type=simple
+User=gtinx
+Group=gtinx
+WorkingDirectory=/opt/gtinx-plane/apps/live
+Environment=NODE_ENV=production
+Environment=PORT=3100
+Environment=HOST=127.0.0.1
+EnvironmentFile=/etc/gtinx-plane/live.env
+ExecStart=/usr/bin/node /opt/gtinx-plane/apps/live/dist/start.mjs
+Restart=always
+RestartSec=5
+KillSignal=SIGTERM
+TimeoutStopSec=30
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=gtinx-plane-live
+
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=full
+ProtectHome=yes
+
+[Install]
+WantedBy=multi-user.target

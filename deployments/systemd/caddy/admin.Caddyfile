@@ -1,0 +1,26 @@
+# gtinx-plane admin (god-mode, static SPA) - served by a dedicated Caddy instance.
+# Mirrors apps/admin/caddy/Caddyfile, minus the rate_limit plugin so stock Caddy works.
+{
+	servers {
+		trusted_proxies static private_ranges
+	}
+}
+
+:3201 {
+	root * /opt/gtinx-plane/apps/admin/build/client
+
+	header {
+		X-Frame-Options "DENY"
+		X-Content-Type-Options "nosniff"
+		X-XSS-Protection "1; mode=block"
+	}
+
+	# SPA fallback: the admin build is served from /god-mode
+	try_files {path} /god-mode/index.html
+	file_server
+
+	log {
+		output stdout
+		format console
+	}
+}
