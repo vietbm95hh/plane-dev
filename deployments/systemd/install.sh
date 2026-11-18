@@ -4,11 +4,13 @@
 #
 # Env overrides:
 #   GTINX_DIR=/opt/gtinx-plane   GTINX_USER=gtinx
+#   GTINX_PROTECT_HOME=yes   (set to "no" when the code lives under /home or /root)
 #   SKIP_UNITS=1           only install env/caddy files
 set -euo pipefail
 
 GTINX_DIR=${GTINX_DIR:-/opt/gtinx-plane}
 GTINX_USER=${GTINX_USER:-gtinx}
+GTINX_PROTECT_HOME=${GTINX_PROTECT_HOME:-yes}
 
 SRC_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
@@ -19,6 +21,19 @@ fi
 
 echo "==> gtinx-plane dir:  $GTINX_DIR"
 echo "==> gtinx-plane user: $GTINX_USER"
+echo "==> ProtectHome:      $GTINX_PROTECT_HOME"
+
+case "$GTINX_PROTECT_HOME" in
+	yes | no) ;;
+	*)
+		echo "GTINX_PROTECT_HOME must be 'yes' or 'no'." >&2
+		exit 1
+		;;
+esac
+
+if [[ "$GTINX_PROTECT_HOME" == "no" && "$GTINX_DIR" != /root/* && "$GTINX_DIR" != /home/* ]]; then
+	echo "==> Warning: ProtectHome=no requested but $GTINX_DIR is not under /root or /home"
+fi
 
 # 1. Service user
 if ! id -u "$GTINX_USER" >/dev/null 2>&1; then
@@ -58,7 +73,11 @@ if [[ ${SKIP_UNITS:-0} != "1" ]]; then
 	for unit in "$SRC_DIR"/units/*.service; do
 		name="$(basename "$unit")"
 		echo "==> Installing /etc/systemd/system/$name"
-		sed "s|/opt/gtinx-plane|$GTINX_DIR|g" "$unit" > "/etc/systemd/system/$name"
+		sed -e "s|/opt/gtinx-plane|$GTINX_DIR|g" \
+			-e "s|^User=gtinx$|User=$GTINX_USER|" \
+			-e "s|^Group=gtinx$|Group=$GTINX_USER|" \
+			-e "s|^ProtectHome=yes$|ProtectHome=$GTINX_PROTECT_HOME|" \
+			"$unit" >"/etc/systemd/system/$name"
 		chmod 0644 "/etc/systemd/system/$name"
 	done
 	systemctl daemon-reload

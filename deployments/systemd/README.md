@@ -141,6 +141,44 @@ curl -fsS http://127.0.0.1:3201/god-mode/ >/dev/null
 
 Mở `http://<IP hoặc domain>` để dùng, `/god-mode/` cho admin.
 
+## Cài ở đường dẫn khác `/opt`
+
+Mặc định mọi unit trỏ tới `/opt/gtinx-plane`. Có thể đổi bằng biến môi trường khi chạy installer.
+
+### Trường hợp A — giữ user riêng `gtinx` (khuyến nghị)
+
+```bash
+sudo GTINX_DIR=/root/cts/service/plane-dev GTINX_PROTECT_HOME=no \
+  bash /root/cts/service/plane-dev/deployments/systemd/install.sh
+
+# cho user gtinx đi xuyên qua /root (chỉ cần +x, không cần đọc nội dung)
+sudo chmod o+x /root
+sudo chown -R gtinx:gtinx /root/cts/service/plane-dev
+```
+
+`ProtectHome=no` là bắt buộc: mặc định `ProtectHome=yes` khiến systemd **che toàn bộ `/root`**,
+service sẽ không thấy code dù chạy bằng user nào.
+
+### Trường hợp B — chạy service bằng `root` (nhanh, chỉ nên dùng cho dev)
+
+```bash
+sudo GTINX_DIR=/root/cts/service/plane-dev GTINX_USER=root GTINX_PROTECT_HOME=no \
+  bash /root/cts/service/plane-dev/deployments/systemd/install.sh
+```
+
+Không cần `chmod /root`, không cần `chown`. Đổi lại, mọi service chạy với quyền cao nhất —
+không dùng cho production.
+
+Sau khi cài lại unit, luôn chạy:
+
+```bash
+sudo systemctl daemon-reload
+systemctl show -p WorkingDirectory -p User -p ProtectHome gtinx-plane-api
+```
+
+**Vì sao `/opt` vẫn tốt hơn:** `/root` là home của root, mọi công cụ (backup, log rotate, rsync)
+đều mặc định bỏ qua nó; và `ProtectHome=yes` — lớp hardening của unit — phải tắt.
+
 ## Vận hành
 
 ```bash
