@@ -1050,7 +1050,7 @@ wheels = [
 ]
 
 [[package]]
-name = "plane"
+name = "gtinx-plane"
 version = "1.5.0"
 source = { virtual = "." }
 dependencies = [
