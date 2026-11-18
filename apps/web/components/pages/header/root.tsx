@@ -11,7 +11,7 @@ import { FilterOutline } from "@makeplane/propel/icons";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { TPageFilterProps, TPageNavigationTabs } from "@gtinx-plane/types";
 import { Header, EHeaderVariant } from "@gtinx-plane/blocks/layout";
-import { calculateTotalFilters } from "@gtinx-plane/utils";
+import { calculateTotalFilters } from "@gtinx-gtinx_plane/utils";
 // components
 import { FiltersDropdown } from "@/components/issues/issue-layouts/filters";
 // hooks

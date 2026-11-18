@@ -12,7 +12,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { EEstimateSystem } from "@gtinx-plane/types";
 import type { TIssue } from "@gtinx-plane/types";
 import { Spinner } from "@gtinx-plane/blocks/spinner";
-import { convertMinutesToHoursMinutesString } from "@gtinx-plane/utils";
+import { convertMinutesToHoursMinutesString } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useEstimate, useProjectEstimates } from "@/hooks/store/estimates";
 // local imports

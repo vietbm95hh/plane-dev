@@ -53,7 +53,7 @@ import {
   getTargetDateFilterConfig,
   getUpdatedAtFilterConfig,
   isLoaderReady,
-} from "@gtinx-plane/utils";
+} from "@gtinx-gtinx_plane/utils";
 // store hooks
 import { useCycle } from "@/hooks/store/use-cycle";
 import { useLabel } from "@/hooks/store/use-label";

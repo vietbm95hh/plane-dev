@@ -7,7 +7,7 @@
 import type { Node as ProseMirrorNode } from "@tiptap/pm/model";
 import type { EditorState, Selection } from "@tiptap/pm/state";
 // plane imports
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // constants
 import { CORE_EXTENSIONS } from "@/constants/extension";
 

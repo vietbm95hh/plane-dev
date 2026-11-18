@@ -7,7 +7,7 @@
 import React from "react";
 import { observer } from "mobx-react";
 // helpers
-import { formatDateRange, getDate } from "@gtinx-plane/utils";
+import { formatDateRange, getDate } from "@gtinx-gtinx_plane/utils";
 
 type Props = {
   startDate: Date | string | null | undefined;

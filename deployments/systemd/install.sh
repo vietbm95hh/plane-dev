@@ -66,7 +66,7 @@ fi
 
 echo
 echo "Next steps:"
-echo "  1. Edit secrets in /etc/plane/api.env and /etc/plane/live.env"
+echo "  1. Edit secrets in /etc/gtinx_plane/api.env and /etc/plane/live.env"
 echo "     (SECRET_KEY, LIVE_SERVER_SECRET_KEY, DATABASE_URL, REDIS_URL, RABBITMQ_*, AWS_*)"
 echo "  2. Set SITE_ADDRESS in /etc/plane/proxy.env"
 echo "  3. Make sure the code is in $PLANE_DIR and built (see README.md)"

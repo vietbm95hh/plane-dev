@@ -9,7 +9,7 @@ import { observer } from "mobx-react";
 // plane imports
 import type { TDocumentInfo } from "@gtinx-plane/editor";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { getReadTimeFromWordsCount } from "@gtinx-plane/utils";
+import { getReadTimeFromWordsCount } from "@gtinx-gtinx_plane/utils";
 // store
 import type { TPageInstance } from "@/store/pages/base-page";
 

@@ -11,7 +11,7 @@ import { CloseOutline } from "@makeplane/propel/icons";
 // plane imports
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { TPageFilterProps } from "@gtinx-plane/types";
-import { replaceUnderscoreIfSnakeCase } from "@gtinx-plane/utils";
+import { replaceUnderscoreIfSnakeCase } from "@gtinx-gtinx_plane/utils";
 // components
 import { AppliedDateFilters } from "@/components/common/applied-filters/date";
 import { AppliedMembersFilters } from "@/components/common/applied-filters/members";

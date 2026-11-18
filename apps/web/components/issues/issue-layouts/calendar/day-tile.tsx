@@ -14,7 +14,7 @@ import type { TGroupedIssues, TIssue, TIssueMap, TPaginationData, ICalendarDate 
 // types
 // ui
 // components
-import { cn, renderFormattedPayloadDate } from "@gtinx-plane/utils";
+import { cn, renderFormattedPayloadDate } from "@gtinx-gtinx_plane/utils";
 import { highlightIssueOnDrop } from "@/components/issues/issue-layouts/utils";
 // helpers
 import { MONTHS_LIST } from "@gtinx-plane/constants";

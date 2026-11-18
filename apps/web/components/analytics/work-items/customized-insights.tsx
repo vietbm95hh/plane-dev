@@ -11,7 +11,7 @@ import { useForm } from "react-hook-form";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { IAnalyticsParams } from "@gtinx-plane/types";
 import { ChartXAxisProperty, ChartYAxisMetric } from "@gtinx-plane/types";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // plane web components
 import AnalyticsSectionWrapper from "../analytics-section-wrapper";
 import { AnalyticsSelectParams } from "../select/analytics-params";

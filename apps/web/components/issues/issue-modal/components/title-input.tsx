@@ -18,7 +18,7 @@ import type { TIssue } from "@gtinx-plane/types";
 // ui
 
 // helpers
-import { getTabIndex } from "@gtinx-plane/utils";
+import { getTabIndex } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { usePlatformOS } from "@/hooks/use-platform-os";
 

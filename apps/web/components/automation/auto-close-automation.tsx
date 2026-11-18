@@ -13,7 +13,7 @@ import { PROJECT_AUTOMATION_MONTHS, EUserPermissions, EUserPermissionsLevel, EIc
 import { useTranslation } from "@gtinx-plane/i18n";
 import { StateGroupIcon } from "@gtinx-plane/blocks/icons";
 import type { IProject, IState } from "@gtinx-plane/types";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 import { Switch } from "@makeplane/propel/components/switch";
 import { Select } from "@gtinx-plane/blocks/select";
 import { Loader } from "@gtinx-plane/blocks/skeleton";

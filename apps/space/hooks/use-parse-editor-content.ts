@@ -6,7 +6,7 @@
 
 import { useCallback } from "react";
 // helpers
-import type { TCustomComponentsMetaData } from "@gtinx-plane/utils";
+import type { TCustomComponentsMetaData } from "@gtinx-gtinx_plane/utils";
 // helpers
 import { getEditorAssetSrc } from "@/helpers/editor.helper";
 // hooks

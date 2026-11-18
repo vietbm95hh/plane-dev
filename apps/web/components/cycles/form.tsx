@@ -24,7 +24,7 @@ import { DateRangeSelect } from "@gtinx-plane/blocks/property-select";
 import { Button } from "@makeplane/propel/components/button";
 import { CalendarOutline } from "@makeplane/propel/icons";
 import type { ICycle } from "@gtinx-plane/types";
-import { getDate, renderFormattedPayloadDate, getTabIndex } from "@gtinx-plane/utils";
+import { getDate, renderFormattedPayloadDate, getTabIndex } from "@gtinx-gtinx_plane/utils";
 // components
 import { ProjectSelect } from "@/components/dropdowns/project/project-select";
 // hooks

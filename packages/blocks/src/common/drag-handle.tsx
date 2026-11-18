@@ -7,7 +7,7 @@
 import React, { forwardRef } from "react";
 import { useTranslation } from "@gtinx-plane/i18n";
 // helpers
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 interface IDragHandle {
   /** Accessible name for the icon-only handle; defaults to the translated "Drag to rearrange". */

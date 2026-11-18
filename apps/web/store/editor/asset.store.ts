@@ -10,7 +10,7 @@ import { computedFn } from "mobx-utils";
 import { v4 as uuidv4 } from "uuid";
 // plane types
 import type { EFileAssetType, TFileEntityInfo, TFileSignedURLResponse } from "@gtinx-plane/types";
-import { isValidAssetId } from "@gtinx-plane/utils";
+import { isValidAssetId } from "@gtinx-gtinx_plane/utils";
 // services
 import { FileService } from "@/services/file.service";
 import type { TAttachmentUploadStatus } from "../issue/issue-details/attachment.store";

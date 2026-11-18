@@ -14,7 +14,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { TEstimatePointsObject, TEstimateSystemKeys, TEstimateTypeErrorObject } from "@gtinx-plane/types";
-import { cn, isEstimatePointValuesRepeated } from "@gtinx-plane/utils";
+import { cn, isEstimatePointValuesRepeated } from "@gtinx-gtinx_plane/utils";
 import { EstimateInputRoot } from "@/components/estimates/inputs/root";
 // helpers
 // hooks

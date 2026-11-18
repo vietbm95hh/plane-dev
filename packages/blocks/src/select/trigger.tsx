@@ -12,7 +12,7 @@ import { Combobox as BaseCombobox } from "@base-ui/react/combobox";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { CloseOutline } from "@makeplane/propel/icons";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 import { useSelectContext } from "./context";
 import { useSelectEngine } from "./engine-context";
 import { SelectTriggerChrome } from "./trigger-chrome";

@@ -5,7 +5,7 @@
  */
 
 import type { ChartDataType, IGanttBlock } from "@gtinx-plane/types";
-import { addDaysToDate, findTotalDaysInRange, getDate } from "@gtinx-plane/utils";
+import { addDaysToDate, findTotalDaysInRange, getDate } from "@gtinx-gtinx_plane/utils";
 import { DEFAULT_BLOCK_WIDTH } from "../constants";
 
 /**

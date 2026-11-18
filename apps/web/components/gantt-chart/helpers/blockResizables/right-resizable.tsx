@@ -7,7 +7,7 @@
 import { useState } from "react";
 import { observer } from "mobx-react";
 // plane utils
-import { cn, renderFormattedDate } from "@gtinx-plane/utils";
+import { cn, renderFormattedDate } from "@gtinx-gtinx_plane/utils";
 //helpers
 //
 //hooks

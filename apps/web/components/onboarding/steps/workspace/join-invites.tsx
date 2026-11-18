@@ -10,7 +10,7 @@ import { ROLE } from "@gtinx-plane/constants";
 import { Button } from "@makeplane/propel/components/button";
 import type { IWorkspaceMemberInvitation } from "@gtinx-plane/types";
 import { Checkbox } from "@makeplane/propel/components/checkbox";
-import { cn, truncateText } from "@gtinx-plane/utils";
+import { cn, truncateText } from "@gtinx-gtinx_plane/utils";
 // constants
 import { WorkspaceLogo } from "@/components/workspace/logo";
 // hooks

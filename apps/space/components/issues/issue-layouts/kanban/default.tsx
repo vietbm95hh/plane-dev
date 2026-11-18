@@ -18,7 +18,7 @@ import type {
   TPaginationData,
   TLoader,
 } from "@gtinx-plane/types";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useCycle } from "@/hooks/store/use-cycle";
 import { useLabel } from "@/hooks/store/use-label";

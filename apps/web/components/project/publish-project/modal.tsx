@@ -32,7 +32,7 @@ import {
 } from "@makeplane/propel/components/dialog";
 import { Loader } from "@gtinx-plane/blocks/skeleton";
 // helpers
-import { copyTextToClipboard } from "@gtinx-plane/utils";
+import { copyTextToClipboard } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useProjectPublish } from "@/hooks/store/use-project-publish";
 

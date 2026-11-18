@@ -9,7 +9,7 @@ import { useMemo } from "react";
 import { IS_FAVORITE_MENU_OPEN } from "@gtinx-plane/constants";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { EPageAccess } from "@gtinx-plane/types";
-import { copyUrlToClipboard } from "@gtinx-plane/utils";
+import { copyUrlToClipboard } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useCollaborativePageActions } from "@/hooks/use-collaborative-page-actions";
 // store types

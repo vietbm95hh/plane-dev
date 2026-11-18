@@ -17,7 +17,7 @@ import { InputField } from "@makeplane/propel/components/input-field";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { IUser } from "@gtinx-plane/types";
 import { EOnboardingSteps } from "@gtinx-plane/types";
-import { getFileURL, getPasswordStrength, validatePersonName } from "@gtinx-plane/utils";
+import { getFileURL, getPasswordStrength, validatePersonName } from "@gtinx-gtinx_plane/utils";
 // components
 import { UserImageUploadModal } from "@/components/core/modals/user-image-upload-modal";
 // hooks

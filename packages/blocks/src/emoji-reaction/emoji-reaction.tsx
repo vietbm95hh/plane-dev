@@ -11,7 +11,7 @@ import { stringToEmoji } from "../emoji-icon-picker/helper";
 import { ReactionOutline } from "@makeplane/propel/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 
 export type EmojiReactionType = {

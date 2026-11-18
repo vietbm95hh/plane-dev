@@ -11,7 +11,7 @@ import { useParams } from "next/navigation";
 import { PROJECT_AUTOMATION_MONTHS, EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { IProject } from "@gtinx-plane/types";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 import { Switch } from "@makeplane/propel/components/switch";
 import { Select } from "@gtinx-plane/blocks/select";
 import { Loader } from "@gtinx-plane/blocks/skeleton";

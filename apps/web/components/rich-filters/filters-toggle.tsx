@@ -10,7 +10,7 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { FilterOutline, SelectedFilterOutline } from "@makeplane/propel/icons";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 import type { IFilterInstance } from "@gtinx-plane/shared-state";
 import type { TExternalFilter, TFilterProperty } from "@gtinx-plane/types";
 // components

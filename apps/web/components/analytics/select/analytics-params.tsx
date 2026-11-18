@@ -13,7 +13,7 @@ import { CalendarOutline, PreferencesOutline } from "@makeplane/propel/icons";
 import { ANALYTICS_X_AXIS_VALUES, ANALYTICS_Y_AXIS_VALUES } from "@gtinx-plane/constants";
 import type { IAnalyticsParams } from "@gtinx-plane/types";
 import { ChartYAxisMetric } from "@gtinx-plane/types";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // plane web components
 import { SelectXAxis } from "./select-x-axis";
 import { SelectYAxis } from "./select-y-axis";

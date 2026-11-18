@@ -16,7 +16,7 @@ import { Select } from "@gtinx-plane/blocks/select";
 import { MODULE_STATUS } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { IModule } from "@gtinx-plane/types";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 type ModuleStatusOption = (typeof MODULE_STATUS)[number];
 

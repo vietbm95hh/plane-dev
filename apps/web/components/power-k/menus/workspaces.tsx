@@ -8,7 +8,7 @@ import React from "react";
 // plane imports
 import { WorkspaceAvatar } from "@makeplane/propel/components/workspace-avatar";
 import type { IWorkspace } from "@gtinx-plane/types";
-import { getFileURL } from "@gtinx-plane/utils";
+import { getFileURL } from "@gtinx-gtinx_plane/utils";
 // local imports
 import { PowerKMenuBuilder } from "./builder";
 

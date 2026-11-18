@@ -9,7 +9,7 @@ import type { Editor } from "@tiptap/core";
 import { DOMSerializer } from "@tiptap/pm/model";
 import * as Y from "yjs";
 // plane imports
-import { convertHTMLToMarkdown } from "@gtinx-plane/utils";
+import { convertHTMLToMarkdown } from "@gtinx-gtinx_plane/utils";
 // components
 import { getEditorMenuItems } from "@/components/menus";
 // constants

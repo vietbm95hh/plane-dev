@@ -12,7 +12,7 @@ import useSWR from "swr";
 import { useTranslation } from "@gtinx-plane/i18n";
 import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
 import type { TCycleFilters } from "@gtinx-plane/types";
-import { calculateTotalFilters } from "@gtinx-plane/utils";
+import { calculateTotalFilters } from "@gtinx-gtinx_plane/utils";
 // components
 import { CycleModuleListLayoutLoader } from "@/components/ui/loader/cycle-module-list-loader";
 // hooks

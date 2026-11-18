@@ -7,7 +7,7 @@
 import React from "react";
 import type { NameType, Payload, ValueType } from "recharts/types/component/DefaultTooltipContent";
 import { TooltipPopup } from "@makeplane/propel/elements/tooltip";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 type Props = {
   active: boolean | undefined;

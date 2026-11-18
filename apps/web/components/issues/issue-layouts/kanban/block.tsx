@@ -21,7 +21,7 @@ import { EIssueServiceType } from "@gtinx-plane/types";
 // ui
 import { ControlLink } from "@gtinx-plane/blocks/layout";
 import { DropIndicator } from "@gtinx-plane/blocks/common";
-import { cn, generateWorkItemLink } from "@gtinx-plane/utils";
+import { cn, generateWorkItemLink } from "@gtinx-gtinx_plane/utils";
 // components
 import RenderIfVisible from "@/components/core/render-if-visible-HOC";
 import { HIGHLIGHT_CLASS, getIssueBlockId } from "@/components/issues/issue-layouts/utils";

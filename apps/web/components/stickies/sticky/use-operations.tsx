@@ -10,7 +10,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { InstructionType, TSticky } from "@gtinx-plane/types";
 // plane utils
-import { isCommentEmpty } from "@gtinx-plane/utils";
+import { isCommentEmpty } from "@gtinx-gtinx_plane/utils";
 // components
 import { STICKY_COLORS_LIST } from "@/components/editor/sticky-editor/color-palette";
 // hooks

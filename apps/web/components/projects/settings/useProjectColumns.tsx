@@ -8,7 +8,7 @@ import { useState } from "react";
 // plane imports
 import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
 import type { IWorkspaceMember, TProjectMembership } from "@gtinx-plane/types";
-import { renderFormattedDate } from "@gtinx-plane/utils";
+import { renderFormattedDate } from "@gtinx-gtinx_plane/utils";
 // components
 import { MemberHeaderColumn } from "@/components/project/member-header-column";
 import { AccountTypeColumn, NameColumn } from "@/components/project/settings/member-columns";

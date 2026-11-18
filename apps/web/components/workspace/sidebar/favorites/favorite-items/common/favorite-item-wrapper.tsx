@@ -7,7 +7,7 @@
 import React from "react";
 import { ListItem } from "@makeplane/propel/components/list";
 // helpers
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 type Props = {
   children: React.ReactNode;

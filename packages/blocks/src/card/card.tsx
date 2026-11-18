@@ -5,7 +5,7 @@
  */
 
 import * as React from "react";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 import { getCardStyle } from "./helper";
 import type { CardDirection, CardSpacing, CardVariant } from "./helper";
 

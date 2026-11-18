@@ -6,7 +6,7 @@
 
 import type { KeyboardEvent } from "react";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 export type SegmentedProgressSegment = {
   id: string | number;

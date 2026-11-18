@@ -12,7 +12,7 @@ import { useParams } from "next/navigation";
 import { useTranslation } from "@gtinx-plane/i18n";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { TIssue } from "@gtinx-plane/types";
-import { isEmptyHtmlString } from "@gtinx-plane/utils";
+import { isEmptyHtmlString } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useIssueModal } from "@/hooks/context/use-issue-modal";
 import { useWorkspaceDraftIssues } from "@/hooks/store/workspace-draft";

@@ -12,7 +12,7 @@ import type { CycleDateCheckData, ICycle, TCycleTabOptions } from "@gtinx-plane/
 // ui
 import { Dialog, DialogContent } from "@makeplane/propel/components/dialog";
 // hooks
-import { renderFormattedPayloadDate } from "@gtinx-plane/utils";
+import { renderFormattedPayloadDate } from "@gtinx-gtinx_plane/utils";
 import { useCycle } from "@/hooks/store/use-cycle";
 import { useProject } from "@/hooks/store/use-project";
 import useLocalStorage from "@/hooks/use-local-storage";

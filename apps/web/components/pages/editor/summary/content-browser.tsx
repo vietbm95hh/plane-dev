@@ -7,7 +7,7 @@
 import { useState, useEffect, useCallback } from "react";
 // plane imports
 import type { EditorRefApi, IMarking } from "@gtinx-plane/editor";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // components
 import type { THeadingComponentProps } from "./heading-components";
 import { OutlineHeading1, OutlineHeading2, OutlineHeading3 } from "./heading-components";

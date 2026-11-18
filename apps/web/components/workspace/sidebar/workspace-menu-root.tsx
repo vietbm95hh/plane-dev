@@ -18,7 +18,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { IWorkspace } from "@gtinx-plane/types";
 import { Loader } from "@gtinx-plane/blocks/skeleton";
-import { orderWorkspacesList, cn, getFileURL } from "@gtinx-plane/utils";
+import { orderWorkspacesList, cn, getFileURL } from "@gtinx-gtinx_plane/utils";
 // helpers
 import { AppSidebarItem } from "@/components/sidebar/sidebar-item";
 // hooks

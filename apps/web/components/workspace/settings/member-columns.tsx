@@ -21,7 +21,7 @@ import type { IUser, IWorkspaceMember } from "@gtinx-plane/types";
 // plane ui
 import { Select } from "@gtinx-plane/blocks/select";
 // helpers
-import { getFileURL } from "@gtinx-plane/utils";
+import { getFileURL } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useMember } from "@/hooks/store/use-member";
 import { useUser, useUserPermissions } from "@/hooks/store/user";

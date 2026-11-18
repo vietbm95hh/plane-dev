@@ -14,7 +14,7 @@ import { CloseOutline, MembersOutline, ProjectsOutline, TickOutline } from "@mak
 import { EUserPermissions, EUserPermissionsLevel } from "@gtinx-plane/constants";
 import { useLocalStorage } from "@gtinx-plane/hooks";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn, getFileURL } from "@gtinx-plane/utils";
+import { cn, getFileURL } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useCommandPalette } from "@/hooks/store/use-command-palette";
 import { useProject } from "@/hooks/store/use-project";

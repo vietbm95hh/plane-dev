@@ -10,7 +10,7 @@ import { computedFn } from "mobx-utils";
 // plane imports
 import type { TFetchStatus, TLoader, TProjectAnalyticsCount, TProjectAnalyticsCountParams } from "@gtinx-plane/types";
 // helpers
-import { orderProjects, shouldFilterProject } from "@gtinx-plane/utils";
+import { orderProjects, shouldFilterProject } from "@gtinx-gtinx_plane/utils";
 // services
 import type { TProject, TPartialProject } from "@gtinx-plane/types";
 import { IssueLabelService, IssueService } from "@/services/issue";

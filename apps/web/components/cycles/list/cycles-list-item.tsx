@@ -12,7 +12,7 @@ import { usePathname, useSearchParams } from "next/navigation";
 import { CycleGroupIcon } from "@gtinx-plane/blocks/icons";
 import type { TCycleGroups } from "@gtinx-plane/types";
 // components
-import { generateQueryParams } from "@gtinx-plane/utils";
+import { generateQueryParams } from "@gtinx-gtinx_plane/utils";
 import { ListItem } from "@/components/core/list";
 // hooks
 import { useCycle } from "@/hooks/store/use-cycle";

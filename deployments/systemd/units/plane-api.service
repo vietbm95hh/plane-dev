@@ -15,7 +15,7 @@ Environment=PYTHONUNBUFFERED=1
 Environment=PYTHONDONTWRITEBYTECODE=1
 Environment=PORT=8000
 Environment=GUNICORN_WORKERS=4
-EnvironmentFile=/etc/plane/api.env
+EnvironmentFile=/etc/gtinx_plane/api.env
 ExecStart=/bin/bash /opt/plane/apps/api/bin/docker-entrypoint-api.sh
 Restart=always
 RestartSec=5
@@ -30,7 +30,7 @@ NoNewPrivileges=yes
 PrivateTmp=yes
 ProtectSystem=full
 ProtectHome=yes
-ReadWritePaths=/opt/plane/apps/api/plane/logs /opt/plane/apps/api/static
+ReadWritePaths=/opt/plane/apps/api/gtinx_plane/logs /opt/plane/apps/api/static
 
 [Install]
 WantedBy=multi-user.target

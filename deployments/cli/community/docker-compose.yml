@@ -121,7 +121,7 @@ services:
       restart_policy:
         condition: any
     volumes:
-      - logs_api:/code/plane/logs
+      - logs_api:/code/gtinx_plane/logs
     environment:
       <<: [*app-env, *db-env, *redis-env, *minio-env, *aws-s3-env, *proxy-env]
     depends_on:
@@ -137,7 +137,7 @@ services:
       restart_policy:
         condition: any
     volumes:
-      - logs_worker:/code/plane/logs
+      - logs_worker:/code/gtinx_plane/logs
     environment:
       <<: [*app-env, *db-env, *redis-env, *minio-env, *aws-s3-env, *proxy-env]
     depends_on:
@@ -154,7 +154,7 @@ services:
       restart_policy:
         condition: any
     volumes:
-      - logs_beat-worker:/code/plane/logs
+      - logs_beat-worker:/code/gtinx_plane/logs
     environment:
       <<: [*app-env, *db-env, *redis-env, *minio-env, *aws-s3-env, *proxy-env]
     depends_on:
@@ -171,7 +171,7 @@ services:
       restart_policy:
         condition: on-failure
     volumes:
-      - logs_migrator:/code/plane/logs
+      - logs_migrator:/code/gtinx_plane/logs
     environment:
       <<: [*app-env, *db-env, *redis-env, *minio-env, *aws-s3-env, *proxy-env]
     depends_on:

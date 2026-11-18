@@ -11,7 +11,7 @@ import { SPREADSHEET_SELECT_GROUP } from "@gtinx-plane/constants";
 // ui
 import type { IIssueDisplayFilterOptions, IIssueDisplayProperties } from "@gtinx-plane/types";
 // components
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 import { MultipleSelectGroupAction } from "@/components/core/multiple-select";
 import { SpreadsheetColumnsToggle } from "@/components/issues/spreadsheet-columns-toggle";
 // hooks

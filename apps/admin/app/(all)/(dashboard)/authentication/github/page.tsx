@@ -10,7 +10,7 @@ import { useTheme } from "next-themes";
 import useSWR from "swr";
 // plane internal packages
 import { Switch } from "@makeplane/propel/components/switch";
-import { resolveGeneralTheme } from "@gtinx-plane/utils";
+import { resolveGeneralTheme } from "@gtinx-gtinx_plane/utils";
 // assets
 import githubLightModeImage from "@/app/assets/logos/github-black.png?url";
 import githubDarkModeImage from "@/app/assets/logos/github-white.png?url";

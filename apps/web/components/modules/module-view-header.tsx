@@ -16,7 +16,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { TModuleFilters } from "@gtinx-plane/types";
 // ui
-import { calculateTotalFilters } from "@gtinx-plane/utils";
+import { calculateTotalFilters } from "@gtinx-gtinx_plane/utils";
 // plane utils
 // components
 import { ModuleOrderByDropdown } from "@/components/modules/dropdowns";

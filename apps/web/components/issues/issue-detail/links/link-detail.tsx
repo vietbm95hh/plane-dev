@@ -7,7 +7,7 @@
 import { DeleteOutline, EditOutline, NewTabOutline } from "@makeplane/propel/icons";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { getIconForLink, copyTextToClipboard, calculateTimeAgo } from "@gtinx-plane/utils";
+import { getIconForLink, copyTextToClipboard, calculateTimeAgo } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import { useMember } from "@/hooks/store/use-member";

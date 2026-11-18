@@ -19,7 +19,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import type { ISearchIssueResponse, TIssue } from "@gtinx-plane/types";
 // ui
 import { DateSelect } from "@gtinx-plane/blocks/property-select";
-import { getDate, renderFormattedPayloadDate, getTabIndex } from "@gtinx-plane/utils";
+import { getDate, renderFormattedPayloadDate, getTabIndex } from "@gtinx-gtinx_plane/utils";
 // components
 import { CycleSelect } from "@/components/dropdowns/cycle/cycle-select";
 import { EstimateSelect } from "@/components/dropdowns/estimate/estimate-select";

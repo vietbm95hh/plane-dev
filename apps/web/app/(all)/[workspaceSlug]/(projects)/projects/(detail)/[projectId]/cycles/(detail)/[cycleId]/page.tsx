@@ -7,7 +7,7 @@
 import { observer } from "mobx-react";
 // plane imports
 import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // components
 import { PageHead } from "@/components/core/page-title";
 import useCyclesDetails from "@/components/cycles/active-cycle/use-cycles-details";

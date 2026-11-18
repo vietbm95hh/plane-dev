@@ -10,7 +10,7 @@ import { computedFn } from "mobx-utils";
 import type { TExpressionOptions } from "@gtinx-plane/constants";
 import type { EIssuesStoreType, TWorkItemFilterExpression, TWorkItemFilterProperty } from "@gtinx-plane/types";
 import { LOGICAL_OPERATOR } from "@gtinx-plane/types";
-import { getOperatorForPayload } from "@gtinx-plane/utils";
+import { getOperatorForPayload } from "@gtinx-gtinx_plane/utils";
 // local imports
 import type { TWorkItemFilterCondition } from "../../utils";
 import { buildWorkItemFilterExpressionFromConditions } from "../../utils";

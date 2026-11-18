@@ -22,7 +22,7 @@ import type {
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { TSearchEntityRequestPayload, TSearchResponse, TWebhookConnectionQueryParams } from "@gtinx-plane/types";
 import { ERowVariant, Row } from "@gtinx-plane/blocks/layout";
-import { cn, generateRandomColor, hslToHex } from "@gtinx-plane/utils";
+import { cn, generateRandomColor, hslToHex } from "@gtinx-gtinx_plane/utils";
 // components
 import { EditorMentionsRoot } from "@/components/editor/embeds/mentions";
 // hooks

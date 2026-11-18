@@ -12,7 +12,7 @@ import { Controller, useForm } from "react-hook-form";
 import type { EditorRefApi, TExtensions } from "@gtinx-plane/editor";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { EFileAssetType, TNameDescriptionLoader } from "@gtinx-plane/types";
-import { getDescriptionPlaceholderI18n } from "@gtinx-plane/utils";
+import { getDescriptionPlaceholderI18n } from "@gtinx-gtinx_plane/utils";
 // components
 import { RichTextEditor } from "@/components/editor/rich-text";
 // hooks

@@ -10,7 +10,7 @@ import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 import { PagesOutline } from "@makeplane/propel/icons";
 // plane import
 import type { TActivityEntityData, TPageEntityData } from "@gtinx-plane/types";
-import { calculateTimeAgo, getFileURL, getPageName } from "@gtinx-plane/utils";
+import { calculateTimeAgo, getFileURL, getPageName } from "@gtinx-gtinx_plane/utils";
 import { ListItem } from "@/components/core/list";
 // hooks
 import { useMember } from "@/hooks/store/use-member";

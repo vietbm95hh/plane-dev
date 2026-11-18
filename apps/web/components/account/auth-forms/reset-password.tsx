@@ -17,7 +17,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { PasswordStrengthIndicator } from "@gtinx-plane/blocks/auth";
 // components
-import { getPasswordStrength } from "@gtinx-plane/utils";
+import { getPasswordStrength } from "@gtinx-gtinx_plane/utils";
 // helpers
 import type { EAuthenticationErrorCodes, TAuthErrorInfo } from "@/helpers/authentication.helper";
 import { EErrorAlertType, authErrorHandler } from "@/helpers/authentication.helper";

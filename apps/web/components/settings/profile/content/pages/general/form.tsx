@@ -16,7 +16,7 @@ import { setPromiseToast, setToast } from "@gtinx-plane/blocks/toast";
 import { EFileAssetType } from "@gtinx-plane/types";
 import type { IUser, TUserProfile } from "@gtinx-plane/types";
 
-import { getFileURL } from "@gtinx-plane/utils";
+import { getFileURL } from "@gtinx-gtinx_plane/utils";
 // components
 import { DeactivateAccountModal } from "@/components/account/deactivate-account-modal";
 import { ImagePickerPopover } from "@/components/core/image-picker-popover";
@@ -30,7 +30,7 @@ import { handleCoverImageChange } from "@/helpers/cover-image.helper";
 import { useInstance } from "@/hooks/store/use-instance";
 import { useUser, useUserProfile } from "@/hooks/store/user";
 // utils
-import { validatePersonName, validateOptionalPersonName, validateDisplayName } from "@gtinx-plane/utils";
+import { validatePersonName, validateOptionalPersonName, validateDisplayName } from "@gtinx-gtinx_plane/utils";
 
 type TUserProfileForm = {
   avatar_url: string;

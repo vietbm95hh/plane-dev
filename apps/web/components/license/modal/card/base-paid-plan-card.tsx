@@ -13,7 +13,7 @@ import { Tab as TabElement } from "@makeplane/propel/elements/tabs";
 import { TickCircleOutline } from "@makeplane/propel/icons";
 // helpers
 import type { EProductSubscriptionEnum, TBillingFrequency, TSubscriptionPrice } from "@gtinx-plane/types";
-import { cn, getBaseSubscriptionName, getSubscriptionName } from "@gtinx-plane/utils";
+import { cn, getBaseSubscriptionName, getSubscriptionName } from "@gtinx-gtinx_plane/utils";
 
 export type TBasePaidPlanCardProps = {
   planVariant: EProductSubscriptionEnum;

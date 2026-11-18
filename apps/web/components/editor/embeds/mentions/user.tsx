@@ -11,7 +11,7 @@ import { Link } from "react-router";
 import { Avatar } from "@makeplane/propel/components/avatar";
 import { ROLE } from "@gtinx-plane/constants";
 import { Popover, PopoverContent, PopoverTrigger } from "@makeplane/propel/components/popover";
-import { cn, getFileURL } from "@gtinx-plane/utils";
+import { cn, getFileURL } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useMember } from "@/hooks/store/use-member";
 import { useUser } from "@/hooks/store/user";

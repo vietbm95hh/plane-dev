@@ -7,7 +7,7 @@
 import React, { useState, useCallback, useMemo } from "react";
 import { ChevronDownOutline, LockOutline } from "@makeplane/propel/icons";
 import { PasswordInput, PasswordStrengthIndicator } from "@gtinx-plane/blocks/auth";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 interface PasswordState {
   password: string;

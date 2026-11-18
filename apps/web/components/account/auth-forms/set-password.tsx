@@ -18,7 +18,7 @@ import { Button } from "@makeplane/propel/components/button";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { PasswordStrengthIndicator } from "@gtinx-plane/blocks/auth";
 // components
-import { getPasswordStrength } from "@gtinx-plane/utils";
+import { getPasswordStrength } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useUser } from "@/hooks/store/user";
 import { useAppRouter } from "@/hooks/use-app-router";

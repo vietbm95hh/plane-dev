@@ -11,7 +11,7 @@ import { ChevronDownOutline, FilterOutline } from "@makeplane/propel/icons";
 // plane imports
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { TProjectFilters } from "@gtinx-plane/types";
-import { calculateTotalFilters } from "@gtinx-plane/utils";
+import { calculateTotalFilters } from "@gtinx-gtinx_plane/utils";
 // components
 import { FiltersDropdown } from "@/components/issues/issue-layouts/filters";
 import { ProjectFiltersSelection } from "@/components/project/dropdowns/filters";

@@ -18,7 +18,7 @@ import type { ISearchIssueResponse, TProjectIssuesSearchParams } from "@gtinx-pl
 // ui
 import { Switch } from "@makeplane/propel/components/switch";
 import { Loader } from "@gtinx-plane/blocks/skeleton";
-import { generateWorkItemLink, getTabIndex } from "@gtinx-plane/utils";
+import { generateWorkItemLink, getTabIndex } from "@gtinx-gtinx_plane/utils";
 // helpers
 // hooks
 import useDebounce from "@/hooks/use-debounce";

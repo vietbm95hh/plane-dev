@@ -29,7 +29,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { ICycle, IIssueLabel, IModule, TIssue, TIssuePriorities } from "@gtinx-plane/types";
 import { EIssueServiceType, EUserPermissions } from "@gtinx-plane/types";
-import { copyTextToClipboard } from "@gtinx-plane/utils";
+import { copyTextToClipboard } from "@gtinx-gtinx_plane/utils";
 // components
 import type { TPowerKCommandConfig } from "@/components/power-k/core/types";
 // hooks

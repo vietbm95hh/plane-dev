@@ -14,7 +14,7 @@ import { ModuleStatusIcon } from "@gtinx-plane/blocks/icons";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { IModule, TModuleStatus } from "@gtinx-plane/types";
 import { EUserPermissions } from "@gtinx-plane/types";
-import { copyTextToClipboard } from "@gtinx-plane/utils";
+import { copyTextToClipboard } from "@gtinx-gtinx_plane/utils";
 // components
 import type { TPowerKCommandConfig } from "@/components/power-k/core/types";
 // hooks

@@ -7,7 +7,7 @@
 import { observer } from "mobx-react";
 import { CalendarOutline } from "@makeplane/propel/icons";
 // hooks
-import { renderFormattedDate } from "@gtinx-plane/utils";
+import { renderFormattedDate } from "@gtinx-gtinx_plane/utils";
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 // components
 import { IssueActivityBlockComponent, IssueLink } from "./";

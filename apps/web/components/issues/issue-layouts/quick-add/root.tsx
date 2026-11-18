@@ -15,7 +15,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { AddOutline } from "@makeplane/propel/icons";
 import { setPromiseToast } from "@gtinx-plane/blocks/toast";
 import type { IProject, TIssue, EIssueLayoutTypes } from "@gtinx-plane/types";
-import { cn, createIssuePayload } from "@gtinx-plane/utils";
+import { cn, createIssuePayload } from "@gtinx-gtinx_plane/utils";
 // local imports
 import { QuickAddIssueFormRoot } from "./form";
 import { useCreateIssueToastActions } from "../../create-issue-toast-action-items";

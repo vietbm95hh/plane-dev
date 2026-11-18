@@ -28,7 +28,7 @@
 	reverse_proxy /static/* 127.0.0.1:8000
 
 	# Self-hosted object storage (MinIO/Silo) on the same host.
-	# Enable only when USE_MINIO=1 in /etc/plane/api.env.
+	# Enable only when USE_MINIO=1 in /etc/gtinx_plane/api.env.
 	# reverse_proxy /{$BUCKET_NAME:uploads}/* 127.0.0.1:9000
 	# reverse_proxy /{$BUCKET_NAME:uploads}   127.0.0.1:9000
 

@@ -12,7 +12,7 @@ import { ComboboxChip } from "@makeplane/propel/elements/combobox";
 import type { ComboboxChipSize } from "@makeplane/propel/elements/combobox";
 import { CloseOutline } from "@makeplane/propel/icons";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 export type TRemovableChipVariant = "outline" | "soft";
 

@@ -13,7 +13,7 @@ import {
   hslToHex,
   renderFormattedDate,
   renderFormattedDateWithoutYear,
-} from "@gtinx-plane/utils";
+} from "@gtinx-gtinx_plane/utils";
 //
 
 const getDateGroupingName = (date: string, dateGrouping: ChartXAxisDateGrouping): string => {

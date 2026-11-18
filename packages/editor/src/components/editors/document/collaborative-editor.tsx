@@ -6,7 +6,7 @@
 
 import React, { useMemo } from "react";
 // plane imports
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // components
 import { PageRenderer } from "@/components/editors";
 // constants

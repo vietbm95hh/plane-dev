@@ -6,7 +6,7 @@
 
 // plane imports
 import { ScrollArea } from "@makeplane/propel/components/scroll-area";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // local imports
 import { WorkspaceSettingsSidebarHeader } from "./header";
 import { WorkspaceSettingsSidebarItemCategories } from "./item-categories";

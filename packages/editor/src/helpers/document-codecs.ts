@@ -16,7 +16,7 @@ import {
   DocumentEditorExtensionsWithoutProps,
 } from "@/extensions/core-without-props";
 import { TitleExtensions } from "@/extensions/title-extension";
-import { sanitizeHTML } from "@gtinx-plane/utils";
+import { sanitizeHTML } from "@gtinx-gtinx_plane/utils";
 
 export type HTMLCodec = {
   generateHTML: (doc: JSONContent, extensions: Extensions) => string;

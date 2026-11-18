@@ -5,7 +5,7 @@
  */
 
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
-import { measureTextWidth } from "@gtinx-plane/utils";
+import { measureTextWidth } from "@gtinx-gtinx_plane/utils";
 import { partitionWorkItemProperties } from "./partition";
 import type { WorkItemPropertyEntry, WorkItemPropertyVariant } from "./types";
 

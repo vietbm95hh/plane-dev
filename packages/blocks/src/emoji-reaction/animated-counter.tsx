@@ -5,7 +5,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 export type AnimatedCounterProps = {
   count: number;

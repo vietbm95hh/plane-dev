@@ -13,7 +13,7 @@ import { TickOutline } from "@makeplane/propel/icons";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { TUserProfile } from "@gtinx-plane/types";
 import { EOnboardingSteps } from "@gtinx-plane/types";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useUserProfile } from "@/hooks/store/user";
 // local imports

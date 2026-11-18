@@ -11,7 +11,7 @@ import { Dialog, DialogContent } from "@makeplane/propel/components/dialog";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { APITokenService } from "@gtinx-plane/services";
 import type { IApiToken } from "@gtinx-plane/types";
-import { renderFormattedDate, csvDownload } from "@gtinx-plane/utils";
+import { renderFormattedDate, csvDownload } from "@gtinx-gtinx_plane/utils";
 // constants
 import { API_TOKENS_LIST } from "@gtinx-plane/constants";
 // local imports

@@ -9,7 +9,7 @@ import { useRef } from "react";
 import { observer } from "mobx-react";
 // components
 import type { IBlockUpdateDependencyData } from "@gtinx-plane/types";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 import RenderIfVisible from "@/components/core/render-if-visible-HOC";
 // helpers
 // hooks

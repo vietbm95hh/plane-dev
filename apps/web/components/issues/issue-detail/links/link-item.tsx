@@ -17,7 +17,7 @@ import { EIssueServiceType } from "@gtinx-plane/types";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
-import { calculateTimeAgo, copyTextToClipboard } from "@gtinx-plane/utils";
+import { calculateTimeAgo, copyTextToClipboard } from "@gtinx-gtinx_plane/utils";
 // helpers
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";

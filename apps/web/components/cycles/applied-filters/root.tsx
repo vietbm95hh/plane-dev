@@ -13,7 +13,7 @@ import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Pill } from "@makeplane/propel/components/pill";
 import { CloseOutline } from "@makeplane/propel/icons";
 import type { TCycleFilters } from "@gtinx-plane/types";
-import { replaceUnderscoreIfSnakeCase } from "@gtinx-plane/utils";
+import { replaceUnderscoreIfSnakeCase } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useUserPermissions } from "@/hooks/store/user";
 // local imports

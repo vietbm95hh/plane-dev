@@ -10,7 +10,7 @@ import { endOfMonth, endOfWeek, endOfYear, startOfMonth, startOfWeek, startOfYea
 import { DURATION_FILTER_OPTIONS, EDurationFilters } from "@gtinx-plane/constants";
 import type { TIssuesListTypes } from "@gtinx-plane/types";
 // constants
-import { renderFormattedDate, renderFormattedPayloadDate } from "@gtinx-plane/utils";
+import { renderFormattedDate, renderFormattedPayloadDate } from "@gtinx-gtinx_plane/utils";
 
 // -------------------- DEPRECATED --------------------
 

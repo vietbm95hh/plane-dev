@@ -9,7 +9,7 @@ import { observer } from "mobx-react";
 // plane internal packages
 import { TooltipProvider } from "@makeplane/propel/components/tooltip";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useTheme } from "@/hooks/store";
 // components

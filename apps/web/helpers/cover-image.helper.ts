@@ -5,7 +5,7 @@
  */
 
 import type { EFileAssetType } from "@gtinx-plane/types";
-import { getFileURL } from "@gtinx-plane/utils";
+import { getFileURL } from "@gtinx-gtinx_plane/utils";
 
 import CoverImage1 from "@/app/assets/cover-images/image_1.jpg?url";
 import CoverImage10 from "@/app/assets/cover-images/image_10.jpg?url";

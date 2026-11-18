@@ -26,7 +26,7 @@ import { DateSelect } from "@gtinx-plane/blocks/property-select";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { IApiToken } from "@gtinx-plane/types";
-import { renderFormattedDate, renderFormattedTime } from "@gtinx-plane/utils";
+import { renderFormattedDate, renderFormattedTime } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useUserProfile } from "@/hooks/store/user";
 // helpers

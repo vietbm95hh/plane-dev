@@ -17,7 +17,7 @@ import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { IModule } from "@gtinx-plane/types";
 import { FavoriteStar } from "@gtinx-plane/blocks/common";
 import { DateRangeSelect } from "@gtinx-plane/blocks/property-select";
-import { renderFormattedPayloadDate, getDate } from "@gtinx-plane/utils";
+import { renderFormattedPayloadDate, getDate } from "@gtinx-gtinx_plane/utils";
 // components
 import { ModuleQuickActions } from "@/components/modules";
 import { ModuleStatusDropdown } from "@/components/modules/module-status-dropdown";

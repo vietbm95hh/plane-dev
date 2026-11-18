@@ -18,7 +18,7 @@ import {
   UserOutline,
 } from "@makeplane/propel/icons";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { calculateTimeAgo, cn, renderFormattedDate } from "@gtinx-plane/utils";
+import { calculateTimeAgo, cn, renderFormattedDate } from "@gtinx-gtinx_plane/utils";
 // components
 import { SidebarPropertyListItem } from "@/components/common/layout/sidebar/property-list-item";
 import { EstimateSelect } from "@/components/dropdowns/estimate/estimate-select";

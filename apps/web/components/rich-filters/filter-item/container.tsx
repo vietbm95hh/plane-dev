@@ -9,7 +9,7 @@ import { useEffect, useRef } from "react";
 import { PillGroup } from "@makeplane/propel/components/pill";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { SingleOrArray, TFilterValue } from "@gtinx-plane/types";
-import { hasValidValue, cn } from "@gtinx-plane/utils";
+import { hasValidValue, cn } from "@gtinx-gtinx_plane/utils";
 
 interface FilterItemContainerProps {
   children: React.ReactNode;

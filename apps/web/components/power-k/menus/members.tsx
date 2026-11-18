@@ -9,7 +9,7 @@ import { observer } from "mobx-react";
 // plane imports
 
 import { Avatar } from "@makeplane/propel/components/avatar";
-import { getFileURL } from "@gtinx-plane/utils";
+import { getFileURL } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useMember } from "@/hooks/store/use-member";
 // local imports

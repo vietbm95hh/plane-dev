@@ -16,7 +16,7 @@ import { useHashScroll } from "@gtinx-plane/hooks";
 import { GlobeOutline, LockOutline } from "@makeplane/propel/icons";
 import { EIssueCommentAccessSpecifier } from "@gtinx-plane/types";
 import type { TCommentsOperations, TIssueComment } from "@gtinx-plane/types";
-import { calculateTimeAgo, getFileURL, renderFormattedDate, renderFormattedTime } from "@gtinx-plane/utils";
+import { calculateTimeAgo, getFileURL, renderFormattedDate, renderFormattedTime } from "@gtinx-gtinx_plane/utils";
 // components
 import { LiteTextEditor } from "@/components/editor/lite-text";
 // local imports

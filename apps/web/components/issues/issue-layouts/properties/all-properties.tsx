@@ -43,7 +43,7 @@ import {
   renderFormattedPayloadDate,
   generateWorkItemLink,
   getIssueDueDateClassName,
-} from "@gtinx-plane/utils";
+} from "@gtinx-gtinx_plane/utils";
 // components
 import { CycleSelect } from "@/components/dropdowns/cycle/cycle-select";
 import { EstimateSelect, getEstimatePointDisplayValue } from "@/components/dropdowns/estimate/estimate-select";

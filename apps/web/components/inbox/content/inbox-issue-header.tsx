@@ -32,7 +32,7 @@ import { setToast } from "@gtinx-plane/blocks/toast";
 import type { TNameDescriptionLoader } from "@gtinx-plane/types";
 import { EInboxIssueStatus } from "@gtinx-plane/types";
 import { Row } from "@gtinx-plane/blocks/layout";
-import { copyUrlToClipboard, findHowManyDaysLeft, generateWorkItemLink } from "@gtinx-plane/utils";
+import { copyUrlToClipboard, findHowManyDaysLeft, generateWorkItemLink } from "@gtinx-gtinx_plane/utils";
 // components
 import { CreateUpdateIssueModal } from "@/components/issues/issue-modal/modal";
 import { NameDescriptionUpdateStatus } from "@/components/issues/issue-update-status";

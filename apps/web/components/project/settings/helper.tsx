@@ -8,7 +8,7 @@ import Link from "next/link";
 import { ChevronRightOutline } from "@makeplane/propel/icons";
 import { Badge } from "@makeplane/propel/components/badge";
 import { Switch } from "@makeplane/propel/components/switch";
-import { joinUrlPath } from "@gtinx-plane/utils";
+import { joinUrlPath } from "@gtinx-gtinx_plane/utils";
 
 type Props = {
   workspaceSlug: string;

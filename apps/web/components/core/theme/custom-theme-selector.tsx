@@ -12,7 +12,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { IUserTheme } from "@gtinx-plane/types";
-import { applyCustomTheme } from "@gtinx-plane/utils";
+import { applyCustomTheme } from "@gtinx-gtinx_plane/utils";
 // components
 import { ProfileSettingsHeading } from "@/components/settings/profile/heading";
 // hooks

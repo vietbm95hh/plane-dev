@@ -17,7 +17,7 @@ import { ActivityCommentCard, ActivityCommentHeader, ActivityTimelineTimestamp }
 import type { EditorRefApi } from "@gtinx-plane/editor";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { TIssuePublicComment } from "@gtinx-plane/types";
-import { calculateTimeAgo, getFileURL, renderFormattedDate, renderFormattedTime } from "@gtinx-plane/utils";
+import { calculateTimeAgo, getFileURL, renderFormattedDate, renderFormattedTime } from "@gtinx-gtinx_plane/utils";
 // components
 import { LiteTextEditor } from "@/components/editor/lite-text-editor";
 import { CommentReactions } from "@/components/issues/peek-overview/comment/comment-reactions";

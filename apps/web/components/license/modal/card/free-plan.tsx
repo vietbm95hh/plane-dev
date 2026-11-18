@@ -9,7 +9,7 @@ import { CloseCircleOutline } from "@makeplane/propel/icons";
 // plane constants
 import { FREE_PLAN_UPGRADE_FEATURES } from "@gtinx-plane/constants";
 // helpers
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 type FreePlanCardProps = {
   isOnFreePlan: boolean;

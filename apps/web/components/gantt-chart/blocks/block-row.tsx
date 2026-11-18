@@ -9,7 +9,7 @@ import { observer } from "mobx-react";
 import { ArrowNarrowRightOutline } from "@makeplane/propel/icons";
 // helpers
 import type { IBlockUpdateData, IGanttBlock } from "@gtinx-plane/types";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import type { TSelectionHelper } from "@/hooks/use-multiple-select";

@@ -30,7 +30,7 @@ import { DateRangeSelect } from "@gtinx-plane/blocks/property-select";
 import { Loader } from "@gtinx-plane/blocks/skeleton";
 // components
 // helpers
-import { getDate, renderFormattedPayloadDate } from "@gtinx-plane/utils";
+import { getDate, renderFormattedPayloadDate } from "@gtinx-gtinx_plane/utils";
 import { SidebarPropertyListItem } from "@/components/common/layout/sidebar/property-list-item";
 import { MemberSelect } from "@/components/dropdowns/member/member-select";
 import { CreateUpdateModuleLinkModal, ModuleAnalyticsProgress, ModuleLinksList } from "@/components/modules";

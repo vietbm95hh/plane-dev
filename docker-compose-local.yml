@@ -133,7 +133,7 @@ services:
       - dev_env
     volumes:
       - ./apps/api:/code
-    command: ./bin/docker-entrypoint-migrator.sh --settings=plane.settings.local
+    command: ./bin/docker-entrypoint-migrator.sh --settings=gtinx_plane.settings.local
     env_file:
       - ./apps/api/.env
     depends_on:

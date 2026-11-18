@@ -8,7 +8,7 @@ import type { ReactNode } from "react";
 import { HierarchyOutline } from "@makeplane/propel/icons";
 // plane imports
 import { ActivityTimelineItem, ActivityTimelineTimestamp } from "@gtinx-plane/blocks/activity";
-import { renderFormattedTime, renderFormattedDate, calculateTimeAgo } from "@gtinx-plane/utils";
+import { renderFormattedTime, renderFormattedDate, calculateTimeAgo } from "@gtinx-gtinx_plane/utils";
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import { usePlatformOS } from "@/hooks/use-platform-os";
 // local imports

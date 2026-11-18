@@ -5,7 +5,7 @@
  */
 
 import { Loader } from "@gtinx-plane/blocks/skeleton";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // local imports
 import { ANALYTICS_CHART_HEIGHT_CLASSNAME } from "./constants";
 

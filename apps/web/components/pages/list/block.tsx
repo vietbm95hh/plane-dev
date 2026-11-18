@@ -9,7 +9,7 @@ import { observer } from "mobx-react";
 import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 import { PagesOutline } from "@makeplane/propel/icons";
 // plane imports
-import { getPageName } from "@gtinx-plane/utils";
+import { getPageName } from "@gtinx-gtinx_plane/utils";
 // components
 import { ListItem } from "@/components/core/list";
 import { BlockItemAction } from "@/components/pages/list/block-item-action";

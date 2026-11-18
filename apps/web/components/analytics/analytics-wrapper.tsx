@@ -7,7 +7,7 @@
 import React from "react";
 // plane package imports
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 type Props = {
   i18nTitle: string;

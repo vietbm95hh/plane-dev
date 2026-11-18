@@ -9,7 +9,7 @@ import { observer } from "mobx-react";
 import { WorkItemsOutline } from "@makeplane/propel/icons";
 // plane imports
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useModule } from "@/hooks/store/use-module";
 

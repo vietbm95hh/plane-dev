@@ -10,7 +10,7 @@ import { Pill, PillLabel } from "@makeplane/propel/elements/pill";
 import type { PillButtonSize } from "./helper";
 import { PROPEL_PILL_SIZE } from "./helper";
 import type { IconElement } from "../types/icon";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 export type PillButtonContentProps = {
   size?: PillButtonSize;

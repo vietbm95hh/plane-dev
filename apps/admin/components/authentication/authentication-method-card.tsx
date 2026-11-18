@@ -5,7 +5,7 @@
  */
 
 // helpers
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 type Props = {
   name: string;

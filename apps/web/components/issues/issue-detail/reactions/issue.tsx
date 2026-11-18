@@ -13,7 +13,7 @@ import { setToast } from "@gtinx-plane/blocks/toast";
 import type { IUser } from "@gtinx-plane/types";
 // hooks
 // ui
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // helpers
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 import { useMember } from "@/hooks/store/use-member";

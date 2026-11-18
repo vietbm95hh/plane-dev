@@ -11,7 +11,7 @@ import useSWR from "swr";
 import { STICKIES_PER_PAGE } from "@gtinx-plane/constants";
 import { ContentWrapper } from "@gtinx-plane/blocks/layout";
 import { Loader } from "@gtinx-plane/blocks/skeleton";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 import { useIntersectionObserver } from "@/hooks/use-intersection-observer";
 import { useSticky } from "@/hooks/use-stickies";
 import { StickiesLayout } from "./stickies-list";

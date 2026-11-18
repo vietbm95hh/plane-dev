@@ -12,7 +12,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 // plane types
 import type { TSticky } from "@gtinx-plane/types";
 // plane utils
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useSticky } from "@/hooks/use-stickies";
 // components

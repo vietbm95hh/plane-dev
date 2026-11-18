@@ -8,7 +8,7 @@ import * as React from "react";
 import { Row } from "../row/row";
 import type { TRowVariant } from "../row/helper";
 import { ERowVariant } from "../row/helper";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 export interface ContentWrapperProps extends React.HTMLAttributes<HTMLDivElement> {
   variant?: TRowVariant;

@@ -44,7 +44,7 @@ import {
   sanitizeAndStabilizeExpression,
   shouldNotifyChangeForExpression,
   updateNodeInExpression,
-} from "@gtinx-plane/utils";
+} from "@gtinx-gtinx_plane/utils";
 import type { IFilterConfigManager } from "./config-manager";
 import { FilterConfigManager } from "./config-manager";
 import type { IFilterInstanceHelper } from "./filter-helpers";

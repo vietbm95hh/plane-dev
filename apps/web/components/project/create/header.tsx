@@ -14,7 +14,7 @@ import { CloseOutline } from "@makeplane/propel/icons";
 // plane types
 import type { IProject } from "@gtinx-plane/types";
 // plane ui
-import { getTabIndex } from "@gtinx-plane/utils";
+import { getTabIndex } from "@gtinx-gtinx_plane/utils";
 // components
 import { CoverImage } from "@/components/common/cover-image";
 import { ImagePickerPopover } from "@/components/core/image-picker-popover";

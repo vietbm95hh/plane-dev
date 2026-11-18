@@ -31,7 +31,7 @@ import type {
   IIssueFilters,
 } from "@gtinx-plane/types";
 import { EViewAccess, EIssuesStoreType } from "@gtinx-plane/types";
-import { getComputedDisplayFilters, getComputedDisplayProperties, getTabIndex } from "@gtinx-plane/utils";
+import { getComputedDisplayFilters, getComputedDisplayProperties, getTabIndex } from "@gtinx-gtinx_plane/utils";
 // components
 import { DisplayFiltersSelection, FiltersDropdown } from "@/components/issues/issue-layouts/filters";
 import { WorkItemFiltersRow } from "@/components/work-item-filters/filters-row";

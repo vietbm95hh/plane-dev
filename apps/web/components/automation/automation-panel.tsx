@@ -6,7 +6,7 @@
 
 import type { ReactNode } from "react";
 // plane imports
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 type PanelProps = {
   isOpen: boolean;

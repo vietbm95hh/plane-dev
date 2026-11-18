@@ -17,7 +17,7 @@ import { Toggle } from "@makeplane/propel/components/toggle";
 import { TickCircleOutline } from "@makeplane/propel/icons";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { IUser, IWorkspace } from "@gtinx-plane/types";
-import { validateWorkspaceName, validateSlug } from "@gtinx-plane/utils";
+import { validateWorkspaceName, validateSlug } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useInstance } from "@/hooks/store/use-instance";
 import { useWorkspace } from "@/hooks/store/use-workspace";

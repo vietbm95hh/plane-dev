@@ -9,7 +9,7 @@ import { observer } from "mobx-react";
 import { ReactionOutline } from "@makeplane/propel/icons";
 // plane imports
 import { EmojiPicker } from "@gtinx-plane/blocks/emoji-icon-picker";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // store
 import type { TPageInstance } from "@/store/pages/base-page";
 // local imports

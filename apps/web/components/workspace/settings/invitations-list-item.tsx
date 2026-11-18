@@ -20,7 +20,7 @@ import type { TContextMenuItem } from "@gtinx-plane/blocks/context-menu";
 import { getRenderableItems, resolveItemVariant } from "@gtinx-plane/blocks/context-menu";
 import { Select, SelectDropdownPlacementContext } from "@gtinx-plane/blocks/select";
 import { setToast } from "@gtinx-plane/blocks/toast";
-import { copyTextToClipboard } from "@gtinx-plane/utils";
+import { copyTextToClipboard } from "@gtinx-gtinx_plane/utils";
 // components
 import { ConfirmWorkspaceMemberRemove } from "@/components/workspace/confirm-workspace-member-remove";
 // hooks

@@ -34,7 +34,7 @@
     "@gtinx-plane/services": "workspace:*",
     "@gtinx-plane/shared-state": "workspace:*",
     "@gtinx-plane/types": "workspace:*",
-    "@gtinx-plane/utils": "workspace:*",
+    "@gtinx-gtinx_plane/utils": "workspace:*",
     "@react-pdf/renderer": "catalog:",
     "@react-router/node": "catalog:",
     "@tanstack/react-table": "catalog:",

@@ -16,7 +16,7 @@ import { InputField } from "@makeplane/propel/components/input-field";
 import { Select, SelectContent, SelectItem, SelectList, SelectTrigger } from "@makeplane/propel/components/select";
 import { InstanceWorkspaceService } from "@gtinx-plane/services";
 import type { IWorkspace } from "@gtinx-plane/types";
-import { validateSlug, validateWorkspaceName } from "@gtinx-plane/utils";
+import { validateSlug, validateWorkspaceName } from "@gtinx-gtinx_plane/utils";
 // components
 import { setToast } from "@gtinx-plane/blocks/toast";
 // hooks

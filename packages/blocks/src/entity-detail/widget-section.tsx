@@ -7,7 +7,7 @@
 import { useId } from "react";
 import type { ReactNode } from "react";
 import { DropdownOutline } from "@makeplane/propel/icons";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 export type EntityDetailWidgetSectionProps = {
   title: string;

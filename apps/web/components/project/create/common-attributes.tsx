@@ -18,7 +18,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import type { TProject } from "@gtinx-plane/types";
 // ui
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { projectIdentifierSanitizer, getTabIndex } from "@gtinx-plane/utils";
+import { projectIdentifierSanitizer, getTabIndex } from "@gtinx-gtinx_plane/utils";
 
 type Props = {
   setValue: UseFormSetValue<TProject>;

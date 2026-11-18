@@ -25,7 +25,7 @@ import type { InstructionType } from "@gtinx-plane/types";
 import { Switch } from "@makeplane/propel/components/switch";
 import { DropIndicator } from "@gtinx-plane/blocks/common";
 // plane utils
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useHome } from "@/hooks/store/use-home";
 import { HOME_WIDGETS_LIST } from "../../home-dashboard-widgets";

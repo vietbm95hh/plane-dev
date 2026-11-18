@@ -5,7 +5,7 @@
  */
 
 // plane imports
-import { joinUrlPath } from "@gtinx-plane/utils";
+import { joinUrlPath } from "@gtinx-gtinx_plane/utils";
 // local imports
 import type { TPowerKContext } from "../core/types";
 

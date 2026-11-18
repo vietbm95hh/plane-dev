@@ -11,7 +11,7 @@ import { useParams } from "next/navigation";
 import type { TIssue } from "@gtinx-plane/types";
 // helpers
 import { Row } from "@gtinx-plane/blocks/layout";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useAppRouter } from "@/hooks/use-app-router";
 

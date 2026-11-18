@@ -6,7 +6,7 @@
 
 import type { ReactNode } from "react";
 // helpers
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 export interface ContentWrapperProps {
   className?: string;

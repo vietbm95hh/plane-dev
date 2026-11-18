@@ -9,7 +9,7 @@ import { observer } from "mobx-react";
 // ui
 import { DragHandle } from "@gtinx-plane/blocks/common";
 // helper
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 type Props = {
   sort_order: number | null;

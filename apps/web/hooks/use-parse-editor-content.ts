@@ -8,8 +8,8 @@ import { useCallback } from "react";
 // plane types
 import type { TSearchEntities } from "@gtinx-plane/types";
 // helpers
-import { getBase64Image, getEditorAssetSrc } from "@gtinx-plane/utils";
-import type { TCustomComponentsMetaData } from "@gtinx-plane/utils";
+import { getBase64Image, getEditorAssetSrc } from "@gtinx-gtinx_plane/utils";
+import type { TCustomComponentsMetaData } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useMember } from "@/hooks/store/use-member";
 // plane web hooks

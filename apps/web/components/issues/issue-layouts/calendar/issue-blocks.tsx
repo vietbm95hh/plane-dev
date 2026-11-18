@@ -8,7 +8,7 @@ import { observer } from "mobx-react";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { TIssue, TPaginationData } from "@gtinx-plane/types";
 // components
-import { renderFormattedPayloadDate } from "@gtinx-plane/utils";
+import { renderFormattedPayloadDate } from "@gtinx-gtinx_plane/utils";
 // helpers
 import { useIssuesStore } from "@/hooks/use-issue-layout-store";
 import type { TRenderQuickActions } from "../list/list-view-types";

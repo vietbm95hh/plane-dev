@@ -12,7 +12,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import type { BreadcrumbNavigationItem } from "@gtinx-plane/blocks/breadcrumb";
 import { Breadcrumbs, BreadcrumbNavigationSelect } from "@gtinx-plane/blocks/breadcrumb";
 import { Header } from "@gtinx-plane/blocks/layout";
-import { getPageName } from "@gtinx-plane/utils";
+import { getPageName } from "@gtinx-gtinx_plane/utils";
 // components
 import { BreadcrumbLink } from "@/components/common/breadcrumb-link";
 import { PageAccessIcon } from "@/components/common/page-access-icon";

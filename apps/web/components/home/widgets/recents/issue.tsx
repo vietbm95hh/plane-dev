@@ -13,7 +13,7 @@ import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { TActivityEntityData, TIssueEntityData } from "@gtinx-plane/types";
 import { EIssueServiceType } from "@gtinx-plane/types";
 // plane ui
-import { calculateTimeAgo, generateWorkItemLink } from "@gtinx-plane/utils";
+import { calculateTimeAgo, generateWorkItemLink } from "@gtinx-gtinx_plane/utils";
 // components
 import { ListItem } from "@/components/core/list";
 import { ButtonAvatars } from "@/components/dropdowns/member/avatar";

@@ -13,7 +13,7 @@ import { CloseOutline, EditOutline } from "@makeplane/propel/icons";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { ISearchIssueResponse } from "@gtinx-plane/types";
-import { cn, generateWorkItemLink } from "@gtinx-plane/utils";
+import { cn, generateWorkItemLink } from "@gtinx-gtinx_plane/utils";
 // components
 import { ExistingIssuesListModal } from "@/components/core/modals/existing-issues-list-modal";
 // hooks

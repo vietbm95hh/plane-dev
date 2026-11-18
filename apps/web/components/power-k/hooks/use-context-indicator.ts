@@ -6,7 +6,7 @@
 
 import { useParams } from "next/navigation";
 // plane imports
-import { getPageName } from "@gtinx-plane/utils";
+import { getPageName } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { EPageStoreType, usePageStore } from "@/hooks/store";
 import { useCycle } from "@/hooks/store/use-cycle";

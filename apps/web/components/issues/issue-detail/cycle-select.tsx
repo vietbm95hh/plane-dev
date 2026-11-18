@@ -7,7 +7,7 @@
 import { useCallback, useState } from "react";
 import { observer } from "mobx-react";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // components
 import { CycleSelect } from "@/components/dropdowns/cycle/cycle-select";
 // hooks

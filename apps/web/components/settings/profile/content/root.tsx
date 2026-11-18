@@ -9,7 +9,7 @@ import { observer } from "mobx-react";
 // plane imports
 import { ScrollArea } from "@makeplane/propel/components/scroll-area";
 import type { TProfileSettingsTabs } from "@gtinx-plane/types";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // local imports
 import { PROFILE_SETTINGS_PAGES_MAP } from "./pages";
 

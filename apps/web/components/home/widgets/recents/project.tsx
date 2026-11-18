@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 // plane types
 import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 import type { TActivityEntityData, TProjectEntityData } from "@gtinx-plane/types";
-import { calculateTimeAgo } from "@gtinx-plane/utils";
+import { calculateTimeAgo } from "@gtinx-gtinx_plane/utils";
 // components
 import { ListItem } from "@/components/core/list";
 import { ButtonAvatars } from "@/components/dropdowns/member/avatar";

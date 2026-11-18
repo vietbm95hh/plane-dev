@@ -13,7 +13,7 @@ import ReactDOM from "react-dom";
 import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Toolbar, ToolbarButton, ToolbarGroup, ToolbarSeparator } from "@makeplane/propel/elements/toolbar";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 const MIN_ZOOM = 0.5;
 const MAX_ZOOM = 2;

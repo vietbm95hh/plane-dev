@@ -9,7 +9,7 @@ import { observer } from "mobx-react";
 import { MemberSelect } from "@gtinx-plane/blocks/property-select";
 import type { MemberOption, MemberSelectVariant } from "@gtinx-plane/blocks/property-select";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn, getFileURL } from "@gtinx-plane/utils";
+import { cn, getFileURL } from "@gtinx-gtinx_plane/utils";
 // helpers
 import { READ_ONLY_SELECT_CLASSNAME, toSinglePage } from "@/helpers/select.helper";
 // hooks

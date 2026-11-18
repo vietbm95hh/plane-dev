@@ -7,7 +7,7 @@
 // plane imports
 import { EmojiPicker, Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 import type { TLogoProps } from "@gtinx-plane/types";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // types
 import type { TCalloutBlockAttributes } from "./types";
 // utils

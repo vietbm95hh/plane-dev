@@ -27,7 +27,7 @@ import { EIssuesStoreType, EViewAccess, EIssueLayoutTypes } from "@gtinx-plane/t
 import type { BreadcrumbNavigationItem } from "@gtinx-plane/blocks/breadcrumb";
 import { Breadcrumbs, BreadcrumbNavigationSelect } from "@gtinx-plane/blocks/breadcrumb";
 import { Header } from "@gtinx-plane/blocks/layout";
-import { getPublishViewLink } from "@gtinx-plane/utils";
+import { getPublishViewLink } from "@gtinx-gtinx_plane/utils";
 // components
 import { BreadcrumbLink } from "@/components/common/breadcrumb-link";
 import { SwitcherIcon, SwitcherLabel } from "@/components/common/switcher-label";

@@ -5,7 +5,7 @@
  */
 
 import { SearchOutline } from "@makeplane/propel/icons";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 type Props = {
   isActive?: boolean;

@@ -7,7 +7,7 @@
 import { observer } from "mobx-react";
 // plane imports
 import type { TGroupedIssues, TIssue, TIssueMap, TPaginationData, ICalendarDate, ICalendarWeek } from "@gtinx-plane/types";
-import { cn, getOrderedDays, renderFormattedPayloadDate } from "@gtinx-plane/utils";
+import { cn, getOrderedDays, renderFormattedPayloadDate } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useUserProfile } from "@/hooks/store/user";
 // types

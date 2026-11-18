@@ -11,7 +11,7 @@ import { computedFn } from "mobx-utils";
 import { STATE_GROUPS } from "@gtinx-plane/constants";
 import type { IIntakeState, IState } from "@gtinx-plane/types";
 // helpers
-import { sortStates } from "@gtinx-plane/utils";
+import { sortStates } from "@gtinx-gtinx_plane/utils";
 // plane web
 import { ProjectStateService } from "@/services/project/project-state.service";
 import type { RootStore } from "@/store/root.store";

@@ -19,7 +19,7 @@ import { EIssueServiceType } from "@gtinx-plane/types";
 // ui
 import { ControlLink, Row } from "@gtinx-plane/blocks/layout";
 import { Spinner } from "@gtinx-plane/blocks/spinner";
-import { cn, generateWorkItemLink } from "@gtinx-plane/utils";
+import { cn, generateWorkItemLink } from "@gtinx-gtinx_plane/utils";
 // components
 import { MultipleSelectEntityAction } from "@/components/core/multiple-select";
 import { IssueProperties } from "@/components/issues/issue-layouts/properties";

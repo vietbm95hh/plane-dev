@@ -159,7 +159,7 @@ Script này:
 ### Bước 5 — Cấu hình
 
 ```bash
-sudoedit /etc/plane/api.env
+sudoedit /etc/gtinx_plane/api.env
 sudoedit /etc/plane/live.env
 sudoedit /etc/plane/proxy.env
 ```
@@ -265,7 +265,7 @@ sudo tar czf /var/backups/plane-config-$(date +%F).tgz /etc/plane
 
 | Triệu chứng                              | Nguyên nhân thường gặp                                                        |
 | ---------------------------------------- | ----------------------------------------------------------------------------- |
-| `plane-api` exit ngay, log báo `GUNICORN_WORKERS` | thiếu biến trong `/etc/plane/api.env`                                 |
+| `plane-api` exit ngay, log báo `GUNICORN_WORKERS` | thiếu biến trong `/etc/gtinx_plane/api.env`                                 |
 | API 500 `no such table`                  | `plane-migrate` chưa chạy xong — `systemctl status plane-migrate`              |
 | 502 ở `/api/*`                           | API không listen cổng `8000` — kiểm tra `ss -lntp \| grep 8000`                |
 | Web trả 404 toàn bộ                      | chưa build web, hoặc `root` trong `web.Caddyfile` sai đường dẫn                |

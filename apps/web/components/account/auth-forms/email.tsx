@@ -14,7 +14,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { InputField } from "@makeplane/propel/components/input-field";
 import type { IEmailCheckData } from "@gtinx-plane/types";
-import { checkEmailValidity } from "@gtinx-plane/utils";
+import { checkEmailValidity } from "@gtinx-gtinx_plane/utils";
 // helpers
 type TAuthEmailForm = {
   defaultEmail: string;

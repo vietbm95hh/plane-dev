@@ -15,7 +15,7 @@ import { IconButton } from "@makeplane/propel/components/icon-button";
 import { Input } from "@makeplane/propel/components/input";
 import { AuthService } from "@gtinx-plane/services";
 import { PasswordStrengthIndicator } from "@gtinx-plane/blocks/auth";
-import { getPasswordStrength } from "@gtinx-plane/utils";
+import { getPasswordStrength } from "@gtinx-gtinx_plane/utils";
 // types
 import { EAuthModes, EAuthSteps } from "@/types/auth";
 

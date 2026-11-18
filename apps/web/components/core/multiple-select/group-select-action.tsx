@@ -5,7 +5,7 @@
  */
 
 import { Checkbox } from "@makeplane/propel/components/checkbox";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // hooks
 import type { TSelectionHelper } from "@/hooks/use-multiple-select";
 

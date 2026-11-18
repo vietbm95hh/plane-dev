@@ -14,7 +14,7 @@ import { MoreHorizontalOutline, StarFilled } from "@makeplane/propel/icons";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { IFavorite } from "@gtinx-plane/types";
 // helpers
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 type Props = {
   ref: React.MutableRefObject<HTMLDivElement | null>;

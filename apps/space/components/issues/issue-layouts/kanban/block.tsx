@@ -13,7 +13,7 @@ import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { IIssueDisplayProperties } from "@gtinx-plane/types";
 // plane ui
 // plane utils
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // components
 import { WithDisplayPropertiesHOC } from "@/components/issues/issue-layouts/with-display-properties-HOC";
 // helpers

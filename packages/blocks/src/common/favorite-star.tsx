@@ -10,7 +10,7 @@ import type { IconButtonSize, IconButtonVariant } from "@makeplane/propel/compon
 import { StarFilled, StarOutline } from "@makeplane/propel/icons";
 import { useTranslation } from "@gtinx-plane/i18n";
 // helpers
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 type Props = {
   /** Accessible name for the icon-only toggle; defaults to the translated "Add to favorites". */

@@ -8,7 +8,7 @@ import { observer } from "mobx-react";
 // plane imports
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { TModulePlotType, TStateGroups } from "@gtinx-plane/types";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 /** Bar and grid order: done first, then work in flight, then not started, then dropped. */
 const STATE_GROUP_ORDER: TStateGroups[] = ["completed", "started", "unstarted", "backlog", "cancelled"];

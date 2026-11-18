@@ -18,7 +18,7 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { Input, InputGroup } from "@makeplane/propel/components/input";
 import { List } from "@makeplane/propel/components/list";
 import { ScrollArea } from "@makeplane/propel/components/scroll-area";
-import { copyUrlToClipboard, orderJoinedProjects } from "@gtinx-plane/utils";
+import { copyUrlToClipboard, orderJoinedProjects } from "@gtinx-gtinx_plane/utils";
 // components
 import { CreateProjectModal } from "@/components/project/create-project-modal";
 import { SidebarProjectsListItem } from "@/components/workspace/sidebar/projects-list-item";

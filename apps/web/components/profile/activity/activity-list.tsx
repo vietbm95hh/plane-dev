@@ -11,7 +11,7 @@ import { ChatOutline, HistoryOutline } from "@makeplane/propel/icons";
 import { Avatar } from "@makeplane/propel/components/avatar";
 // plane imports
 import type { IUserActivityResponse } from "@gtinx-plane/types";
-import { calculateTimeAgo, getFileURL } from "@gtinx-plane/utils";
+import { calculateTimeAgo, getFileURL } from "@gtinx-gtinx_plane/utils";
 // components
 import { ActivityIcon, ActivityMessage, IssueLink } from "@/components/core/activity";
 import { RichTextEditor } from "@/components/editor/rich-text";

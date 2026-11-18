@@ -8,7 +8,7 @@ import type { ReactNode } from "react";
 import { Combobox as BaseCombobox } from "@base-ui/react/combobox";
 import { ComboboxSearch, ComboboxSearchInput } from "@makeplane/propel/elements/combobox";
 import { InfoOutline, SearchOutline } from "@makeplane/propel/icons";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 /**
  * Building blocks for a dialog whose body is an inline `Combobox` picker: a search row, an optional

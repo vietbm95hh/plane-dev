@@ -64,7 +64,7 @@
     "@gtinx-plane/hooks": "workspace:*",
     "@gtinx-plane/i18n": "workspace:*",
     "@gtinx-plane/types": "workspace:*",
-    "@gtinx-plane/utils": "workspace:*",
+    "@gtinx-gtinx_plane/utils": "workspace:*",
     "@tanstack/react-virtual": "catalog:",
     "class-variance-authority": "catalog:",
     "clsx": "catalog:",

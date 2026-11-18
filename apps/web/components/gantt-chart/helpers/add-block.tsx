@@ -12,7 +12,7 @@ import { AddOutline } from "@makeplane/propel/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { IBlockUpdateData, IGanttBlock } from "@gtinx-plane/types";
 // helpers
-import { renderFormattedDate, renderFormattedPayloadDate } from "@gtinx-plane/utils";
+import { renderFormattedDate, renderFormattedPayloadDate } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { usePlatformOS } from "@/hooks/use-platform-os";
 import { useTimeLineChartStore } from "@/hooks/use-timeline-chart";

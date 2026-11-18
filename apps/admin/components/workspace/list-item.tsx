@@ -11,7 +11,7 @@ import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { WorkspaceAvatar } from "@makeplane/propel/components/workspace-avatar";
 import { NewTabOutline } from "@makeplane/propel/icons";
 import { WEB_BASE_URL } from "@gtinx-plane/constants";
-import { getFileURL } from "@gtinx-plane/utils";
+import { getFileURL } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useWorkspace } from "@/hooks/store";
 

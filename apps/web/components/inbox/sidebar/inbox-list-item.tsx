@@ -14,7 +14,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { PriorityIcon } from "@gtinx-plane/blocks/icons";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { Row } from "@gtinx-plane/blocks/layout";
-import { cn, renderFormattedDate } from "@gtinx-plane/utils";
+import { cn, renderFormattedDate } from "@gtinx-gtinx_plane/utils";
 // components
 import { ButtonAvatars } from "@/components/dropdowns/member/avatar";
 // hooks

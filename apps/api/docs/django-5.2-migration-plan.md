@@ -43,8 +43,8 @@ Executed on branch `chore/django-5.2-upgrade` and verified in the containerized 
 **Changes made beyond the dependency pins (each surfaced by verification):**
 
 1. **`plane/urls.py`** — gate the debug-toolbar URL include on `apps.is_installed("debug_toolbar")`. django-debug-toolbar **6.0** ships a real model (`HistoryEntry`); under test settings (`DEBUG=True`, app _not_ installed) the unconditional `include(debug_toolbar.urls)` raised `RuntimeError` during `manage.py check`. The guard makes the include correct in all settings (local: included; test/prod: skipped).
-2. **`plane/db/migrations/0122_alter_draftissue_assignees_alter_issue_assignees_and_more.py`** — a **state-only** `AlterField` for three `ManyToManyField`s (`issue.assignees`, `draftissue.assignees`, `module.members`) that use `through=`/`through_fields=`. Django 5.1 normalized M2M `through_fields` deconstruction. `sqlmigrate` confirms **all three operations are `(no-op)`** — zero DDL, zero database impact. Required only so `makemigrations --check` stays green in CI.
-3. **`plane/tests/contract/app/test_authentication.py`** — added a module-level autouse `cache.clear()` fixture (mirrors the existing per-class `_clear_state` fixtures). This fixes **8 pre-existing test failures** that are unrelated to the upgrade — verified by running the auth test file on the `preview` baseline (Django 4.2.30), which produced the **identical** "8 failed, 18 passed". Root cause: the per-IP `AuthenticationThrottle` (`10/minute`) stores request history in the shared cache, and `TestMagicSignIn`/`TestMagicSignUp` didn't reset it between tests.
+2. **`gtinx_plane/db/migrations/0122_alter_draftissue_assignees_alter_issue_assignees_and_more.py`** — a **state-only** `AlterField` for three `ManyToManyField`s (`issue.assignees`, `draftissue.assignees`, `module.members`) that use `through=`/`through_fields=`. Django 5.1 normalized M2M `through_fields` deconstruction. `sqlmigrate` confirms **all three operations are `(no-op)`** — zero DDL, zero database impact. Required only so `makemigrations --check` stays green in CI.
+3. **`gtinx_plane/tests/contract/app/test_authentication.py`** — added a module-level autouse `cache.clear()` fixture (mirrors the existing per-class `_clear_state` fixtures). This fixes **8 pre-existing test failures** that are unrelated to the upgrade — verified by running the auth test file on the `preview` baseline (Django 4.2.30), which produced the **identical** "8 failed, 18 passed". Root cause: the per-IP `AuthenticationThrottle` (`10/minute`) stores request history in the shared cache, and `TestMagicSignIn`/`TestMagicSignUp` didn't reset it between tests.
 
 **Not applied (revised from the original plan):** `FORMS_URLFIELD_ASSUME_HTTPS` — in Django 5.2 this transitional setting emits its **own** `RemovedInDjango60Warning`, and the codebase has no `forms.URLField` to silence, so adding it only adds noise. Reverted.
 
@@ -56,7 +56,7 @@ Executed on branch `chore/django-5.2-upgrade` and verified in the containerized 
 - **Django:** `4.2.30` (final 4.2 LTS line; 4.2 reaches EOL ~April 2026 — this upgrade is time-sensitive).
 - **Dependency files:** `requirements/base.txt`, `requirements/local.txt`, `requirements/production.txt`, `requirements/test.txt` (plain pip pins; **no lockfile** — edits are direct).
 - **Run surfaces:** `bin/docker-entrypoint-{api,worker,beat,migrator}.sh`. All four must be smoke-tested.
-- **Tests:** `pytest` + `pytest-django`, settings module `plane.settings.test`, run with `--reuse-db --nomigrations --strict-markers`.
+- **Tests:** `pytest` + `pytest-django`, settings module `gtinx_plane.settings.test`, run with `--reuse-db --nomigrations --strict-markers`.
 - **CI:** `pull-request-build-lint-api.yml` runs **ruff lint only** — it does **not** run the test suite. The pytest suite must be run manually/locally as the migration gate.
 
 ---
@@ -91,8 +91,8 @@ Every Django 5.x removal/behavior-change category was scanned across `plane/` an
 ### 4.1 Required (done — see "Execution status" above)
 
 - `plane/urls.py` debug-toolbar include guard (django-debug-toolbar 6.0 model requirement).
-- `plane/db/migrations/0122_…` state-only M2M `AlterField` (Django 5.1 `through_fields` normalization; no DDL).
-- `plane/tests/contract/app/test_authentication.py` autouse cache-reset fixture (fixes 8 pre-existing throttle failures; makes the suite green).
+- `gtinx_plane/db/migrations/0122_…` state-only M2M `AlterField` (Django 5.1 `through_fields` normalization; no DDL).
+- `gtinx_plane/tests/contract/app/test_authentication.py` autouse cache-reset fixture (fixes 8 pre-existing throttle failures; makes the suite green).
 
 ### 4.2 Optional / not taken
 
@@ -100,7 +100,7 @@ Every Django 5.x removal/behavior-change category was scanned across `plane/` an
 2. **`STORAGES` cosmetic collapse** — `common.py:303-304` defines `STORAGES` across two statements; optionally collapse into one literal (functionally identical):
    ```python
    STORAGES = {
-       "default": {"BACKEND": "plane.settings.storage.S3Storage"},
+       "default": {"BACKEND": "gtinx_plane.settings.storage.S3Storage"},
        "staticfiles": {"BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage"},
    }
    ```
@@ -210,7 +210,7 @@ Policy: **latest stable**, with **evidence-based safe overrides** where "latest"
 ## 10. Out of scope / follow-ups (separate PRs)
 
 - **OpenTelemetry lockstep bump** (api/sdk/exporter → ~1.43.x, instrumentation-django → 0.64b0) — self-contained, no 5.2 dependency.
-- **Drop pytz → stdlib `zoneinfo`** — touch points: `plane/utils/timezone_converter.py`, `plane/app/views/cycle/base.py`, `plane/app/views/timezone/base.py`, `plane/api/serializers/cycle.py`, the 4 OAuth providers, and `TIMEZONE_CHOICES` in `plane/db/models/{project,user,workspace,cycle}.py`. Note `pytz.common_timezones` has no exact `zoneinfo` equivalent and `tz.localize(dt)` becomes `dt.replace(tzinfo=ZoneInfo(name))`.
+- **Drop pytz → stdlib `zoneinfo`** — touch points: `gtinx_plane/utils/timezone_converter.py`, `gtinx_plane/app/views/cycle/base.py`, `gtinx_plane/app/views/timezone/base.py`, `gtinx_plane/api/serializers/cycle.py`, the 4 OAuth providers, and `TIMEZONE_CHOICES` in `gtinx_plane/db/models/{project,user,workspace,cycle}.py`. Note `pytz.common_timezones` has no exact `zoneinfo` equivalent and `tz.localize(dt)` becomes `dt.replace(tzinfo=ZoneInfo(name))`.
 - **dj-database-url 3.x** (breaking major) if not taken in this PR.
 - **Add a pytest job to API CI** — currently CI lints only; the migration relies on manual test runs.
 - **Django 6.0 readiness** (after 5.2 lands) — non-LTS, separate evaluation.

@@ -9,8 +9,8 @@ import { action, computed, observable, makeObservable, runInAction } from "mobx"
 import { computedFn } from "mobx-utils";
 // types
 import type { IModule, ILinkDetails, TModulePlotType } from "@gtinx-plane/types";
-import type { DistributionUpdates } from "@gtinx-plane/utils";
-import { updateDistribution, orderModules, shouldFilterModule } from "@gtinx-plane/utils";
+import type { DistributionUpdates } from "@gtinx-gtinx_plane/utils";
+import { updateDistribution, orderModules, shouldFilterModule } from "@gtinx-gtinx_plane/utils";
 // helpers
 // services
 import { ModuleService } from "@/services/module.service";

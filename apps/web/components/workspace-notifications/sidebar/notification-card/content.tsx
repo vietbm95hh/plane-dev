@@ -13,7 +13,7 @@ import {
   renderFormattedDate,
   sanitizeCommentForNotification,
   stripAndTruncateHTML,
-} from "@gtinx-plane/utils";
+} from "@gtinx-gtinx_plane/utils";
 // components
 import { LiteTextEditor } from "@/components/editor/lite-text";
 import {

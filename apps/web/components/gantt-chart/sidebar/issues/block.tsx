@@ -8,7 +8,7 @@ import { observer } from "mobx-react";
 // plane imports
 import type { IGanttBlock } from "@gtinx-plane/types";
 import { Row } from "@gtinx-plane/blocks/layout";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // components
 import { MultipleSelectEntityAction } from "@/components/core/multiple-select";
 import { IssueGanttSidebarBlock } from "@/components/issues/issue-layouts/gantt/blocks";

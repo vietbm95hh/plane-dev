@@ -15,7 +15,7 @@ import type { BadgeProps } from "@makeplane/propel/components/badge";
 import { DateRangeSelect } from "@gtinx-plane/blocks/property-select";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { ICycle } from "@gtinx-plane/types";
-import { getDate, renderFormattedPayloadDate } from "@gtinx-plane/utils";
+import { getDate, renderFormattedPayloadDate } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useCycle } from "@/hooks/store/use-cycle";
 import { useUserPermissions, useUserProfile } from "@/hooks/store/user";

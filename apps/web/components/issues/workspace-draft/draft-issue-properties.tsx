@@ -27,7 +27,7 @@ import { ISSUE_PRIORITIES } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
 // types
 import type { TIssuePriorities, TWorkspaceDraftIssue } from "@gtinx-plane/types";
-import { getDate, getIssueDueDateClassName, renderFormattedDate, renderFormattedPayloadDate } from "@gtinx-plane/utils";
+import { getDate, getIssueDueDateClassName, renderFormattedDate, renderFormattedPayloadDate } from "@gtinx-gtinx_plane/utils";
 // components
 import { CycleSelect } from "@/components/dropdowns/cycle/cycle-select";
 import { EstimateSelect } from "@/components/dropdowns/estimate/estimate-select";

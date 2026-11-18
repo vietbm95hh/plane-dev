@@ -13,7 +13,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import type { EViewAccess, TViewFilterProps } from "@gtinx-plane/types";
 import { EUserProjectRoles } from "@gtinx-plane/types";
 import { Header, EHeaderVariant } from "@gtinx-plane/blocks/layout";
-import { calculateTotalFilters } from "@gtinx-plane/utils";
+import { calculateTotalFilters } from "@gtinx-gtinx_plane/utils";
 // assets
 import darkViewsAsset from "@/app/assets/empty-state/disabled-feature/views-dark.webp?url";
 import lightViewsAsset from "@/app/assets/empty-state/disabled-feature/views-light.webp?url";

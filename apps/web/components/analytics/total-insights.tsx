@@ -12,7 +12,7 @@ import type { IInsightField } from "@gtinx-plane/constants";
 import { ANALYTICS_INSIGHTS_FIELDS } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { IAnalyticsResponse, TAnalyticsTabsBase } from "@gtinx-plane/types";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useAnalytics } from "@/hooks/store/use-analytics";
 // services

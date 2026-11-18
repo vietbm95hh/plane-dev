@@ -9,7 +9,7 @@ import type * as React from "react";
 import { Field } from "@makeplane/propel/components/field";
 import { Input, InputGroup } from "@makeplane/propel/components/input";
 import { ColorPicker, parseHexColor } from "@gtinx-plane/blocks/common";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 export interface InputColorPickerProps {
   hasError: boolean;

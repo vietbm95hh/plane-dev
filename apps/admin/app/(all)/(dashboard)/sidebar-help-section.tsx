@@ -21,7 +21,7 @@ import {
   NewTabOutline,
   PagesOutline,
 } from "@makeplane/propel/icons";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 import { ensureTrailingSlash } from "@/app/compat/next/helper";
 // hooks
 import { useInstance, useTheme } from "@/hooks/store";

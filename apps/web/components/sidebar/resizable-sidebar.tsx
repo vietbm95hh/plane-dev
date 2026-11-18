@@ -9,7 +9,7 @@ import React, { useCallback, useEffect, useState, useRef } from "react";
 // helpers
 import { usePlatformOS } from "@gtinx-plane/hooks";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 interface ResizableSidebarProps {
   showPeek?: boolean;

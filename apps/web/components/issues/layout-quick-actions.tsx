@@ -13,7 +13,7 @@ import type { TContextMenuItem } from "@gtinx-plane/blocks/context-menu";
 import { getRenderableItems, resolveItemVariant } from "@gtinx-plane/blocks/context-menu";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { copyUrlToClipboard } from "@gtinx-plane/utils";
+import { copyUrlToClipboard } from "@gtinx-gtinx_plane/utils";
 import { useLayoutMenuItems } from "@/components/common/quick-actions-helper";
 
 type Props = {

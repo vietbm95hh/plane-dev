@@ -3,7 +3,7 @@ import * as dotenv from "dotenv";
 import { reactRouter } from "@react-router/dev/vite";
 import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
-import { joinUrlPath } from "@gtinx-plane/utils";
+import { joinUrlPath } from "@gtinx-gtinx_plane/utils";
 
 dotenv.config({ path: path.resolve(__dirname, ".env") });
 

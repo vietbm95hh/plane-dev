@@ -11,7 +11,7 @@ import useSWR from "swr";
 // plane package imports
 import { useTranslation } from "@gtinx-plane/i18n";
 import { Loader } from "@gtinx-plane/blocks/skeleton";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // plane web hooks
 import { useAnalytics } from "@/hooks/store/use-analytics";
 import { useProject } from "@/hooks/store/use-project";

@@ -21,7 +21,7 @@ import { MenuPopup } from "@makeplane/propel/elements/menu";
 import { MoreHorizontalOutline } from "@makeplane/propel/icons";
 import { useCallback, useEffect, useRef, useState } from "react";
 // plane imports
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // constants
 import { CORE_EXTENSIONS } from "@/constants/extension";
 // extensions

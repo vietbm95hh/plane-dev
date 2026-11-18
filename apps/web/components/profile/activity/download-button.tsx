@@ -11,7 +11,7 @@ import { useParams } from "next/navigation";
 import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 // helpers
-import { renderFormattedPayloadDate } from "@gtinx-plane/utils";
+import { renderFormattedPayloadDate } from "@gtinx-gtinx_plane/utils";
 import { UserService } from "@/services/user.service";
 
 const userService = new UserService();

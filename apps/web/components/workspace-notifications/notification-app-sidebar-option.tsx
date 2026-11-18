@@ -7,7 +7,7 @@
 import { observer } from "mobx-react";
 import useSWR from "swr";
 // plane imports
-import { getNumberCount } from "@gtinx-plane/utils";
+import { getNumberCount } from "@gtinx-gtinx_plane/utils";
 // components
 import { CountChip } from "@/components/common/count-chip";
 // hooks

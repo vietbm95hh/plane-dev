@@ -17,7 +17,7 @@ import type { EditorRefApi } from "@gtinx-plane/editor";
 // plane ui
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 // components
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 import { RichTextEditor } from "@/components/editor/rich-text";
 // plane web constants
 import { AI_EDITOR_TASKS, LOADING_TEXTS } from "@gtinx-plane/constants";

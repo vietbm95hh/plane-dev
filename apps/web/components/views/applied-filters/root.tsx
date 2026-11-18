@@ -11,7 +11,7 @@ import { IconButton } from "@makeplane/propel/components/icon-button";
 import { CloseOutline } from "@makeplane/propel/icons";
 // plane imports
 import type { EViewAccess, TViewFilterProps } from "@gtinx-plane/types";
-import { replaceUnderscoreIfSnakeCase } from "@gtinx-plane/utils";
+import { replaceUnderscoreIfSnakeCase } from "@gtinx-gtinx_plane/utils";
 // components
 import { AppliedDateFilters } from "@/components/common/applied-filters/date";
 import { AppliedMembersFilters } from "@/components/common/applied-filters/members";

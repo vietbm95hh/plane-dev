@@ -22,7 +22,7 @@ import { ListItem, ListItemLabel } from "@makeplane/propel/components/list";
 import { ListItemLink } from "@makeplane/propel/elements/list";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { DropIndicator } from "@gtinx-plane/blocks/common";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // components
 import { UpgradeBadge } from "@/components/workspace/upgrade-badge";
 // hooks

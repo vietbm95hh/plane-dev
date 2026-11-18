@@ -15,7 +15,7 @@ import { AddOutline, CloseOutline, MultipleStickyOutline, StickyNoteOutline } fr
 import { PreviewCard, PreviewCardContent, PreviewCardTrigger } from "@makeplane/propel/components/preview-card";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 // plane utils
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useCommandPalette } from "@/hooks/store/use-command-palette";
 import { useSticky } from "@/hooks/use-stickies";

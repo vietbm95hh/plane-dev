@@ -20,7 +20,7 @@ import type { ICycle } from "@gtinx-plane/types";
 import { EIssuesStoreType } from "@gtinx-plane/types";
 // ui
 import { Loader } from "@gtinx-plane/blocks/skeleton";
-import { renderFormattedDate, renderFormattedDateWithoutYear, getFileURL } from "@gtinx-plane/utils";
+import { renderFormattedDate, renderFormattedDateWithoutYear, getFileURL } from "@gtinx-gtinx_plane/utils";
 // assets
 import darkAssigneeAsset from "@/app/assets/empty-state/active-cycle/assignee-dark.webp?url";
 import lightAssigneeAsset from "@/app/assets/empty-state/active-cycle/assignee-light.webp?url";

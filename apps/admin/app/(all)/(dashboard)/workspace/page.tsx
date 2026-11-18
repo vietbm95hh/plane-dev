@@ -15,7 +15,7 @@ import { Switch } from "@makeplane/propel/components/switch";
 import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { TInstanceConfigurationKeys } from "@gtinx-plane/types";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // components
 import { PageWrapper } from "@/components/common/page-wrapper";
 import { Skeleton } from "@gtinx-plane/blocks/skeleton";

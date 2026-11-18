@@ -14,7 +14,7 @@ import { ROLE } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
 import { CloseOutline } from "@makeplane/propel/icons";
 import { Select } from "@gtinx-plane/blocks/select";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useUserPermissions } from "@/hooks/store/user";
 import type { InvitationFormValues } from "@/hooks/use-workspace-invitation";

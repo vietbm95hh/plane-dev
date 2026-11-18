@@ -16,7 +16,7 @@ import { Button } from "@makeplane/propel/components/button";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { toSideAndAlign } from "@gtinx-plane/blocks/common";
 import type { TPopoverMenuPlacement } from "@gtinx-plane/blocks/common";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 // components
 import { RichTextEditor } from "@/components/editor/rich-text";

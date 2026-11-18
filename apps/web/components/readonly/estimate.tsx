@@ -9,7 +9,7 @@ import { observer } from "mobx-react";
 import { useTranslation } from "@gtinx-plane/i18n";
 import { EstimateOutline } from "@makeplane/propel/icons";
 import { EEstimateSystem } from "@gtinx-plane/types";
-import { cn, convertMinutesToHoursMinutesString } from "@gtinx-plane/utils";
+import { cn, convertMinutesToHoursMinutesString } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useProjectEstimates } from "@/hooks/store/estimates";
 import { useEstimate } from "@/hooks/store/estimates/use-estimate";

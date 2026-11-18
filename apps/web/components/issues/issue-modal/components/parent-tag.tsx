@@ -15,7 +15,7 @@ import { CloseOutline } from "@makeplane/propel/icons";
 // types
 import type { ISearchIssueResponse, TIssue } from "@gtinx-plane/types";
 // helpers
-import { getTabIndex } from "@gtinx-plane/utils";
+import { getTabIndex } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { usePlatformOS } from "@/hooks/use-platform-os";
 // components

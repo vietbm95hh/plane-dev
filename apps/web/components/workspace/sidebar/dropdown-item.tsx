@@ -17,7 +17,7 @@ import { WorkspaceAvatar } from "@makeplane/propel/components/workspace-avatar";
 import { EUserPermissions } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { IWorkspace } from "@gtinx-plane/types";
-import { cn, getFileURL, getUserRole } from "@gtinx-plane/utils";
+import { cn, getFileURL, getUserRole } from "@gtinx-gtinx_plane/utils";
 
 type TProps = {
   workspace: IWorkspace;

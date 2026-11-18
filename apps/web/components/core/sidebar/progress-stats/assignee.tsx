@@ -9,7 +9,7 @@ import { observer } from "mobx-react";
 import { Avatar } from "@makeplane/propel/components/avatar";
 import { useTranslation } from "@gtinx-plane/i18n";
 import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
-import { getFileURL } from "@gtinx-plane/utils";
+import { getFileURL } from "@gtinx-gtinx_plane/utils";
 // components
 import { SingleProgressStats } from "@/components/core/sidebar/single-progress-stats";
 

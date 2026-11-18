@@ -9,7 +9,7 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useTranslation } from "@gtinx-plane/i18n";
 // helpers
-import { truncateText } from "@gtinx-plane/utils";
+import { truncateText } from "@gtinx-gtinx_plane/utils";
 
 type Props = { view: { key: string; i18n_label: string } };
 

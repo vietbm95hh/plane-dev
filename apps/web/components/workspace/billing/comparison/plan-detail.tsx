@@ -15,7 +15,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import type { TBillingFrequency } from "@gtinx-plane/types";
 import { EProductSubscriptionEnum } from "@gtinx-plane/types";
-import { getSubscriptionName } from "@gtinx-plane/utils";
+import { getSubscriptionName } from "@gtinx-gtinx_plane/utils";
 // components
 import { DiscountInfo } from "@/components/license/modal/card/discount-info";
 import type { TPlanDetail } from "@/components/workspace/billing/comparison/plans";

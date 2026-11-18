@@ -43,7 +43,7 @@
     "@gtinx-plane/constants": "workspace:*",
     "@gtinx-plane/hooks": "workspace:*",
     "@gtinx-plane/types": "workspace:*",
-    "@gtinx-plane/utils": "workspace:*",
+    "@gtinx-gtinx_plane/utils": "workspace:*",
     "@tiptap/core": "catalog:",
     "@tiptap/extension-blockquote": "catalog:",
     "@tiptap/extension-collaboration": "catalog:",

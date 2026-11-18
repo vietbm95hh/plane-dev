@@ -17,7 +17,7 @@ import { Icon } from "@makeplane/propel/components/icon";
 import { IconButton } from "@makeplane/propel/components/icon-button";
 import { PasswordStrengthIndicator } from "@gtinx-plane/blocks/auth";
 import { Banner } from "@makeplane/propel/components/banner";
-import { getPasswordStrength, validatePersonName, validateCompanyName } from "@gtinx-plane/utils";
+import { getPasswordStrength, validatePersonName, validateCompanyName } from "@gtinx-gtinx_plane/utils";
 // components
 import { AuthHeader } from "@/app/(all)/(home)/auth-header";
 import { FormHeader } from "./form-header";

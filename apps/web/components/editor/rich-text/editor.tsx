@@ -9,7 +9,7 @@ import { forwardRef } from "react";
 import { RichTextEditorWithRef } from "@gtinx-plane/editor";
 import type { EditorRefApi, IRichTextEditorProps, TFileHandler } from "@gtinx-plane/editor";
 import type { MakeOptional, TSearchEntityRequestPayload, TSearchResponse } from "@gtinx-plane/types";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // components
 import { EditorMentionsRoot } from "@/components/editor/embeds/mentions";
 // hooks

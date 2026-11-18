@@ -16,7 +16,7 @@ import { AvatarGroup } from "@makeplane/propel/components/avatar-group";
 import { TextArea } from "@makeplane/propel/components/text-area";
 import type { ICycle } from "@gtinx-plane/types";
 // helpers
-import { getFileURL } from "@gtinx-plane/utils";
+import { getFileURL } from "@gtinx-gtinx_plane/utils";
 // components
 import { SidebarPropertyListItem } from "@/components/common/layout/sidebar/property-list-item";
 import { DescriptionOverflow } from "@/components/issues/issue-detail/description-overflow";

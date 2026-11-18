@@ -11,7 +11,7 @@ import useSWR from "swr";
 // plane internal packages
 import { Switch } from "@makeplane/propel/components/switch";
 import type { TInstanceConfigurationKeys, TInstanceAuthenticationModes } from "@gtinx-plane/types";
-import { cn, resolveGeneralTheme } from "@gtinx-plane/utils";
+import { cn, resolveGeneralTheme } from "@gtinx-gtinx_plane/utils";
 // components
 import { PageWrapper } from "@/components/common/page-wrapper";
 import { AuthenticationMethodCard } from "@/components/authentication/authentication-method-card";

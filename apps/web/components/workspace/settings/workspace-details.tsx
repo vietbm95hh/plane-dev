@@ -20,7 +20,7 @@ import { EditOutline } from "@makeplane/propel/icons";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { IWorkspace } from "@gtinx-plane/types";
 import { Select, SelectContent, SelectItem, SelectList, SelectTrigger } from "@makeplane/propel/components/select";
-import { cn, copyUrlToClipboard, getFileURL, validateWorkspaceName } from "@gtinx-plane/utils";
+import { cn, copyUrlToClipboard, getFileURL, validateWorkspaceName } from "@gtinx-gtinx_plane/utils";
 // components
 import { WorkspaceImageUploadModal } from "@/components/core/modals/workspace-image-upload-modal";
 import { TimezoneSelect } from "@/components/global/timezone-select";

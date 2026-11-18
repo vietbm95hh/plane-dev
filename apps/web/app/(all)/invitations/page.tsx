@@ -20,7 +20,7 @@ import { EmptyStateDetailed } from "@gtinx-plane/blocks/empty-state";
 import { PlaneLogo } from "@gtinx-plane/blocks/icons";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import type { IWorkspaceMemberInvitation } from "@gtinx-plane/types";
-import { getFileURL, truncateText } from "@gtinx-plane/utils";
+import { getFileURL, truncateText } from "@gtinx-gtinx_plane/utils";
 // components
 import { USER_WORKSPACES_LIST } from "@gtinx-plane/constants";
 // hooks

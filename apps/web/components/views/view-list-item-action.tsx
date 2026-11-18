@@ -17,7 +17,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import type { IProjectView } from "@gtinx-plane/types";
 import { EViewAccess } from "@gtinx-plane/types";
 import { FavoriteStar } from "@gtinx-plane/blocks/common";
-import { getPublishViewLink } from "@gtinx-plane/utils";
+import { getPublishViewLink } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useMember } from "@/hooks/store/use-member";
 import { useProjectView } from "@/hooks/store/use-project-view";

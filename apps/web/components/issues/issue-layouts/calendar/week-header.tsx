@@ -6,7 +6,7 @@
 
 import { observer } from "mobx-react";
 import { EStartOfTheWeek } from "@gtinx-plane/types";
-import { getOrderedDays } from "@gtinx-plane/utils";
+import { getOrderedDays } from "@gtinx-gtinx_plane/utils";
 import { DAYS_LIST } from "@gtinx-plane/constants";
 // helpers
 // hooks

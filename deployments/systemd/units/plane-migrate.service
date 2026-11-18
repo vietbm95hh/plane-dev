@@ -11,7 +11,7 @@ RemainAfterExit=yes
 User=plane
 Group=plane
 WorkingDirectory=/opt/plane/apps/api
-EnvironmentFile=/etc/plane/api.env
+EnvironmentFile=/etc/gtinx_plane/api.env
 Environment=PATH=/opt/plane/apps/api/.venv/bin:/usr/local/bin:/usr/bin:/bin
 Environment=PYTHONUNBUFFERED=1
 Environment=PYTHONDONTWRITEBYTECODE=1

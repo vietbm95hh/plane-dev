@@ -22,7 +22,7 @@ import type {
   TSupportedFilterForUpdate,
 } from "@gtinx-plane/types";
 import { EIssuesStoreType } from "@gtinx-plane/types";
-import { handleIssueQueryParamsByLayout } from "@gtinx-plane/utils";
+import { handleIssueQueryParamsByLayout } from "@gtinx-gtinx_plane/utils";
 // services
 import { ViewService } from "@/services/view.service";
 import type { IBaseIssueFilterStore } from "../helpers/issue-filter-helper.store";

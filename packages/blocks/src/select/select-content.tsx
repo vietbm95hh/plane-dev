@@ -8,7 +8,7 @@ import * as React from "react";
 import { Icon } from "@makeplane/propel/components/icon";
 import { ChevronDownOutline } from "@makeplane/propel/icons";
 import type { IconElement } from "../types/icon";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 import { SelectContext } from "./context";
 import type { SelectChromeSize } from "./types";
 

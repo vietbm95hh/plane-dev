@@ -11,7 +11,7 @@ import { FilterOutline } from "@makeplane/propel/icons";
 import { ExpandableSearch } from "@makeplane/propel/components/expandable-search";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { TCycleFilters } from "@gtinx-plane/types";
-import { calculateTotalFilters } from "@gtinx-plane/utils";
+import { calculateTotalFilters } from "@gtinx-gtinx_plane/utils";
 // components
 import { FiltersDropdown } from "@/components/issues/issue-layouts/filters";
 // hooks

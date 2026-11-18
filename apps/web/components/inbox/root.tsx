@@ -11,7 +11,7 @@ import { IntakeOutline, LeftSidePaneOutline } from "@makeplane/propel/icons";
 import { useTranslation } from "@gtinx-plane/i18n";
 import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
 import { EInboxIssueCurrentTab } from "@gtinx-plane/types";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // components
 import { InboxContentRoot } from "@/components/inbox/content";
 import { InboxSidebar } from "@/components/inbox/sidebar";

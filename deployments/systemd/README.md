@@ -71,7 +71,7 @@ sudo chown -R plane:plane /opt/plane
 sudo -u plane bash -lc '
   cd /opt/plane/apps/api
   uv sync --locked --no-default-groups --group production
-  cp .env.example .env   # sau đó sửa theo /etc/plane/api.env
+  cp .env.example .env   # sau đó sửa theo /etc/gtinx_plane/api.env
 '
 ```
 
@@ -109,7 +109,7 @@ sudo bash ./deployments/systemd/install.sh
 Script tạo user `plane`, copy unit vào `/etc/systemd/system/`, Caddyfile vào `/etc/plane/caddy/`,
 và các file env mẫu vào `/etc/plane/`. Sau đó sửa:
 
-- `/etc/plane/api.env` — `SECRET_KEY`, `DATABASE_URL`, `REDIS_URL`, `RABBITMQ_*`, `AWS_*`, `WEB_URL`
+- `/etc/gtinx_plane/api.env` — `SECRET_KEY`, `DATABASE_URL`, `REDIS_URL`, `RABBITMQ_*`, `AWS_*`, `WEB_URL`
 - `/etc/plane/live.env` — `LIVE_SERVER_SECRET_KEY` (**phải trùng** với api.env), `REDIS_URL`
 - `/etc/plane/proxy.env` — `SITE_ADDRESS` (`:80`, hoặc `plane.example.com` để bật HTTPS tự động)
 
@@ -166,7 +166,7 @@ sudo systemctl restart plane-migrate && sudo systemctl restart plane-api plane-w
 
 | Triệu chứng | Nguyên nhân thường gặp |
 |---|---|
-| `plane-api` exit ngay, log `GUNICORN_WORKERS` | thiếu biến trong `/etc/plane/api.env` |
+| `plane-api` exit ngay, log `GUNICORN_WORKERS` | thiếu biến trong `/etc/gtinx_plane/api.env` |
 | API 500 `no such table` | `plane-migrate` chưa chạy xong — `systemctl status plane-migrate` |
 | Web 404 toàn bộ | chưa build web, hoặc `root` trong `web.Caddyfile` sai đường dẫn |
 | `/god-mode/` trắng trang | build admin thiếu `VITE_ADMIN_BASE_PATH=/god-mode` |

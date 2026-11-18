@@ -26,7 +26,7 @@ import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/comp
 import type { TNameDescriptionLoader } from "@gtinx-plane/types";
 
 import { Header, EHeaderVariant } from "@gtinx-plane/blocks/layout";
-import { cn, findHowManyDaysLeft, generateWorkItemLink } from "@gtinx-plane/utils";
+import { cn, findHowManyDaysLeft, generateWorkItemLink } from "@gtinx-gtinx_plane/utils";
 // components
 import { NameDescriptionUpdateStatus } from "@/components/issues/issue-update-status";
 // hooks

@@ -573,7 +573,7 @@ importers:
       '@gtinx-plane/types':
         specifier: workspace:*
         version: link:../../packages/types
-      '@gtinx-plane/utils':
+      '@gtinx-gtinx_plane/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       '@react-router/node':
@@ -685,7 +685,7 @@ importers:
       '@gtinx-plane/types':
         specifier: workspace:*
         version: link:../../packages/types
-      '@gtinx-plane/utils':
+      '@gtinx-gtinx_plane/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       '@react-pdf/renderer':
@@ -839,7 +839,7 @@ importers:
       '@gtinx-plane/types':
         specifier: workspace:*
         version: link:../../packages/types
-      '@gtinx-plane/utils':
+      '@gtinx-gtinx_plane/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       '@react-router/node':
@@ -990,7 +990,7 @@ importers:
       '@gtinx-plane/types':
         specifier: workspace:*
         version: link:../../packages/types
-      '@gtinx-plane/utils':
+      '@gtinx-gtinx_plane/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       '@react-pdf/renderer':
@@ -1156,7 +1156,7 @@ importers:
       '@gtinx-plane/types':
         specifier: workspace:*
         version: link:../types
-      '@gtinx-plane/utils':
+      '@gtinx-gtinx_plane/utils':
         specifier: workspace:*
         version: link:../utils
       '@tanstack/react-virtual':
@@ -1317,7 +1317,7 @@ importers:
       '@gtinx-plane/types':
         specifier: workspace:*
         version: link:../types
-      '@gtinx-plane/utils':
+      '@gtinx-gtinx_plane/utils':
         specifier: workspace:*
         version: link:../utils
       '@tiptap/core':
@@ -1592,7 +1592,7 @@ importers:
       '@gtinx-plane/types':
         specifier: workspace:*
         version: link:../types
-      '@gtinx-plane/utils':
+      '@gtinx-gtinx_plane/utils':
         specifier: workspace:*
         version: link:../utils
       lodash-es:

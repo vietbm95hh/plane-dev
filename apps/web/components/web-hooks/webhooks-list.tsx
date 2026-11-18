@@ -23,7 +23,7 @@ import { Menu, MenuContent, MenuItem, MenuSeparator, MenuTrigger } from "@makepl
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { IWebhook } from "@gtinx-plane/types";
-import { renderFormattedDate } from "@gtinx-plane/utils";
+import { renderFormattedDate } from "@gtinx-gtinx_plane/utils";
 // components
 import type { DataTableColumn } from "@/components/common/data-table";
 import { DataTable } from "@/components/common/data-table";

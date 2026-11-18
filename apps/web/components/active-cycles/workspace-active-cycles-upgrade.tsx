@@ -18,7 +18,7 @@ import { MARKETING_PRICING_PAGE_LINK } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
 import { Button } from "@makeplane/propel/components/button";
 import { ContentWrapper } from "@gtinx-plane/blocks/layout";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // assets
 import ctaL1Dark from "@/app/assets/workspace-active-cycles/cta-l-1-dark.webp?url";
 import ctaL1Light from "@/app/assets/workspace-active-cycles/cta-l-1-light.webp?url";

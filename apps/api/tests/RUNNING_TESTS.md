@@ -2,7 +2,7 @@
 
 This guide covers running the Django/pytest suite for `apps/api` inside Docker via `docker-compose-test.yml` at the repo root. The compose file boots an isolated stack — Postgres, Valkey (Redis), RabbitMQ, MinIO — with tmpfs-backed data dirs, so every run begins from a clean slate and a single teardown command removes everything.
 
-For background on the test layout, markers, and fixtures, see [`TESTING_GUIDE.md`](../plane/tests/TESTING_GUIDE.md) and [`README.md`](../plane/tests/README.md).
+For background on the test layout, markers, and fixtures, see [`TESTING_GUIDE.md`](../gtinx_plane/tests/TESTING_GUIDE.md) and [`README.md`](../gtinx_plane/tests/README.md).
 
 ## Prerequisites
 
@@ -42,11 +42,11 @@ docker compose -f docker-compose-test.yml run --rm --build api-tests pytest -m u
 
 # A single directory, filtered by name
 docker compose -f docker-compose-test.yml run --rm --build api-tests \
-  pytest plane/tests/unit -k "test_workspace"
+  pytest gtinx_plane/tests/unit -k "test_workspace"
 
 # Single file with verbose output
 docker compose -f docker-compose-test.yml run --rm --build api-tests \
-  pytest plane/tests/unit/models/test_workspace_model.py -vv
+  pytest gtinx_plane/tests/unit/models/test_workspace_model.py -vv
 ```
 
 The available markers (`unit`, `contract`, `smoke`, `slow`) are declared in `apps/api/pytest.ini`.
@@ -71,7 +71,7 @@ docker compose -f docker-compose-test.yml down -v
 
 All four dependencies expose health checks; `api-tests` waits for `service_healthy` on each via `depends_on`, so pytest only starts once the stack is ready.
 
-Test-time env overrides live in the compose file itself (`DJANGO_SETTINGS_MODULE=plane.settings.test`, `POSTGRES_HOST=test-db`, `DATABASE_URL` pointing at `test-db`, `REDIS_HOST=test-redis`, `REDIS_URL=redis://test-redis:6379/`, `RABBITMQ_HOST=test-mq`, `AWS_S3_ENDPOINT_URL=http://test-minio:9000`, and a placeholder `EMAIL_HOST=test-smtp.invalid` for the magic-link tests). Everything else is inherited from `apps/api/.env`.
+Test-time env overrides live in the compose file itself (`DJANGO_SETTINGS_MODULE=gtinx_plane.settings.test`, `POSTGRES_HOST=test-db`, `DATABASE_URL` pointing at `test-db`, `REDIS_HOST=test-redis`, `REDIS_URL=redis://test-redis:6379/`, `RABBITMQ_HOST=test-mq`, `AWS_S3_ENDPOINT_URL=http://test-minio:9000`, and a placeholder `EMAIL_HOST=test-smtp.invalid` for the magic-link tests). Everything else is inherited from `apps/api/.env`.
 
 ## Troubleshooting
 

@@ -7,7 +7,7 @@
 import { useRef } from "react";
 import type { KeyboardEvent, ReactNode } from "react";
 // plane imports
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 export type TActivityTab<K extends string = string> = {
   key: K;

@@ -6,7 +6,7 @@
 
 import { useTheme } from "next-themes";
 // plane package imports
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // assets
 import darkBackgroundAsset from "@/app/assets/empty-state/analytics/empty-grid-background-dark.webp?url";
 import lightBackgroundAsset from "@/app/assets/empty-state/analytics/empty-grid-background-light.webp?url";

@@ -31,7 +31,7 @@ import type { IUser, IWorkspace } from "@gtinx-plane/types";
 // ui
 import { Select, SelectDropdownPlacementContext } from "@gtinx-plane/blocks/select";
 import { Spinner } from "@gtinx-plane/blocks/spinner";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // services
 import { WorkspaceService } from "@/services/workspace.service";
 // components

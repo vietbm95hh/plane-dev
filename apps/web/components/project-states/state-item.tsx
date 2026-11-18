@@ -13,7 +13,7 @@ import { observer } from "mobx-react";
 import type { TDraggableData } from "@gtinx-plane/constants";
 import type { IState, TStateGroups, TStateOperationsCallbacks } from "@gtinx-plane/types";
 import { DropIndicator } from "@gtinx-plane/blocks/common";
-import { cn, getCurrentStateSequence } from "@gtinx-plane/utils";
+import { cn, getCurrentStateSequence } from "@gtinx-gtinx_plane/utils";
 // components
 import { StateItemTitle, StateUpdate } from "@/components/project-states";
 // helpers

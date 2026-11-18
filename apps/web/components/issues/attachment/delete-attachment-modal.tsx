@@ -14,7 +14,7 @@ import { EIssueServiceType } from "@gtinx-plane/types";
 // ui
 import { ConfirmDialog } from "@gtinx-plane/blocks/dialog";
 // helper
-import { getFileName } from "@gtinx-plane/utils";
+import { getFileName } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useIssueDetail } from "@/hooks/store/use-issue-detail";
 // types

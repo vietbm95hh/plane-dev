@@ -8,7 +8,7 @@ import { observer } from "mobx-react";
 import packageJson from "package.json";
 import { useTranslation } from "@gtinx-plane/i18n";
 // helpers
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 export const ProductUpdatesHeader = observer(function ProductUpdatesHeader() {
   const { t } = useTranslation();

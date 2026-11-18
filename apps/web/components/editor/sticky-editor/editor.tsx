@@ -13,7 +13,7 @@ import type { EditorRefApi, ILiteTextEditorProps, TFileHandler } from "@gtinx-pl
 // components
 import type { TSticky } from "@gtinx-plane/types";
 // helpers
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useEditorConfig } from "@/hooks/editor";
 import { useParseEditorContent } from "@/hooks/use-parse-editor-content";

@@ -16,7 +16,7 @@ import { setPromiseToast } from "@gtinx-plane/blocks/toast";
 import type { ISearchIssueResponse, TIssue } from "@gtinx-plane/types";
 import { EIssueLayoutTypes } from "@gtinx-plane/types";
 import { Menu, MenuContent, MenuItem, MenuTrigger } from "@makeplane/propel/components/menu";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // components
 import { ExistingIssuesListModal } from "@/components/core/modals/existing-issues-list-modal";
 // hooks

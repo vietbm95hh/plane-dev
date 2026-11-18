@@ -9,7 +9,7 @@ import type * as React from "react";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { ChevronDownOutline, TickOutline } from "@makeplane/propel/icons";
 import type { IconElement } from "../types/icon";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // local imports
 import { Select } from "../select/select";
 import { BreadcrumbItemContext, useBreadcrumbCurrent } from "./breadcrumb-context";

@@ -13,7 +13,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 // plane helpers
 // types
 import type { TModuleFilters } from "@gtinx-plane/types";
-import { calculateTotalFilters } from "@gtinx-plane/utils";
+import { calculateTotalFilters } from "@gtinx-gtinx_plane/utils";
 // components
 import { ArchiveTabsList } from "@/components/archives";
 import { ModuleOrderByDropdown } from "@/components/modules";

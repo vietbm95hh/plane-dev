@@ -16,7 +16,7 @@ import type {
 } from "@gtinx-plane/types";
 import { useTranslation } from "@gtinx-plane/i18n";
 import { Select } from "@gtinx-plane/blocks/select";
-import { cn, toFilterArray, getFilterValueLength } from "@gtinx-plane/utils";
+import { cn, toFilterArray, getFilterValueLength } from "@gtinx-gtinx_plane/utils";
 // local imports
 import { SelectedOptionsDisplay } from "./selected-options-display";
 import { loadOptions } from "./shared";

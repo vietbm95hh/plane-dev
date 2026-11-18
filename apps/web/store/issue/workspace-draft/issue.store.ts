@@ -22,7 +22,7 @@ import type {
   TIssue,
   TBulkOperationsPayload,
 } from "@gtinx-plane/types";
-import { getCurrentDateTimeInISO, convertToISODateString } from "@gtinx-plane/utils";
+import { getCurrentDateTimeInISO, convertToISODateString } from "@gtinx-gtinx_plane/utils";
 // services
 import workspaceDraftService from "@/services/issue/workspace_draft.service";
 // types

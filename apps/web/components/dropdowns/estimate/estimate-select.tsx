@@ -13,7 +13,7 @@ import { EstimateSelect as EstimateSelectBlock } from "@gtinx-plane/blocks/prope
 import type { SelectTooltip, SelectTooltipOverride, SelectVariant } from "@gtinx-plane/blocks/select";
 import { useTranslation } from "@gtinx-plane/i18n";
 import { EEstimateSystem } from "@gtinx-plane/types";
-import { convertMinutesToHoursMinutesString } from "@gtinx-plane/utils";
+import { convertMinutesToHoursMinutesString } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useProjectEstimates } from "@/hooks/store/estimates";
 import { useEstimate } from "@/hooks/store/estimates/use-estimate";

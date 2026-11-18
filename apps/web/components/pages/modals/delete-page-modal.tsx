@@ -10,7 +10,7 @@ import { observer } from "mobx-react";
 import { useParams } from "next/navigation";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { ConfirmDialog } from "@gtinx-plane/blocks/dialog";
-import { getPageName } from "@gtinx-plane/utils";
+import { getPageName } from "@gtinx-gtinx_plane/utils";
 // constants
 // plane web hooks
 import { useAppRouter } from "@/hooks/use-app-router";

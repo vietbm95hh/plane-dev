@@ -10,7 +10,7 @@ import { observer } from "mobx-react";
 import type { IBaseLayoutsBaseItem, IBlockUpdateData } from "@gtinx-plane/types";
 import { Loader } from "@gtinx-plane/blocks/skeleton";
 import { Row } from "@gtinx-plane/blocks/layout";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 import RenderIfVisible from "@/components/core/render-if-visible-HOC";
 import { BLOCK_HEIGHT } from "@/components/gantt-chart/constants";
 import { GanttDnDHOC } from "@/components/gantt-chart/sidebar/gantt-dnd-HOC";

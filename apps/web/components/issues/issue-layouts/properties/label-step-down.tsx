@@ -9,7 +9,7 @@ import { Pill as PillChrome, PillLabel } from "@makeplane/propel/elements/pill";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import { LABEL_PILL_MAX_WIDTH_PX, LabelPill } from "@gtinx-plane/blocks/property-select";
 import type { WorkItemPropertyVariant } from "@gtinx-plane/blocks/work-item-properties";
-import { cn, measureTextWidth } from "@gtinx-plane/utils";
+import { cn, measureTextWidth } from "@gtinx-gtinx_plane/utils";
 import { PROPERTY_EDITOR_OVERLAY_CLASSNAME } from "./property-editor";
 
 /** The richest labels rendering shows at most this many label pills. */

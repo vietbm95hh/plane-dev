@@ -11,7 +11,7 @@ import { usePathname, useSearchParams } from "next/navigation";
 import { Drawer, DrawerPanel } from "@makeplane/propel/components/drawer";
 import { useTranslation } from "@gtinx-plane/i18n";
 // hooks
-import { generateQueryParams } from "@gtinx-plane/utils";
+import { generateQueryParams } from "@gtinx-gtinx_plane/utils";
 import { useCycle } from "@/hooks/store/use-cycle";
 import { useAppRouter } from "@/hooks/use-app-router";
 // components

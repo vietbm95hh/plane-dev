@@ -6,7 +6,7 @@
 
 import type { ReactNode } from "react";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 import { DotSeparator } from "../utils/dot-separator";
 
 /** Vertical rail joining consecutive timeline entries, centred under the 28px icon box. */

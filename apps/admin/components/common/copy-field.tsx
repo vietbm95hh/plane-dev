@@ -12,7 +12,7 @@ import { IconButton } from "@makeplane/propel/components/icon-button";
 import { CopyOutline } from "@makeplane/propel/icons";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { copyTextToClipboard } from "@gtinx-plane/utils";
+import { copyTextToClipboard } from "@gtinx-gtinx_plane/utils";
 
 type Props = {
   label: string;

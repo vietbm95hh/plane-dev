@@ -15,7 +15,7 @@ import { setToast } from "@gtinx-plane/blocks/toast";
 import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { ILinkDetails } from "@gtinx-plane/types";
 // plane ui
-import { getIconForLink, copyTextToClipboard, calculateTimeAgo } from "@gtinx-plane/utils";
+import { getIconForLink, copyTextToClipboard, calculateTimeAgo } from "@gtinx-gtinx_plane/utils";
 // helpers
 //
 // hooks

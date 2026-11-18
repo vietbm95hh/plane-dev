@@ -13,7 +13,7 @@ import { EIssueCommentAccessSpecifier } from "@gtinx-plane/constants";
 import type { EditorRefApi } from "@gtinx-plane/editor";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { TIssueComment, TCommentsOperations } from "@gtinx-plane/types";
-import { isCommentEmpty } from "@gtinx-plane/utils";
+import { isCommentEmpty } from "@gtinx-gtinx_plane/utils";
 // components
 import { LiteTextEditor } from "@/components/editor/lite-text";
 import { IssueCommentToolbar } from "@/components/editor/lite-text/toolbar";

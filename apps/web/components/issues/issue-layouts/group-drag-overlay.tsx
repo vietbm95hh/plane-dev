@@ -11,7 +11,7 @@ import { ISSUE_ORDER_BY_OPTIONS } from "@gtinx-plane/constants";
 import { useTranslation } from "@gtinx-plane/i18n";
 import type { TIssueOrderByOptions } from "@gtinx-plane/types";
 // helpers
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 type Props = {
   dragColumnOrientation: "justify-start" | "justify-center" | "justify-end";

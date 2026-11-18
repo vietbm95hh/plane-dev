@@ -19,7 +19,7 @@ import {
 import { Select } from "@gtinx-plane/blocks/select";
 import { setToast } from "@gtinx-plane/blocks/toast";
 import { useTranslation } from "@gtinx-plane/i18n";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 // helpers
 import { copyTextToClipboard } from "@/helpers/string.helper";
 // hooks

@@ -17,7 +17,7 @@ import { Logo } from "@gtinx-plane/blocks/emoji-icon-picker";
 import type { AnalyticsTableDataMap, WorkItemInsightColumns } from "@gtinx-plane/types";
 // plane web components
 
-import { getFileURL } from "@gtinx-plane/utils";
+import { getFileURL } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useAnalytics } from "@/hooks/store/use-analytics";
 import { useProject } from "@/hooks/store/use-project";

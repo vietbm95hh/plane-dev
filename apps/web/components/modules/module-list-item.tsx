@@ -15,7 +15,7 @@ import { IconButton } from "@makeplane/propel/components/icon-button";
 import { useTranslation } from "@gtinx-plane/i18n";
 import { ProgressRing } from "@gtinx-plane/blocks/progress";
 // components
-import { generateQueryParams } from "@gtinx-plane/utils";
+import { generateQueryParams } from "@gtinx-gtinx_plane/utils";
 import { ListItem } from "@/components/core/list";
 import { ModuleListItemAction, ModuleQuickActions } from "@/components/modules";
 // helpers

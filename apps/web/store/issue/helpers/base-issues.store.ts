@@ -28,7 +28,7 @@ import type {
 } from "@gtinx-plane/types";
 import { EIssueServiceType, EIssueLayoutTypes } from "@gtinx-plane/types";
 // helpers
-import { convertToISODateString } from "@gtinx-plane/utils";
+import { convertToISODateString } from "@gtinx-gtinx_plane/utils";
 // plane web imports
 // services
 import { CycleService } from "@/services/cycle.service";

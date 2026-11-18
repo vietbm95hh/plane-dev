@@ -12,7 +12,7 @@ import { Tooltip } from "@makeplane/propel/components/tooltip";
 import type { TEstimateSystemKeys } from "@gtinx-plane/types";
 // helpers
 import { isEstimateSystemEnabled } from "./helper";
-import { convertMinutesToHoursMinutesString } from "@gtinx-plane/utils";
+import { convertMinutesToHoursMinutesString } from "@gtinx-gtinx_plane/utils";
 // components
 import { UpgradeBadge } from "@/components/workspace/upgrade-badge";
 import { RadioInput } from "../radio-select";

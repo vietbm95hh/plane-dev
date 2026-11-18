@@ -8,7 +8,7 @@ import type { ReactNode } from "react";
 import { useRef, useState } from "react";
 // plane imports
 import { ScrollArea } from "@makeplane/propel/components/scroll-area";
-import { cn } from "@gtinx-plane/utils";
+import { cn } from "@gtinx-gtinx_plane/utils";
 
 type TPageWrapperProps = {
   children: ReactNode;

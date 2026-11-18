@@ -13,7 +13,7 @@ import { useTranslation } from "@gtinx-plane/i18n";
 import { AreaChart } from "@gtinx-plane/blocks/charts/area-chart";
 import { EmptyStateCompact } from "@gtinx-plane/blocks/empty-state";
 import type { IChartResponse, TChartData } from "@gtinx-plane/types";
-import { cn, renderFormattedDate } from "@gtinx-plane/utils";
+import { cn, renderFormattedDate } from "@gtinx-gtinx_plane/utils";
 // hooks
 import { useAnalytics } from "@/hooks/store/use-analytics";
 // services
