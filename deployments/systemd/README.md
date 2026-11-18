@@ -105,12 +105,12 @@ Kết quả: `apps/web/build/client`, `apps/admin/build/client`, `apps/space/bui
 sudo bash ./deployments/systemd/install.sh
 ```
 
-Script tạo user `plane`, copy unit vào `/etc/systemd/system/`, Caddyfile vào `/etc/gtinx-plane/caddy/`,
+Script tạo user `gtinx`, copy unit vào `/etc/systemd/system/`, Caddyfile vào `/etc/gtinx-plane/caddy/`,
 và các file env mẫu vào `/etc/gtinx-plane/`. Sau đó sửa:
 
 - `/etc/gtinx-plane/api.env` — `SECRET_KEY`, `DATABASE_URL`, `REDIS_URL`, `RABBITMQ_*`, `AWS_*`, `WEB_URL`
 - `/etc/gtinx-plane/live.env` — `LIVE_SERVER_SECRET_KEY` (**phải trùng** với api.env), `REDIS_URL`
-- `/etc/gtinx-plane/proxy.env` — `SITE_ADDRESS` (`:80`, hoặc `plane.example.com` để bật HTTPS tự động)
+- `/etc/gtinx-plane/proxy.env` — `SITE_ADDRESS` (`:80`, hoặc `gtinx-plane.example.com` để bật HTTPS tự động)
 
 Sinh secret:
 
