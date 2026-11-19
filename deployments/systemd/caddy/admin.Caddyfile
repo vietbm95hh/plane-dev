@@ -1,5 +1,12 @@
 # gtinx-plane admin (god-mode, static SPA) - served by a dedicated Caddy instance.
 # Mirrors apps/admin/caddy/Caddyfile, minus the rate_limit plugin so stock Caddy works.
+#
+# Build admin dùng base "/god-mode" nhưng file nằm ở GỐC build/client
+# (index.html, assets/...), nên phải strip prefix trước khi serve.
+#
+# LƯU Ý thứ tự directive của Caddy: `redir` chạy TRƯỚC `handle`/`handle_path`.
+# Vì vậy redirect phải nằm trong block `handle` fallback, nếu đặt ở cấp site
+# nó sẽ bắt luôn cả /god-mode/ và gây vòng lặp 308.
 {
 	servers {
 		trusted_proxies static private_ranges
@@ -9,15 +16,22 @@
 :3201 {
 	root * /opt/gtinx-plane/apps/admin/build/client
 
+	handle_path /god-mode/* {
+		# SPA fallback
+		try_files {path} /index.html
+		file_server
+	}
+
+	handle {
+		# Mọi đường dẫn khác -> /god-mode/
+		redir * /god-mode/ 308
+	}
+
 	header {
 		X-Frame-Options "DENY"
 		X-Content-Type-Options "nosniff"
 		X-XSS-Protection "1; mode=block"
 	}
-
-	# SPA fallback: the admin build is served from /god-mode
-	try_files {path} /god-mode/index.html
-	file_server
 
 	log {
 		output stdout

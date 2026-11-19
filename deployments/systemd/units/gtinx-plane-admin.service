@@ -9,6 +9,7 @@ Type=simple
 User=gtinx
 Group=gtinx
 Environment=XDG_CONFIG_HOME=/var/lib/gtinx-plane/caddy
+Environment=XDG_DATA_HOME=/var/lib/gtinx-plane/caddy
 ExecStart=/usr/bin/caddy run --config /etc/gtinx-plane/caddy/admin.Caddyfile --adapter caddyfile
 Restart=always
 RestartSec=5

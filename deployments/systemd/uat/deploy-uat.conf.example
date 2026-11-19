@@ -1,0 +1,42 @@
+# Copy file này thành deploy-uat.conf rồi sửa:
+#   cp deploy-uat.conf.example deploy-uat.conf
+#
+# Deploy:
+#   sudo bash deployments/systemd/uat/deploy-uat.sh
+
+# ":80" = HTTP theo IP; "uat.example.com" = Caddy tự xin HTTPS (cần DNS + port 80/443)
+SITE_ADDRESS=":80"
+
+# 1 = tự tắt nginx/apache2/httpd/caddy mặc định đang chiếm cổng 80
+# (chỉ bật khi máy chủ không dùng các web server đó cho site khác)
+DISABLE_CONFLICTING_SERVICES=0
+
+# Mặc định script tự suy ra (http://<IP> hoặc https://<domain>). Chỉ đặt khi cần khác.
+# APP_URL="https://uat.example.com"
+
+# Nơi đặt code + user chạy service
+GTINX_DIR="/opt/gtinx-plane"
+GTINX_USER="gtinx"
+
+# 1 = cài object storage local (127.0.0.1:9000), 0 = dùng S3 ngoài
+WITH_MINIO=1
+S3_BUCKET="uploads"
+# silo = fork MinIO còn được maintain (mặc định); minio = binary MinIO cuối cùng (EOL)
+MINIO_FLAVOR="silo"
+
+# --- Redis (mặc định cài local, không mật khẩu) ---
+# Nếu Redis đã có requirepass, đặt mật khẩu gốc ở đây; script tự URL-encode khi ghi REDIS_URL
+# REDIS_HOST="127.0.0.1"
+# REDIS_PORT=6379
+# REDIS_PASSWORD="Cts@12345"
+
+# --- Khi WITH_MINIO=0 ---
+# S3_ENDPOINT="https://s3.ap-southeast-1.amazonaws.com"
+# S3_REGION="ap-southeast-1"
+# AWS_ACCESS_KEY_ID="..."
+# AWS_SECRET_ACCESS_KEY="..."
+
+# --- Tuỳ chọn ---
+# GUNICORN_WORKERS=4
+# SKIP_PACKAGES=1
+# SKIP_BUILD=1
